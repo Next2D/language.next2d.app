@@ -21,6 +21,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{カスタムイージングデータを保存}}", "Enregistrez les données d'assouplissement personnalisées"],
+            ["{{カスタムイージングデータの読込}}", "Lecture des données de l'assouplissement personnalisé"],
             ["{{プレビューのON/OFF}}", "Activation/désactivation de la prévisualisation"],
             ["{{フォント枠サイズ}}", "Taille du cadre de la police"],
             ["{{フォント枠カラー}}", "Couleur du cadre de la police"],

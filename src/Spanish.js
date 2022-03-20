@@ -21,6 +21,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{カスタムイージングデータを保存}}", "Guarda los datos de la flexión personalizada"],
+            ["{{カスタムイージングデータの読込}}", "Lectura de datos de flexibilización personalizados"],
             ["{{プレビューのON/OFF}}", "Activación/desactivación de la vista previa"],
             ["{{フォント枠サイズ}}", "Tamaño del marco de la fuente"],
             ["{{フォント枠カラー}}", "Color del marco de la fuente"],

@@ -21,6 +21,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{カスタムイージングデータを保存}}", "Salva i dati di easing personalizzati"],
+            ["{{カスタムイージングデータの読込}}", "Lettura dei dati di easing personalizzati"],
             ["{{プレビューのON/OFF}}", "Anteprima on/off"],
             ["{{フォント枠サイズ}}", "Dimensione della cornice del carattere"],
             ["{{フォント枠カラー}}", "Colore della cornice del carattere"],

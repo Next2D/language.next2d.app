@@ -21,6 +21,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{カスタムイージングデータを保存}}", "Save custom easing data"],
+            ["{{カスタムイージングデータの読込}}", "Reading custom easing data"],
             ["{{プレビューのON/OFF}}", "Preview on/off"],
             ["{{フォント枠サイズ}}", "Font Frame Size"],
             ["{{フォント枠カラー}}", "Font Frame Color"],
