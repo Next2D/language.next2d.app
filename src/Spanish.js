@@ -21,6 +21,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画面の拡大・縮小}}", "Acercar y alejar la pantalla"],
             ["{{カスタムイージングデータを保存}}", "Guarda los datos de la flexión personalizada"],
             ["{{カスタムイージングデータの読込}}", "Lectura de datos de flexibilización personalizados"],
             ["{{プレビューのON/OFF}}", "Activación/desactivación de la vista previa"],

@@ -21,6 +21,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画面の拡大・縮小}}", "Zoom avant et arrière sur l'écran"],
             ["{{カスタムイージングデータを保存}}", "Enregistrez les données d'assouplissement personnalisées"],
             ["{{カスタムイージングデータの読込}}", "Lecture des données de l'assouplissement personnalisé"],
             ["{{プレビューのON/OFF}}", "Activation/désactivation de la prévisualisation"],

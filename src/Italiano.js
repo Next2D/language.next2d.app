@@ -21,6 +21,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画面の拡大・縮小}}", "Ingrandire e rimpicciolire lo schermo"],
             ["{{カスタムイージングデータを保存}}", "Salva i dati di easing personalizzati"],
             ["{{カスタムイージングデータの読込}}", "Lettura dei dati di easing personalizzati"],
             ["{{プレビューのON/OFF}}", "Anteprima on/off"],

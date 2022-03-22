@@ -21,6 +21,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画面の拡大・縮小}}", "Zoom in/out of screen"],
             ["{{カスタムイージングデータを保存}}", "Save custom easing data"],
             ["{{カスタムイージングデータの読込}}", "Reading custom easing data"],
             ["{{プレビューのON/OFF}}", "Preview on/off"],
