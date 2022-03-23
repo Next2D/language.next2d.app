@@ -21,6 +21,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{開始フレーム}}", "marco de inicio"],
+            ["{{終了フレーム}}", "marco final"],
             ["{{ループで再生}}", "Reproducir en bucle"],
             ["{{1回再生}}", "1 reproducción"],
             ["{{指定したフレームで固定}}", "Fijado en el marco especificado"],

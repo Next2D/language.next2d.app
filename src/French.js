@@ -21,6 +21,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{開始フレーム}}", "cadre de départ"],
+            ["{{終了フレーム}}", "cadre terminal"],
             ["{{ループで再生}}", "Lecture en boucle"],
             ["{{1回再生}}", "1 lecture"],
             ["{{指定したフレームで固定}}", "Fixé dans le cadre spécifié"],

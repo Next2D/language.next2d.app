@@ -21,6 +21,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{開始フレーム}}", "Start Frame"],
+            ["{{終了フレーム}}", "End Frame"],
             ["{{ループで再生}}", "Play in loop"],
             ["{{1回再生}}", "1 playback"],
             ["{{指定したフレームで固定}}", "Fixed at the specified frame"],

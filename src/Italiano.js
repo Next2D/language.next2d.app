@@ -21,6 +21,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{開始フレーム}}", "telaio di partenza"],
+            ["{{終了フレーム}}", "telaio finale"],
             ["{{ループで再生}}", "Gioca in loop"],
             ["{{1回再生}}", "1 riproduzione"],
             ["{{指定したフレームで固定}}", "Fissato nella cornice specificata"],
