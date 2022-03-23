@@ -21,6 +21,11 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループで再生}}", "Play in loop"],
+            ["{{1回再生}}", "1 playback"],
+            ["{{指定したフレームで固定}}", "Fixed at the specified frame"],
+            ["{{1回逆再生}}", "1 reverse playback"],
+            ["{{逆ループで再生}}", "Playback in reverse loop"],
             ["{{画面の拡大・縮小}}", "Zoom in/out of screen"],
             ["{{カスタムイージングデータを保存}}", "Save custom easing data"],
             ["{{カスタムイージングデータの読込}}", "Reading custom easing data"],

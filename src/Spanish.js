@@ -21,6 +21,11 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループで再生}}", "Reproducir en bucle"],
+            ["{{1回再生}}", "1 reproducción"],
+            ["{{指定したフレームで固定}}", "Fijado en el marco especificado"],
+            ["{{1回逆再生}}", "1 reproducción inversa"],
+            ["{{逆ループで再生}}", "Reproducción en bucle invertido"],
             ["{{画面の拡大・縮小}}", "Acercar y alejar la pantalla"],
             ["{{カスタムイージングデータを保存}}", "Guarda los datos de la flexión personalizada"],
             ["{{カスタムイージングデータの読込}}", "Lectura de datos de flexibilización personalizados"],

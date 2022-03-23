@@ -21,6 +21,11 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループで再生}}", "Gioca in loop"],
+            ["{{1回再生}}", "1 riproduzione"],
+            ["{{指定したフレームで固定}}", "Fissato nella cornice specificata"],
+            ["{{1回逆再生}}", "1 riproduzione inversa"],
+            ["{{逆ループで再生}}", "Riproduzione in loop inverso"],
             ["{{画面の拡大・縮小}}", "Ingrandire e rimpicciolire lo schermo"],
             ["{{カスタムイージングデータを保存}}", "Salva i dati di easing personalizzati"],
             ["{{カスタムイージングデータの読込}}", "Lettura dei dati di easing personalizzati"],

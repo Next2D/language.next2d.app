@@ -21,6 +21,11 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループで再生}}", "Lecture en boucle"],
+            ["{{1回再生}}", "1 lecture"],
+            ["{{指定したフレームで固定}}", "Fixé dans le cadre spécifié"],
+            ["{{1回逆再生}}", "1 lecture en sens inverse"],
+            ["{{逆ループで再生}}", "Lecture en boucle inversée"],
             ["{{画面の拡大・縮小}}", "Zoom avant et arrière sur l'écran"],
             ["{{カスタムイージングデータを保存}}", "Enregistrez les données d'assouplissement personnalisées"],
             ["{{カスタムイージングデータの読込}}", "Lecture des données de l'assouplissement personnalisé"],
