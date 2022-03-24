@@ -21,6 +21,12 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左揃え}}", "Sinistra"],
+            ["{{中央揃え(水平方向)}}", "Centro (Orizzontalità)"],
+            ["{{右揃え}}", "Destra"],
+            ["{{上揃え}}", "Top"],
+            ["{{中央揃え(垂直方向)}}", "Centro (Verticale)"],
+            ["{{下揃え}}", "Fondo"],
             ["{{開始フレーム}}", "telaio di partenza"],
             ["{{終了フレーム}}", "telaio finale"],
             ["{{ループで再生}}", "Gioca in loop"],

@@ -21,6 +21,12 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左揃え}}", "Gauche"],
+            ["{{中央揃え(水平方向)}}", "Centre(sens horizontal)"],
+            ["{{右揃え}}", "Droit"],
+            ["{{上揃え}}", "Top"],
+            ["{{中央揃え(垂直方向)}}", "Centre(Vertical)"],
+            ["{{下揃え}}", "Fond"],
             ["{{開始フレーム}}", "cadre de départ"],
             ["{{終了フレーム}}", "cadre terminal"],
             ["{{ループで再生}}", "Lecture en boucle"],

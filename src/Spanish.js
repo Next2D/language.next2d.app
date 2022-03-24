@@ -21,6 +21,12 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左揃え}}", "Izquierda"],
+            ["{{中央揃え(水平方向)}}", "Centro (Horizontal)"],
+            ["{{右揃え}}", "Derecho"],
+            ["{{上揃え}}", "Arriba"],
+            ["{{中央揃え(垂直方向)}}", "Centro (Vertical)"],
+            ["{{下揃え}}", "Fondo"],
             ["{{開始フレーム}}", "marco de inicio"],
             ["{{終了フレーム}}", "marco final"],
             ["{{ループで再生}}", "Reproducir en bucle"],

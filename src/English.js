@@ -21,6 +21,12 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左揃え}}", "Left"],
+            ["{{中央揃え(水平方向)}}", "Center (Horizontal)"],
+            ["{{右揃え}}", "Right"],
+            ["{{上揃え}}", "Top"],
+            ["{{中央揃え(垂直方向)}}", "Center (Vertical)"],
+            ["{{下揃え}}", "Bottom"],
             ["{{開始フレーム}}", "Start Frame"],
             ["{{終了フレーム}}", "End Frame"],
             ["{{ループで再生}}", "Play in loop"],
