@@ -21,6 +21,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{フレームピッカー}}", "选框机"],
             ["{{左揃え}}", "左对齐"],
             ["{{中央揃え(水平方向)}}", "居中（水平方向）"],
             ["{{右揃え}}", "右对齐"],

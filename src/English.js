@@ -21,6 +21,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{フレームピッカー}}", "Frame Picker"],
             ["{{左揃え}}", "Left"],
             ["{{中央揃え(水平方向)}}", "Center (Horizontal)"],
             ["{{右揃え}}", "Right"],

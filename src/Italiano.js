@@ -21,6 +21,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{フレームピッカー}}", "raccoglitore di cornici"],
             ["{{左揃え}}", "Sinistra"],
             ["{{中央揃え(水平方向)}}", "Centro (Orizzontalità)"],
             ["{{右揃え}}", "Destra"],

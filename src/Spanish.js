@@ -21,6 +21,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{フレームピッカー}}", "Recogedor de marcos"],
             ["{{左揃え}}", "Izquierda"],
             ["{{中央揃え(水平方向)}}", "Centro (Horizontal)"],
             ["{{右揃え}}", "Derecho"],

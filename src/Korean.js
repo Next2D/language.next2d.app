@@ -21,6 +21,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{フレームピッカー}}", "프레임 선택기"],
             ["{{左揃え}}", "왼쪽 정렬"],
             ["{{中央揃え(水平方向)}}", "중앙 정렬(수평 방향)"],
             ["{{右揃え}}", "오른쪽 정렬"],
