@@ -21,6 +21,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{デフォルトのループを利用する}}", "Utilisez la boucle par défaut"],
             ["{{フレームピッカー}}", "ramasseur de cadres"],
             ["{{左揃え}}", "Gauche"],
             ["{{中央揃え(水平方向)}}", "Centre(sens horizontal)"],

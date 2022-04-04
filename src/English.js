@@ -21,6 +21,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{デフォルトのループを利用する}}", "Use the default loop"],
             ["{{フレームピッカー}}", "Frame Picker"],
             ["{{左揃え}}", "Left"],
             ["{{中央揃え(水平方向)}}", "Center (Horizontal)"],
