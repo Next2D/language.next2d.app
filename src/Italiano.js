@@ -5,15 +5,6 @@
 class Italiano extends Language
 {
     /**
-     * @constructor
-     * @public
-     */
-    constructor()
-    {
-        super();
-    }
-
-    /**
      * @return {Map}
      * @method
      * @public
@@ -21,6 +12,74 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{読込のみ}}", "Leggere solo"],
+            ["{{書込を許可}}", "autorizzazione del post"],
+            ["{{単一行}}", "Linea singola"],
+            ["{{複数行}}", "Multiline"],
+            ["{{自動で折り返し}}", "Avvolgimento automatico"],
+            ["{{左寄せ}}", "Sinistra"],
+            ["{{中央揃え}}", "Centro"],
+            ["{{右寄せ}}", "Destra"],
+            ["{{放射状グラデーション}}", "gradazione radiale"],
+            ["{{線形グラデーション}}", "gradiente lineare"],
+            ["{{画像}}", "Immagine"],
+            ["{{画像選択}}", "Selezione dell'immagine"],
+            ["{{種別}}", "Tipo"],
+            ["{{Shapeの色設定}}", "Impostazioni del colore della forma"],
+            ["{{変形}}", "deformazione"],
+            ["{{カラー効果}}", "Trasformazione del colore"],
+            ["{{フィルター}}", "filtro"],
+            ["{{Shapeを複製}}", "Forma duplicata"],
+            ["{{読込(画像, MP3, MP4, SWF)}}", "Leggere (immagini, MP3, MP4, SWF)"],
+            ["{{新規フォルダー}}", "Nuova cartella"],
+            ["{{新規MovieClip}}", "Nuovo MovieClip"],
+            ["{{枠に合わせてテキストをリサイズ}}", "Ridimensiona il testo per adattarlo alla cornice"],
+            ["{{テキストに合わせて枠をリサイズ}}", "Ridimensiona la cornice per adattarla al testo"],
+            ["{{リサイズしない}}", "Nessun ridimensionamento"],
+            ["{{フォント}}", "font"],
+            ["{{テキスト}}", "Testo"],
+            ["{{ループ}}", "loop"],
+            ["{{音量}}", "volume"],
+            ["{{ビデオ}}", "Video"],
+            ["{{イージング}}", "facilitando"],
+            ["{{サウンド}}", "suono"],
+            ["{{シンボル}}", "Simbolo"],
+            ["{{名前}}", "Nome"],
+            ["{{オブジェクト}}", "oggetto"],
+            ["{{ステージ設定}}", "Scenario"],
+            ["{{プレビュー}}", "Anteprima"],
+            ["{{削除}}", "Cancellare"],
+            ["{{ペースト}}", "Incolla"],
+            ["{{コピー}}", "Copia"],
+            ["{{プラグインメニュー}}", "Menu del plug-in"],
+            ["{{トゥイーン}}", "tween"],
+            ["{{カーブポインターの追加}}", "Puntatore di curva supplementare"],
+            ["{{パスの結合}}", "Fusione di percorsi"],
+            ["{{シェイプ}}", "forma"],
+            ["{{キーフレームに配分}}", "Assegnazione ai fotogrammi chiave"],
+            ["{{レイヤーに配分}}", "Assegnazione ai livelli"],
+            ["{{タイムライン}}", "Timeline"],
+            ["{{整列}}", "Allineare"],
+            ["{{最背面}}", "La maggior parte della schiena"],
+            ["{{ひとつ背面へ}}", "Uno sul retro"],
+            ["{{ひとつ前面へ}}", "Una parte anteriore"],
+            ["{{最前面}}", "In prima linea"],
+            ["{{重ね順}}", "Organizzare"],
+            ["{{プラグイン}}", "plug-in"],
+            ["{{ライブラリ}}", "biblioteca"],
+            ["{{プロパティ}}", "proprietà"],
+            ["{{マスクレイヤー}}", "strato di maschera"],
+            ["{{通常レイヤー}}", "Strato normale"],
+            ["{{モーショントゥイーンの削除}}", "Soppressione dei tweens di movimento"],
+            ["{{モーショントゥイーンの追加}}", "Ulteriori tween di movimento"],
+            ["{{モーダル表示}}", "indicazione modale"],
+            ["{{言語}}", "Lingua"],
+            ["{{フォーマット}}", "formato"],
+            ["{{含める}}", "includere"],
+            ["{{含めない}}", "non includere"],
+            ["{{使い方、リファレンス}}", "Uso, riferimento"],
+            ["{{非表示レイヤー}}", "strato nascosto"],
+            ["{{設定}}", "setup"],
             ["{{デフォルトのループを利用する}}", "Utilizzare il ciclo predefinito"],
             ["{{フレームピッカー}}", "raccoglitore di cornici"],
             ["{{左揃え}}", "Sinistra"],

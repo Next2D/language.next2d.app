@@ -5,15 +5,6 @@
 class French extends Language
 {
     /**
-     * @constructor
-     * @public
-     */
-    constructor()
-    {
-        super();
-    }
-
-    /**
      * @return {Map}
      * @method
      * @public
@@ -21,6 +12,74 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{読込のみ}}", "Lecture seulement"],
+            ["{{書込を許可}}", "autorisation de poste"],
+            ["{{単一行}}", "Ligne unique"],
+            ["{{複数行}}", "Multiline"],
+            ["{{自動で折り返し}}", "Enveloppe automatique"],
+            ["{{左寄せ}}", "Gauche"],
+            ["{{中央揃え}}", "Centre"],
+            ["{{右寄せ}}", "Droite"],
+            ["{{放射状グラデーション}}", "gradation radiale"],
+            ["{{線形グラデーション}}", "gradient linéaire"],
+            ["{{画像}}", "Image"],
+            ["{{画像選択}}", "Sélection d'images"],
+            ["{{種別}}", "Type"],
+            ["{{Shapeの色設定}}", "Paramètres de couleur de la forme"],
+            ["{{変形}}", "déformation"],
+            ["{{カラー効果}}", "Transformation des couleurs"],
+            ["{{フィルター}}", "filtre"],
+            ["{{Shapeを複製}}", "Dupliquer la forme"],
+            ["{{読込(画像, MP3, MP4, SWF)}}", "Lecture (images, MP3, MP4, SWF)"],
+            ["{{新規フォルダー}}", "Nouveau dossier"],
+            ["{{新規MovieClip}}", "Nouveau MovieClip"],
+            ["{{枠に合わせてテキストをリサイズ}}", "Redimensionnez le texte pour l'adapter au cadre"],
+            ["{{テキストに合わせて枠をリサイズ}}", "Redimensionnez le cadre pour l'adapter au texte"],
+            ["{{リサイズしない}}", "Pas de redimensionnement"],
+            ["{{フォント}}", "police"],
+            ["{{テキスト}}", "Texte"],
+            ["{{ループ}}", "boucle"],
+            ["{{音量}}", "volume"],
+            ["{{ビデオ}}", "Vidéo"],
+            ["{{イージング}}", "facilitant"],
+            ["{{サウンド}}", "son"],
+            ["{{シンボル}}", "Symbole"],
+            ["{{名前}}", "Nom"],
+            ["{{オブジェクト}}", "objet"],
+            ["{{ステージ設定}}", "Mise en scène"],
+            ["{{プレビュー}}", "Prévisualisation"],
+            ["{{削除}}", "Supprimer"],
+            ["{{ペースト}}", "Pâte"],
+            ["{{コピー}}", "Copie"],
+            ["{{プラグインメニュー}}", "Menu plug-in"],
+            ["{{トゥイーン}}", "entre"],
+            ["{{カーブポインターの追加}}", "Pointeur de courbe supplémentaire"],
+            ["{{パスの結合}}", "Fusion de chemins"],
+            ["{{シェイプ}}", "forme"],
+            ["{{キーフレームに配分}}", "Attribution aux images clés"],
+            ["{{レイヤーに配分}}", "Affectation aux couches"],
+            ["{{タイムライン}}", "chronologie"],
+            ["{{整列}}", "Aligner"],
+            ["{{最背面}}", "La plupart des dos"],
+            ["{{ひとつ背面へ}}", "Un à l'arrière"],
+            ["{{ひとつ前面へ}}", "Un front"],
+            ["{{最前面}}", "Frontmost"],
+            ["{{重ね順}}", "Organiser"],
+            ["{{プラグイン}}", "plug-in"],
+            ["{{ライブラリ}}", "bibliothèque"],
+            ["{{プロパティ}}", "propriété"],
+            ["{{マスクレイヤー}}", "couche de masque"],
+            ["{{通常レイヤー}}", "Couche normale"],
+            ["{{モーショントゥイーンの削除}}", "Suppression des tweens de mouvement"],
+            ["{{モーショントゥイーンの追加}}", "Des tweens de mouvement supplémentaires"],
+            ["{{モーダル表示}}", "indication modale"],
+            ["{{言語}}", "Langue"],
+            ["{{フォーマット}}", "format"],
+            ["{{含める}}", "inclure"],
+            ["{{含めない}}", "à ne pas inclure"],
+            ["{{使い方、リファレンス}}", "Utilisation, référence"],
+            ["{{非表示レイヤー}}", "couche cachée"],
+            ["{{設定}}", "configuration"],
             ["{{デフォルトのループを利用する}}", "Utilisez la boucle par défaut"],
             ["{{フレームピッカー}}", "ramasseur de cadres"],
             ["{{左揃え}}", "Gauche"],

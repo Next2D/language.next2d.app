@@ -5,15 +5,6 @@
 class Spanish extends Language
 {
     /**
-     * @constructor
-     * @public
-     */
-    constructor()
-    {
-        super();
-    }
-
-    /**
      * @return {Map}
      * @method
      * @public
@@ -21,6 +12,74 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{読込のみ}}", "Sólo para leer"],
+            ["{{書込を許可}}", "permiso de correos"],
+            ["{{単一行}}", "Línea única"],
+            ["{{複数行}}", "Multilínea"],
+            ["{{自動で折り返し}}", "Envoltura automática"],
+            ["{{左寄せ}}", "Izquierda"],
+            ["{{中央揃え}}", "Centro"],
+            ["{{右寄せ}}", "Derecha"],
+            ["{{放射状グラデーション}}", "gradación radial"],
+            ["{{線形グラデーション}}", "gradiente lineal"],
+            ["{{画像}}", "Imagen"],
+            ["{{画像選択}}", "Selección de imágenes"],
+            ["{{種別}}", "Tipo"],
+            ["{{Shapeの色設定}}", "Configuración del color de la forma"],
+            ["{{変形}}", "deformación"],
+            ["{{カラー効果}}", "Transformación del color"],
+            ["{{フィルター}}", "filtro"],
+            ["{{Shapeを複製}}", "Duplicar la forma"],
+            ["{{読込(画像, MP3, MP4, SWF)}}", "Leer (imágenes, MP3, MP4, SWF)"],
+            ["{{新規フォルダー}}", "Carpeta nueva"],
+            ["{{新規MovieClip}}", "Nuevo MovieClip"],
+            ["{{枠に合わせてテキストをリサイズ}}", "Cambia el tamaño del texto para que se ajuste al marco"],
+            ["{{テキストに合わせて枠をリサイズ}}", "Cambia el tamaño del marco para que se ajuste al texto"],
+            ["{{リサイズしない}}", "No hay cambio de tamaño"],
+            ["{{フォント}}", "fuente"],
+            ["{{テキスト}}", "Texto"],
+            ["{{ループ}}", "bucle"],
+            ["{{音量}}", "volumen"],
+            ["{{ビデオ}}", "Vídeo"],
+            ["{{イージング}}", "facilitando"],
+            ["{{サウンド}}", "sonido"],
+            ["{{シンボル}}", "Símbolo"],
+            ["{{名前}}", "Nombre"],
+            ["{{オブジェクト}}", "objeto"],
+            ["{{ステージ設定}}", "Puesta en escena"],
+            ["{{プレビュー}}", "Previsualización"],
+            ["{{削除}}", "Borrar"],
+            ["{{ペースト}}", "Pegar"],
+            ["{{コピー}}", "Copiar"],
+            ["{{プラグインメニュー}}", "Menú de complementos"],
+            ["{{トゥイーン}}", "tween"],
+            ["{{カーブポインターの追加}}", "Puntero de curva adicional"],
+            ["{{パスの結合}}", "Fusión de caminos"],
+            ["{{シェイプ}}", "forma"],
+            ["{{キーフレームに配分}}", "Asignación a los fotogramas clave"],
+            ["{{レイヤーに配分}}", "Asignación a las capas"],
+            ["{{タイムライン}}", "línea de tiempo"],
+            ["{{整列}}", "Alinear"],
+            ["{{最背面}}", "La mayor parte de la espalda"],
+            ["{{ひとつ背面へ}}", "Uno en la parte trasera"],
+            ["{{ひとつ前面へ}}", "Un frente"],
+            ["{{最前面}}", "Frontmost"],
+            ["{{重ね順}}", "Organice"],
+            ["{{プラグイン}}", "plug-in"],
+            ["{{ライブラリ}}", "biblioteca"],
+            ["{{プロパティ}}", "propiedad"],
+            ["{{マスクレイヤー}}", "capa de máscara"],
+            ["{{通常レイヤー}}", "Capa normal"],
+            ["{{モーショントゥイーンの削除}}", "Supresión de los tweens de movimiento"],
+            ["{{モーショントゥイーンの追加}}", "Tweens de movimiento adicionales"],
+            ["{{モーダル表示}}", "indicación modal"],
+            ["{{言語}}", "El idioma"],
+            ["{{フォーマット}}", "formato"],
+            ["{{含める}}", "incluir"],
+            ["{{含めない}}", "no incluir"],
+            ["{{使い方、リファレンス}}", "Uso, referencia"],
+            ["{{非表示レイヤー}}", "capa oculta"],
+            ["{{設定}}", "configuración"],
             ["{{デフォルトのループを利用する}}", "Utiliza el bucle por defecto"],
             ["{{フレームピッカー}}", "Recogedor de marcos"],
             ["{{左揃え}}", "Izquierda"],

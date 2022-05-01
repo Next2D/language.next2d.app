@@ -5,15 +5,6 @@
 class English extends Language
 {
     /**
-     * @constructor
-     * @public
-     */
-    constructor()
-    {
-        super();
-    }
-
-    /**
      * @return {Map}
      * @method
      * @public
@@ -21,6 +12,74 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{読込のみ}}", "ReadOnly"],
+            ["{{書込を許可}}", "Writeable"],
+            ["{{単一行}}", "Single line"],
+            ["{{複数行}}", "Multiline"],
+            ["{{自動で折り返し}}", "Auto Wrap"],
+            ["{{左寄せ}}", "Left"],
+            ["{{中央揃え}}", "Center"],
+            ["{{右寄せ}}", "Right"],
+            ["{{放射状グラデーション}}", "Radial Gradient"],
+            ["{{線形グラデーション}}", "Linear Gradient"],
+            ["{{画像}}", "Image"],
+            ["{{画像選択}}", "Image Selection"],
+            ["{{種別}}", "Type"],
+            ["{{Shapeの色設定}}", "Shape color settings"],
+            ["{{変形}}", "Transform"],
+            ["{{カラー効果}}", "Color Transform"],
+            ["{{フィルター}}", "Filter"],
+            ["{{Shapeを複製}}", "Duplicate Shape"],
+            ["{{読込(画像, MP3, MP4, SWF)}}", "Read (Image, MP3, MP4, SWF)"],
+            ["{{新規フォルダー}}", "Added Folder"],
+            ["{{新規MovieClip}}", "Added MovieClip"],
+            ["{{枠に合わせてテキストをリサイズ}}", "Resize text to fit the frame"],
+            ["{{テキストに合わせて枠をリサイズ}}", "Resize the frame to fit the text"],
+            ["{{リサイズしない}}", "No Resize"],
+            ["{{フォント}}", "Font"],
+            ["{{テキスト}}", "Text"],
+            ["{{ループ}}", "Loop"],
+            ["{{音量}}", "Volume"],
+            ["{{ビデオ}}", "Video"],
+            ["{{イージング}}", "Easing"],
+            ["{{サウンド}}", "Sound"],
+            ["{{シンボル}}", "Symbol"],
+            ["{{名前}}", "Name"],
+            ["{{オブジェクト}}", "Object"],
+            ["{{ステージ設定}}", "Stage Setting"],
+            ["{{プレビュー}}", "Preview"],
+            ["{{削除}}", "Delete"],
+            ["{{ペースト}}", "Paste"],
+            ["{{コピー}}", "Copy"],
+            ["{{プラグインメニュー}}", "Plugin Menu"],
+            ["{{トゥイーン}}", "Tween"],
+            ["{{カーブポインターの追加}}", "Added Curve Pointer"],
+            ["{{パスの結合}}", "Integrating paths"],
+            ["{{シェイプ}}", "Shape"],
+            ["{{キーフレームに配分}}", "Distribute to Keyframes"],
+            ["{{レイヤーに配分}}", "Distribute to Layers"],
+            ["{{タイムライン}}", "Timeline"],
+            ["{{整列}}", "Align"],
+            ["{{最背面}}", "Send to Back"],
+            ["{{ひとつ背面へ}}", "Send to Backward"],
+            ["{{ひとつ前面へ}}", "Bring to Forward"],
+            ["{{最前面}}", "Bring to Front"],
+            ["{{重ね順}}", "Arrange"],
+            ["{{プラグイン}}", "Plugin"],
+            ["{{ライブラリ}}", "Library"],
+            ["{{プロパティ}}", "Property"],
+            ["{{マスクレイヤー}}", "Mask Layer"],
+            ["{{通常レイヤー}}", "Normal Layer"],
+            ["{{モーショントゥイーンの削除}}", "Deleted Motion Tweening"],
+            ["{{モーショントゥイーンの追加}}", "Added Motion Tweening"],
+            ["{{モーダル表示}}", "Modal Indication"],
+            ["{{言語}}", "Language"],
+            ["{{フォーマット}}", "Format"],
+            ["{{含める}}", "Include"],
+            ["{{含めない}}", "Not Including"],
+            ["{{使い方、リファレンス}}", "Usage, Reference"],
+            ["{{非表示レイヤー}}", "Hidden Layers"],
+            ["{{設定}}", "Setting"],
             ["{{デフォルトのループを利用する}}", "Use the default loop"],
             ["{{フレームピッカー}}", "Frame Picker"],
             ["{{左揃え}}", "Left"],
