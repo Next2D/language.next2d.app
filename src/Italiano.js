@@ -12,6 +12,9 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{音量設定}}", "Regolazione del volume"],
+            ["{{サウンドを削除}}", "Rimuovere il suono"],
+            ["{{カスタムループ}}", "anello personalizzato"],
             ["{{読込のみ}}", "Leggere solo"],
             ["{{書込を許可}}", "autorizzazione del post"],
             ["{{単一行}}", "Linea singola"],
@@ -149,7 +152,7 @@ class Italiano extends Language
             ["{{フォント選択}}", "Seleziona il carattere"],
             ["{{自動サイズ調整}}", "Regolazione automatica delle dimensioni"],
             ["{{フォントスタイルタイプ}}", "Tipo di stile di carattere"],
-            ["{{行揃え}}", "Allineare l'impostazione"],
+            ["{{行揃え}}", "Allineare"],
             ["{{改行設定}}", "Impostazione Newline"],
             ["{{スクロール設定}}", "Impostazione dello scorrimento"],
             ["{{フォントサイズ}}", "Dimensione del carattere"],

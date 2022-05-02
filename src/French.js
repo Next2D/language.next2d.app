@@ -12,6 +12,9 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{音量設定}}", "Réglage du volume"],
+            ["{{サウンドを削除}}", "Supprimer le son"],
+            ["{{カスタムループ}}", "boucle personnalisée"],
             ["{{読込のみ}}", "Lecture seulement"],
             ["{{書込を許可}}", "autorisation de poste"],
             ["{{単一行}}", "Ligne unique"],
@@ -149,7 +152,7 @@ class French extends Language
             ["{{フォント選択}}", "Sélection de la police"],
             ["{{自動サイズ調整}}", "Ajustement automatique de la taille"],
             ["{{フォントスタイルタイプ}}", "Type de police"],
-            ["{{行揃え}}", "Réglage de l'alignement"],
+            ["{{行揃え}}", "Aligner"],
             ["{{改行設定}}", "Réglage des nouvelles lignes"],
             ["{{スクロール設定}}", "Réglage du défilement"],
             ["{{フォントサイズ}}", "Taille de la police"],

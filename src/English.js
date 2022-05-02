@@ -12,6 +12,9 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{音量設定}}", "Volume Setting"],
+            ["{{サウンドを削除}}", "Remove Sound"],
+            ["{{カスタムループ}}", "Custom Loop"],
             ["{{読込のみ}}", "ReadOnly"],
             ["{{書込を許可}}", "Writeable"],
             ["{{単一行}}", "Single line"],
@@ -149,7 +152,7 @@ class English extends Language
             ["{{フォント選択}}", "Font Select"],
             ["{{自動サイズ調整}}", "Automatic size adjustment"],
             ["{{フォントスタイルタイプ}}", "Font Style Type"],
-            ["{{行揃え}}", "Align Setting"],
+            ["{{行揃え}}", "Align"],
             ["{{改行設定}}", "Newline Setting"],
             ["{{スクロール設定}}", "Scroll Setting"],
             ["{{フォントサイズ}}", "Font Size"],

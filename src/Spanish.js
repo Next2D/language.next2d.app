@@ -12,6 +12,9 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{音量設定}}", "Ajuste del volumen"],
+            ["{{サウンドを削除}}", "Eliminar el sonido"],
+            ["{{カスタムループ}}", "bucle personalizado"],
             ["{{読込のみ}}", "Sólo para leer"],
             ["{{書込を許可}}", "permiso de correos"],
             ["{{単一行}}", "Línea única"],
@@ -149,7 +152,7 @@ class Spanish extends Language
             ["{{フォント選択}}", "Selección de fuentes"],
             ["{{自動サイズ調整}}", "Ajuste automático del tamaño"],
             ["{{フォントスタイルタイプ}}", "Tipo de letra"],
-            ["{{行揃え}}", "Ajuste de la alineación"],
+            ["{{行揃え}}", "Alinear"],
             ["{{改行設定}}", "Ajuste de la nueva línea"],
             ["{{スクロール設定}}", "Ajuste de desplazamiento"],
             ["{{フォントサイズ}}", "Tamaño de la fuente"],
