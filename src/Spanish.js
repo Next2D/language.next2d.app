@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "capa de guía"],
             ["{{音量設定}}", "Ajuste del volumen"],
             ["{{サウンドを削除}}", "Eliminar el sonido"],
             ["{{カスタムループ}}", "bucle personalizado"],

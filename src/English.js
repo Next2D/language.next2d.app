@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "Guide Layer"],
             ["{{音量設定}}", "Volume Setting"],
             ["{{サウンドを削除}}", "Remove Sound"],
             ["{{カスタムループ}}", "Custom Loop"],

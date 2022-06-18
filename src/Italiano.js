@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "strato guida"],
             ["{{音量設定}}", "Regolazione del volume"],
             ["{{サウンドを削除}}", "Rimuovere il suono"],
             ["{{カスタムループ}}", "anello personalizzato"],

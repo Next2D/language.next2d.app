@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "指导层"],
             ["{{音量設定}}", "音量设置"],
             ["{{サウンドを削除}}", "移除声音"],
             ["{{カスタムループ}}", "定制的循环"],

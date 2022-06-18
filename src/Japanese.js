@@ -12,6 +12,7 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "ガイドレイヤー"],
             ["{{音量設定}}", "音量設定"],
             ["{{サウンドを削除}}", "サウンドを削除"],
             ["{{カスタムループ}}", "カスタムループ"],

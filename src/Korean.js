@@ -12,6 +12,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "가이드레이야"],
             ["{{音量設定}}", "볼륨 설정"],
             ["{{サウンドを削除}}", "사운드 삭제"],
             ["{{カスタムループ}}", "맞춤형 루프"],

@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ガイドレイヤー}}", "couche de guidage"],
             ["{{音量設定}}", "Réglage du volume"],
             ["{{サウンドを削除}}", "Supprimer le son"],
             ["{{カスタムループ}}", "boucle personnalisée"],
