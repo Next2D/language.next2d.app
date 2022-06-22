@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ズームツール}}", "Outil de zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Largeur de la ligne de temps Développer/réduire"],
             ["{{ガイドレイヤー}}", "couche de guidage"],
             ["{{音量設定}}", "Réglage du volume"],

@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ズームツール}}", "缩放工具"],
             ["{{タイムライン幅の拡大・縮小}}", "时间线宽度 扩大/缩小"],
             ["{{ガイドレイヤー}}", "指导层"],
             ["{{音量設定}}", "音量设置"],

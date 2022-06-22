@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ズームツール}}", "Strumento zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Larghezza della timeline Espandere/ridurre"],
             ["{{ガイドレイヤー}}", "strato guida"],
             ["{{音量設定}}", "Regolazione del volume"],
