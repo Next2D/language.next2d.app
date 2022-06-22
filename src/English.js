@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{タイムライン幅の拡大・縮小}}", "Timeline Width Expand/Reduce"],
             ["{{ガイドレイヤー}}", "Guide Layer"],
             ["{{音量設定}}", "Volume Setting"],
             ["{{サウンドを削除}}", "Remove Sound"],

@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{タイムライン幅の拡大・縮小}}", "Anchura de la línea de tiempo Ampliar/reducir"],
             ["{{ガイドレイヤー}}", "capa de guía"],
             ["{{音量設定}}", "Ajuste del volumen"],
             ["{{サウンドを削除}}", "Eliminar el sonido"],
