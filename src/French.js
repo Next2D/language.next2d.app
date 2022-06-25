@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに空のキーフレームを追加できません}}", "Impossible d'ajouter des images clés vides à des images clés"],
             ["{{ズームツール}}", "Outil de zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Largeur de la ligne de temps Développer/réduire"],
             ["{{ガイドレイヤー}}", "couche de guidage"],

@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに空のキーフレームを追加できません}}", "Impossibile aggiungere keyframes vuoti ai keyframes"],
             ["{{ズームツール}}", "Strumento zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Larghezza della timeline Espandere/ridurre"],
             ["{{ガイドレイヤー}}", "strato guida"],
