@@ -12,6 +12,11 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーをペースト}}", "Capa de pasta"],
+            ["{{レイヤーをコピー}}", "Copiar capa"],
+            ["{{フレームをペースト}}", "Pegar el marco"],
+            ["{{フレームをコピー}}", "Copiar marco"],
+            ["{{キーフレームを削除}}", "Eliminar fotogramas clave"],
             ["{{キーフレームに空のキーフレームを追加できません}}", "No se pueden añadir fotogramas clave vacíos a los fotogramas clave"],
             ["{{ズームツール}}", "Herramienta de zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Anchura de la línea de tiempo Ampliar/reducir"],

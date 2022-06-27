@@ -12,6 +12,11 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーをペースト}}", "Couche de pâte"],
+            ["{{レイヤーをコピー}}", "Copie de la couche"],
+            ["{{フレームをペースト}}", "Coller le cadre"],
+            ["{{フレームをコピー}}", "Cadre de copie"],
+            ["{{キーフレームを削除}}", "Supprimez les images clés"],
             ["{{キーフレームに空のキーフレームを追加できません}}", "Impossible d'ajouter des images clés vides à des images clés"],
             ["{{ズームツール}}", "Outil de zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Largeur de la ligne de temps Développer/réduire"],

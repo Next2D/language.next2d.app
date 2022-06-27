@@ -12,6 +12,11 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーをペースト}}", "Paste Layer"],
+            ["{{レイヤーをコピー}}", "Copy Layer"],
+            ["{{フレームをペースト}}", "Paste Frame"],
+            ["{{フレームをコピー}}", "Copy Frame"],
+            ["{{キーフレームを削除}}", "Delete keyframe"],
             ["{{キーフレームに空のキーフレームを追加できません}}", "Cannot add an empty keyframe to a keyframe"],
             ["{{ズームツール}}", "Zoom Tool"],
             ["{{タイムライン幅の拡大・縮小}}", "Timeline Width Expand/Reduce"],

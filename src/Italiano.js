@@ -12,6 +12,11 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーをペースト}}", "Strato di pasta"],
+            ["{{レイヤーをコピー}}", "Copiare il livello"],
+            ["{{フレームをペースト}}", "Incolla la cornice"],
+            ["{{フレームをコピー}}", "Cornice di copia"],
+            ["{{キーフレームを削除}}", "Elimina i fotogrammi chiave"],
             ["{{キーフレームに空のキーフレームを追加できません}}", "Impossibile aggiungere keyframes vuoti ai keyframes"],
             ["{{ズームツール}}", "Strumento zoom"],
             ["{{タイムライン幅の拡大・縮小}}", "Larghezza della timeline Espandere/ridurre"],
