@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{未使用のアイテムを全て削除}}", "Rimuovere tutti gli articoli inutilizzati"],
             ["{{レイヤーをペースト}}", "Strato di pasta"],
             ["{{レイヤーをコピー}}", "Copiare il livello"],
             ["{{フレームをペースト}}", "Incolla la cornice"],

@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{未使用のアイテムを全て削除}}", "Delete all unused items"],
             ["{{レイヤーをペースト}}", "Paste Layer"],
             ["{{レイヤーをコピー}}", "Copy Layer"],
             ["{{フレームをペースト}}", "Paste Frame"],

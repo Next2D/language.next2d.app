@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{未使用のアイテムを全て削除}}", "Retirez tous les articles inutilisés"],
             ["{{レイヤーをペースト}}", "Couche de pâte"],
             ["{{レイヤーをコピー}}", "Copie de la couche"],
             ["{{フレームをペースト}}", "Coller le cadre"],
