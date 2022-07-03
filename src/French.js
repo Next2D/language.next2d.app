@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Next2Dを支援する}}", "Soutenez Next2D"],
+            ["{{サポート}}", "soutien"],
             ["{{未使用のアイテムを全て削除}}", "Retirez tous les articles inutilisés"],
             ["{{レイヤーをペースト}}", "Couche de pâte"],
             ["{{レイヤーをコピー}}", "Copie de la couche"],

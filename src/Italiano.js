@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Next2Dを支援する}}", "Supporto Next2D"],
+            ["{{サポート}}", "supporto"],
             ["{{未使用のアイテムを全て削除}}", "Rimuovere tutti gli articoli inutilizzati"],
             ["{{レイヤーをペースト}}", "Strato di pasta"],
             ["{{レイヤーをコピー}}", "Copiare il livello"],

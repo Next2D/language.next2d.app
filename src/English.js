@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Next2Dを支援する}}", "Support Next2D"],
+            ["{{サポート}}", "Support"],
             ["{{未使用のアイテムを全て削除}}", "Delete all unused items"],
             ["{{レイヤーをペースト}}", "Paste Layer"],
             ["{{レイヤーをコピー}}", "Copy Layer"],

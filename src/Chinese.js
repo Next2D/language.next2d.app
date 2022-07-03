@@ -12,6 +12,8 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Next2Dを支援する}}", "支持Next2D"],
+            ["{{サポート}}", "支持"],
             ["{{未使用のアイテムを全て削除}}", "删除所有未使用的物品"],
             ["{{レイヤーをペースト}}", "粘贴层"],
             ["{{レイヤーをコピー}}", "复制层"],

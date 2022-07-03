@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Next2Dを支援する}}", "Apoya a Next2D"],
+            ["{{サポート}}", "soporte"],
             ["{{未使用のアイテムを全て削除}}", "Retire todos los elementos no utilizados"],
             ["{{レイヤーをペースト}}", "Capa de pasta"],
             ["{{レイヤーをコピー}}", "Copiar capa"],
