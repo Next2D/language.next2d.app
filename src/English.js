@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーカラー}}", "Layer Color"],
             ["{{Next2Dを支援する}}", "Support Next2D"],
             ["{{サポート}}", "Support"],
             ["{{未使用のアイテムを全て削除}}", "Delete all unused items"],

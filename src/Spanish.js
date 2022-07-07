@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーカラー}}", "color en capas"],
             ["{{Next2Dを支援する}}", "Apoya a Next2D"],
             ["{{サポート}}", "soporte"],
             ["{{未使用のアイテムを全て削除}}", "Retire todos los elementos no utilizados"],

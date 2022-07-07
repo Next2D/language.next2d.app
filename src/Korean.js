@@ -12,6 +12,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーカラー}}", "레이어 색상"],
             ["{{Next2Dを支援する}}", "Next2D 지원"],
             ["{{サポート}}", "지원"],
             ["{{未使用のアイテムを全て削除}}", "사용하지 않는 항목 지정"],
