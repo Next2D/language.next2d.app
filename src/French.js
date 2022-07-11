@@ -12,6 +12,11 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{閉じる}}", "Fermer"],
+            ["{{保存}}", "Sauvez"],
+            ["{{初期値に戻す}}", "Rétablir les valeurs initiales"],
+            ["{{スクリーン}}", "Écran"],
+            ["{{ショートカット設定}}", "Paramètres des raccourcis"],
             ["{{レイヤーカラー}}", "couleur superposée"],
             ["{{Next2Dを支援する}}", "Soutenez Next2D"],
             ["{{サポート}}", "soutien"],

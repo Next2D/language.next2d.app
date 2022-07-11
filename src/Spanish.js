@@ -12,6 +12,11 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{閉じる}}", "Cerrar"],
+            ["{{保存}}", "Guardar"],
+            ["{{初期値に戻す}}", "Restablecer los valores iniciales"],
+            ["{{スクリーン}}", "Pantalla"],
+            ["{{ショートカット設定}}", "Configuración de los accesos directos"],
             ["{{レイヤーカラー}}", "color en capas"],
             ["{{Next2Dを支援する}}", "Apoya a Next2D"],
             ["{{サポート}}", "soporte"],

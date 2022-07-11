@@ -12,6 +12,11 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{閉じる}}", "Chiudere"],
+            ["{{保存}}", "Risparmiare"],
+            ["{{初期値に戻す}}", "Ripristino dei valori iniziali"],
+            ["{{スクリーン}}", "Schermo"],
+            ["{{ショートカット設定}}", "Impostazioni delle scorciatoie"],
             ["{{レイヤーカラー}}", "colore stratificato"],
             ["{{Next2Dを支援する}}", "Supporto Next2D"],
             ["{{サポート}}", "supporto"],

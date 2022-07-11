@@ -12,6 +12,11 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{閉じる}}", "Close"],
+            ["{{保存}}", "Save"],
+            ["{{初期値に戻す}}", "Restore initial values"],
+            ["{{スクリーン}}", "Screen"],
+            ["{{ショートカット設定}}", "Shortcut Settings"],
             ["{{レイヤーカラー}}", "Layer Color"],
             ["{{Next2Dを支援する}}", "Support Next2D"],
             ["{{サポート}}", "Support"],
