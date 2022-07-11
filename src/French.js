@@ -14,7 +14,7 @@ class French extends Language
         return new Map([
             ["{{閉じる}}", "Fermer"],
             ["{{保存}}", "Sauvez"],
-            ["{{初期値に戻す}}", "Rétablir les valeurs initiales"],
+            ["{{リセット}}", "réinitialiser"],
             ["{{スクリーン}}", "Écran"],
             ["{{ショートカット設定}}", "Paramètres des raccourcis"],
             ["{{レイヤーカラー}}", "couleur superposée"],

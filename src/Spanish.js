@@ -14,7 +14,7 @@ class Spanish extends Language
         return new Map([
             ["{{閉じる}}", "Cerrar"],
             ["{{保存}}", "Guardar"],
-            ["{{初期値に戻す}}", "Restablecer los valores iniciales"],
+            ["{{リセット}}", "restablecer"],
             ["{{スクリーン}}", "Pantalla"],
             ["{{ショートカット設定}}", "Configuración de los accesos directos"],
             ["{{レイヤーカラー}}", "color en capas"],

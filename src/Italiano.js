@@ -14,7 +14,7 @@ class Italiano extends Language
         return new Map([
             ["{{閉じる}}", "Chiudere"],
             ["{{保存}}", "Risparmiare"],
-            ["{{初期値に戻す}}", "Ripristino dei valori iniziali"],
+            ["{{リセット}}", "azzeramento"],
             ["{{スクリーン}}", "Schermo"],
             ["{{ショートカット設定}}", "Impostazioni delle scorciatoie"],
             ["{{レイヤーカラー}}", "colore stratificato"],

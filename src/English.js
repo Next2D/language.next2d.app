@@ -14,7 +14,7 @@ class English extends Language
         return new Map([
             ["{{閉じる}}", "Close"],
             ["{{保存}}", "Save"],
-            ["{{初期値に戻す}}", "Restore initial values"],
+            ["{{リセット}}", "Reset"],
             ["{{スクリーン}}", "Screen"],
             ["{{ショートカット設定}}", "Shortcut Settings"],
             ["{{レイヤーカラー}}", "Layer Color"],
