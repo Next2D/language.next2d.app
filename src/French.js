@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{選択ツール(V)}}", "Outils de sélection(V)"],
             ["{{閉じる}}", "Fermer"],
             ["{{保存}}", "Sauvez"],
             ["{{リセット}}", "réinitialiser"],

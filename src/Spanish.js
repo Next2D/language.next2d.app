@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{選択ツール(V)}}", "Herramientas de selección(V)"],
             ["{{閉じる}}", "Cerrar"],
             ["{{保存}}", "Guardar"],
             ["{{リセット}}", "restablecer"],

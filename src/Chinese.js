@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{選択ツール(V)}}", "选择工具(V)"],
             ["{{閉じる}}", "贴近"],
             ["{{保存}}", "储存"],
             ["{{リセット}}", "重置"],
