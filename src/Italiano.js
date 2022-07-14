@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Shape変形ツール(A)}}", "Strumento di trasformazione della forma(A)"],
             ["{{選択ツール(V)}}", "Strumenti di selezione(V)"],
             ["{{閉じる}}", "Chiudere"],
             ["{{保存}}", "Risparmiare"],

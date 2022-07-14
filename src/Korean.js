@@ -12,6 +12,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{Shape変形ツール(A)}}", "모양 변형 도구(A)"],
             ["{{選択ツール(V)}}", "선택 도구(V)"],
             ["{{閉じる}}", "닫다"],
             ["{{保存}}", "저장"],
