@@ -42,7 +42,7 @@ class Language
                     ? mapping.get(shortcutKey).text
                     : element.dataset.shortcutText;
 
-                value += `(${shortcutText})`;
+                value += ` (${shortcutText})`;
             }
 
             element.innerText = value;
