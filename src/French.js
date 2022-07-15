@@ -12,8 +12,6 @@ class French extends Language
     createMapping ()
     {
         return new Map([
-            ["{{Shape変形ツール(A)}}", "Outil de transformation des formes(A)"],
-            ["{{選択ツール(V)}}", "Outils de sélection(V)"],
             ["{{閉じる}}", "Fermer"],
             ["{{保存}}", "Sauvez"],
             ["{{リセット}}", "réinitialiser"],

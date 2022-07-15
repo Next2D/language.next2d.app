@@ -12,8 +12,6 @@ class English extends Language
     createMapping ()
     {
         return new Map([
-            ["{{Shape変形ツール(A)}}", "Shape Transform Tool(A)"],
-            ["{{選択ツール(V)}}", "Selection Tool(V)"],
             ["{{閉じる}}", "Close"],
             ["{{保存}}", "Save"],
             ["{{リセット}}", "Reset"],

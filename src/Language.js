@@ -30,7 +30,22 @@ class Language
                 continue;
             }
 
-            element.innerText = this.mapping.get(text);
+            let value = this.mapping.get(text);
+
+            let shortcutKey = element.dataset.shortcutKey;
+            if (shortcutKey) {
+                const mapping = Util.$shortcutSetting.viewMapping.get(
+                    element.dataset.area
+                );
+
+                const shortcutText = mapping.has(shortcutKey)
+                    ? mapping.get(shortcutKey).text
+                    : element.dataset.shortcutText;
+
+                value += `(${shortcutText})`;
+            }
+
+            element.innerText = value;
         }
     }
 
