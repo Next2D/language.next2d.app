@@ -20,7 +20,7 @@ class English extends Language
             ["{{レイヤーカラー}}", "Layer Color"],
             ["{{Next2Dを支援する}}", "Support Next2D"],
             ["{{サポート}}", "Support"],
-            ["{{未使用のアイテムを全て削除}}", "Delete all unused items"],
+            ["{{未使用のアイテムを削除}}", "Delete unused items"],
             ["{{レイヤーをペースト}}", "Paste Layer"],
             ["{{レイヤーをコピー}}", "Copy Layer"],
             ["{{フレームをペースト}}", "Paste Frame"],

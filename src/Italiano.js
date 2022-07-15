@@ -20,7 +20,7 @@ class Italiano extends Language
             ["{{レイヤーカラー}}", "colore stratificato"],
             ["{{Next2Dを支援する}}", "Supporto Next2D"],
             ["{{サポート}}", "supporto"],
-            ["{{未使用のアイテムを全て削除}}", "Rimuovere tutti gli articoli inutilizzati"],
+            ["{{未使用のアイテムを削除}}", "Rimuovere gli articoli inutilizzati"],
             ["{{レイヤーをペースト}}", "Strato di pasta"],
             ["{{レイヤーをコピー}}", "Copiare il livello"],
             ["{{フレームをペースト}}", "Incolla la cornice"],

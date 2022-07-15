@@ -20,7 +20,7 @@ class French extends Language
             ["{{レイヤーカラー}}", "couleur superposée"],
             ["{{Next2Dを支援する}}", "Soutenez Next2D"],
             ["{{サポート}}", "soutien"],
-            ["{{未使用のアイテムを全て削除}}", "Retirez tous les articles inutilisés"],
+            ["{{未使用のアイテムを削除}}", "Retirer les articles non utilisés"],
             ["{{レイヤーをペースト}}", "Couche de pâte"],
             ["{{レイヤーをコピー}}", "Copie de la couche"],
             ["{{フレームをペースト}}", "Coller le cadre"],
