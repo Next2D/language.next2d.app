@@ -51,7 +51,7 @@ class Italiano extends Language
             ["{{カラー効果}}", "Trasformazione del colore"],
             ["{{フィルター}}", "filtro"],
             ["{{Shapeを複製}}", "Forma duplicata"],
-            ["{{読込(画像, MP3, MP4, SWF)}}", "Leggere (immagini, MP3, MP4, SWF)"],
+            ["{{読み込み}}", "leggere in"],
             ["{{新規フォルダー}}", "Nuova cartella"],
             ["{{新規MovieClip}}", "Nuovo MovieClip"],
             ["{{枠に合わせてテキストをリサイズ}}", "Ridimensiona il testo per adattarlo alla cornice"],

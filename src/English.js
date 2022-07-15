@@ -51,7 +51,7 @@ class English extends Language
             ["{{カラー効果}}", "Color Transform"],
             ["{{フィルター}}", "Filter"],
             ["{{Shapeを複製}}", "Duplicate Shape"],
-            ["{{読込(画像, MP3, MP4, SWF)}}", "Read (Image, MP3, MP4, SWF)"],
+            ["{{読み込み}}", "Read in"],
             ["{{新規フォルダー}}", "Added Folder"],
             ["{{新規MovieClip}}", "Added MovieClip"],
             ["{{枠に合わせてテキストをリサイズ}}", "Resize text to fit the frame"],

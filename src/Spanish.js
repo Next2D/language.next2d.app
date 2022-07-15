@@ -51,7 +51,7 @@ class Spanish extends Language
             ["{{カラー効果}}", "Transformación del color"],
             ["{{フィルター}}", "filtro"],
             ["{{Shapeを複製}}", "Duplicar la forma"],
-            ["{{読込(画像, MP3, MP4, SWF)}}", "Leer (imágenes, MP3, MP4, SWF)"],
+            ["{{読み込み}}", "leer en"],
             ["{{新規フォルダー}}", "Carpeta nueva"],
             ["{{新規MovieClip}}", "Nuevo MovieClip"],
             ["{{枠に合わせてテキストをリサイズ}}", "Cambia el tamaño del texto para que se ajuste al marco"],

@@ -51,7 +51,7 @@ class French extends Language
             ["{{カラー効果}}", "Transformation des couleurs"],
             ["{{フィルター}}", "filtre"],
             ["{{Shapeを複製}}", "Dupliquer la forme"],
-            ["{{読込(画像, MP3, MP4, SWF)}}", "Lecture (images, MP3, MP4, SWF)"],
+            ["{{読み込み}}", "lire dans"],
             ["{{新規フォルダー}}", "Nouveau dossier"],
             ["{{新規MovieClip}}", "Nouveau MovieClip"],
             ["{{枠に合わせてテキストをリサイズ}}", "Redimensionnez le texte pour l'adapter au cadre"],
