@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "阶段性标准"],
             ["{{閉じる}}", "贴近"],
             ["{{保存}}", "储存"],
             ["{{リセット}}", "重置"],

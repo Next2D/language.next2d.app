@@ -12,6 +12,7 @@ class Russia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "Критерии этапа"],
             ["{{閉じる}}", "Закрыть"],
             ["{{保存}}", "Сохранить"],
             ["{{リセット}}", "сброс"],

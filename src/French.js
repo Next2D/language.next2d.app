@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "Critères d'étape"],
             ["{{閉じる}}", "Fermer"],
             ["{{保存}}", "Sauvez"],
             ["{{リセット}}", "réinitialiser"],

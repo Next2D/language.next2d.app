@@ -12,6 +12,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "스테이지 기준"],
             ["{{閉じる}}", "닫다"],
             ["{{保存}}", "저장"],
             ["{{リセット}}", "리셋"],

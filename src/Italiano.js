@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "Criteri di fase"],
             ["{{閉じる}}", "Chiudere"],
             ["{{保存}}", "Risparmiare"],
             ["{{リセット}}", "azzeramento"],

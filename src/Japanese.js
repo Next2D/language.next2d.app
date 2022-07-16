@@ -12,6 +12,7 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "ステージ基準"],
             ["{{閉じる}}", "閉じる"],
             ["{{保存}}", "保存"],
             ["{{リセット}}", "リセット"],

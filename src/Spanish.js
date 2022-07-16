@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ基準}}", "Criterios de la etapa"],
             ["{{閉じる}}", "Cerrar"],
             ["{{保存}}", "Guardar"],
             ["{{リセット}}", "restablecer"],
