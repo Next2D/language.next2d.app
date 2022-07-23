@@ -130,7 +130,7 @@ class Italiano extends Language
             ["{{選択ツール}}", "Strumenti di selezione"],
             ["{{Shape変形ツール}}", "Strumento di trasformazione della forma"],
             ["{{テキストツール}}", "Text Tool"],
-            ["{{短形ツール}}", "Strumento di testo"],
+            ["{{矩形ツール}}", "Strumento di testo"],
             ["{{楕円ツール}}", "Strumento Ellisse"],
             ["{{角丸矩形ツール}}", "Strumento Rettangolo arrotondato"],
             ["{{塗りのカラー}}", "Colore di riempimento"],

@@ -130,7 +130,7 @@ class French extends Language
             ["{{選択ツール}}", "Outils de sélection"],
             ["{{Shape変形ツール}}", "Outil de transformation des formes"],
             ["{{テキストツール}}", "Outil texte"],
-            ["{{短形ツール}}", "Outil Rectangle"],
+            ["{{矩形ツール}}", "Outil Rectangle"],
             ["{{楕円ツール}}", "Outil Ellipse"],
             ["{{角丸矩形ツール}}", "Outil Rectangle arrondi"],
             ["{{塗りのカラー}}", "Couleur de remplissage"],

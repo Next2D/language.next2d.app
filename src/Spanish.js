@@ -130,7 +130,7 @@ class Spanish extends Language
             ["{{選択ツール}}", "Herramientas de selección"],
             ["{{Shape変形ツール}}", "Herramienta de transformación de formas"],
             ["{{テキストツール}}", "Herramienta de texto"],
-            ["{{短形ツール}}", "Herramienta Rectángulo"],
+            ["{{矩形ツール}}", "Herramienta Rectángulo"],
             ["{{楕円ツール}}", "Herramienta Elipse"],
             ["{{角丸矩形ツール}}", "Herramienta Rectángulo Redondeado"],
             ["{{塗りのカラー}}", "Color de relleno"],

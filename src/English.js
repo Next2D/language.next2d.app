@@ -130,7 +130,7 @@ class English extends Language
             ["{{選択ツール}}", "Selection Tool"],
             ["{{Shape変形ツール}}", "Shape Transform Tool"],
             ["{{テキストツール}}", "Text Tool"],
-            ["{{短形ツール}}", "Rectangle Tool"],
+            ["{{矩形ツール}}", "Rectangle Tool"],
             ["{{楕円ツール}}", "Ellipse Tool"],
             ["{{角丸矩形ツール}}", "Rounded Rectangle Tool"],
             ["{{塗りのカラー}}", "Fill Color"],
