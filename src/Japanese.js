@@ -12,6 +12,7 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{カーブポインターの削除}}", "カーブポインターの削除"],
             ["{{ステージ基準}}", "ステージ基準"],
             ["{{閉じる}}", "閉じる"],
             ["{{保存}}", "保存"],
