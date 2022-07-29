@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループ回数}}", "Recuento de bucles"],
             ["{{カーブポインターの削除}}", "Borrar el puntero de la curva"],
             ["{{ステージ基準}}", "Criterios de la etapa"],
             ["{{閉じる}}", "Cerrar"],

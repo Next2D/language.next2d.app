@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループ回数}}", "Nombre de boucles"],
             ["{{カーブポインターの削除}}", "Supprimer le pointeur de courbe"],
             ["{{ステージ基準}}", "Critères d'étape"],
             ["{{閉じる}}", "Fermer"],

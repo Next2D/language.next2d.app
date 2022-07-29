@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ループ回数}}", "Conteggio dei cicli"],
             ["{{カーブポインターの削除}}", "Elimina il puntatore di curva"],
             ["{{ステージ基準}}", "Criteri di fase"],
             ["{{閉じる}}", "Chiudere"],
