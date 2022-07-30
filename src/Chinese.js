@@ -12,6 +12,8 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "转换为MovieClip"],
+            ["{{変換}}", "蜕变"],
             ["{{ループ回数}}", "循环次数"],
             ["{{カーブポインターの削除}}", "删除曲线指针"],
             ["{{ステージ基準}}", "阶段性标准"],

@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "Convert to MovieClip"],
+            ["{{変換}}", "Conversion"],
             ["{{ループ回数}}", "Loop Count"],
             ["{{カーブポインターの削除}}", "Delete curve pointer"],
             ["{{ステージ基準}}", "Stage Criteria"],

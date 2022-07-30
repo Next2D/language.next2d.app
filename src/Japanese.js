@@ -12,6 +12,8 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "MovieClipに変換"],
+            ["{{変換}}", "変換"],
             ["{{ループ回数}}", "ループ回数"],
             ["{{カーブポインターの削除}}", "カーブポインターの削除"],
             ["{{ステージ基準}}", "ステージ基準"],

@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "Convertir a MovieClip"],
+            ["{{変換}}", "transformación"],
             ["{{ループ回数}}", "Recuento de bucles"],
             ["{{カーブポインターの削除}}", "Borrar el puntero de la curva"],
             ["{{ステージ基準}}", "Criterios de la etapa"],

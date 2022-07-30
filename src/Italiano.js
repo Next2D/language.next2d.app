@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "Convertire in MovieClip"],
+            ["{{変換}}", "trasformazione"],
             ["{{ループ回数}}", "Conteggio dei cicli"],
             ["{{カーブポインターの削除}}", "Elimina il puntatore di curva"],
             ["{{ステージ基準}}", "Criteri di fase"],

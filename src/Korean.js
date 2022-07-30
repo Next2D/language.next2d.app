@@ -12,6 +12,8 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{MovieClipに変換}}", "MovieClip로 변환"],
+            ["{{変換}}", "변환"],
             ["{{ループ回数}}", "루프 횟수"],
             ["{{カーブポインターの削除}}", "곡선 테이블의"],
             ["{{ステージ基準}}", "스테이지 기준"],
