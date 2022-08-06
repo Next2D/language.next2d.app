@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "Coordonnée X du point central"],
+            ["{{中心点のY座標}}", "Coordonnée Y du point central"],
             ["{{MovieClipに変換}}", "Convertir en MovieClip"],
             ["{{変換}}", "transformation"],
             ["{{ループ回数}}", "Nombre de boucles"],

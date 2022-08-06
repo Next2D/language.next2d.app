@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "X coordinate of the center point"],
+            ["{{中心点のY座標}}", "Y coordinate of the center point"],
             ["{{MovieClipに変換}}", "Convert to MovieClip"],
             ["{{変換}}", "Conversion"],
             ["{{ループ回数}}", "Loop Count"],

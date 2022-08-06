@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "Coordenada X del punto central"],
+            ["{{中心点のY座標}}", "Coordenada Y del punto central"],
             ["{{MovieClipに変換}}", "Convertir a MovieClip"],
             ["{{変換}}", "transformación"],
             ["{{ループ回数}}", "Recuento de bucles"],

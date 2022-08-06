@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "Coordinata X del punto centrale"],
+            ["{{中心点のY座標}}", "Coordinata Y del punto centrale"],
             ["{{MovieClipに変換}}", "Convertire in MovieClip"],
             ["{{変換}}", "trasformazione"],
             ["{{ループ回数}}", "Conteggio dei cicli"],

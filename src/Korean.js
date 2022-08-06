@@ -12,6 +12,8 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "중심점의 X 좌표"],
+            ["{{中心点のY座標}}", "중심점의 Y 좌표"],
             ["{{MovieClipに変換}}", "MovieClip로 변환"],
             ["{{変換}}", "변환"],
             ["{{ループ回数}}", "루프 횟수"],

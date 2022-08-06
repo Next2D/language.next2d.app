@@ -12,6 +12,8 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "中心点のX座標"],
+            ["{{中心点のY座標}}", "中心点のY座標"],
             ["{{MovieClipに変換}}", "MovieClipに変換"],
             ["{{変換}}", "変換"],
             ["{{ループ回数}}", "ループ回数"],

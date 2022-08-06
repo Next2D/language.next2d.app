@@ -12,6 +12,8 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{中心点のX座標}}", "中心点的X坐标"],
+            ["{{中心点のY座標}}", "中心点的Y坐标"],
             ["{{MovieClipに変換}}", "转换为MovieClip"],
             ["{{変換}}", "蜕变"],
             ["{{ループ回数}}", "循环次数"],
