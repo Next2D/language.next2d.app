@@ -12,6 +12,15 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左上}}", "In alto a sinistra"],
+            ["{{中央上}}", "In alto al centro"],
+            ["{{右上}}", "In alto a destra"],
+            ["{{中央左}}", "Centro Sinistra"],
+            ["{{中央}}", "Centro"],
+            ["{{中央右}}", "Centro Destra"],
+            ["{{左下}}", "In basso a sinistra"],
+            ["{{中央下}}", "In basso al centro"],
+            ["{{右下}}", "In basso a destra"],
             ["{{中心点のX座標}}", "Coordinata X del punto centrale"],
             ["{{中心点のY座標}}", "Coordinata Y del punto centrale"],
             ["{{MovieClipに変換}}", "Convertire in MovieClip"],

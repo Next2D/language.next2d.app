@@ -12,6 +12,15 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左上}}", "Top Left"],
+            ["{{中央上}}", "Top Center"],
+            ["{{右上}}", "Top Right"],
+            ["{{中央左}}", "Center Left"],
+            ["{{中央}}", "Center"],
+            ["{{中央右}}", "Center Right"],
+            ["{{左下}}", "Bottom Left"],
+            ["{{中央下}}", "Bottom Center"],
+            ["{{右下}}", "Bottom Right"],
             ["{{中心点のX座標}}", "X coordinate of the center point"],
             ["{{中心点のY座標}}", "Y coordinate of the center point"],
             ["{{MovieClipに変換}}", "Convert to MovieClip"],

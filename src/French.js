@@ -12,6 +12,15 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{左上}}", "En haut à gauche"],
+            ["{{中央上}}", "Centre supérieur"],
+            ["{{右上}}", "Haut Droite"],
+            ["{{中央左}}", "Centre gauche"],
+            ["{{中央}}", "Centre"],
+            ["{{中央右}}", "Centre droit"],
+            ["{{左下}}", "Bas gauche"],
+            ["{{中央下}}", "Bas Centre"],
+            ["{{右下}}", "Bas droit"],
             ["{{中心点のX座標}}", "Coordonnée X du point central"],
             ["{{中心点のY座標}}", "Coordonnée Y du point central"],
             ["{{MovieClipに変換}}", "Convertir en MovieClip"],
