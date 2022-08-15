@@ -12,6 +12,13 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{終了フレームを指定}}", "Specify End Frame"],
+            ["{{開始フレームを指定}}", "Specify Start Frame"],
+            ["{{フレーム設定}}", "Frame Setting"],
+            ["{{書き出し設定}}", "Export Settings"],
+            ["{{ファイル形式の選択}}", "Select File Format"],
+            ["{{ファイル形式}}", "File Formats"],
+            ["{{サイズ設定}}", "Size Setting"],
             ["{{左上}}", "Top Left"],
             ["{{中央上}}", "Top Center"],
             ["{{右上}}", "Top Right"],

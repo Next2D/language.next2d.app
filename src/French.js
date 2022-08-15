@@ -12,6 +12,13 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{終了フレームを指定}}", "Spécifier le cadre de fin"],
+            ["{{開始フレームを指定}}", "Spécifier le cadre de départ"],
+            ["{{フレーム設定}}", "Réglage du cadre"],
+            ["{{書き出し設定}}", "Paramètres d'exportation"],
+            ["{{ファイル形式の選択}}", "Sélectionner le format du fichier"],
+            ["{{ファイル形式}}", "Formats de fichiers"],
+            ["{{サイズ設定}}", "Réglage de la taille"],
             ["{{左上}}", "En haut à gauche"],
             ["{{中央上}}", "Centre supérieur"],
             ["{{右上}}", "Haut Droite"],

@@ -12,6 +12,13 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{終了フレームを指定}}", "Especifique el marco final"],
+            ["{{開始フレームを指定}}", "Especifique el marco de inicio"],
+            ["{{フレーム設定}}", "Ajuste del marco"],
+            ["{{書き出し設定}}", "Configuración de la exportación"],
+            ["{{ファイル形式の選択}}", "Seleccione el formato de archivo"],
+            ["{{ファイル形式}}", "Formatos de archivo"],
+            ["{{サイズ設定}}", "Ajuste del tamaño"],
             ["{{左上}}", "Arriba a la izquierda"],
             ["{{中央上}}", "Centro superior"],
             ["{{右上}}", "Arriba Derecha"],

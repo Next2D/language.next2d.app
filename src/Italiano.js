@@ -12,6 +12,13 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{終了フレームを指定}}", "Specificare la cornice finale"],
+            ["{{開始フレームを指定}}", "Specificare il fotogramma iniziale"],
+            ["{{フレーム設定}}", "Impostazione del telaio"],
+            ["{{書き出し設定}}", "Impostazioni di esportazione"],
+            ["{{ファイル形式の選択}}", "Selezionare il formato del file"],
+            ["{{ファイル形式}}", "Formati dei file"],
+            ["{{サイズ設定}}", "Impostazione delle dimensioni"],
             ["{{左上}}", "In alto a sinistra"],
             ["{{中央上}}", "In alto al centro"],
             ["{{右上}}", "In alto a destra"],
