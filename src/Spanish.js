@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ファイル名を指定}}", "Especifique el nombre del archivo"],
+            ["{{ファイル名}}", "nombre del archivo"],
             ["{{終了フレームを指定}}", "Especifique el marco final"],
             ["{{開始フレームを指定}}", "Especifique el marco de inicio"],
             ["{{フレーム設定}}", "Ajuste del marco"],

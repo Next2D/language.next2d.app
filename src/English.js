@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ファイル名を指定}}", "Specify File Name"],
+            ["{{ファイル名}}", "File Name"],
             ["{{終了フレームを指定}}", "Specify End Frame"],
             ["{{開始フレームを指定}}", "Specify Start Frame"],
             ["{{フレーム設定}}", "Frame Setting"],

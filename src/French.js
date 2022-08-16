@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ファイル名を指定}}", "Spécifier le nom du fichier"],
+            ["{{ファイル名}}", "nom du fichier"],
             ["{{終了フレームを指定}}", "Spécifier le cadre de fin"],
             ["{{開始フレームを指定}}", "Spécifier le cadre de départ"],
             ["{{フレーム設定}}", "Réglage du cadre"],

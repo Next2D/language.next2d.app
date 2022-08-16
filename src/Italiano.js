@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ファイル名を指定}}", "Specificare il nome del file"],
+            ["{{ファイル名}}", "nome del file"],
             ["{{終了フレームを指定}}", "Specificare la cornice finale"],
             ["{{開始フレームを指定}}", "Specificare il fotogramma iniziale"],
             ["{{フレーム設定}}", "Impostazione del telaio"],
