@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{表示確認したいフレームを指定}}", "Specificare la cornice di cui si desidera controllare la visualizzazione"],
             ["{{ファイル名を指定}}", "Specificare il nome del file"],
             ["{{ファイル名}}", "nome del file"],
             ["{{終了フレームを指定}}", "Specificare la cornice finale"],

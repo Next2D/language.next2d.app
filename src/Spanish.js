@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{表示確認したいフレームを指定}}", "Especifique el marco del que desea comprobar la visualización"],
             ["{{ファイル名を指定}}", "Especifique el nombre del archivo"],
             ["{{ファイル名}}", "nombre del archivo"],
             ["{{終了フレームを指定}}", "Especifique el marco final"],

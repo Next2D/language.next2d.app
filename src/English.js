@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{表示確認したいフレームを指定}}", "Specify the frame you want to check the display"],
             ["{{ファイル名を指定}}", "Specify File Name"],
             ["{{ファイル名}}", "File Name"],
             ["{{終了フレームを指定}}", "Specify End Frame"],
