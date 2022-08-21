@@ -12,6 +12,11 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{上書きするか、ファイル名を変更して追加するか、スキップを選択する事ができます}}", "Vous pouvez choisir d'écraser, de renommer et d'ajouter des fichiers, ou de ne pas le faire"],
+            ["{{全て上書き}}", "Ecraser tout"],
+            ["{{全てスキップ}}", "Ignorer tout"],
+            ["{{追加・上書き}}", "Ajouter ou Écraser"],
+            ["{{スキップ}}", "Ignorer"],
             ["{{表示確認したいフレームを指定}}", "Specify the frame you want to check the display"],
             ["{{ファイル名を指定}}", "Spécifier le nom du fichier"],
             ["{{ファイル名}}", "nom du fichier"],

@@ -12,6 +12,11 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{上書きするか、ファイル名を変更して追加するか、スキップを選択する事ができます}}", "È possibile scegliere di sovrascrivere, rinominare e aggiungere i file, o di saltare"],
+            ["{{全て上書き}}", "Sovrascrivi tutto"],
+            ["{{全てスキップ}}", "Salta tutto"],
+            ["{{追加・上書き}}", "Aggiungi o sovrascrivi"],
+            ["{{スキップ}}", "Salta"],
             ["{{表示確認したいフレームを指定}}", "Specificare la cornice di cui si desidera controllare la visualizzazione"],
             ["{{ファイル名を指定}}", "Specificare il nome del file"],
             ["{{ファイル名}}", "nome del file"],

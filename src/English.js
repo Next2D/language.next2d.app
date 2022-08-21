@@ -12,6 +12,11 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{上書きするか、ファイル名を変更して追加するか、スキップを選択する事ができます}}", "You can choose to overwrite, rename and add files, or skip"],
+            ["{{全て上書き}}", "Overwrite All"],
+            ["{{全てスキップ}}", "Skip All"],
+            ["{{追加・上書き}}", "Add or Overwrite"],
+            ["{{スキップ}}", "Skip"],
             ["{{表示確認したいフレームを指定}}", "Specify the frame you want to check the display"],
             ["{{ファイル名を指定}}", "Specify File Name"],
             ["{{ファイル名}}", "File Name"],
