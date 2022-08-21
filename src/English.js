@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{追加ファイル}}", "Additional File"],
+            ["{{既存のコンテンツ}}", "Existing Content"],
             ["{{上書きするか、ファイル名を変更して追加するか、スキップを選択する事ができます}}", "You can choose to overwrite, rename and add files, or skip"],
             ["{{全て上書き}}", "Overwrite All"],
             ["{{全てスキップ}}", "Skip All"],
