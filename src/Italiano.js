@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{同名のアイテムが存在します}}", "Esistono voci con lo stesso nome"],
             ["{{追加ファイル}}", "File aggiuntivo"],
             ["{{既存のコンテンツ}}", "Contenuto esistente"],
             ["{{上書きするか、ファイル名を変更して追加するか、スキップを選択する事ができます}}", "È possibile scegliere di sovrascrivere, rinominare e aggiungere i file, o di saltare"],
