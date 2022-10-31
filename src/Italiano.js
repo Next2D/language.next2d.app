@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{未使用のフォルダを削除}}", "Eliminare le cartelle inutilizzate"],
             ["{{同名のアイテムが存在します}}", "Esistono voci con lo stesso nome"],
             ["{{追加ファイル}}", "File aggiuntivo"],
             ["{{既存のコンテンツ}}", "Contenuto esistente"],

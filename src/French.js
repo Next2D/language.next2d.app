@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{未使用のフォルダを削除}}", "Supprimez les dossiers inutilisés"],
             ["{{同名のアイテムが存在します}}", "Un ou plusieurs articles du même nom existent"],
             ["{{追加ファイル}}", "Fichier supplémentaire"],
             ["{{既存のコンテンツ}}", "Contenu existant"],
