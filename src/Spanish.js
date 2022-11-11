@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{レイヤーを複製}}", "Duplicar capa"],
             ["{{未使用のフォルダを削除}}", "Eliminar las carpetas no utilizadas"],
             ["{{同名のアイテムが存在します}}", "Existen artículos con el mismo nombre"],
             ["{{追加ファイル}}", "Archivo adicional"],
