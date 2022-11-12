@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ショートカット}}", "Shortcut"],
             ["{{レイヤーを複製}}", "Duplicate Layer"],
             ["{{未使用のフォルダを削除}}", "Delete unused folders"],
             ["{{同名のアイテムが存在します}}", "An item of the same name exists"],
