@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{定規}}", "Ruler"],
+            ["{{表示}}", "Display"],
             ["{{ショートカット}}", "Shortcut"],
             ["{{レイヤーを複製}}", "Duplicate Layer"],
             ["{{未使用のフォルダを削除}}", "Delete unused folders"],
@@ -140,12 +142,6 @@ class English extends Language
             ["{{設定}}", "Setting"],
             ["{{デフォルトのループを利用する}}", "Use the default loop"],
             ["{{フレームピッカー}}", "Frame Picker"],
-            ["{{ステージ左揃え}}", "Align Stage Left"],
-            ["{{ステージ中央揃え(水平方向)}}", "Align Stage Center (Horizontal)"],
-            ["{{ステージ右揃え}}", "Align Stage Right"],
-            ["{{ステージ上揃え}}", "Align Stage Top"],
-            ["{{ステージ中央揃え(垂直方向)}}", "Center Stage (Vertical)"],
-            ["{{ステージ下揃え}}", "Align Bottom of Stage"],
             ["{{左揃え}}", "Left"],
             ["{{中央揃え(水平方向)}}", "Center (Horizontal)"],
             ["{{右揃え}}", "Right"],

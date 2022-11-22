@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{定規}}", "Righello"],
+            ["{{表示}}", "Display"],
             ["{{ショートカット}}", "scorciatoia"],
             ["{{レイヤーを複製}}", "Duplicare il livello"],
             ["{{未使用のフォルダを削除}}", "Eliminare le cartelle inutilizzate"],
@@ -140,12 +142,6 @@ class Italiano extends Language
             ["{{設定}}", "setup"],
             ["{{デフォルトのループを利用する}}", "Utilizzare il ciclo predefinito"],
             ["{{フレームピッカー}}", "raccoglitore di cornici"],
-            ["{{ステージ左揃え}}", "Allineare il palco a sinistra"],
-            ["{{ステージ中央揃え(水平方向)}}", "Allineare il centro del palco (orizzontale)"],
-            ["{{ステージ右揃え}}", "Allineare il palco a destra"],
-            ["{{ステージ上揃え}}", "Allineare il palco in alto"],
-            ["{{ステージ中央揃え(垂直方向)}}", "Allineare il centro del palco (verticale)"],
-            ["{{ステージ下揃え}}", "Allineare il fondo del palco"],
             ["{{左揃え}}", "Sinistra"],
             ["{{中央揃え(水平方向)}}", "Centro (Orizzontalità)"],
             ["{{右揃え}}", "Destra"],

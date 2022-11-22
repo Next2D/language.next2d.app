@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{定規}}", "Règle"],
+            ["{{表示}}", "Afficher"],
             ["{{ショートカット}}", "Raccourci"],
             ["{{レイヤーを複製}}", "Dupliquer la couche"],
             ["{{未使用のフォルダを削除}}", "Supprimez les dossiers inutilisés"],
@@ -140,12 +142,6 @@ class French extends Language
             ["{{設定}}", "configuration"],
             ["{{デフォルトのループを利用する}}", "Utilisez la boucle par défaut"],
             ["{{フレームピッカー}}", "ramasseur de cadres"],
-            ["{{ステージ左揃え}}", "Aligner la scène à gauche"],
-            ["{{ステージ中央揃え(水平方向)}}", "Aligner le centre de la scène (horizontal)"],
-            ["{{ステージ右揃え}}", "Aligner la scène à droite"],
-            ["{{ステージ上揃え}}", "Aligner la scène vers le haut"],
-            ["{{ステージ中央揃え(垂直方向)}}", "Aligner le centre de la scène (vertical)"],
-            ["{{ステージ下揃え}}", "Aligner le fond de la scène"],
             ["{{左揃え}}", "Gauche"],
             ["{{中央揃え(水平方向)}}", "Centre(sens horizontal)"],
             ["{{右揃え}}", "Droit"],

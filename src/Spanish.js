@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{定規}}", "Regla"],
+            ["{{表示}}", "Mostrar"],
             ["{{ショートカット}}", "acceso directo"],
             ["{{レイヤーを複製}}", "Duplicar capa"],
             ["{{未使用のフォルダを削除}}", "Eliminar las carpetas no utilizadas"],
@@ -140,12 +142,6 @@ class Spanish extends Language
             ["{{設定}}", "configuración"],
             ["{{デフォルトのループを利用する}}", "Utiliza el bucle por defecto"],
             ["{{フレームピッカー}}", "Recogedor de marcos"],
-            ["{{ステージ左揃え}}", "Alinear el escenario a la izquierda"],
-            ["{{ステージ中央揃え(水平方向)}}", "Alinear el centro del escenario (horizontal)"],
-            ["{{ステージ右揃え}}", "Alinear el escenario a la derecha"],
-            ["{{ステージ上揃え}}", "Alinear el escenario hacia arriba"],
-            ["{{ステージ中央揃え(垂直方向)}}", "Alinear el centro del escenario (vertical)"],
-            ["{{ステージ下揃え}}", "Alinear el fondo del escenario"],
             ["{{左揃え}}", "Izquierda"],
             ["{{中央揃え(水平方向)}}", "Centro (Horizontal)"],
             ["{{右揃え}}", "Derecho"],
