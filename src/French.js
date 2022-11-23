@@ -12,6 +12,12 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ左揃え}}", "Aligner la scène à gauche"],
+            ["{{ステージ中央揃え(水平方向)}}", "Aligner le centre de la scène (horizontal)"],
+            ["{{ステージ右揃え}}", "Aligner la scène à droite"],
+            ["{{ステージ上揃え}}", "Aligner la scène vers le haut"],
+            ["{{ステージ中央揃え(垂直方向)}}", "Aligner le centre de la scène (vertical)"],
+            ["{{ステージ下揃え}}", "Aligner le fond de la scène"],
             ["{{定規}}", "Règle"],
             ["{{表示}}", "Afficher"],
             ["{{ショートカット}}", "Raccourci"],

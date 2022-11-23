@@ -12,6 +12,12 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ左揃え}}", "Alinear el escenario a la izquierda"],
+            ["{{ステージ中央揃え(水平方向)}}", "Alinear el centro del escenario (horizontal)"],
+            ["{{ステージ右揃え}}", "Alinear el escenario a la derecha"],
+            ["{{ステージ上揃え}}", "Alinear el escenario hacia arriba"],
+            ["{{ステージ中央揃え(垂直方向)}}", "Alinear el centro del escenario (vertical)"],
+            ["{{ステージ下揃え}}", "Alinear el fondo del escenario"],
             ["{{定規}}", "Regla"],
             ["{{表示}}", "Mostrar"],
             ["{{ショートカット}}", "acceso directo"],

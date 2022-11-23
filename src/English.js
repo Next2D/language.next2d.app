@@ -12,6 +12,12 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ左揃え}}", "Align Stage Left"],
+            ["{{ステージ中央揃え(水平方向)}}", "Align Stage Center (Horizontal)"],
+            ["{{ステージ右揃え}}", "Align Stage Right"],
+            ["{{ステージ上揃え}}", "Align Stage Top"],
+            ["{{ステージ中央揃え(垂直方向)}}", "Center Stage (Vertical)"],
+            ["{{ステージ下揃え}}", "Align Bottom of Stage"],
             ["{{定規}}", "Ruler"],
             ["{{表示}}", "Display"],
             ["{{ショートカット}}", "Shortcut"],

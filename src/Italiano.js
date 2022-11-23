@@ -12,6 +12,12 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ステージ左揃え}}", "Allineare il palco a sinistra"],
+            ["{{ステージ中央揃え(水平方向)}}", "Allineare il centro del palco (orizzontale)"],
+            ["{{ステージ右揃え}}", "Allineare il palco a destra"],
+            ["{{ステージ上揃え}}", "Allineare il palco in alto"],
+            ["{{ステージ中央揃え(垂直方向)}}", "Allineare il centro del palco (verticale)"],
+            ["{{ステージ下揃え}}", "Allineare il fondo del palco"],
             ["{{定規}}", "Righello"],
             ["{{表示}}", "Display"],
             ["{{ショートカット}}", "scorciatoia"],
