@@ -12,6 +12,7 @@ class Russia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{SWFを解析中}}", "Анализируемые SWF"],
             ["{{JSONを生成}}", "Сгенерировать JSON"],
             ["{{ファイルを生成}}", "Создать файл"],
             ["{{N2Dファイルの読み込み}}", "Загрузка файлов N2D"],

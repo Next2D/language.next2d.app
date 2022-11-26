@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{SWFを解析中}}", "SWF in analisi"],
             ["{{JSONを生成}}", "Generare JSON"],
             ["{{ファイルを生成}}", "Generare il file"],
             ["{{N2Dファイルの読み込み}}", "Caricamento dei file N2D"],

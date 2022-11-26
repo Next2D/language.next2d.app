@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{SWFを解析中}}", "SWF Being Parsed"],
             ["{{JSONを生成}}", "Generate JSON"],
             ["{{ファイルを生成}}", "Generate File"],
             ["{{N2Dファイルの読み込み}}", "Loading N2D File"],

@@ -12,6 +12,7 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{SWFを解析中}}", "SWF 분석 중"],
             ["{{JSONを生成}}", "JSON 생성"],
             ["{{ファイルを生成}}", "파일 생성"],
             ["{{N2Dファイルの読み込み}}", "N2D 파일 불러오기"],

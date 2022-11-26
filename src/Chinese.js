@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{SWFを解析中}}", "正在分析的SWF"],
             ["{{JSONを生成}}", "生成JSON"],
             ["{{ファイルを生成}}", "生成文件"],
             ["{{N2Dファイルの読み込み}}", "加载N2D文件"],
