@@ -12,6 +12,18 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{JSONを生成}}", "Generare JSON"],
+            ["{{ファイルを生成}}", "Generare il file"],
+            ["{{N2Dファイルの読み込み}}", "Caricamento dei file N2D"],
+            ["{{JSONの読み込み}}", "Caricamento di JSON"],
+            ["{{zlibの解凍}}", "Decomprimere zlib"],
+            ["{{エンコード}}", "Codifica"],
+            ["{{zlibの圧縮}}", "Comprimere zlib"],
+            ["{{外部ファイルの読み込み}}", "Lettura di file esterni"],
+            ["{{バイナリデータを生成}}", "Generazione di dati binari"],
+            ["{{データベースを起動}}", "Avvio del database"],
+            ["{{データを保存中}}", "Memorizzazione dei dati in corso"],
+            ["{{完了}}", "Completato"],
             ["{{ステージ左揃え}}", "Allineare il palco a sinistra"],
             ["{{ステージ中央揃え(水平方向)}}", "Allineare il centro del palco (orizzontale)"],
             ["{{ステージ右揃え}}", "Allineare il palco a destra"],

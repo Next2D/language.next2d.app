@@ -12,6 +12,18 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{JSONを生成}}", "Générer JSON"],
+            ["{{ファイルを生成}}", "Générer un fichier"],
+            ["{{N2Dファイルの読み込み}}", "Chargement des fichiers N2D"],
+            ["{{JSONの読み込み}}", "Chargement de JSON"],
+            ["{{zlibの解凍}}", "Décompression de zlib"],
+            ["{{エンコード}}", "Encodage"],
+            ["{{zlibの圧縮}}", "Compression de zlib"],
+            ["{{外部ファイルの読み込み}}", "Lecture de fichiers externes"],
+            ["{{バイナリデータを生成}}", "Génération de données binaires"],
+            ["{{データベースを起動}}", "Démarrage de la base de données"],
+            ["{{データを保存中}}", "Stockage des données en cours"],
+            ["{{完了}}", "Complété"],
             ["{{ステージ左揃え}}", "Aligner la scène à gauche"],
             ["{{ステージ中央揃え(水平方向)}}", "Aligner le centre de la scène (horizontal)"],
             ["{{ステージ右揃え}}", "Aligner la scène à droite"],
