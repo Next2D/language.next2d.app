@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{最初のフレームに移動}}", "Ir al primer cuadro"],
+            ["{{最後のフレームに移動}}", "Ir al último cuadro"],
             ["{{SWFを解析中}}", "SWF que se está analizando"],
             ["{{JSONを生成}}", "Generar JSON"],
             ["{{ファイルを生成}}", "Generar archivo"],

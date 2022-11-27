@@ -12,6 +12,8 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{最初のフレームに移動}}", "转到第一帧"],
+            ["{{最後のフレームに移動}}", "转到最后一帧"],
             ["{{SWFを解析中}}", "正在分析的SWF"],
             ["{{JSONを生成}}", "生成JSON"],
             ["{{ファイルを生成}}", "生成文件"],

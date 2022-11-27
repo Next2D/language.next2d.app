@@ -12,6 +12,8 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{最初のフレームに移動}}", "첫 번째 프레임으로 이동"],
+            ["{{最後のフレームに移動}}", "마지막 프레임으로 이동"],
             ["{{SWFを解析中}}", "SWF 분석 중"],
             ["{{JSONを生成}}", "JSON 생성"],
             ["{{ファイルを生成}}", "파일 생성"],

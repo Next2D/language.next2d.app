@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{最初のフレームに移動}}", "Vai al primo fotogramma"],
+            ["{{最後のフレームに移動}}", "Vai all'ultimo fotogramma"],
             ["{{SWFを解析中}}", "SWF in analisi"],
             ["{{JSONを生成}}", "Generare JSON"],
             ["{{ファイルを生成}}", "Generare il file"],

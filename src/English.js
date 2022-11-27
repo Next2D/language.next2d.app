@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{最初のフレームに移動}}", "Go to First Frame"],
+            ["{{最後のフレームに移動}}", "Go to Last Frame"],
             ["{{SWFを解析中}}", "SWF Being Parsed"],
             ["{{JSONを生成}}", "Generate JSON"],
             ["{{ファイルを生成}}", "Generate File"],
