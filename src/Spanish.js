@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに変換}}", "Convertir en fotogramas clave"],
+            ["{{空のキーフレームに変換}}", "Convertir en fotogramas clave vacíos"],
             ["{{最初のフレームに移動}}", "Ir al primer cuadro"],
             ["{{最後のフレームに移動}}", "Ir al último cuadro"],
             ["{{SWFを解析中}}", "SWF que se está analizando"],

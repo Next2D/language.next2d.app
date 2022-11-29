@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに変換}}", "Convert to keyframes"],
+            ["{{空のキーフレームに変換}}", "Convert to empty keyframes"],
             ["{{最初のフレームに移動}}", "Go to First Frame"],
             ["{{最後のフレームに移動}}", "Go to Last Frame"],
             ["{{SWFを解析中}}", "SWF Being Parsed"],

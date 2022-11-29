@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに変換}}", "Convertire in keyframe"],
+            ["{{空のキーフレームに変換}}", "Convertire in fotogrammi chiave vuoti"],
             ["{{最初のフレームに移動}}", "Vai al primo fotogramma"],
             ["{{最後のフレームに移動}}", "Vai all'ultimo fotogramma"],
             ["{{SWFを解析中}}", "SWF in analisi"],

@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{キーフレームに変換}}", "Convertir en image clé"],
+            ["{{空のキーフレームに変換}}", "Convertir en images clés vides"],
             ["{{最初のフレームに移動}}", "Aller au premier cadre"],
             ["{{最後のフレームに移動}}", "Aller à la dernière image"],
             ["{{SWFを解析中}}", "SWF en cours d'analyse"],
