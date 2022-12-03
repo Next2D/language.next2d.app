@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{自由変形ツール}}", "Free Transform Tool"],
             ["{{キーフレームに変換}}", "Convert to keyframes"],
             ["{{空のキーフレームに変換}}", "Convert to empty keyframes"],
             ["{{最初のフレームに移動}}", "Go to First Frame"],

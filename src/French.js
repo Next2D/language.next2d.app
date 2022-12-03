@@ -12,6 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{自由変形ツール}}", "Outil de transformation gratuit"],
             ["{{キーフレームに変換}}", "Convertir en image clé"],
             ["{{空のキーフレームに変換}}", "Convertir en images clés vides"],
             ["{{最初のフレームに移動}}", "Aller au premier cadre"],

@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{自由変形ツール}}", "Strumento di trasformazione gratuito"],
             ["{{キーフレームに変換}}", "Convertire in keyframe"],
             ["{{空のキーフレームに変換}}", "Convertire in fotogrammi chiave vuoti"],
             ["{{最初のフレームに移動}}", "Vai al primo fotogramma"],
