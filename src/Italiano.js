@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{名前が重複しています}}", "Nome duplicato"],
+            ["{{名前は必須です}}", "Il nome è obbligatorio"],
             ["{{基準点}}", "punto di riferimento"],
             ["{{自由変形ツール}}", "Strumento di trasformazione gratuito"],
             ["{{キーフレームに変換}}", "Convertire in keyframe"],

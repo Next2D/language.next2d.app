@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{名前が重複しています}}", "Nombre duplicado"],
+            ["{{名前は必須です}}", "El nombre es obligatorio"],
             ["{{基準点}}", "punto de referencia"],
             ["{{自由変形ツール}}", "Herramienta de transformación gratuita"],
             ["{{キーフレームに変換}}", "Convertir en fotogramas clave"],

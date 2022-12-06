@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{名前が重複しています}}", "Duplicate Name"],
+            ["{{名前は必須です}}", "Name is required"],
             ["{{基準点}}", "Reference Point"],
             ["{{自由変形ツール}}", "Free Transform Tool"],
             ["{{キーフレームに変換}}", "Convert to keyframes"],

@@ -12,7 +12,10 @@ class French extends Language
     createMapping ()
     {
         return new Map([
-            ["{{基準点}}", "point de référence"],
+            ["{{名前が重複しています}}", "Nom en double"],
+            ["{{名前は必須です}}", "Le nom est obligatoire"],
+            ["{{名前が重複しています}}", "Duplicate Name"],
+            ["{{名前は必須です}}", "Name is required"],
             ["{{自由変形ツール}}", "Outil de transformation gratuit"],
             ["{{キーフレームに変換}}", "Convertir en image clé"],
             ["{{空のキーフレームに変換}}", "Convertir en images clés vides"],
