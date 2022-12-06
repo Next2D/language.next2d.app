@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{基準点}}", "punto de referencia"],
             ["{{自由変形ツール}}", "Herramienta de transformación gratuita"],
             ["{{キーフレームに変換}}", "Convertir en fotogramas clave"],
             ["{{空のキーフレームに変換}}", "Convertir en fotogramas clave vacíos"],

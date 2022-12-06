@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{基準点}}", "参考点"],
             ["{{自由変形ツール}}", "免费转换工具"],
             ["{{キーフレームに変換}}", "转换为关键帧"],
             ["{{空のキーフレームに変換}}", "转换为空关键帧"],

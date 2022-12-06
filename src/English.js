@@ -12,6 +12,7 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{基準点}}", "Reference Point"],
             ["{{自由変形ツール}}", "Free Transform Tool"],
             ["{{キーフレームに変換}}", "Convert to keyframes"],
             ["{{空のキーフレームに変換}}", "Convert to empty keyframes"],

@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{基準点}}", "punto di riferimento"],
             ["{{自由変形ツール}}", "Strumento di trasformazione gratuito"],
             ["{{キーフレームに変換}}", "Convertire in keyframe"],
             ["{{空のキーフレームに変換}}", "Convertire in fotogrammi chiave vuoti"],
