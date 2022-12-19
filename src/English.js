@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ロックされたレイヤーです}}", "Locked layer"],
+            ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Multiple objects cannot be placed on a tween"],
             ["{{名前が重複しています}}", "Duplicate Name"],
             ["{{名前は必須です}}", "Name is required"],
             ["{{基準点}}", "Reference Point"],

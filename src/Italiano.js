@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ロックされたレイヤーです}}", "Strato bloccato"],
+            ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Non è possibile inserire più oggetti in un tween"],
             ["{{名前が重複しています}}", "Nome duplicato"],
             ["{{名前は必須です}}", "Il nome è obbligatorio"],
             ["{{基準点}}", "punto di riferimento"],

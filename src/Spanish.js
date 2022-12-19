@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{ロックされたレイヤーです}}", "Capa bloqueada"],
+            ["{{トゥイーンには複数のオブジェクトを設置できません}}", "No se pueden colocar varios objetos en una interpolación"],
             ["{{名前が重複しています}}", "Nombre duplicado"],
             ["{{名前は必須です}}", "El nombre es obligatorio"],
             ["{{基準点}}", "punto de referencia"],
