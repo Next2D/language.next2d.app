@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{シンボルを編集}}", "Editar símbolo"],
+            ["{{親の階層へ移動}}", "Mover a jerarquía padre"],
             ["{{ロックされたレイヤーです}}", "Capa bloqueada"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "No se pueden colocar varios objetos en una interpolación"],
             ["{{名前が重複しています}}", "Nombre duplicado"],

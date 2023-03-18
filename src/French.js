@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{シンボルを編集}}", "Modifier le symbole"],
+            ["{{親の階層へ移動}}", "Passer à la hiérarchie parentale"],
             ["{{ロックされたレイヤーです}}", "Couche verrouillée"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Il n'est pas possible de placer plusieurs objets sur un tween"],
             ["{{名前が重複しています}}", "Nom en double"],

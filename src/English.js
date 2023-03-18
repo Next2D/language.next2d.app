@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{シンボルを編集}}", "Edit Symbol"],
+            ["{{親の階層へ移動}}", "Move to parent hierarchy"],
             ["{{ロックされたレイヤーです}}", "Locked layer"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Multiple objects cannot be placed on a tween"],
             ["{{名前が重複しています}}", "Duplicate Name"],

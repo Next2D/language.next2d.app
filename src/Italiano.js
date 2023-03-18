@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{シンボルを編集}}", "Modifica del simbolo"],
+            ["{{親の階層へ移動}}", "Sposta nella gerarchia dei genitori"],
             ["{{ロックされたレイヤーです}}", "Strato bloccato"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Non è possibile inserire più oggetti in un tween"],
             ["{{名前が重複しています}}", "Nome duplicato"],
