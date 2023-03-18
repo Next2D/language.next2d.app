@@ -12,7 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
-            ["{{シンボルを編集}}", "编辑符号"],
+            ["{{MovieClipを編集}}", "编辑MovieClip"],
             ["{{親の階層へ移動}}", "移动到父级层次结构"],
             ["{{ロックされたレイヤーです}}", "锁定的层"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "多个对象不能放在一个Tween上"],

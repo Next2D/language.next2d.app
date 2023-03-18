@@ -12,7 +12,7 @@ class French extends Language
     createMapping ()
     {
         return new Map([
-            ["{{シンボルを編集}}", "Modifier le symbole"],
+            ["{{MovieClipを編集}}", "Modifier le MovieClip"],
             ["{{親の階層へ移動}}", "Passer à la hiérarchie parentale"],
             ["{{ロックされたレイヤーです}}", "Couche verrouillée"],
             ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Il n'est pas possible de placer plusieurs objets sur un tween"],
