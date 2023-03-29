@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "Calidad"],
+            ["{{座標}}", "Coordenadas"],
             ["{{MovieClipを編集}}", "Editar MovieClip"],
             ["{{親の階層へ移動}}", "Mover a jerarquía padre"],
             ["{{ロックされたレイヤーです}}", "Capa bloqueada"],

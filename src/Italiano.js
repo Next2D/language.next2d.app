@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "Qualità"],
+            ["{{座標}}", "Coordinate"],
             ["{{MovieClipを編集}}", "Modifica del MovieClip"],
             ["{{親の階層へ移動}}", "Sposta nella gerarchia dei genitori"],
             ["{{ロックされたレイヤーです}}", "Strato bloccato"],

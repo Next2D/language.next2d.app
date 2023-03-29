@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "Quality"],
+            ["{{座標}}", "Coordinates"],
             ["{{MovieClipを編集}}", "Edit MovieClip"],
             ["{{親の階層へ移動}}", "Move to parent hierarchy"],
             ["{{ロックされたレイヤーです}}", "Locked layer"],

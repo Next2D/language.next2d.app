@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "Qualité"],
+            ["{{座標}}", "Coordonnées"],
             ["{{MovieClipを編集}}", "Modifier le MovieClip"],
             ["{{親の階層へ移動}}", "Passer à la hiérarchie parentale"],
             ["{{ロックされたレイヤーです}}", "Couche verrouillée"],

@@ -12,6 +12,8 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "影像质量"],
+            ["{{座標}}", "坐标"],
             ["{{MovieClipを編集}}", "编辑MovieClip"],
             ["{{親の階層へ移動}}", "移动到父级层次结构"],
             ["{{ロックされたレイヤーです}}", "锁定的层"],

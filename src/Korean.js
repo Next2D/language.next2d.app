@@ -12,6 +12,8 @@ class Korean extends Language
     createMapping ()
     {
         return new Map([
+            ["{{画質}}", "화질"],
+            ["{{座標}}", "좌표"],
             ["{{MovieClipを編集}}", "MovieClip 편집하기"],
             ["{{親の階層へ移動}}", "부모 계층으로 이동"],
             ["{{ロックされたレイヤーです}}", "잠긴 레이어입니다"],
