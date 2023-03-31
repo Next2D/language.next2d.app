@@ -12,6 +12,7 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{書き出し先の選択}}", "Posizione di esportazione"],
             ["{{画質}}", "Qualità"],
             ["{{座標}}", "Coordinate"],
             ["{{MovieClipを編集}}", "Modifica del MovieClip"],

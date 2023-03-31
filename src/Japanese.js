@@ -12,6 +12,7 @@ class Japanese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{書き出し先の選択}}", "書き出し先の選択"],
             ["{{画質}}", "画質"],
             ["{{座標}}", "座標"],
             ["{{MovieClipを編集}}", "MovieClipを編集"],

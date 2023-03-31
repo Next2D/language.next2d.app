@@ -12,6 +12,7 @@ class Russia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{書き出し先の選択}}", "Место экспорта"],
             ["{{画質}}", "Качество"],
             ["{{座標}}", "Координаты"],
             ["{{MovieClipを編集}}", "Редактирование видеоклипа"],

@@ -12,6 +12,7 @@ class Chinese extends Language
     createMapping ()
     {
         return new Map([
+            ["{{書き出し先の選択}}", "出口地点"],
             ["{{画質}}", "影像质量"],
             ["{{座標}}", "坐标"],
             ["{{MovieClipを編集}}", "编辑MovieClip"],

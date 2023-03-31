@@ -12,6 +12,7 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{書き出し先の選択}}", "Lugar de exportación"],
             ["{{画質}}", "Calidad"],
             ["{{座標}}", "Coordenadas"],
             ["{{MovieClipを編集}}", "Editar MovieClip"],
