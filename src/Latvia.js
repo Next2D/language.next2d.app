@@ -159,7 +159,7 @@ class Latvia extends Language
             ["{{ひとつ前面へ}}", "Viens uz priekšu."],
             ["{{最前面}}", "galvenais"],
             ["{{重ね順}}", "superpozīcijas (kārtība)"],
-            ["{{プラグイン}}", "spraudnis (programmatūra)"],
+            ["{{プラグイン}}", "spraudnis"],
             ["{{ライブラリ}}", "bibliotēka"],
             ["{{プロパティ}}", "īpašums"],
             ["{{マスクレイヤー}}", "maskas slānis"],

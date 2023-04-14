@@ -159,7 +159,7 @@ class Indonesia extends Language
             ["{{ひとつ前面へ}}", "Satu ke depan."],
             ["{{最前面}}", "terpenting"],
             ["{{重ね順}}", "(urutan) superposisi"],
-            ["{{プラグイン}}", "plug-in (perangkat lunak)"],
+            ["{{プラグイン}}", "plug-in"],
             ["{{ライブラリ}}", "perpustakaan"],
             ["{{プロパティ}}", "properti"],
             ["{{マスクレイヤー}}", "lapisan topeng"],

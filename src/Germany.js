@@ -159,7 +159,7 @@ class Germany extends Language
             ["{{ひとつ前面へ}}", "Einer nach vorne."],
             ["{{最前面}}", "in erster Linie"],
             ["{{重ね順}}", "(Ordnung der) Überlagerung"],
-            ["{{プラグイン}}", "Plug-in (Software)"],
+            ["{{プラグイン}}", "Plug-in"],
             ["{{ライブラリ}}", "Bibliothek"],
             ["{{プロパティ}}", "Eigenschaft"],
             ["{{マスクレイヤー}}", "Maskenschicht"],

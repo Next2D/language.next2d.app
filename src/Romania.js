@@ -159,7 +159,7 @@ class Romania extends Language
             ["{{ひとつ前面へ}}", "Unul în față."],
             ["{{最前面}}", "cel mai important"],
             ["{{重ね順}}", "(ordin de) suprapunere"],
-            ["{{プラグイン}}", "plug-in (software)"],
+            ["{{プラグイン}}", "plug-in"],
             ["{{ライブラリ}}", "bibliotecă"],
             ["{{プロパティ}}", "proprietate"],
             ["{{マスクレイヤー}}", "strat de mască"],

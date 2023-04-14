@@ -159,7 +159,7 @@ class Slovakia extends Language
             ["{{ひとつ前面へ}}", "Jeden dopredu."],
             ["{{最前面}}", "Predný"],
             ["{{重ね順}}", "(poradie) superpozície"],
-            ["{{プラグイン}}", "zásuvný modul (softvér)"],
+            ["{{プラグイン}}", "zásuvný modul"],
             ["{{ライブラリ}}", "knižnica"],
             ["{{プロパティ}}", "majetok"],
             ["{{マスクレイヤー}}", "vrstva masky"],

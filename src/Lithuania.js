@@ -159,7 +159,7 @@ class Lithuania extends Language
             ["{{ひとつ前面へ}}", "Vienas į priekį."],
             ["{{最前面}}", "svarbiausias"],
             ["{{重ね順}}", "(superpozicijos) tvarka"],
-            ["{{プラグイン}}", "papildinys (programinė įranga)"],
+            ["{{プラグイン}}", "papildinys"],
             ["{{ライブラリ}}", "biblioteka"],
             ["{{プロパティ}}", "nuosavybė"],
             ["{{マスクレイヤー}}", "kaukės sluoksnis"],

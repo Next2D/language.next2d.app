@@ -159,7 +159,7 @@ class Poland extends Language
             ["{{ひとつ前面へ}}", "Jeden do przodu."],
             ["{{最前面}}", "przede wszystkim"],
             ["{{重ね順}}", "(rząd) superpozycji"],
-            ["{{プラグイン}}", "wtyczka (oprogramowanie)"],
+            ["{{プラグイン}}", "wtyczka"],
             ["{{ライブラリ}}", "biblioteka"],
             ["{{プロパティ}}", "nieruchomość"],
             ["{{マスクレイヤー}}", "warstwa maski"],

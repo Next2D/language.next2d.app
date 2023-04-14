@@ -159,7 +159,7 @@ class Turkey extends Language
             ["{{ひとつ前面へ}}", "Biri öne."],
             ["{{最前面}}", "en başta"],
             ["{{重ね順}}", "(mertebesi) süperpozisyon"],
-            ["{{プラグイン}}", "eklenti (yazılım)"],
+            ["{{プラグイン}}", "eklenti"],
             ["{{ライブラリ}}", "kütüphane"],
             ["{{プロパティ}}", "mülkiyet"],
             ["{{マスクレイヤー}}", "maske katmanı"],

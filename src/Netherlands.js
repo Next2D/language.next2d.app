@@ -159,7 +159,7 @@ class Netherlands extends Language
             ["{{ひとつ前面へ}}", "Eén naar voren."],
             ["{{最前面}}", "voorname"],
             ["{{重ね順}}", "(orde van) superpositie"],
-            ["{{プラグイン}}", "plug-in (software)"],
+            ["{{プラグイン}}", "plug-in"],
             ["{{ライブラリ}}", "bibliotheek"],
             ["{{プロパティ}}", "eigendom"],
             ["{{マスクレイヤー}}", "maskerlaag"],

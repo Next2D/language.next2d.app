@@ -159,7 +159,7 @@ class Hungary extends Language
             ["{{ひとつ前面へ}}", "Egyet előre."],
             ["{{最前面}}", "legfontosabb"],
             ["{{重ね順}}", "szuperpozíció (rendje)"],
-            ["{{プラグイン}}", "plug-in (szoftver)"],
+            ["{{プラグイン}}", "plug-in"],
             ["{{ライブラリ}}", "könyvtár"],
             ["{{プロパティ}}", "ingatlan"],
             ["{{マスクレイヤー}}", "maszk réteg"],
