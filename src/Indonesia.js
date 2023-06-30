@@ -12,6 +12,15 @@ class Indonesia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Salin semua naskah"],
+            ["{{スクリプトをコピー}}", "Salin naskah"],
+            ["{{スクリプトをペースト}}", "Menempelkan skrip"],
+            ["{{全てのラベルをコピー}}", "Menyalin semua label"],
+            ["{{ラベルをコピー}}", "Menyalin label"],
+            ["{{ラベルをペースト}}", "Menempel label"],
+            ["{{全てのサウンドをコピー}}", "Menyalin semua suara"],
+            ["{{サウンドをコピー}}", "Menyalin suara"],
+            ["{{サウンドをペースト}}", "Menempelkan suara"],
             ["{{書き出し先の選択}}", "Memilih tujuan ekspor"],
             ["{{画質}}", "kualitas gambar"],
             ["{{座標}}", "mengkoordinasikan"],

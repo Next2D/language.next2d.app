@@ -12,6 +12,15 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Copier tous les scripts"],
+            ["{{スクリプトをコピー}}", "Copier le script"],
+            ["{{スクリプトをペースト}}", "Coller le script"],
+            ["{{全てのラベルをコピー}}", "Copier toutes les étiquettes"],
+            ["{{ラベルをコピー}}", "Copier les étiquettes"],
+            ["{{ラベルをペースト}}", "Coller les étiquettes"],
+            ["{{全てのサウンドをコピー}}", "Copier tous les sons"],
+            ["{{サウンドをコピー}}", "Copier le sond"],
+            ["{{サウンドをペースト}}", "Coller le son"],
             ["{{書き出し先の選択}}", "Lieu d'exportation"],
             ["{{画質}}", "Qualité"],
             ["{{座標}}", "Coordonnées"],

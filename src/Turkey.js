@@ -12,6 +12,15 @@ class Turkey extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Tüm komut dosyalarını kopyalayın"],
+            ["{{スクリプトをコピー}}", "Senaryoyu kopyala"],
+            ["{{スクリプトをペースト}}", "Komut dosyası yapıştır"],
+            ["{{全てのラベルをコピー}}", "Tüm etiketleri kopyala"],
+            ["{{ラベルをコピー}}", "Etiketleri kopyala"],
+            ["{{ラベルをペースト}}", "Etiketleri yapıştırın"],
+            ["{{全てのサウンドをコピー}}", "Tüm sesleri kopyala"],
+            ["{{サウンドをコピー}}", "Ses kopyalama"],
+            ["{{サウンドをペースト}}", "Ses yapıştır"],
             ["{{書き出し先の選択}}", "Dışa aktarma hedefinin seçilmesi"],
             ["{{画質}}", "görüntü kalitesi"],
             ["{{座標}}", "Koordinat"],

@@ -12,6 +12,15 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Copiar todos los scripts"],
+            ["{{スクリプトをコピー}}", "Copiar script"],
+            ["{{スクリプトをペースト}}", "Pegar script"],
+            ["{{全てのラベルをコピー}}", "Copiar todas las etiquetas"],
+            ["{{ラベルをコピー}}", "Copiar etiquetas"],
+            ["{{ラベルをペースト}}", "Pegar etiquetas"],
+            ["{{全てのサウンドをコピー}}", "Copiar todos los sonidos"],
+            ["{{サウンドをコピー}}", "Copiar sonido"],
+            ["{{サウンドをペースト}}", "Pegar sonido"],
             ["{{書き出し先の選択}}", "Lugar de exportación"],
             ["{{画質}}", "Calidad"],
             ["{{座標}}", "Coordenadas"],

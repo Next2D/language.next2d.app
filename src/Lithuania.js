@@ -12,6 +12,15 @@ class Lithuania extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Nukopijuokite visus scenarijus"],
+            ["{{スクリプトをコピー}}", "Kopijuoti scenarijų"],
+            ["{{スクリプトをペースト}}", "Įklijuoti scenarijų"],
+            ["{{全てのラベルをコピー}}", "Kopijuoti visas etiketes"],
+            ["{{ラベルをコピー}}", "Kopijuoti etiketes"],
+            ["{{ラベルをペースト}}", "Įklijuoti etiketes"],
+            ["{{全てのサウンドをコピー}}", "Kopijuoti visus garsus"],
+            ["{{サウンドをコピー}}", "Kopijuoti garsą"],
+            ["{{サウンドをペースト}}", "Įklijuoti garsą"],
             ["{{書き出し先の選択}}", "Eksporto paskirties vietos pasirinkimas"],
             ["{{画質}}", "vaizdo kokybė"],
             ["{{座標}}", "koordinatės"],

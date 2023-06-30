@@ -12,6 +12,15 @@ class Netherlands extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Alle scripts kopiëren"],
+            ["{{スクリプトをコピー}}", "Kopieer script"],
+            ["{{スクリプトをペースト}}", "Script plakken"],
+            ["{{全てのラベルをコピー}}", "Alle labels kopiëren"],
+            ["{{ラベルをコピー}}", "Etiketten kopiëren"],
+            ["{{ラベルをペースト}}", "Etiketten plakken"],
+            ["{{全てのサウンドをコピー}}", "Alle geluiden kopiëren"],
+            ["{{サウンドをコピー}}", "Geluid kopiëren"],
+            ["{{サウンドをペースト}}", "Geluid plakken"],
             ["{{書き出し先の選択}}", "De uitvoerbestemming selecteren"],
             ["{{画質}}", "beeldkwaliteit"],
             ["{{座標}}", "coördinaat"],

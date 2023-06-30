@@ -12,6 +12,15 @@ class Latvia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Kopēt visus skriptus"],
+            ["{{スクリプトをコピー}}", "Kopēt skriptu"],
+            ["{{スクリプトをペースト}}", "Ielīmēt skriptu"],
+            ["{{全てのラベルをコピー}}", "Kopēt visas etiķetes"],
+            ["{{ラベルをコピー}}", "Kopēt etiķetes"],
+            ["{{ラベルをペースト}}", "Ielīmēt etiķetes"],
+            ["{{全てのサウンドをコピー}}", "Kopēt visas skaņas"],
+            ["{{サウンドをコピー}}", "Kopēt skaņu"],
+            ["{{サウンドをペースト}}", "Ielīmēt skaņu"],
             ["{{書き出し先の選択}}", "Eksporta galamērķa izvēle"],
             ["{{画質}}", "attēla kvalitāte"],
             ["{{座標}}", "koordinātes"],

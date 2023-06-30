@@ -12,6 +12,15 @@ class Hungary extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Minden szkript másolása"],
+            ["{{スクリプトをコピー}}", "Szkript másolása"],
+            ["{{スクリプトをペースト}}", "Szkript beillesztése"],
+            ["{{全てのラベルをコピー}}", "Minden címke másolása"],
+            ["{{ラベルをコピー}}", "Címkék másolása"],
+            ["{{ラベルをペースト}}", "Címkék beillesztése"],
+            ["{{全てのサウンドをコピー}}", "Minden hang másolása"],
+            ["{{サウンドをコピー}}", "Hang másolása"],
+            ["{{サウンドをペースト}}", "Hang beillesztése"],
             ["{{書き出し先の選択}}", "Az exportálási célállomás kiválasztása"],
             ["{{画質}}", "képminőség"],
             ["{{座標}}", "koordináta"],

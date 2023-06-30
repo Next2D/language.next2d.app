@@ -12,6 +12,15 @@ class Slovakia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Skopírujte všetky skripty"],
+            ["{{スクリプトをコピー}}", "Kopírovať skript"],
+            ["{{スクリプトをペースト}}", "Vložiť skript"],
+            ["{{全てのラベルをコピー}}", "Skopírovať všetky štítky"],
+            ["{{ラベルをコピー}}", "Kopírovať štítky"],
+            ["{{ラベルをペースト}}", "Vložiť štítky"],
+            ["{{全てのサウンドをコピー}}", "Kopírovať všetky zvuky"],
+            ["{{サウンドをコピー}}", "Kopírovať zvuk"],
+            ["{{サウンドをペースト}}", "Vložiť zvuk"],
             ["{{書き出し先の選択}}", "Výber cieľa exportu"],
             ["{{画質}}", "kvalita obrazu"],
             ["{{座標}}", "súradnice"],

@@ -12,6 +12,15 @@ class Poland extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Kopiowanie wszystkich skryptów"],
+            ["{{スクリプトをコピー}}", "Kopiowanie skryptu"],
+            ["{{スクリプトをペースト}}", "Wklejanie skryptu"],
+            ["{{全てのラベルをコピー}}", "Kopiowanie wszystkich etykiet"],
+            ["{{ラベルをコピー}}", "Kopiowanie etykiet"],
+            ["{{ラベルをペースト}}", "Wklejanie etykiet"],
+            ["{{全てのサウンドをコピー}}", "Kopiowanie wszystkich dźwięków"],
+            ["{{サウンドをコピー}}", "Kopiuj dźwięk"],
+            ["{{サウンドをペースト}}", "Wklej dźwięk"],
             ["{{書き出し先の選択}}", "Wybór miejsca przeznaczenia eksportu"],
             ["{{画質}}", "jakość obrazu"],
             ["{{座標}}", "współrzędna"],

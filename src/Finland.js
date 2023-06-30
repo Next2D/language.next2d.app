@@ -12,6 +12,15 @@ class Finland extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Kopioi kaikki skriptit"],
+            ["{{スクリプトをコピー}}", "Kopioi käsikirjoitus"],
+            ["{{スクリプトをペースト}}", "Liitä käsikirjoitus"],
+            ["{{全てのラベルをコピー}}", "Kopioi kaikki tarrat"],
+            ["{{ラベルをコピー}}", "Kopioi tarrat"],
+            ["{{ラベルをペースト}}", "Liitä tarrat"],
+            ["{{全てのサウンドをコピー}}", "Kopioi kaikki äänet"],
+            ["{{サウンドをコピー}}", "Kopioi ääni"],
+            ["{{サウンドをペースト}}", "Liitä ääni"],
             ["{{書き出し先の選択}}", "Vientikohteen valitseminen"],
             ["{{画質}}", "kuvanlaatu"],
             ["{{座標}}", "koordinaatti"],

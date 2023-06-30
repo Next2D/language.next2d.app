@@ -12,6 +12,15 @@ class Germany extends Language
     createMapping ()
     {
         return new Map([
+            ["{{全てのスクリプトをコピー}}", "Alle Skripte kopieren"],
+            ["{{スクリプトをコピー}}", "Skript kopieren"],
+            ["{{スクリプトをペースト}}", "Skript einfügen"],
+            ["{{全てのラベルをコピー}}", "Alle Beschriftungen kopieren"],
+            ["{{ラベルをコピー}}", "Beschriftungen kopieren"],
+            ["{{ラベルをペースト}}", "Beschriftungen einfügen"],
+            ["{{全てのサウンドをコピー}}", "Alle Töne kopieren"],
+            ["{{サウンドをコピー}}", "Ton kopieren"],
+            ["{{サウンドをペースト}}", "Ton einfügen"],
             ["{{書き出し先の選択}}", "Auswählen des Exportziels"],
             ["{{画質}}", "Bildqualität"],
             ["{{座標}}", "koordinieren"],
