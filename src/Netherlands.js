@@ -12,6 +12,8 @@ class Netherlands extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Ga naar volgende keyframe"],
+            ["{{前のキーフレームに移動}}", "Ga naar vorige keyframe"],
             ["{{全てのスクリプトをコピー}}", "Alle scripts kopiëren"],
             ["{{スクリプトをコピー}}", "Kopieer script"],
             ["{{スクリプトをペースト}}", "Script plakken"],

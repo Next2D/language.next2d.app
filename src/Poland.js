@@ -12,6 +12,8 @@ class Poland extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Przejście do następnej klatki kluczowej"],
+            ["{{前のキーフレームに移動}}", "Przejdź do poprzedniej klatki kluczowej"],
             ["{{全てのスクリプトをコピー}}", "Kopiowanie wszystkich skryptów"],
             ["{{スクリプトをコピー}}", "Kopiowanie skryptu"],
             ["{{スクリプトをペースト}}", "Wklejanie skryptu"],

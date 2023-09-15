@@ -12,6 +12,8 @@ class Hungary extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Következő kulcskockára lépés"],
+            ["{{前のキーフレームに移動}}", "Előző kulcskockára lép"],
             ["{{全てのスクリプトをコピー}}", "Minden szkript másolása"],
             ["{{スクリプトをコピー}}", "Szkript másolása"],
             ["{{スクリプトをペースト}}", "Szkript beillesztése"],

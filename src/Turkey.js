@@ -12,6 +12,8 @@ class Turkey extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Sonraki anahtar kareye git"],
+            ["{{前のキーフレームに移動}}", "Önceki anahtar kareye git"],
             ["{{全てのスクリプトをコピー}}", "Tüm komut dosyalarını kopyalayın"],
             ["{{スクリプトをコピー}}", "Senaryoyu kopyala"],
             ["{{スクリプトをペースト}}", "Komut dosyası yapıştır"],

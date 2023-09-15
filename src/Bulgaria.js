@@ -12,6 +12,8 @@ class Bulgaria extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Ir para o próximo quadro-chave"],
+            ["{{前のキーフレームに移動}}", "Ir para o quadro-chave anterior"],
             ["{{全てのスクリプトをコピー}}", "Копиране на всички скриптове"],
             ["{{スクリプトをコピー}}", "Копиране на скрипт"],
             ["{{スクリプトをペースト}}", "Поставяне на скрипт"],

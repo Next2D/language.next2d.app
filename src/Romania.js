@@ -12,6 +12,8 @@ class Romania extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Treci la următorul cadru cheie"],
+            ["{{前のキーフレームに移動}}", "Mergi la cadrul cheie anterior"],
             ["{{全てのスクリプトをコピー}}", "Copiați toate scripturile"],
             ["{{スクリプトをコピー}}", "Copiere script"],
             ["{{スクリプトをペースト}}", "Lipiți scriptul"],

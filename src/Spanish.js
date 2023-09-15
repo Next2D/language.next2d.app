@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Ir al fotograma clave siguiente"],
+            ["{{前のキーフレームに移動}}", "Ir al fotograma clave anterior"],
             ["{{全てのスクリプトをコピー}}", "Copiar todos los scripts"],
             ["{{スクリプトをコピー}}", "Copiar script"],
             ["{{スクリプトをペースト}}", "Pegar script"],

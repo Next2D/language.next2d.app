@@ -12,6 +12,8 @@ class Germany extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Zum nächsten Keyframe gehen"],
+            ["{{前のキーフレームに移動}}", "Zum vorherigen Keyframe gehen"],
             ["{{全てのスクリプトをコピー}}", "Alle Skripte kopieren"],
             ["{{スクリプトをコピー}}", "Skript kopieren"],
             ["{{スクリプトをペースト}}", "Skript einfügen"],

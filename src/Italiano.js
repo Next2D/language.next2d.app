@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Vai al fotogramma successivo"],
+            ["{{前のキーフレームに移動}}", "Vai al keyframe precedente"],
             ["{{全てのスクリプトをコピー}}", "Copiare tutti gli script"],
             ["{{スクリプトをコピー}}", "Copia lo script"],
             ["{{スクリプトをペースト}}", "Incolla lo script"],

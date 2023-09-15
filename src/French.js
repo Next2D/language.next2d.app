@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Aller à l'image clé suivante"],
+            ["{{前のキーフレームに移動}}", "Aller à l'image clé précédente"],
             ["{{全てのスクリプトをコピー}}", "Copier tous les scripts"],
             ["{{スクリプトをコピー}}", "Copier le script"],
             ["{{スクリプトをペースト}}", "Coller le script"],

@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Next Key Frame"],
+            ["{{前のキーフレームに移動}}", "Prev Key Frame"],
             ["{{全てのスクリプトをコピー}}", "Copy All Scripts"],
             ["{{スクリプトをコピー}}", "Copy Script"],
             ["{{スクリプトをペースト}}", "Paste Script"],

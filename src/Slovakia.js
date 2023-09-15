@@ -12,6 +12,8 @@ class Slovakia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{次のキーフレームに移動}}", "Prechod na ďalší kľúčový snímok"],
+            ["{{前のキーフレームに移動}}", "Prejsť na predchádzajúci kľúčový snímok"],
             ["{{全てのスクリプトをコピー}}", "Skopírujte všetky skripty"],
             ["{{スクリプトをコピー}}", "Kopírovať skript"],
             ["{{スクリプトをペースト}}", "Vložiť skript"],
