@@ -12,6 +12,8 @@ class English extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Align coordinates with previous keyframe"],
+            ["{{前のキーフレームと変形を合わせる}}", "Match deformation with previous keyframe"],
             ["{{次のキーフレームに移動}}", "Next Key Frame"],
             ["{{前のキーフレームに移動}}", "Prev Key Frame"],
             ["{{全てのスクリプトをコピー}}", "Copy All Scripts"],

@@ -12,6 +12,8 @@ class Germany extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Koordinaten am vorherigen Keyframe ausrichten"],
+            ["{{前のキーフレームと変形を合わせる}}", "Deformation an vorherigem Keyframe ausrichten"],
             ["{{次のキーフレームに移動}}", "Zum nächsten Keyframe gehen"],
             ["{{前のキーフレームに移動}}", "Zum vorherigen Keyframe gehen"],
             ["{{全てのスクリプトをコピー}}", "Alle Skripte kopieren"],

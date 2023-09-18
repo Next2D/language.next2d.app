@@ -12,6 +12,8 @@ class Latvia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Saskaņot koordinātas ar iepriekšējo atslēgkadru"],
+            ["{{前のキーフレームと変形を合わせる}}", "Izlīdzināt deformāciju ar iepriekšējo atslēgkadru"],
             ["{{次のキーフレームに移動}}", "Pāreja uz nākamo atslēgas kadru"],
             ["{{前のキーフレームに移動}}", "Pāreja uz iepriekšējo atslēgas kadru"],
             ["{{全てのスクリプトをコピー}}", "Kopēt visus skriptus"],

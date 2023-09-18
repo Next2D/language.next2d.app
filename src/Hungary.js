@@ -12,6 +12,8 @@ class Hungary extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Koordináták igazítása az előző kulcskockához"],
+            ["{{前のキーフレームと変形を合わせる}}", "Deformáció igazítása az előző kulcskockához"],
             ["{{次のキーフレームに移動}}", "Következő kulcskockára lépés"],
             ["{{前のキーフレームに移動}}", "Előző kulcskockára lép"],
             ["{{全てのスクリプトをコピー}}", "Minden szkript másolása"],

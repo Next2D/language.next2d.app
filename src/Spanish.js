@@ -12,6 +12,8 @@ class Spanish extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Alinear coordenadas con fotograma clave anterior"],
+            ["{{前のキーフレームと変形を合わせる}}", "Alinear deformación con fotograma clave anterior"],
             ["{{次のキーフレームに移動}}", "Ir al fotograma clave siguiente"],
             ["{{前のキーフレームに移動}}", "Ir al fotograma clave anterior"],
             ["{{全てのスクリプトをコピー}}", "Copiar todos los scripts"],

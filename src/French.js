@@ -12,6 +12,8 @@ class French extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Aligner les coordonnées sur l'image clé précédente"],
+            ["{{前のキーフレームと変形を合わせる}}", "Aligner la déformation sur l'image clé précédente"],
             ["{{次のキーフレームに移動}}", "Aller à l'image clé suivante"],
             ["{{前のキーフレームに移動}}", "Aller à l'image clé précédente"],
             ["{{全てのスクリプトをコピー}}", "Copier tous les scripts"],

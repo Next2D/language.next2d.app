@@ -12,6 +12,8 @@ class Lithuania extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Suderinti koordinates su ankstesniu raktiniu kadru"],
+            ["{{前のキーフレームと変形を合わせる}}", "Sulygiuoti deformaciją su ankstesniu raktiniu kadru"],
             ["{{次のキーフレームに移動}}", "Pereiti prie kito raktinio kadro"],
             ["{{前のキーフレームに移動}}", "Pereiti į ankstesnį raktinį kadrą"],
             ["{{全てのスクリプトをコピー}}", "Nukopijuokite visus scenarijus"],

@@ -12,6 +12,8 @@ class Italiano extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Allineare le coordinate al keyframe precedente"],
+            ["{{前のキーフレームと変形を合わせる}}", "Allinea la deformazione al keyframe precedente"],
             ["{{次のキーフレームに移動}}", "Vai al fotogramma successivo"],
             ["{{前のキーフレームに移動}}", "Vai al keyframe precedente"],
             ["{{全てのスクリプトをコピー}}", "Copiare tutti gli script"],

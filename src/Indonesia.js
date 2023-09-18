@@ -12,6 +12,8 @@ class Indonesia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Sejajarkan koordinat dengan keyframe sebelumnya"],
+            ["{{前のキーフレームと変形を合わせる}}", "Menyelaraskan deformasi dengan keyframe sebelumnya"],
             ["{{次のキーフレームに移動}}", "Pergi ke keyframe berikutnya"],
             ["{{前のキーフレームに移動}}", "Pergi ke keyframe sebelumnya"],
             ["{{全てのスクリプトをコピー}}", "Salin semua naskah"],

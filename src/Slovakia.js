@@ -12,6 +12,8 @@ class Slovakia extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Zarovnanie súradníc s predchádzajúcim kľúčovým snímkom"],
+            ["{{前のキーフレームと変形を合わせる}}", "Zarovnanie deformácie s predchádzajúcim kľúčovým snímkom"],
             ["{{次のキーフレームに移動}}", "Prechod na ďalší kľúčový snímok"],
             ["{{前のキーフレームに移動}}", "Prejsť na predchádzajúci kľúčový snímok"],
             ["{{全てのスクリプトをコピー}}", "Skopírujte všetky skripty"],

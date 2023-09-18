@@ -12,6 +12,8 @@ class Finland extends Language
     createMapping ()
     {
         return new Map([
+            ["{{前のキーフレームと座標を合わせる}}", "Kohdista koordinaatit edelliseen avainkuvaan"],
+            ["{{前のキーフレームと変形を合わせる}}", "Kohdista muodonmuutos edellisen avainkehyksen kanssa"],
             ["{{次のキーフレームに移動}}", "Siirry seuraavaan avainkuvaan"],
             ["{{前のキーフレームに移動}}", "Siirry edelliseen avainkuvaan"],
             ["{{全てのスクリプトをコピー}}", "Kopioi kaikki skriptit"],
