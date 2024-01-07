@@ -1,4 +1,6 @@
 [
+    ["{{スクリプトを削除}}", "Borrar script"],
+    ["{{スクリプトを変更}}", "Modificar script"],
     ["{{前のキーフレームと座標を合わせる}}", "Alinear coordenadas con fotograma clave anterior"],
     ["{{前のキーフレームと変形を合わせる}}", "Alinear deformación con fotograma clave anterior"],
     ["{{次のキーフレームに移動}}", "Ir al fotograma clave siguiente"],

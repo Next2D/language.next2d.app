@@ -1,4 +1,6 @@
 [
+    ["{{スクリプトを削除}}", "Poista käsikirjoitus"],
+    ["{{スクリプトを変更}}", "Vaihda komentosarjaa"],
     ["{{前のキーフレームと座標を合わせる}}", "Kohdista koordinaatit edelliseen avainkuvaan"],
     ["{{前のキーフレームと変形を合わせる}}", "Kohdista muodonmuutos edellisen avainkehyksen kanssa"],
     ["{{次のキーフレームに移動}}", "Siirry seuraavaan avainkuvaan"],

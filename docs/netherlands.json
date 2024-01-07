@@ -1,4 +1,6 @@
 [
+    ["{{スクリプトを削除}}", "Script verwijderen"],
+    ["{{スクリプトを変更}}", "Script wijzigen"],
     ["{{前のキーフレームと座標を合わせる}}", "Lijn coördinaten uit met vorig keyframe"],
     ["{{前のキーフレームと変形を合わせる}}", "Vervorming uitlijnen met vorig keyframe"],
     ["{{次のキーフレームに移動}}", "Ga naar volgende keyframe"],

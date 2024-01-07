@@ -1,4 +1,6 @@
 [
+    ["{{スクリプトを削除}}", "Ștergeți scriptul"],
+    ["{{スクリプトを変更}}", "Modificarea scriptului"],
     ["{{前のキーフレームと座標を合わせる}}", "Alinierea coordonatelor cu cadrul cheie anterior"],
     ["{{前のキーフレームと変形を合わせる}}", "Aliniați deformarea cu cadrul cheie anterior"],
     ["{{次のキーフレームに移動}}", "Treci la următorul cadru cheie"],

@@ -1,4 +1,6 @@
 [
+    ["{{スクリプトを削除}}", "Dzēst skriptu"],
+    ["{{スクリプトを変更}}", "Mainīt skriptu"],
     ["{{前のキーフレームと座標を合わせる}}", "Saskaņot koordinātas ar iepriekšējo atslēgkadru"],
     ["{{前のキーフレームと変形を合わせる}}", "Izlīdzināt deformāciju ar iepriekšējo atslēgkadru"],
     ["{{次のキーフレームに移動}}", "Pāreja uz nākamo atslēgas kadru"],
