@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Scherm delen"],
+    ["{{画面共有の機能を起動}}", "Activeer de functie voor het delen van schermen"],
     ["{{スクリプトを削除}}", "Script verwijderen"],
     ["{{スクリプトを変更}}", "Script wijzigen"],
     ["{{前のキーフレームと座標を合わせる}}", "Lijn coördinaten uit met vorig keyframe"],

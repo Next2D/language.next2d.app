@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Udostępnianie ekranu"],
+    ["{{画面共有の機能を起動}}", "Aktywuj funkcję udostępniania ekranu"],
     ["{{スクリプトを削除}}", "Usuwanie skryptu"],
     ["{{スクリプトを変更}}", "Zmiana skryptu"],
     ["{{前のキーフレームと座標を合わせる}}", "Wyrównaj współrzędne z poprzednią klatką kluczową"],

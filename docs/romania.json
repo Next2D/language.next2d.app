@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Partajarea ecranului"],
+    ["{{画面共有の機能を起動}}", "Activați funcția de partajare a ecranului"],
     ["{{スクリプトを削除}}", "Ștergeți scriptul"],
     ["{{スクリプトを変更}}", "Modificarea scriptului"],
     ["{{前のキーフレームと座標を合わせる}}", "Alinierea coordonatelor cu cadrul cheie anterior"],

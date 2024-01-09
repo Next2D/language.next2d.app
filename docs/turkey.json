@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Ekran paylaşımı"],
+    ["{{画面共有の機能を起動}}", "Ekran paylaşımı işlevini etkinleştirin"],
     ["{{スクリプトを削除}}", "Komut dosyasını sil"],
     ["{{スクリプトを変更}}", "Senaryoyu değiştir"],
     ["{{前のキーフレームと座標を合わせる}}", "Koordinatları önceki ana kareyle hizala"],

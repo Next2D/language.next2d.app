@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Képernyőmegosztás"],
+    ["{{画面共有の機能を起動}}", "Aktiválja a képernyőmegosztás funkciót"],
     ["{{スクリプトを削除}}", "Szkript törlése"],
     ["{{スクリプトを変更}}", "Szkript módosítása"],
     ["{{前のキーフレームと座標を合わせる}}", "Koordináták igazítása az előző kulcskockához"],

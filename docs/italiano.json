@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Condivisione dello schermo"],
+    ["{{画面共有の機能を起動}}", "Attivare la funzione di condivisione dello schermo"],
     ["{{スクリプトを削除}}", "Cancellare lo script"],
     ["{{スクリプトを変更}}", "Modificare lo script"],
     ["{{前のキーフレームと座標を合わせる}}", "Allineare le coordinate al keyframe precedente"],

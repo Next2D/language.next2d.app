@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Berbagi layar"],
+    ["{{画面共有の機能を起動}}", "Mengaktifkan fungsi berbagi layar"],
     ["{{スクリプトを削除}}", "Menghapus skrip"],
     ["{{スクリプトを変更}}", "Mengubah skrip"],
     ["{{前のキーフレームと座標を合わせる}}", "Sejajarkan koordinat dengan keyframe sebelumnya"],

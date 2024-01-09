@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Näytön jakaminen"],
+    ["{{画面共有の機能を起動}}", "Aktivoi näytönjakotoiminto"],
     ["{{スクリプトを削除}}", "Poista käsikirjoitus"],
     ["{{スクリプトを変更}}", "Vaihda komentosarjaa"],
     ["{{前のキーフレームと座標を合わせる}}", "Kohdista koordinaatit edelliseen avainkuvaan"],

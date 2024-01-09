@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Ekrāna koplietošana"],
+    ["{{画面共有の機能を起動}}", "Aktivizējiet ekrāna koplietošanas funkciju"],
     ["{{スクリプトを削除}}", "Dzēst skriptu"],
     ["{{スクリプトを変更}}", "Mainīt skriptu"],
     ["{{前のキーフレームと座標を合わせる}}", "Saskaņot koordinātas ar iepriekšējo atslēgkadru"],

@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Zdieľanie obrazovky"],
+    ["{{画面共有の機能を起動}}", "Aktivujte funkciu zdieľania obrazovky"],
     ["{{スクリプトを削除}}", "Odstrániť skript"],
     ["{{スクリプトを変更}}", "Zmeniť skript"],
     ["{{前のキーフレームと座標を合わせる}}", "Zarovnanie súradníc s predchádzajúcim kľúčovým snímkom"],

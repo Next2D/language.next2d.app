@@ -1,4 +1,6 @@
 [
+    ["{{画面共有}}", "Dalijimasis ekranu"],
+    ["{{画面共有の機能を起動}}", "Įjunkite ekrano bendrinimo funkciją"],
     ["{{スクリプトを削除}}", "Ištrinti scenarijų"],
     ["{{スクリプトを変更}}", "Pakeisti scenarijų"],
     ["{{前のキーフレームと座標を合わせる}}", "Suderinti koordinates su ankstesniu raktiniu kadru"],
