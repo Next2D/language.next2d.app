@@ -1,4 +1,7 @@
 [
+    ["{{広告枠の非表示}}", "Reklam çerçevelerinin gizlenmesi"],
+    ["{{作業履歴}}", "İş geçmişi"],
+    ["{{エリア位置の移動}}", "Alan konumunu taşıma"],
     ["{{動画広告を視聴することで、30日間の機能制限が解除される特典が得られます。}}", "Video reklamları izleyerek 30 günlük sınırsız işlevsellikten yararlanabilirsiniz."],
     ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animasyon Aracı açık kaynak kodludur ve ücretsiz olarak kullanılabilir."],
     ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Video reklamı izleyerek yeni sürümün geliştirilmesinde bize destek olacağınızı umuyoruz."],

@@ -1,4 +1,7 @@
 [
+    ["{{広告枠の非表示}}", "Ocultación de marcos publicitarios"],
+    ["{{作業履歴}}", "Historial laboral"],
+    ["{{エリア位置の移動}}", "Desplazamiento de la posición de área"],
     ["{{動画広告を視聴することで、30日間の機能制限が解除される特典が得られます。}}", "Al ver los anuncios de vídeo, puede beneficiarse de 30 días de funcionalidad ilimitada."],
     ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "La Herramienta de Animación es de código abierto y está disponible gratuitamente."],
     ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Esperamos que nos apoye en el desarrollo de la nueva versión viendo el anuncio de vídeo."],
