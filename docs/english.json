@@ -1,7 +1,7 @@
 [
-    ["{{サポーターアプリで動画広告を視聴すると、機能制限が30日間解除される特典があります。}}", "By watching the video ads, you will receive the privilege of having the functionality restrictions removed for 30 days."],
+    ["{{動画広告を視聴することで、30日間の機能制限が解除される特典が得られます。}}", "By watching the video ads, you will receive the privilege of having the functionality restrictions removed for 30 days."],
     ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animation Tool is open source and available free of charge."],
-    ["{{より良い機能や新しいバージョンの開発にご支援いただけると幸いです。}}", "We would appreciate your support by watching the video ad to help us develop a new version."],
+    ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "We would appreciate your support by watching the video ad to help us develop a new version."],
     ["{{機能制限を解除}}", "Remove Functional Restrictions"],
     ["{{サポーターアプリをインストール}}", "Install Supporter App"],
     ["{{画面共有}}", "Screen Sharing"],
