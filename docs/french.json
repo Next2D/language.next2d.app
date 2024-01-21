@@ -1,7 +1,7 @@
 [
     ["{{プロジェクト名を変更}}", "Modifier le nom du projet"],
     ["{{広告枠の非表示}}", "Masquage des cadres publicitaires"],
-    ["{{作業履歴}}", "Historique des travaux"],
+    ["{{履歴}}", "l'histoire"],
     ["{{エリア位置の移動}}", "Déplacement de la position de la zone"],
     ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "En regardant les publicités vidéo, vous pouvez bénéficier de 7 jours de fonctionnalités illimitées."],
     ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "L'outil d'animation est open source et disponible gratuitement."],

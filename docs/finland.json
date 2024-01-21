@@ -1,7 +1,7 @@
 [
     ["{{プロジェクト名を変更}}", "Muuta projektin nimeä"],
     ["{{広告枠の非表示}}", "Mainoskehysten piilottaminen"],
-    ["{{作業履歴}}", "Työhistoria"],
+    ["{{履歴}}", "historia"],
     ["{{エリア位置の移動}}", "Alueen aseman siirtäminen"],
     ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "Katsomalla videomainoksia voit hyötyä 7 päivän rajoittamattomasta toiminnallisuudesta."],
     ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animation Tool on avoimen lähdekoodin työkalu, joka on saatavilla ilmaiseksi."],
