@@ -1,4 +1,5 @@
 [
+    ["{{インスタンス名を変更}}", "Vaihda instanssin nimi"],
     ["{{レイヤー名を変更}}", "Vaihda tason nimi"],
     ["{{プロジェクト名を変更}}", "Muuta projektin nimeä"],
     ["{{広告枠の非表示}}", "Mainoskehysten piilottaminen"],
