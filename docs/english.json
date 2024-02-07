@@ -1,4 +1,5 @@
 [
+    ["{{同名のシンボルが存在します}}", "Symbol of the same name exists"],
     ["{{インスタンス名を変更}}", "Change Instance Name"],
     ["{{レイヤー名を変更}}", "Rename Layer"],
     ["{{プロジェクト名を変更}}", "Change Project Name"],

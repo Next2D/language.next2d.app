@@ -1,4 +1,5 @@
 [
+    ["{{同名のシンボルが存在します}}", "Es gibt Symbole mit demselben Namen"],
     ["{{インスタンス名を変更}}", "Name der Instanz ändern"],
     ["{{レイヤー名を変更}}", "Name der Ebene ändern"],
     ["{{プロジェクト名を変更}}", "Projektname ändern"],
