@@ -1,4 +1,5 @@
 [
+    ["{{画像の取り込み}}", "Acquisizione dell'immagine"],
     ["{{同名のシンボルが存在します}}", "Esistono simboli con lo stesso nome"],
     ["{{インスタンス名を変更}}", "Cambiare il nome dell'istanza"],
     ["{{レイヤー名を変更}}", "Cambia il nome del livello"],
