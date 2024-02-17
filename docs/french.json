@@ -1,4 +1,5 @@
 [
+    ["{{アイテムのフォルダ移動}}", "Déplacer des éléments dans des dossiers"],
     ["{{画像の取り込み}}", "Capture d'image"],
     ["{{同名のシンボルが存在します}}", "Il existe des symboles du même nom"],
     ["{{インスタンス名を変更}}", "Modifier le nom de l'instance"],
