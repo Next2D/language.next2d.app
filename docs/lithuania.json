@@ -1,4 +1,5 @@
 [
+    ["{{プロジェクト名「%s」を「%s」に変更}}", "Projekto pavadinimas \"%s\" pakeistas į \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Ištrinkite sluoksnį '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Į sluoksnius pridėkite '%s'"],
     ["{{アイテムのフォルダ移動}}", "Elementų perkėlimas į aplankus"],

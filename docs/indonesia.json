@@ -1,4 +1,5 @@
 [
+    ["{{プロジェクト名「%s」を「%s」に変更}}", "Nama proyek '%s' berubah menjadi '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Menghapus lapisan '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Tambahkan '%s' ke layer"],
     ["{{アイテムのフォルダ移動}}", "Memindahkan item ke dalam folder"],

@@ -1,4 +1,5 @@
 [
+    ["{{プロジェクト名「%s」を「%s」に変更}}", "Názov projektu '%s' zmenený na '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Odstrániť vrstvu '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Pridať '%s' do vrstiev"],
     ["{{アイテムのフォルダ移動}}", "Presúvanie položiek do priečinkov"],
