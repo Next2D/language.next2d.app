@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーの「%s」を削除}}", "Usuń warstwę '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Dodaj '%s' do warstw"],
     ["{{アイテムのフォルダ移動}}", "Przenoszenie elementów do folderów"],
     ["{{画像の取り込み}}", "Przechwytywanie obrazu"],
