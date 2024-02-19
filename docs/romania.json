@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Adăugați \"%\" la straturi"],
     ["{{アイテムのフォルダ移動}}", "Mutarea elementelor în dosare"],
     ["{{画像の取り込み}}", "Captură de imagine"],
     ["{{同名のシンボルが存在します}}", "Există simboluri cu același nume"],

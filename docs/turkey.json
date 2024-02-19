@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Katmanlara '%s' ekleyin"],
     ["{{アイテムのフォルダ移動}}", "Öğeleri klasörlere taşıma"],
     ["{{画像の取り込み}}", "Görüntü yakalama"],
     ["{{同名のシンボルが存在します}}", "Aynı isimde semboller mevcuttur"],

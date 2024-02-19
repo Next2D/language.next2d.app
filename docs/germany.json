@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Füge '%s' zu den Ebenen hinzu"],
     ["{{アイテムのフォルダ移動}}", "Verschieben von Elementen in Ordnern"],
     ["{{画像の取り込み}}", "Bildaufnahme"],
     ["{{同名のシンボルが存在します}}", "Es gibt Symbole mit demselben Namen"],

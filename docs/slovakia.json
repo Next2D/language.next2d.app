@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Pridať '%s' do vrstiev"],
     ["{{アイテムのフォルダ移動}}", "Presúvanie položiek do priečinkov"],
     ["{{画像の取り込み}}", "Snímanie obrazu"],
     ["{{同名のシンボルが存在します}}", "Existujú symboly s rovnakým názvom"],

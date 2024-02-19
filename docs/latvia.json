@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Pievienot '%s' slāņiem"],
     ["{{アイテムのフォルダ移動}}", "Vienumu pārvietošana mapēs"],
     ["{{画像の取り込み}}", "Attēlu uzņemšana"],
     ["{{同名のシンボルが存在します}}", "Pastāv tāda paša nosaukuma simboli"],

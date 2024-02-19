@@ -1,4 +1,5 @@
 [
+    ["{{レイヤーに「%s」を追加}}", "Voeg '%s' toe aan lagen"],
     ["{{アイテムのフォルダ移動}}", "Items naar mappen verplaatsen"],
     ["{{画像の取り込み}}", "Afbeelding vastleggen"],
     ["{{同名のシンボルが存在します}}", "Er bestaan symbolen met dezelfde naam"],
