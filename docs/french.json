@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "Déplacement des dossiers de \"%s\""],
     ["{{画像「%s」を取り込み}}", "Importation de l'image \"%s\""],
-    ["{{シンボル名「%s」を「%s」変更}}", "Le nom du symbole \"%s\" a été remplacé par \"%s\""],
+    ["{{シンボル名を「%s」に変更}}", "Le nom du symbole a été changé en \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Le nom de l'instance \"%s\" a été remplacé par \"%s\""],
     ["{{レイヤー名「%s」を「%s」変更}}", "Le nom du calque \"%s\" a été remplacé par \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "%s images du script supprimées"],

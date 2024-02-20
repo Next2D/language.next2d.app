@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "Memindahkan folder \"%s\""],
     ["{{画像「%s」を取り込み}}", "Mengimpor gambar \"%s\""],
-    ["{{シンボル名「%s」を「%s」変更}}", "Nama simbol '%s' diubah menjadi '%s'"],
+    ["{{シンボル名を「%s」に変更}}", "Nama simbol diubah menjadi '%s'"],
     ["{{インスタンス名「%s」を「%s」変更}}", "Nama instance '%s' berubah menjadi '%s'"],
     ["{{レイヤー名「%s」を「%s」変更}}", "Nama layer '%s' diubah menjadi '%s'"],
     ["{{%sフレームのスクリプトを削除}}", "%s bingkai skrip dihapus"],

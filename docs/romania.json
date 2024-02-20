@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "Mutarea folderelor \"%s\""],
     ["{{画像「%s」を取り込み}}", "Importarea imaginii \"%s\""],
-    ["{{シンボル名「%s」を「%s」変更}}", "Numele simbolului \"%s\" a fost schimbat în \"%s\""],
+    ["{{シンボル名を「%s」に変更}}", "Numele simbolului a fost schimbat în \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Numele instanței \"%s\" a fost schimbat în \"%s\""],
     ["{{レイヤー名「%s」を「%s」変更}}", "Numele stratului \"%s\" a fost schimbat în \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "%s cadre de scenariu eliminate"],

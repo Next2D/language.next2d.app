@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "\"%s\" aplankų perkėlimas"],
     ["{{画像「%s」を取り込み}}", "Importuojamas vaizdas \"%s\""],
-    ["{{シンボル名「%s」を「%s」変更}}", "Simbolio pavadinimas '%s' pakeistas į '%s'"],
+    ["{{シンボル名を「%s」に変更}}", "Simbolio pavadinimas pakeistas į \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instancijos pavadinimas \"%s\" pakeistas į \"%s\""],
     ["{{レイヤー名「%s」を「%s」変更}}", "Sluoksnio pavadinimas '%s' pakeistas į '%s'"],
     ["{{%sフレームのスクリプトを削除}}", "Pašalinti %s scenarijaus kadrai"],

@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "\"%s\" klasörlerini taşıma"],
     ["{{画像「%s」を取り込み}}", "\"%s\" görüntüsü içe aktarılıyor"],
-    ["{{シンボル名「%s」を「%s」変更}}", "Sembol adı '%s', '%s' olarak değiştirildi"],
+    ["{{シンボル名を「%s」に変更}}", "Sembol adı '%s' olarak değiştirildi"],
     ["{{インスタンス名「%s」を「%s」変更}}", "Örnek adı '%s', '%s' olarak değiştirildi"],
     ["{{レイヤー名「%s」を「%s」変更}}", "Katman adı '%s', '%s' olarak değiştirildi"],
     ["{{%sフレームのスクリプトを削除}}", "Senaryonun %s karesi kaldırıldı"],

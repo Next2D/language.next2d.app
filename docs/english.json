@@ -1,7 +1,7 @@
 [
     ["{{「%s」のフォルダ移動}}", "Move \"%s\" folder"],
     ["{{画像「%s」を取り込み}}", "Import image \"%s\""],
-    ["{{シンボル名「%s」を「%s」変更}}", "Symbol name \"%s\" changed to \"%s\""],
+    ["{{シンボル名を「%s」に変更}}", "Symbol name changed to \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instance name \"%s\" changed to \"%s\""],
     ["{{レイヤー名「%s」を「%s」変更}}", "Layer name \"%s\" changed to \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "Delete %s frame of script"],
