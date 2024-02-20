@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Pridanie skriptu do rámca %s"],
+    ["{{「%s」のフォルダ移動}}", "Presun priečinkov \"%s\""],
+    ["{{画像「%s」を取り込み}}", "Importovanie obrázka \"%s\""],
+    ["{{シンボル名「%s」を「%s」変更}}", "Názov symbolu '%s' zmenený na '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Názov inštancie '%s' zmenený na '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Názov vrstvy '%s' zmenený na '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "Odstránené %s snímky scenára"],
+    ["{{%sフレームのスクリプトを変更}}", "Zmena skriptu na %s snímky"],
+    ["{{%sフレームにスクリプトを追加}}", "Skript pridaný do %s snímok"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Názov projektu '%s' zmenený na '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Odstrániť vrstvu '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Pridať '%s' do vrstiev"],

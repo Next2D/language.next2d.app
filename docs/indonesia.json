@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Skrip ditambahkan ke %s frame"],
+    ["{{「%s」のフォルダ移動}}", "Memindahkan folder \"%s\""],
+    ["{{画像「%s」を取り込み}}", "Mengimpor gambar \"%s\""],
+    ["{{シンボル名「%s」を「%s」変更}}", "Nama simbol '%s' diubah menjadi '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Nama instance '%s' berubah menjadi '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Nama layer '%s' diubah menjadi '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "%s bingkai skrip dihapus"],
+    ["{{%sフレームのスクリプトを変更}}", "Mengubah skrip menjadi %s frame"],
+    ["{{%sフレームにスクリプトを追加}}", "Naskah ditambahkan ke %s bingkai"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Nama proyek '%s' berubah menjadi '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Menghapus lapisan '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Tambahkan '%s' ke layer"],

@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "%s kerethez hozzáadott szkriptek"],
+    ["{{「%s」のフォルダ移動}}", "\"%s\" mappák mozgatása"],
+    ["{{画像「%s」を取り込み}}", "\"%s\" kép importálása"],
+    ["{{シンボル名「%s」を「%s」変更}}", "A '%s' szimbólum neve '%s'-re változott"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "A '%s' példány neve '%s'-re változott"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "A '%s' réteg neve '%s'-re változott"],
+    ["{{%sフレームのスクリプトを削除}}", "%s képkocka a forgatókönyvből eltávolítva"],
+    ["{{%sフレームのスクリプトを変更}}", "A szkript módosítása %s képkockára"],
+    ["{{%sフレームにスクリプトを追加}}", "Szkript hozzáadása %s képkockához"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "A '%s' projektnév '%s'-re változott"],
     ["{{レイヤーの「%s」を削除}}", "A '%s' réteg törlése"],
     ["{{レイヤーに「%s」を追加}}", "'%s' hozzáadása a rétegekhez"],

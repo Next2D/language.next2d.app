@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Añadir script al marco %s"],
+    ["{{「%s」のフォルダ移動}}", "Mover carpetas de \"%s\""],
+    ["{{画像「%s」を取り込み}}", "Importando imagen \"%s\""],
+    ["{{シンボル名「%s」を「%s」変更}}", "Nombre de símbolo '%s' cambiado a '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Nombre de instancia '%s' cambiado a '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Nombre de capa '%s' cambiado a '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "%s fotogramas de guión eliminados"],
+    ["{{%sフレームのスクリプトを変更}}", "Cambiar guión a %s cuadros"],
+    ["{{%sフレームにスクリプトを追加}}", "Guión añadido a %s fotogramas"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "El nombre del proyecto '%s' ha cambiado a '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Eliminar capa '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Añadir '%s' a las capas"],

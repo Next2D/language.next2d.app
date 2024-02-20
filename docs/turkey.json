@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "%s çerçevesine komut dosyası ekle"],
+    ["{{「%s」のフォルダ移動}}", "\"%s\" klasörlerini taşıma"],
+    ["{{画像「%s」を取り込み}}", "\"%s\" görüntüsü içe aktarılıyor"],
+    ["{{シンボル名「%s」を「%s」変更}}", "Sembol adı '%s', '%s' olarak değiştirildi"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Örnek adı '%s', '%s' olarak değiştirildi"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Katman adı '%s', '%s' olarak değiştirildi"],
+    ["{{%sフレームのスクリプトを削除}}", "Senaryonun %s karesi kaldırıldı"],
+    ["{{%sフレームのスクリプトを変更}}", "Senaryoyu %s kareye değiştirin"],
+    ["{{%sフレームにスクリプトを追加}}", "Komut dosyası %s kareye eklendi"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Proje adı '%s', '%s' olarak değiştirildi"],
     ["{{レイヤーの「%s」を削除}}", "'%s' katmanını silin"],
     ["{{レイヤーに「%s」を追加}}", "Katmanlara '%s' ekleyin"],

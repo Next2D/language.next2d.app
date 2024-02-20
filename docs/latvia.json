@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Skripta pievienošana rāmī %s"],
+    ["{{「%s」のフォルダ移動}}", "Pārvietot mapes \"%s\""],
+    ["{{画像「%s」を取り込み}}", "Attēla \"%s\" importēšana"],
+    ["{{シンボル名「%s」を「%s」変更}}", "Simbola nosaukums '%s' mainīts uz '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Attaisnes nosaukums '%s' mainīts uz '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Slāņa nosaukums '%s' mainīts uz '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "Noņemti %s skripta kadri"],
+    ["{{%sフレームのスクリプトを変更}}", "Mainīt skriptu uz %s kadriem"],
+    ["{{%sフレームにスクリプトを追加}}", "Skripts pievienots %s kadriem"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projekta nosaukums '%s' mainīts uz '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Dzēst slāni '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Pievienot '%s' slāņiem"],

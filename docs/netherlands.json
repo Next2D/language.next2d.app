@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Script toevoegen aan %s frame"],
+    ["{{「%s」のフォルダ移動}}", "Mappen van \"%s\" verplaatsen"],
+    ["{{画像「%s」を取り込み}}", "Afbeelding \"%s\" importeren"],
+    ["{{シンボル名「%s」を「%s」変更}}", "Symboolnaam '%s' gewijzigd in '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Instantienaam '%s' gewijzigd in '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Laagnaam '%s' gewijzigd in '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "%s frames van het script verwijderd"],
+    ["{{%sフレームのスクリプトを変更}}", "Script wijzigen naar %s frames"],
+    ["{{%sフレームにスクリプトを追加}}", "Script toegevoegd aan %s frames"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projectnaam '%s' gewijzigd in '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Laag '%s' verwijderen"],
     ["{{レイヤーに「%s」を追加}}", "Voeg '%s' toe aan lagen"],

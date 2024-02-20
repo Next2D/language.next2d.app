@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Add script to %s frame"],
+    ["{{「%s」のフォルダ移動}}", "Move \"%s\" folder"],
+    ["{{画像「%s」を取り込み}}", "Import image \"%s\""],
+    ["{{シンボル名「%s」を「%s」変更}}", "Symbol name \"%s\" changed to \"%s\""],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Instance name \"%s\" changed to \"%s\""],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Layer name \"%s\" changed to \"%s\""],
+    ["{{%sフレームのスクリプトを削除}}", "Delete %s frame of script"],
+    ["{{%sフレームのスクリプトを変更}}", "Changed script for %s frame"],
+    ["{{%sフレームにスクリプトを追加}}", "Added script to %s frame"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Change project name \"%s\" to \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Delete \"%s\" in layer"],
     ["{{レイヤーに「%s」を追加}}", "Add \"%s\" to layer"],

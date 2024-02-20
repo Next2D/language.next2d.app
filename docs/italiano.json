@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Script aggiunti alle cornici %s"],
+    ["{{「%s」のフォルダ移動}}", "Spostamento delle cartelle di \"%s\""],
+    ["{{画像「%s」を取り込み}}", "Importazione dell'immagine \"%s\""],
+    ["{{シンボル名「%s」を「%s」変更}}", "Il nome del simbolo '%s' è stato cambiato in '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Il nome dell'istanza '%s' è stato cambiato in '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Il nome del livello '%s' è stato cambiato in '%s'"],
+    ["{{%sフレームのスクリプトを削除}}", "%s fotogrammi di script rimossi"],
+    ["{{%sフレームのスクリプトを変更}}", "Modifica dello script a %s fotogrammi"],
+    ["{{%sフレームにスクリプトを追加}}", "Script aggiunto a %s fotogrammi"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Il nome del progetto '%s' è stato cambiato in '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Cancellare il livello '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Aggiungere '%s' ai livelli"],

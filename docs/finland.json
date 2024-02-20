@@ -1,5 +1,12 @@
 [
-    ["{{%sフレームにスクリプトを追加}}", "Lisää käsikirjoitus %s-kehykseen"],
+    ["{{「%s」のフォルダ移動}}", "Kansioiden \"%s\" siirtäminen"],
+    ["{{画像「%s」を取り込み}}", "Kuvan \"%s\" tuominen"],
+    ["{{シンボル名「%s」を「%s」変更}}", "Symbolin nimi '%s' muutettu muotoon '%s'"],
+    ["{{インスタンス名「%s」を「%s」変更}}", "Instanssin nimi '%s' muutettu muotoon '%s'"],
+    ["{{レイヤー名「%s」を「%s」変更}}", "Layer name \"%s\" changed to \"%s\""],
+    ["{{%sフレームのスクリプトを削除}}", "%s kehystä käsikirjoitusta poistettu"],
+    ["{{%sフレームのスクリプトを変更}}", "Muutettu käsikirjoitus %s kehystä varten"],
+    ["{{%sフレームにスクリプトを追加}}", "Skripti lisätty %s kehykseen"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projektin nimi '%s' muutettu muotoon '%s'"],
     ["{{レイヤーの「%s」を削除}}", "Poista taso '%s'"],
     ["{{レイヤーに「%s」を追加}}", "Lisää '%s' kerroksiin"],
