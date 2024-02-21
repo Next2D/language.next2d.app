@@ -1,4 +1,5 @@
 [
+    ["{{「%s」の画像を上書き}}", "Sovrascrive l'immagine \"%s\""],
     ["{{「%s」のフォルダ移動}}", "Spostamento delle cartelle di \"%s\""],
     ["{{画像「%s」を取り込み}}", "Importazione dell'immagine \"%s\""],
     ["{{シンボル名を「%s」に変更}}", "Nome del simbolo cambiato in '%s'"],

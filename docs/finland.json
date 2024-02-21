@@ -1,4 +1,5 @@
 [
+    ["{{「%s」の画像を上書き}}", "Ohittaa kuvan \"%s\""],
     ["{{「%s」のフォルダ移動}}", "Kansioiden \"%s\" siirtäminen"],
     ["{{画像「%s」を取り込み}}", "Kuvan \"%s\" tuominen"],
     ["{{シンボル名を「%s」に変更}}", "Symbolin nimi muutettu muotoon '%s'"],
