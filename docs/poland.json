@@ -1,4 +1,5 @@
 [
+    ["{{動画「%s」を取り込み}}", "Przechwytywanie wideo \"%s\""],
     ["{{「%s」の画像を上書き}}", "Zastępuje obraz \"%s\""],
     ["{{「%s」のフォルダ移動}}", "Przenoszenie folderów \"%s\""],
     ["{{画像「%s」を取り込み}}", "Importowanie obrazu \"%s\""],

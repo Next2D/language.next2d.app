@@ -1,4 +1,5 @@
 [
+    ["{{動画「%s」を取り込み}}", "Capturarea videoclipului \"%s\""],
     ["{{「%s」の画像を上書き}}", "Suprascrie imaginea \"%s\""],
     ["{{「%s」のフォルダ移動}}", "Mutarea folderelor \"%s\""],
     ["{{画像「%s」を取り込み}}", "Importarea imaginii \"%s\""],

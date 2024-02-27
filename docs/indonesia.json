@@ -1,4 +1,5 @@
 [
+    ["{{動画「%s」を取り込み}}", "Menangkap video \"%s\""],
     ["{{「%s」の画像を上書き}}", "Menimpa gambar \"%s\""],
     ["{{「%s」のフォルダ移動}}", "Memindahkan folder \"%s\""],
     ["{{画像「%s」を取り込み}}", "Mengimpor gambar \"%s\""],
