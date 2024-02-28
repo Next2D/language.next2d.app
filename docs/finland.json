@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Lisää uusi kansio \"%s\""],
+    ["{{新規MovieClip「%s」を追加}}", "Lisää uusi MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "Ohittaa \"%s\"-äänen"],
     ["{{音声「%s」を取り込み}}", "Äänen \"%s\" sieppaaminen"],
     ["{{「%s」の動画を上書き}}", "Ylikirjoittaa videoita osoitteessa \"%s\""],

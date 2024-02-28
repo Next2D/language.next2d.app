@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Nieuwe map \"%s\" toevoegen"],
+    ["{{新規MovieClip「%s」を追加}}", "Nieuwe MovieClip \"%s\" toevoegen"],
     ["{{「%s」の音声を上書き}}", "Overschrijft het \"%s\" geluid"],
     ["{{音声「%s」を取り込み}}", "Vastleggen van de stem \"%s\""],
     ["{{「%s」の動画を上書き}}", "Overschrijft video's op \"%s\""],

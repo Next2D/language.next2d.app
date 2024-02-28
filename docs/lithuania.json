@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Pridėti naują aplanką \"%s\""],
+    ["{{新規MovieClip「%s」を追加}}", "Pridėti naują MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "pakeičia garsą \"%s\""],
     ["{{音声「%s」を取り込み}}", "Užfiksuotas balsas \"%s\""],
     ["{{「%s」の動画を上書き}}", "Perrašomi \"%s\" vaizdo įrašai"],

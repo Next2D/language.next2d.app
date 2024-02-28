@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Yeni klasör \"%s\" ekleyin"],
+    ["{{新規MovieClip「%s」を追加}}", "Yeni MovieClip \"%s\" ekleyin"],
     ["{{「%s」の音声を上書き}}", "\"%s\" sesini geçersiz kılar"],
     ["{{音声「%s」を取り込み}}", "\"%s\" sesi yakalanıyor."],
     ["{{「%s」の動画を上書き}}", "\"%s\" üzerindeki videoların üzerine yazar."],

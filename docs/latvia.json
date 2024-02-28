@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Pievienot jaunu mapi \"%s\""],
+    ["{{新規MovieClip「%s」を追加}}", "Pievienot jaunu MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "aizstāj skaņu \"%s\""],
     ["{{音声「%s」を取り込み}}", "Balss \"%s\" ierakstīšana"],
     ["{{「%s」の動画を上書き}}", "Pārraksta videoklipus \"%s\""],

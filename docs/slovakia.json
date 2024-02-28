@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Pridať nový priečinok \"%s\""],
+    ["{{新規MovieClip「%s」を追加}}", "Pridať nový MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "Prepíše zvuk \"%s\""],
     ["{{音声「%s」を取り込み}}", "Zachytenie hlasu \"%s\""],
     ["{{「%s」の動画を上書き}}", "Prepíše videá na \"%s\""],

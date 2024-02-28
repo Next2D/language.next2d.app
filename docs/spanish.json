@@ -1,4 +1,6 @@
 [
+    ["{{新規フォルダー「%s」を追加}}", "Añadir nueva carpeta \"%s\""],
+    ["{{新規MovieClip「%s」を追加}}", "Añadir nuevo MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "Anula el sonido \"%s\""],
     ["{{音声「%s」を取り込み}}", "Capturando la voz \"%s\""],
     ["{{「%s」の動画を上書き}}", "Sobrescribe vídeos en \"%s\""],
