@@ -1,4 +1,5 @@
 [
+    ["{{「%s」の音声を上書き}}", "Prepíše zvuk \"%s\""],
     ["{{音声「%s」を取り込み}}", "Zachytenie hlasu \"%s\""],
     ["{{「%s」の動画を上書き}}", "Prepíše videá na \"%s\""],
     ["{{動画「%s」を取り込み}}", "Zachytenie videa \"%s\""],

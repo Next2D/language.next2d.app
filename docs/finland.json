@@ -1,4 +1,5 @@
 [
+    ["{{「%s」の音声を上書き}}", "Ohittaa \"%s\"-äänen"],
     ["{{音声「%s」を取り込み}}", "Äänen \"%s\" sieppaaminen"],
     ["{{「%s」の動画を上書き}}", "Ylikirjoittaa videoita osoitteessa \"%s\""],
     ["{{動画「%s」を取り込み}}", "Videon \"%s\" kuvaaminen"],
