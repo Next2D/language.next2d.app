@@ -1,4 +1,5 @@
 [
+    ["{{音声「%s」を取り込み}}", "Menangkap suara \"%s\""],
     ["{{「%s」の動画を上書き}}", "Menimpa video pada \"%s\""],
     ["{{動画「%s」を取り込み}}", "Menangkap video \"%s\""],
     ["{{「%s」の画像を上書き}}", "Menimpa gambar \"%s\""],

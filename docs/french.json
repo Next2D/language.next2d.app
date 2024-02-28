@@ -1,4 +1,5 @@
 [
+    ["{{音声「%s」を取り込み}}", "Capture de la voix \"%s\""],
     ["{{「%s」の動画を上書き}}", "Écrasement des vidéos sur \"%s\""],
     ["{{動画「%s」を取り込み}}", "Capture de la vidéo \"%s\""],
     ["{{「%s」の画像を上書き}}", "Remplace l'image \"%s\""],

@@ -1,5 +1,6 @@
 [
-    ["{{「%s」の動画を上書き}}", "Overschrijft video's op\"%s\""],
+    ["{{音声「%s」を取り込み}}", "Vastleggen van de stem \"%s\""],
+    ["{{「%s」の動画を上書き}}", "Overschrijft video's op \"%s\""],
     ["{{動画「%s」を取り込み}}", "Video \"%s\" wordt opgenomen"],
     ["{{「%s」の画像を上書き}}", "Vervangt de \"%s\" afbeelding"],
     ["{{「%s」のフォルダ移動}}", "Mappen van \"%s\" verplaatsen"],

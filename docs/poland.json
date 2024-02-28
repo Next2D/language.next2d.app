@@ -1,4 +1,5 @@
 [
+    ["{{音声「%s」を取り込み}}", "Przechwytywanie głosu \"%s\""],
     ["{{「%s」の動画を上書き}}", "Nadpisuje filmy na \"%s\""],
     ["{{動画「%s」を取り込み}}", "Przechwytywanie wideo \"%s\""],
     ["{{「%s」の画像を上書き}}", "Zastępuje obraz \"%s\""],

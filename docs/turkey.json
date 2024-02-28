@@ -1,4 +1,5 @@
 [
+    ["{{音声「%s」を取り込み}}", "\"%s\" sesi yakalanıyor."],
     ["{{「%s」の動画を上書き}}", "\"%s\" üzerindeki videoların üzerine yazar."],
     ["{{動画「%s」を取り込み}}", "\"%s\" videosu yakalanıyor"],
     ["{{「%s」の画像を上書き}}", "\"%s\" görüntüsünü geçersiz kılar"],
