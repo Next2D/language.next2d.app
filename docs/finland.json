@@ -1,4 +1,5 @@
 [
+    ["{{MoiveClip一覧}}", "MoiveClip-luettelo"],
     ["{{新規フォルダー「%s」を追加}}", "Lisää uusi kansio \"%s\""],
     ["{{新規MovieClip「%s」を追加}}", "Lisää uusi MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "Ohittaa \"%s\"-äänen"],

@@ -1,4 +1,5 @@
 [
+    ["{{MoiveClip一覧}}", "MoiveClip saraksts"],
     ["{{新規フォルダー「%s」を追加}}", "Pievienot jaunu mapi \"%s\""],
     ["{{新規MovieClip「%s」を追加}}", "Pievienot jaunu MovieClip \"%s\""],
     ["{{「%s」の音声を上書き}}", "aizstāj skaņu \"%s\""],

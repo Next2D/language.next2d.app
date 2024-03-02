@@ -1,4 +1,5 @@
 [
+    ["{{MoiveClip一覧}}", "MoiveClip-Liste"],
     ["{{新規フォルダー「%s」を追加}}", "Neuen Ordner \"%s\" hinzufügen"],
     ["{{新規MovieClip「%s」を追加}}", "Neuen MovieClip \"%s\" hinzufügen"],
     ["{{「%s」の音声を上書き}}", "Überschreibt den \"%s\"-Ton"],
