@@ -1,4 +1,5 @@
 [
+    ["{{ライブラリから「%s」を削除}}", "Verwijder \"%s\" uit de bibliotheek"],
     ["{{MoiveClip一覧}}", "MoiveClip-lijst"],
     ["{{新規フォルダー「%s」を追加}}", "Nieuwe map \"%s\" toevoegen"],
     ["{{新規MovieClip「%s」を追加}}", "Nieuwe MovieClip \"%s\" toevoegen"],

@@ -1,4 +1,5 @@
 [
+    ["{{ライブラリから「%s」を削除}}", "Eliminar \"%s\" de la biblioteca"],
     ["{{MoiveClip一覧}}", "Lista MoiveClip"],
     ["{{新規フォルダー「%s」を追加}}", "Añadir nueva carpeta \"%s\""],
     ["{{新規MovieClip「%s」を追加}}", "Añadir nuevo MovieClip \"%s\""],
