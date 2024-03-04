@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Naskah ditambahkan ke %s bingkai"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Nama proyek \"%s\" berubah menjadi \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Menghapus lapisan \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Tambahkan \"%s\" ke layer"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Layer \"%s2\" ditambahkan ke \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Ada simbol dengan nama yang sama"],
     ["{{広告枠の非表示}}", "Menyembunyikan bingkai iklan"],
     ["{{履歴}}", "sejarah"],

@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Komut dosyası %s kareye eklendi"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Proje adı \"%s\", \"%s\" olarak değiştirildi"],
     ["{{レイヤーの「%s」を削除}}", "\"%s\" katmanını silin"],
-    ["{{レイヤーに「%s」を追加}}", "Katmanlara \"%s\" ekleyin"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "\"%s2\" katmanı \"%s1\" ye eklendi."],
     ["{{同名のシンボルが存在します}}", "Aynı isimde semboller mevcuttur"],
     ["{{広告枠の非表示}}", "Reklam çerçevelerinin gizlenmesi"],
     ["{{履歴}}", "TARİH"],

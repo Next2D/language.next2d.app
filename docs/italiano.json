@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Script aggiunto a %s fotogrammi"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Il nome del progetto \"%s\" è stato cambiato in \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Cancellare il livello \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Aggiungere \"%s\" ai livelli"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Strato \"%s2\" aggiunto a \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Esistono simboli con lo stesso nome"],
     ["{{広告枠の非表示}}", "Nascondere le cornici pubblicitarie"],
     ["{{履歴}}", "storia"],

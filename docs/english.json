@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Added script to %s frame"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Change project name \"%s\" to \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Delete \"%s\" in layer"],
-    ["{{レイヤーに「%s」を追加}}", "Add \"%s\" to layer"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Add layer \"%s2\" to \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Symbol of the same name exists"],
     ["{{広告枠の非表示}}", "Hiding ad spaces"],
     ["{{履歴}}", "History"],

@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Skripts pievienots %s kadriem"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projekta nosaukums \"%s\" mainīts uz \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Dzēst slāni \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Pievienot \"%s\" slāņiem"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Slānis \"%s2\"' pievienots slānim \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Pastāv tāda paša nosaukuma simboli"],
     ["{{広告枠の非表示}}", "Reklāmas rāmīšu slēpšana"],
     ["{{履歴}}", "vēsture"],

@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Szkript hozzáadása %s képkockához"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "A \"%s\" projektnév \"%s\"-re változott"],
     ["{{レイヤーの「%s」を削除}}", "A \"%s\" réteg törlése"],
-    ["{{レイヤーに「%s」を追加}}", "\"%s\" hozzáadása a rétegekhez"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Az \"%s2\" réteg hozzáadva az \"%s1\" réteghez"],
     ["{{同名のシンボルが存在します}}", "Léteznek azonos nevű szimbólumok"],
     ["{{広告枠の非表示}}", "Reklámkeretek elrejtése"],
     ["{{履歴}}", "történelem"],

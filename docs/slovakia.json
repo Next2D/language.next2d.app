@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Skript pridaný do %s snímok"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Názov projektu \"%s\" zmenený na \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Odstrániť vrstvu \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Pridať \"%s\" do vrstiev"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Vrstva \"%s2\" pridaná do \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Existujú symboly s rovnakým názvom"],
     ["{{広告枠の非表示}}", "Skrytie reklamných rámov"],
     ["{{履歴}}", "história"],

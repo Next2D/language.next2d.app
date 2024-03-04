@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Skrypt dodany do %s klatek"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Nazwa projektu \"%s\" została zmieniona na \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Usuń warstwę \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Dodaj \"%s\" do warstw"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Warstwa \"%s2\" dodana do \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Istnieją symbole o tej samej nazwie"],
     ["{{広告枠の非表示}}", "Ukrywanie ramek reklamowych"],
     ["{{履歴}}", "historia"],

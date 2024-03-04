@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Scenarijus įtrauktas į %s rėmelius"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projekto pavadinimas \"%s\" pakeistas į \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Ištrinkite sluoksnį \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Į sluoksnius pridėkite \"%s\""],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Sluoksnis \"%s2\" pridėtas prie \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Egzistuoja to paties pavadinimo simboliai"],
     ["{{広告枠の非表示}}", "Reklamos rėmelių slėpimas"],
     ["{{履歴}}", "istorija"],

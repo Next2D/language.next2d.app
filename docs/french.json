@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Script ajouté à %s images"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Le nom du projet \"%s\" a été remplacé par \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Supprimer le calque \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Ajouter \"%s\" aux couches"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Couche \"%s2\" ajoutée à \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Il existe des symboles du même nom"],
     ["{{広告枠の非表示}}", "Masquage des cadres publicitaires"],
     ["{{履歴}}", "l'histoire"],

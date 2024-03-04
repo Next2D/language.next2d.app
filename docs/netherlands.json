@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Script toegevoegd aan %s frames"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projectnaam \"%s\" gewijzigd in \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Laag \"%s\" verwijderen"],
-    ["{{レイヤーに「%s」を追加}}", "Voeg \"%s\" toe aan lagen"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Laag \"%s2\" toegevoegd aan \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Er bestaan symbolen met dezelfde naam"],
     ["{{広告枠の非表示}}", "Verbergen van reclameframes"],
     ["{{履歴}}", "geschiedenis"],

@@ -18,7 +18,7 @@
     ["{{%sフレームにスクリプトを追加}}", "Skripti lisätty %s kehykseen"],
     ["{{プロジェクト名「%s」を「%s」に変更}}", "Projektin nimi \"%s\" muutettu muotoon \"%s\""],
     ["{{レイヤーの「%s」を削除}}", "Poista taso \"%s\""],
-    ["{{レイヤーに「%s」を追加}}", "Lisää \"%s\" kerroksiin"],
+    ["{{「%s1」のレイヤーに「%s2」を追加}}", "Kerros \"%s2\" lisätty kohteeseen \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Samannimisiä symboleja on olemassa"],
     ["{{広告枠の非表示}}", "Mainoskehysten piilottaminen"],
     ["{{履歴}}", "historia"],
