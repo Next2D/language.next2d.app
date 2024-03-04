@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "%s2 frames van script voor \"%s1\" verwijderd"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Script gewijzigd voor frame %s2 van \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Script toegevoegd aan frame %s2 van \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Projectnaam \"%s\" gewijzigd in \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Projectnaam \"%s1\" gewijzigd in \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Laag \"%s2\" op \"%s1\" verwijderen"],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Laag \"%s2\" toegevoegd aan \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Er bestaan symbolen met dezelfde naam"],

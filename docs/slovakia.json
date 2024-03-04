@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Odstránených %s2 snímok skriptu pre \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Upravený skript pre %s2. snímku \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Skript pridaný do snímky %s2 \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Názov projektu \"%s\" zmenený na \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Názov projektu \"%s1\" sa zmenil na \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Odstránenie vrstvy \"%s2\" na \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Vrstva \"%s2\" pridaná do \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Existujú symboly s rovnakým názvom"],

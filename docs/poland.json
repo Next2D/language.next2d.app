@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Usunięto %s2 klatek skryptu dla \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Zmodyfikowany skrypt dla klatki %s2 filmu \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Skrypt dodany do klatki %s2 filmu \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Nazwa projektu \"%s\" została zmieniona na \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Nazwa projektu \"%s1\" została zmieniona na \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Usuń warstwę \"%s2\" z \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Warstwa \"%s2\" dodana do \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Istnieją symbole o tej samej nazwie"],

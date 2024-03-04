@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Deleted %s2 frames of \"%s1\" script"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Modified script for frame %s2 of \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Added script for frame %s2 of \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Change project name \"%s\" to \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Change project name \"%s1\" to \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Delete layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を追加}}", "Add layer \"%s2\" to \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Symbol of the same name exists"],

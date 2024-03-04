@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Ištrinti %s2 \"%s1\" scenarijaus kadrai"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Pakeistas \"%s1\" %s2 kadro scenarijus"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Įrašytas \"%s1\" %s2 kadro scenarijus"],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Projekto pavadinimas \"%s\" pakeistas į \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Projekto pavadinimas \"%s1\" pakeistas į \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Ištrinti sluoksnį \"%s2\" ant \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Sluoksnis \"%s2\" pridėtas prie \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Egzistuoja to paties pavadinimo simboliai"],

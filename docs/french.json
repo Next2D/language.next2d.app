@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Suppression de %s2 images du script pour \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Script modifié pour l'image %s2 de \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Script ajouté à l'image %s2 de \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Le nom du projet \"%s\" a été remplacé par \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Le nom du projet \"%s1\" a été remplacé par \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Supprimer le calque \"%s2\" sur \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Couche \"%s2\" ajoutée à \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Il existe des symboles du même nom"],

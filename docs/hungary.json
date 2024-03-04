@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Törölt %s2 képkocka az \"%s1\" szkriptből"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Módosította az \"%s1\" %s2. képkockájának szkriptjét"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Script hozzáadva az \"%s1\" %s2. képkockájához"],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "A \"%s\" projektnév \"%s\"-re változott"],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Az \"%s1\" projekt neve \"%s2\"-re változott"],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Az \"%s2\" réteg törlése az \"%s1\"-n"],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "\"%s2\" réteg hozzáadása az \"%s1\"-hez"],
     ["{{同名のシンボルが存在します}}", "Léteznek azonos nevű szimbólumok"],

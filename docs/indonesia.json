@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Menghapus %s2 frame skrip untuk \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Skrip yang dimodifikasi untuk frame %s2 dari \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Naskah ditambahkan ke frame %s2 dari \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Nama proyek \"%s\" berubah menjadi \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Nama proyek \"%s1\" diubah menjadi \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Menghapus layer \"%s2\" pada \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Layer \"%s2\" ditambahkan ke \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Ada simbol dengan nama yang sama"],

@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Eliminati %s2 fotogrammi della sceneggiatura per \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Modificato lo script per il fotogramma %s2 di \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Scrittura aggiunta al fotogramma %s2 di \"%s1\""],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Il nome del progetto \"%s\" è stato cambiato in \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Il nome del progetto \"%s1\" è stato cambiato in \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Eliminazione del livello \"%s2\" su \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Aggiunto il livello \"%s2\" a \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Esistono simboli con lo stesso nome"],

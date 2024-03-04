@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Poistettu %s2 kehystä käsikirjoitusta \"%s1\" varten"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Muutettu skripti ruutua %s2 varten \"%s1\" varten"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Skripti lisätty \"%s1\":n kehykseen %s2"],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Projektin nimi \"%s\" muutettu muotoon \"%s\""],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Projektin nimi \"%s1\" muutettu muotoon \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "Poista kerros \"%s2\" alueelta \"%s1\""],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "Kerros \"%s2\" lisätty kohteeseen \"%s1\""],
     ["{{同名のシンボルが存在します}}", "Samannimisiä symboleja on olemassa"],

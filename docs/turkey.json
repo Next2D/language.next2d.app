@@ -16,7 +16,7 @@
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "\"%s1\" için %s2 kare senaryo silindi"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "\"%s1\" nin %s2. karesi için değiştirilmiş komut dosyası"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "\"%s1\" nin %s2. karesine eklenen komut dosyası"],
-    ["{{プロジェクト名「%s」を「%s」に変更}}", "Proje adı \"%s\", \"%s\" olarak değiştirildi"],
+    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Proje adı \"%s1\", \"%s2\" olarak değiştirildi."],
     ["{{「%s1」のレイヤー「%s2」を削除}}", "\"%s1\" üzerindeki \"%s2\" katmanını sil"],
     ["{{「%s1」にレイヤー「%s2」を追加}}", "\"%s2\" katmanı \"%s1\" ye eklendi"],
     ["{{同名のシンボルが存在します}}", "Aynı isimde semboller mevcuttur"],
