@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Kuvan \"%s\" tuominen"],
     ["{{シンボル名を「%s」に変更}}", "Symbolin nimi muutettu muotoon \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instanssin nimi \"%s\" muutettu muotoon \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Layer name \"%s\" changed to \"%s\""],
+    ["{{「%s」のレイヤー名「%s」を「%s」に変更}}", "Kerroksen nimi \"%s\" vaihda \"%s\" muotoon \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "%s kehystä käsikirjoitusta poistettu"],
     ["{{%sフレームのスクリプトを変更}}", "Muutettu käsikirjoitus %s kehystä varten"],
     ["{{%sフレームにスクリプトを追加}}", "Skripti lisätty %s kehykseen"],

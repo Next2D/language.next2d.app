@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Import image \"%s\""],
     ["{{シンボル名を「%s」に変更}}", "Symbol name changed to \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instance name \"%s\" changed to \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Layer name \"%s\" changed to \"%s\""],
+    ["{{「%s」のレイヤー名「%s」を「%s」に変更}}", "Change \"%s\" layer name \"%s\" to \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "Delete %s frame of script"],
     ["{{%sフレームのスクリプトを変更}}", "Changed script for %s frame"],
     ["{{%sフレームにスクリプトを追加}}", "Added script to %s frame"],

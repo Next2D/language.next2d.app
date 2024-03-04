@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "\"%s\" görüntüsü içe aktarılıyor"],
     ["{{シンボル名を「%s」に変更}}", "Sembol adı \"%s\" olarak değiştirildi"],
     ["{{インスタンス名「%s」を「%s」変更}}", "Örnek adı \"%s\", \"%s\" olarak değiştirildi"],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Katman adı \"%s\", \"%s\" olarak değiştirildi"],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "Katman adı \"%s\" \"%s\" adını \"%s\" olarak değiştirin"],
     ["{{%sフレームのスクリプトを削除}}", "Senaryonun %s karesi kaldırıldı"],
     ["{{%sフレームのスクリプトを変更}}", "Senaryoyu %s kareye değiştirin"],
     ["{{%sフレームにスクリプトを追加}}", "Komut dosyası %s kareye eklendi"],

@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Importuojamas vaizdas \"%s\""],
     ["{{シンボル名を「%s」に変更}}", "Simbolio pavadinimas pakeistas į \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instancijos pavadinimas \"%s\" pakeistas į \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Sluoksnio pavadinimas \"%s\" pakeistas į \"%s\""],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "sluoksnio pavadinimas \"%s\" pervadinti \"%s\" į \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "Pašalinti %s scenarijaus kadrai"],
     ["{{%sフレームのスクリプトを変更}}", "Pakeiskite scenarijų į %s kadrus"],
     ["{{%sフレームにスクリプトを追加}}", "Scenarijus įtrauktas į %s rėmelius"],

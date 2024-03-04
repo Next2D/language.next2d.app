@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Importation de l'image \"%s\""],
     ["{{シンボル名を「%s」に変更}}", "Le nom du symbole a été changé en \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Le nom de l'instance \"%s\" a été remplacé par \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Le nom du calque \"%s\" a été remplacé par \"%s\""],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "Nom du calque pour \"%s\" remplacer \"%s\" par \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "%s images du script supprimées"],
     ["{{%sフレームのスクリプトを変更}}", "Modification du script dans %s cadres"],
     ["{{%sフレームにスクリプトを追加}}", "Script ajouté à %s images"],

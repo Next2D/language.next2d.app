@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Bild \"%s\" importieren"],
     ["{{シンボル名を「%s」に変更}}", "Symbolname geändert in \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Instanzname \"%s\" geändert in \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Ebenenname \"%s\" geändert in \"%s\""],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "Ebenenname für \"%s\" ändern Sie \"%s\" in \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "%s Frames des Skripts entfernt"],
     ["{{%sフレームのスクリプトを変更}}", "Skript zu %s Frames ändern"],
     ["{{%sフレームにスクリプトを追加}}", "Skript zu %s Frames hinzugefügt"],

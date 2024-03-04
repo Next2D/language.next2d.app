@@ -11,7 +11,7 @@
     ["{{「%s」のフォルダ移動}}", "\"%s\" mappák mozgatása"],
     ["{{画像「%s」を取り込み}}", "\"%s\" kép importálása"],
     ["{{シンボル名を「%s」に変更}}", "A szimbólum neve \"%s\"-re változott"],
-    ["{{インスタンス名「%s」を「%s」変更}}", "A \"%s\" példány neve \"%s\"-re változott"],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "Az \"%s\" réteg neve, változtassa meg az \"%s\"-t \"%s\"-re"],
     ["{{レイヤー名「%s」を「%s」変更}}", "A \"%s\" réteg neve \"%s\"-re változott"],
     ["{{%sフレームのスクリプトを削除}}", "%s képkocka a forgatókönyvből eltávolítva"],
     ["{{%sフレームのスクリプトを変更}}", "A szkript módosítása %s képkockára"],

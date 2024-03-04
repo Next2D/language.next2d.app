@@ -12,7 +12,7 @@
     ["{{画像「%s」を取り込み}}", "Attēla \"%s\" importēšana"],
     ["{{シンボル名を「%s」に変更}}", "Simbola nosaukums mainīts uz \"%s\""],
     ["{{インスタンス名「%s」を「%s」変更}}", "Attaisnes nosaukums \"%s\" mainīts uz \"%s\""],
-    ["{{レイヤー名「%s」を「%s」変更}}", "Slāņa nosaukums \"%s\" mainīts uz \"%s\""],
+    ["{{「%s」のレイヤー名、「%s」を「%s」に変更}}", "Slāņa nosaukums \"%s\" pārdēvēt \"%s\" par \"%s\""],
     ["{{%sフレームのスクリプトを削除}}", "Noņemti %s skripta kadri"],
     ["{{%sフレームのスクリプトを変更}}", "Mainīt skriptu uz %s kadriem"],
     ["{{%sフレームにスクリプトを追加}}", "Skripts pievienots %s kadriem"],
