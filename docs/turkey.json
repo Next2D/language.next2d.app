@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "\"%s1\" görüntüsü içe aktarılıyor"],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "\"%s1\" sembolünü \"%s2\" olarak yeniden adlandırın"],
     ["{{「%s1」の名前を「%s2」に変更}}", "\"%s1\" yi \"%s2\" olarak yeniden adlandırın"],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "\"%s1\" için \"%s2\" katman adı \"%s3\" olarak değiştirildi."],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "\"%s1\" için %s2 kare senaryo silindi"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "\"%s1\" nin %s2. karesi için değiştirilmiş komut dosyası"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "\"%s1\" nin %s2. karesine eklenen komut dosyası"],

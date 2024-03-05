@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "Mengimpor gambar \"%s1\""],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Mengganti nama simbol \"%s1\" menjadi \"%s2\""],
     ["{{「%s1」の名前を「%s2」に変更}}", "Mengganti nama \"%s1\" menjadi \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Nama layer \"%s2\" untuk \"%s1\" diubah menjadi \"%s3\""],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Menghapus %s2 frame skrip untuk \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Skrip yang dimodifikasi untuk frame %s2 dari \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Naskah ditambahkan ke frame %s2 dari \"%s1\""],

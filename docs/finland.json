@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "Kuvan \"%s1\" tuominen"],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Nimeä symboli \"%s1\" uudelleen muotoon \"%s2\""],
     ["{{「%s1」の名前を「%s2」に変更}}", "Nimeä \"%s1\" uudelleen muotoon \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Kerroksen nimi \"%s2\" nimelle \"%s1\" muutettu nimeksi \"%s3\""],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Poistettu %s2 kehystä käsikirjoitusta \"%s1\" varten"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Muutettu skripti ruutua %s2 varten \"%s1\" varten"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Skripti lisätty \"%s1\":n kehykseen %s2"],

@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "Afbeelding \"%s1\" importeren"],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Hernoem symbool \"%s1\" naar \"%s2\""],
     ["{{「%s1」の名前を「%s2」に変更}}", "Hernoem \"%s1\" naar \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Laagnaam \"%s2\" voor \"%s1\" veranderd in \"%s3\""],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "%s2 frames van script voor \"%s1\" verwijderd"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Script gewijzigd voor frame %s2 van \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Script toegevoegd aan frame %s2 van \"%s1\""],

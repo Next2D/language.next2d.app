@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "Importazione dell'immagine \"%s1\""],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Rinominare il simbolo \"%s1\" in \"%s2\""],
     ["{{「%s1」の名前を「%s2」に変更}}", "Rinominare \"%s1\" in \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Il nome del layer \"%s2\" per \"%s1\" è stato cambiato in \"%s3\""],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Eliminati %s2 fotogrammi della sceneggiatura per \"%s1\""],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Modificato lo script per il fotogramma %s2 di \"%s1\""],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Scrittura aggiunta al fotogramma %s2 di \"%s1\""],

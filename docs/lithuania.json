@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "Importuojamas vaizdas \"%s1\""],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Simbolio \"%s1\" pervadinimas į \"%s2\""],
     ["{{「%s1」の名前を「%s2」に変更}}", "Pervadinkite simbolį \"%s1\" į \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Sluoksnio \"%s2\" pavadinimas \"%s1\" pakeistas į \"%s3\""],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Ištrinti %s2 \"%s1\" scenarijaus kadrai"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Pakeistas \"%s1\" %s2 kadro scenarijus"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Įrašytas \"%s1\" %s2 kadro scenarijus"],

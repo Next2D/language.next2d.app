@@ -12,7 +12,7 @@
     ["{{画像「%s1」を取り込み}}", "\"%s1\" kép importálása"],
     ["{{「%s1」のシンボル名を「%s2」に変更}}", "Az \"%s1\" szimbólum átnevezése \"%s2\"-re"],
     ["{{「%s1」の名前を「%s2」に変更}}", "Nevezze át az \"%s1\" szimbólumot \"%s2\"-re"],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Името на слоя \"%s2\" за \"%s1\" е променено на \"%s3\""],
+    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Az \"%s2\" réteg neve \"%s1\" helyett \"%s3\"-re változott."],
     ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Törölt %s2 képkocka az \"%s1\" szkriptből"],
     ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Módosította az \"%s1\" %s2. képkockájának szkriptjét"],
     ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Script hozzáadva az \"%s1\" %s2. képkockájához"],
