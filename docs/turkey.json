@@ -1,4 +1,5 @@
 [
+    ["{{レイヤー「%s1」を移動}}", "\"%s1\" katmanını taşıyın"],
     ["{{「%s1」を画像に上書き}}", "\"%s1\" nin üzerine resim yazın"],
     ["{{「%s1」を動画に上書き}}", "Video ile \"%s1\" nin üzerine yaz"],
     ["{{「%s1」を音声に上書き}}", "\"%s1\" nin üzerine ses yazın"],

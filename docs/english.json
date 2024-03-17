@@ -1,4 +1,5 @@
 [
+    ["{{レイヤー「%s1」を移動}}", "Move layer \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Overwrite \"%s1\" with image"],
     ["{{「%s1」を動画に上書き}}", "Overwrite \"%s1\" with video"],
     ["{{「%s1」を音声に上書き}}", "Overwrite \"%s1\" with audio"],
