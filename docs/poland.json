@@ -1,4 +1,5 @@
 [
+    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Zmień kolor podświetlenia warstwy \"%s1\""],
     ["{{レイヤー「%s1」を移動}}", "Przenieś warstwę \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Zastąp \"%s1\" obrazem"],
     ["{{「%s1」を動画に上書き}}", "Nadpisz \"%s1\" z wideo"],
