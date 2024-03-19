@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Cambiare il colore di evidenziazione del livello \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Spostare il livello \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Cambiare il colore di evidenziazione del livello \"%s2\" di \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Spostare il layer \"%s2\" di \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Sovrascrivere \"%s1\" con un'immagine"],
     ["{{「%s1」を動画に上書き}}", "Sovrascrivere \"%s1\" con un video"],
     ["{{「%s1」を音声に上書き}}", "Sovrascrivere \"%s1\" con l'audio"],

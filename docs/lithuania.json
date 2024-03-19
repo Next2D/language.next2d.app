@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Pakeiskite sluoksnio \"%s1\" paryškinimo spalvą"],
-    ["{{レイヤー「%s1」を移動}}", "Perkelkite sluoksnį \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Pakeiskite \"%s1\" sluoksnio \"%s2\" paryškinimo spalvą"],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Perkelkite \"%s1\" sluoksnį \"%s2\""],
     ["{{「%s1」を画像に上書き}}", "Perrašykite \"%s1\" paveikslėliu"],
     ["{{「%s1」を動画に上書き}}", "Perrašykite \"%s1\" vaizdo įrašu"],
     ["{{「%s1」を音声に上書き}}", "Perrašykite \"%s1\" su garso įrašu"],

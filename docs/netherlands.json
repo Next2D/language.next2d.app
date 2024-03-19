@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Verander de kleur van laag \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Verplaats laag \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Verander de kleur van laag \"%s2\" van \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Verplaats laag \"%s2\" van \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "\"%s1\" overschrijven met afbeelding"],
     ["{{「%s1」を動画に上書き}}", "Overschrijf \"%s1\" met video"],
     ["{{「%s1」を音声に上書き}}", "Overschrijf \"%s1\" met audio"],

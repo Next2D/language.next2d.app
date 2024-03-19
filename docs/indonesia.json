@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Mengubah warna sorotan layer \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Pindahkan layer \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Mengubah warna sorotan layer \"%s2\" dari \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Memindahkan layer \"%s2\" dari \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Menimpa \"%s1\" dengan gambar"],
     ["{{「%s1」を動画に上書き}}", "Menimpa \"%s1\" dengan video"],
     ["{{「%s1」を音声に上書き}}", "Menimpa \"%s1\" dengan audio"],

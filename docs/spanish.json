@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Cambiar el color de resaltado de la capa \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Mover capa \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Cambiar el color de la capa \"%s2\" de \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Mover la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Sobrescribir \"%s1\" con imagen"],
     ["{{「%s1」を動画に上書き}}", "Sobrescribir \"%s1\" con vídeo"],
     ["{{「%s1」を音声に上書き}}", "Sobrescribir \"%s1\" con audio"],

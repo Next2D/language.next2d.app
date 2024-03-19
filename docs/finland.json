@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Vaihda tason \"%s1\" korostusväriä"],
-    ["{{レイヤー「%s1」を移動}}", "Siirrä kerros \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Vaihda kerroksen \"%s2\" korostusväri kerroksessa \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Siirrä kerros \"%s2\" \"%s1\":ssä"],
     ["{{「%s1」を画像に上書き}}", "Korvaa \"%s1\" kuvalla"],
     ["{{「%s1」を動画に上書き}}", "Korvaa \"%s1\" videolla"],
     ["{{「%s1」を音声に上書き}}", "Korvaa \"%s1\" äänellä"],

@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Az \"%s1\" réteg kiemelési színének módosítása"],
-    ["{{レイヤー「%s1」を移動}}", "Az \"%s1\" réteg áthelyezése"],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Az \"%s1\" \"%s2\" réteg kiemelési színének módosítása"],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Az \"%s1\" \"%s2\" rétegének áthelyezése"],
     ["{{「%s1」を画像に上書き}}", "Az \"%s1\" felülírása képpel"],
     ["{{「%s1」を動画に上書き}}", "Az \"%s1\" felülírása videóval"],
     ["{{「%s1」を音声に上書き}}", "\"%s1\" felülírása hanggal"],

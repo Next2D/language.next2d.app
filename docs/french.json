@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Modifier la couleur de surbrillance du calque \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Déplacer le calque \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Changer la couleur de surbrillance du calque \"%s2\" de \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Déplacer le calque \"%s2\" de \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Remplacer \"%s1\" par une image"],
     ["{{「%s1」を動画に上書き}}", "Remplacer \"%s1\" par une vidéo"],
     ["{{「%s1」を音声に上書き}}", "Remplacer \"%s1\" par audio"],

@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Zmena farby zvýraznenia vrstvy \"%s1\""],
-    ["{{レイヤー「%s1」を移動}}", "Presun vrstvy \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Zmena farby zvýraznenia vrstvy \"%s2\" vrstvy \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Presun vrstvy \"%s2\" z \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Prepísať \"%s1\" obrázkom"],
     ["{{「%s1」を動画に上書き}}", "Prepíšte \"%s1\" videom"],
     ["{{「%s1」を音声に上書き}}", "Prepíšte \"%s1\" zvukom"],

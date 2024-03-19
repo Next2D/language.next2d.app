@@ -1,6 +1,6 @@
 [
-    ["{{レイヤー「%s1」のハイライトカラーを変更}}", "Hervorhebungsfarbe der Ebene \"%s1\" ändern"],
-    ["{{レイヤー「%s1」を移動}}", "Ebene \"%s1\" verschieben"],
+    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Hervorhebungsfarbe der Ebene \"%s2\" von \"%s1\" ändern"],
+    ["{{「%s1」のレイヤー「%s2」を移動}}", "Ebene \"%s2\" von \"%s1\" verschieben"],
     ["{{「%s1」を画像に上書き}}", "Überschreibe \"%s1\" mit Bild"],
     ["{{「%s1」を動画に上書き}}", "Überschreibe \"%s1\" mit Video"],
     ["{{「%s1」を音声に上書き}}", "Überschreibe \"%s1\" mit Audio"],
