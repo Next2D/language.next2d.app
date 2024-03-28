@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" warstwa \"%s2\" zmieniona na \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Zmień kolor podświetlenia warstwy \"%s2\" z \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Przenieś warstwę \"%s2\" z \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Zastąp \"%s1\" obrazem"],

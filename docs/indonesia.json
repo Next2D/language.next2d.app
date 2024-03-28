@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" lapisan \"%s2\" berubah menjadi \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Mengubah warna sorotan layer \"%s2\" dari \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Memindahkan layer \"%s2\" dari \"%s1\""],
     ["{{「%s1」を画像に上書き}}", "Menimpa \"%s1\" dengan gambar"],
