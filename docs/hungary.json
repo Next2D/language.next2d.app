@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Üres kulcskocka hozzáadása az \"%s1\" \"%s2\" réteg \"%s3\" képkockájához"],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" réteg \"%s2\" \"%s3\"-ra változott"],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Az \"%s1\" \"%s2\" réteg kiemelési színének módosítása"],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Az \"%s1\" \"%s2\" rétegének áthelyezése"],

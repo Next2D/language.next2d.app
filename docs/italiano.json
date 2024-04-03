@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "I fotogrammi chiave vuoti sono stati aggiunti al fotogramma \"%s3\" del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "Livello \"%s1\" \"%s2\" cambiato in \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Cambiare il colore di evidenziazione del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Spostare il layer \"%s2\" di \"%s1\""],

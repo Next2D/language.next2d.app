@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Add an empty keyframe to \"%s3\" frame of layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "Change \"%s1\" layer \"%s2\" to \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Change highlight color of layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Move layer \"%s2\" of \"%s1\""],
