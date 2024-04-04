@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Wijzig leeg keyframe in \"%s3\" frame van laag \"%s2\" in \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Lege keyframes toegevoegd aan het \"%s3\" frame van laag \"%s2\" van \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" laag \"%s2\" veranderd in \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Verander de kleur van laag \"%s2\" van \"%s1\""],
