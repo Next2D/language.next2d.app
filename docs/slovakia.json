@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "názov inštancie"],
     ["{{ライブラリ内の検索}}", "Vyhľadávanie v knižnici"],
     ["{{フレームラベル}}", "Štítok rámu"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Ak projekt nie je uložený, údaje projektu pre túto kartu nie je možné obnoviť. Chcete kartu vymazať?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Ak projekt nie je uložený, údaje projektu pre túto kartu nie je možné obnoviť. Chcete kartu vymazať?}}"]
 ]

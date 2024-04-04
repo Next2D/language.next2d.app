@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "nazwa instancji"],
     ["{{ライブラリ内の検索}}", "Wyszukiwanie w bibliotece"],
     ["{{フレームラベル}}", "etykieta ramowa"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Jeśli projekt nie zostanie zapisany, nie można odzyskać danych projektu dla tej zakładki. Czy chcesz usunąć tę kartę?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Jeśli projekt nie zostanie zapisany, nie można odzyskać danych projektu dla tej zakładki. Czy chcesz usunąć tę kartę?}}"]
 ]

@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "Instanzname"],
     ["{{ライブラリ内の検索}}", "Suche in der Bibliothek"],
     ["{{フレームラベル}}", "Rahmenetikett"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Wenn das Projekt nicht gespeichert wird, können die Projektdaten für diese Registerkarte nicht wiederhergestellt werden. Möchten Sie die Registerkarte löschen?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Wenn das Projekt nicht gespeichert wird, können die Projektdaten für diese Registerkarte nicht wiederhergestellt werden. Möchten Sie die Registerkarte löschen?}}"]
 ]

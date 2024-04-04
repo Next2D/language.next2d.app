@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "instantie-naam"],
     ["{{ライブラリ内の検索}}", "Zoeken in de bibliotheek"],
     ["{{フレームラベル}}", "framelabel"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Als het project niet wordt opgeslagen, kunnen de projectgegevens voor dit tabblad niet worden hersteld. Wilt u het tabblad verwijderen?}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Als het project niet wordt opgeslagen, kunnen de projectgegevens voor dit tabblad niet worden hersteld. Wilt u het tabblad verwijderen?}"]
 ]

@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "örnek adı"],
     ["{{ライブラリ内の検索}}", "Kütüphanede arama yapın"],
     ["{{フレームラベル}}", "çerçeve etiketi"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Proje kaydedilmezse, bu sekme için proje verileri kurtarılamaz. Sekmeyi silmek istiyor musunuz?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Proje kaydedilmezse, bu sekme için proje verileri kurtarılamaz. Sekmeyi silmek istiyor musunuz?}}"]
 ]

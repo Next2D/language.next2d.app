@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "numele instanței"],
     ["{{ライブラリ内の検索}}", "Căutare în bibliotecă"],
     ["{{フレームラベル}}", "eticheta cadrului"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Dacă proiectul nu este salvat, datele proiectului pentru această filă nu pot fi recuperate. Doriți să ștergeți fila?}}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Dacă proiectul nu este salvat, datele proiectului pentru această filă nu pot fi recuperate. Doriți să ștergeți fila?}}}"]
 ]

@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "instanssin nimi"],
     ["{{ライブラリ内の検索}}", "Haku kirjastossa"],
     ["{{フレームラベル}}", "kehyksen etiketti"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Jos projektia ei tallenneta, tämän välilehden projektitietoja ei voida palauttaa. Haluatko poistaa välilehden?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Jos projektia ei tallenneta, tämän välilehden projektitietoja ei voida palauttaa. Haluatko poistaa välilehden?}}"]
 ]

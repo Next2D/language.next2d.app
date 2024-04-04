@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "instances nosaukums"],
     ["{{ライブラリ内の検索}}", "Meklēšana bibliotēkā"],
     ["{{フレームラベル}}", "rāmja etiķete"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Ja projekts nav saglabāts, šīs cilnes projekta datus nav iespējams atjaunot. Vai vēlaties dzēst šo cilni?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Ja projekts nav saglabāts, šīs cilnes projekta datus nav iespējams atjaunot. Vai vēlaties dzēst šo cilni?}}"]
 ]

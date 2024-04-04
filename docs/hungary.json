@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "példa neve"],
     ["{{ライブラリ内の検索}}", "Keresés a könyvtárban"],
     ["{{フレームラベル}}", "keretcímke"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Ha a projekt nem kerül mentésre, az adott lap projektadatai nem állíthatók helyre. Szeretné törölni a lapot?}}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Ha a projekt nem kerül mentésre, az adott lap projektadatai nem állíthatók helyre. Szeretné törölni a lapot?}}"]
 ]

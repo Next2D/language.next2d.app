@@ -337,5 +337,5 @@
     ["{{インスタンス名}}", "nama contoh"],
     ["{{ライブラリ内の検索}}", "Mencari di perpustakaan"],
     ["{{フレームラベル}}", "label bingkai"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}}}", "Jika proyek tidak disimpan, data proyek untuk tab ini tidak dapat dipulihkan. Apakah Anda ingin menghapus tab ini?}"]
+    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Jika proyek tidak disimpan, data proyek untuk tab ini tidak dapat dipulihkan. Apakah Anda ingin menghapus tab ini?}"]
 ]
