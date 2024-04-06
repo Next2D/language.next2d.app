@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の「%s3」フレーム目に「%s4」フレームを追加}}", "Voeg \"%s4\" frames toe aan het \"%s3\" frame van laag \"%s2\" in \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Voeg \"%s4\" frames toe aan het \"%s3\" frame van laag \"%s2\" in \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Split lege keyframes in het \"%s3\" frame van laag \"%s2\" van \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Wijzig leeg keyframe in \"%s3\" frame van laag \"%s2\" in \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Lege keyframes toegevoegd aan het \"%s3\" frame van laag \"%s2\" van \"%s1\""],

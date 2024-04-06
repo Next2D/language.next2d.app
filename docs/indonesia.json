@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の「%s3」フレーム目に「%s4」フレームを追加}}", "Tambahkan frame \"%s4\" ke frame \"%s3\" dari layer \"%s2\" di \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Tambahkan frame \"%s4\" ke frame \"%s3\" dari layer \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Pisahkan keyframe kosong di frame \"%s3\" dari layer \"%s2\" dari \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Ubah keyframe kosong di frame \"%s3\" dari layer \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Tambahkan keyframe kosong ke frame \"%s3\" dari layer \"%s2\" dari \"%s1\""],

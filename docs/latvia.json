@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の「%s3」フレーム目に「%s4」フレームを追加}}", "Pievienot \"%s4\" kadrus slāņa \"%s2\" \"%s3\" kadram \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Pievienot \"%s4\" kadrus slāņa \"%s2\" \"%s3\" kadram \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Sadaliet tukšos atslēgas kadrus \"%s1\" slāņa \"%s2\" \"%s3\" kadrā"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Mainīt tukšu atslēgkadru slāņa \"%s2\" \"%s3\" kadrā \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Tukši atslēgas kadri, kas pievienoti \"%s1\" slāņa \"%s2\" slāņa \"%s3\" kadram"],

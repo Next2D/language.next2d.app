@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の「%s3」フレーム目に「%s4」フレームを追加}}", "Adăugați \"%s4\" cadre la \"%s3\" cadru al stratului \"%s2\" din \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Adăugați \"%s4\" cadre la \"%s3\" cadru al stratului \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Împărțiți cadrele cheie goale din cadrul \"%s3\" al stratului \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Schimbă cadrul cheie gol din cadrul \"%s3\" al stratului \"%s2\" în \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Cadre cheie goale adăugate la cadrul \"%s3\" al stratului \"%s2\" din \"%s1\""],
