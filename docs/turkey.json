@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の「%s3」フレーム目に「%s4」フレームを追加}}", "\"%s1\" deki \"%s2\" katmanının \"%s3\" karesine \"%s4\" kare ekleyin"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "\"%s1\" nin \"%s2\" katmanının \"%s3\" karesindeki boş ana kareleri ayırın"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "\"%s2\" katmanının \"%s3\" karesindeki boş ana kareyi \"%s1\" içinde değiştir"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "\"%s1\" nin \"%s2\" katmanının \"%s3\" karesine boş anahtar kareler eklendi"],
