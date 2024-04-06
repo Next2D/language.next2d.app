@@ -1,8 +1,8 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Hozzáadunk \"%s4\" képkockát az \"%s2\" réteg \"%s1\" \"%s3\" képkockájához."],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Üres kulcskockák felosztása az \"%s1\" \"%s2\" réteg \"%s3\" képkockájában"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Az \"%s2\" réteg \"%s3\" képkockájának üres kulcskockájának módosítása az \"%s1\" rétegben"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Üres kulcskocka hozzáadása az \"%s1\" \"%s2\" réteg \"%s3\" képkockájához"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Hozzáadunk %s4 képkockát az \"%s2\" réteg \"%s1\" %s3 képkockájához."],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Üres kulcskockák felosztása az \"%s1\" \"%s2\" réteg %s3 képkockájában"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Az \"%s2\" réteg %s3 képkockájának üres kulcskockájának módosítása az \"%s1\" rétegben"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Üres kulcskocka hozzáadása az \"%s1\" \"%s2\" réteg %s3 képkockájához"],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" réteg \"%s2\" \"%s3\"-ra változott"],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Az \"%s1\" \"%s2\" réteg kiemelési színének módosítása"],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Az \"%s1\" \"%s2\" rétegének áthelyezése"],

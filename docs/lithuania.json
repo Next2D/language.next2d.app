@@ -1,8 +1,8 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Sluoksnio \"%s2\", esančio \"%s1\", \"%s4\" rėmelių pridėjimas prie \"%s3\" rėmelio"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Padalykite tuščius raktinius kadrus \"%s1\" sluoksnio \"%s2\" \"%s3\" kadre"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Pakeisti tuščią raktinį kadrą \"%s3\" sluoksnio \"%s2\" kadre į \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Į \"%s1\" sluoksnio \"%s2\" sluoksnio \"%s3\" kadrą pridėti tušti raktų kadrai"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Sluoksnio \"%s2\", esančio \"%s1\", %s4 rėmelių pridėjimas prie %s3 rėmelio"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Padalykite tuščius raktinius kadrus \"%s1\" sluoksnio \"%s2\" %s3 kadre"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Pakeisti tuščią raktinį kadrą %s3 sluoksnio \"%s2\" kadre į \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Į \"%s1\" sluoksnio \"%s2\" sluoksnio %s3 kadrą pridėti tušti raktų kadrai"],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" sluoksnis \"%s2\" pakeistas į \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Pakeiskite \"%s1\" sluoksnio \"%s2\" paryškinimo spalvą"],
     ["{{「%s1」のレイヤー「%s2」を移動}}", "Perkelkite \"%s1\" sluoksnį \"%s2\""],
