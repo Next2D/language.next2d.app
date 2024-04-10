@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを変更}}", "Változtassa meg az %s3 képkocka kulcskockáját az \"%s1\" \"%s2\" rétegében"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Adja hozzá a \"%s4\"-t az \"%s1\" \"%s2\" réteg %s3 keretéhez"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Hozzáadunk %s4 képkockát az \"%s2\" réteg \"%s1\" %s3 képkockájához"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Üres kulcskockák felosztása az \"%s1\" \"%s2\" réteg %s3 képkockájában"],
