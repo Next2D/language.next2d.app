@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを変更}}", "Vaihda tason \"%s2\" tason \"%s1\" kehyksen %s3 avainkehys"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Lisätään %s4-kehys %s3-kehyksen avainkehykseen kerroksessa \"%s2\" kerroksessa \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Lisää \"%s4\" \"%s1\" :n kerroksen \"%s2\" kehykseen %s3"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Lisää %s3 kehystä kerroksen \"%s2\" \"%s1\" %s4 kehykseen"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Jaa tyhjät avainkehykset tason \"%s2\" tason \"%s1\" kehyksessä %s3"],

@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを変更}}", "Zmeňte kľúčový snímok snímky %s3 vo vrstve \"%s2\" vrstvy \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Pridanie rámca %s4 do kľúčového rámca rámca %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Pridajte \"%s4\" do rámca %s3 vrstvy \"%s2\" v skupine \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Pridanie %s4 snímok do %s3 snímky vrstvy \"%s2\" v \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Rozdelenie prázdnych kľúčových snímok v rámci %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
