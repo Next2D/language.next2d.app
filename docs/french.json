@@ -3,7 +3,7 @@
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Ajouter \"%s4\" au cadre %s3 de la couche \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Ajouter %s4 trames à la %s3 trame de la couche \"%s2\" dans \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Diviser les images-clés vides dans l'image %s3 du calque \"%s2\" de \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Changer l'image-clé vide dans l'image %s3 du calque \"%s2\" dans \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "Ajouter %s4 images aux images-clés vides de %s3 image du calque \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Ajouter une image clé vide à %s3 image du calque \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "La couche \"%s1\" \"%s2\" devient \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Changer la couleur de surbrillance du calque \"%s2\" de \"%s1\""],

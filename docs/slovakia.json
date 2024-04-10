@@ -3,7 +3,7 @@
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Pridajte \"%s4\" do rámca %s3 vrstvy \"%s2\" v skupine \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Pridanie %s4 snímok do %s3 snímky vrstvy \"%s2\" v \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Rozdelenie prázdnych kľúčových snímok v rámci %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Zmena prázdneho kľúčového snímku v snímke %s3 vrstvy \"%s2\" v \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "ZPridanie %s4 snímok do prázdnych kľúčových snímok v %s3 snímke vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Prázdne kľúčové snímky pridané do snímky %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" vrstva \"%s2\" zmenená na \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Zmena farby zvýraznenia vrstvy \"%s2\" vrstvy \"%s1\""],

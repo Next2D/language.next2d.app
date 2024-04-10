@@ -3,7 +3,7 @@
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Aggiungere \"%s4\" al frame %s3 del layer \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Aggiungere %s4 fotogrammi al %s3 fotogramma del livello \"%s2\" in \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Dividere i fotogrammi chiave vuoti nel fotogramma %s3 del livello \"%s2\" di \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを変更}}", "Cambia il fotogramma chiave vuoto nel fotogramma %s3 del livello \"%s2\" in \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "Aggiungere %s4 fotogrammi ai fotogrammi chiave vuoti in %s3 fotogramma del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "I fotogrammi chiave vuoti sono stati aggiunti al fotogramma %s3 del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "Livello \"%s1\" \"%s2\" cambiato in \"%s3\""],
     ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Cambiare il colore di evidenziazione del livello \"%s2\" di \"%s1\""],
