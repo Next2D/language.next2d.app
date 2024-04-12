@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Usunięcie %s4 klatek z %s3 klatki kluczowej warstwy \"%s2\" z \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 klatek usuniętych z pustych klatek kluczowych w %s3 klatkach w warstwie \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Podziel klatki kluczowe w klatce %s3 warstwy \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Dodanie klatki %s4 do klatki kluczowej klatki %s3 warstwy \"%s2\" w \"%s1\""],

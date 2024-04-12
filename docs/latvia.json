@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "%s4 kadru dzēšana no \"%s1\" slāņa \"%s2\" slāņa %s3 kadra atslēgkadra"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 kadri noņemti no tukšiem atslēgas kadriem %s3 kadros \"%s2\" slānī \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Sadaliet atslēgas kadrus \"%s1\" slāņa \"%s2\" %s3 kadrā"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "%s4 kadra pievienošana \"%s1\" slāņa \"%s2\" %s3 kadra atslēgas kadram"],

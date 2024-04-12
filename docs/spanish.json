@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Eliminación de %s4 fotogramas del fotograma clave de %s3 fotogramas de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 fotogramas eliminados de fotogramas clave vacíos en %s3 fotogramas en la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Dividir fotogramas clave en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Adición de un fotograma %s4 al fotograma clave del fotograma %s3 de la capa \"%s2\" de \"%s1\""],

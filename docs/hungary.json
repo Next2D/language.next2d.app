@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "A %s4 képkocka törlése az \"%s1\" \"%s2\" réteg %s3 képkockájának kulcskockájából"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 képkocka eltávolítva az \"%s1\" \"%s2\" rétegében lévő %s3 képkocka üres kulcskockáiból"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Kulcskockák felosztása az \"%s1\" \"%s2\" réteg %s3 képkockájában"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Egy %s4 képkocka hozzáadása az \"%s1\" \"%s2\" réteg %s3 képkockájának kulcskockájához"],

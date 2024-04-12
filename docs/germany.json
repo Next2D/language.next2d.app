@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Löschung von %s4 Frames aus dem %s3-Frame-Keyframe der Ebene \"%s2\" von \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 Frames aus leeren Keyframes in %s3 Frames in Ebene \"%s2\" von \"%s1\" entfernt"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Keyframes im %s3-Frame der Ebene \"%s2\" von \"%s1\" teilen"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Hinzufügen eines %s4-Frames zum %s3-Frame-Keyframe der Ebene \"%s2\" von \"%s1\""],
