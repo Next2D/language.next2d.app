@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Padalykite raktinius kadrus \"%s1\" sluoksnio \"%s2\" %s3 kadre"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Sluoksnio \"%s2\" sluoksnio \"%s1\" raktinio kadro %s4 kadro papildymas %s3 kadru"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Į \"%s1\" sluoksnio \"%s2\" sluoksnio %s3 rėmelį pridėkite \"%s4\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Sluoksnio \"%s2\", esančio \"%s1\", %s4 rėmelių pridėjimas prie %s3 rėmelio"],

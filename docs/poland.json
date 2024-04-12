@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Podziel klatki kluczowe w klatce %s3 warstwy \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Dodanie klatki %s4 do klatki kluczowej klatki %s3 warstwy \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Dodaj \"%s4\" do ramki %s3 warstwy \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Dodanie %s4 klatek do %s3 klatki warstwy \"%s2\" w \"%s1\""],

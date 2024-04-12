@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Keyframes im %s3-Frame der Ebene \"%s2\" von \"%s1\" teilen"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Hinzufügen eines %s4-Frames zum %s3-Frame-Keyframe der Ebene \"%s2\" von \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Fügen Sie \"%s4\" zum Rahmen %s3 der Ebene \"%s2\" von \"%s1\" hinzu"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Hinzufügen von %s4 Rahmen zum %s3 Rahmen der Ebene \"%s2\" in \"%s1\""],
