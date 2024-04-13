@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Poista kaikki avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksestä %s3"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Poista kaikki tyhjät avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksestä %s3"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Poistetaan %s4 kehystä %s3 kehyksen avainkehyksestä kerroksen \"%s2\" kerroksesta \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 kehystä poistettu tyhjistä avainkehyksistä %s3 kehyksessä kerroksessa \"%s2\" kerroksessa \"%s1\""],
