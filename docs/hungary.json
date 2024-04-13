@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Kulcskockák törlése az \"%s2\" réteg %s3 képkockájában az \"%s1\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Üres kulcskockák törlése az \"%s1\" \"%s2\" réteg %s3 képkockájáról"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Az \"%s1\" réteg \"%s2\" rétegének %s3 képkockáján lévő összes kulcskocka törlése"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Törölje az összes üres kulcskockát az \"%s1\" \"%s2\" rétegének %s3 képkockáján"],

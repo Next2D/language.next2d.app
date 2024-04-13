@@ -1,5 +1,6 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Odstránenie prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Odstránenie prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Odstránenie prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Odstránenie všetkých kľúčových snímok v rámci %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Odstránenie všetkých prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Odstránenie snímok %s4 z kľúčového snímku %s3 vrstvy \"%s2\" vrstvy \"%s1\""],

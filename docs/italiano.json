@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Elimina i fotogrammi chiave nel fotogramma %s3 del layer \"%s2\" in \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Eliminare i fotogrammi chiave vuoti nel fotogramma %s3 del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Eliminare tutti i fotogrammi chiave nel fotogramma %s3 del livello \"%s2\" di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Eliminare tutti i fotogrammi chiave vuoti nel fotogramma %s3 del livello \"%s2\" di \"%s1\""],

@@ -1,5 +1,6 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Borrar fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Borrar fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Borrar fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Borrar todos los fotogramas clave del fotograma %s3 de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Borrar todos los fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Eliminación de %s4 fotogramas del fotograma clave de %s3 fotogramas de la capa \"%s2\" de \"%s1\""],
