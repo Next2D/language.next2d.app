@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Ștergeți cadrele cheie goale din cadrul %s3 al stratului \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Ștergeți toate cadrele cheie din cadrul %s3 al stratului \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Ștergeți toate cadrele cheie goale din cadrul %s3 al stratului \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Ștergerea a %s4 de cadre din cadrul cheie de %s3 cadre al stratului \"%s2\" din \"%s1\""],

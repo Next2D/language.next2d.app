@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Supprimer les images-clés vides dans l'image %s3 du calque \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Supprimer toutes les images-clés de l'image %s3 du calque \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Supprimer toutes les images-clés vides dans l'image %s3 du calque \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Suppression de %s4 images de l'image clé de %s3 images de la couche \"%s2\" de \"%s1\""],
