@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Sound \"%s3\" added to \"%s1\" %s2 frame"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Delete keyframe %s3 frame of layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Delete empty keyframes in frame %s3 of layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Delete all keyframes in the %s3 frame of layer \"%s2\" of \"%s1\""],

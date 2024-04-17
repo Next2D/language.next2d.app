@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Zvuk \"%s3\" pridaný do rámca %s2 v tvare \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Odstránenie prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Odstránenie prázdnych kľúčových snímok v snímke %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Odstránenie všetkých kľúčových snímok v rámci %s3 vrstvy \"%s2\" vrstvy \"%s1\""],
