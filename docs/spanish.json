@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Borrar sonido \"%s3\" en el fotograma %s2 de \"%s1\""],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Sonido \"%s3\" añadido al fotograma %s2 de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Borrar fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Borrar fotogramas clave vacíos en el fotograma %s3 de la capa \"%s2\" de \"%s1\""],

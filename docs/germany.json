@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Ton \"%s3\" im %s2-Rahmen von \"%s1\" löschen"],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Ton \"%s3\" zum %s2-Rahmen von \"%s1\" hinzugefügt"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Keyframes im %s3-Frame der Ebene \"%s2\" in \"%s1\" löschen"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Leere Keyframes im Frame %s3 der Ebene \"%s2\" von \"%s1\" löschen"],
