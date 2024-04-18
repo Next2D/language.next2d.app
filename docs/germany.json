@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Die Lautstärke des Tons \"%s3\" im %s2 Bild von \"%s1\" wurde von %s4 auf %s5 geändert"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Ton \"%s3\" im %s2-Rahmen von \"%s1\" löschen"],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Ton \"%s3\" zum %s2-Rahmen von \"%s1\" hinzugefügt"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Keyframes im %s3-Frame der Ebene \"%s2\" in \"%s1\" löschen"],

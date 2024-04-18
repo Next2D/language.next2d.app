@@ -1,5 +1,6 @@
 [
-    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Az \"%s3\" hang törlése az \"%s1\" %s2 keretéből."],
+    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Az \"%s3\" hang hangereje az \"%s1\" %s2 képkockájában %s4-ról %s5-re változott"],
+    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Az \"%s3\" hang törlése az \"%s1\" %s2 keretéből"],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "\"%s3\" hang hozzáadása az \"%s1\" %s2 keretéhez"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Kulcskockák törlése az \"%s2\" réteg %s3 képkockájában az \"%s1\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Üres kulcskockák törlése az \"%s1\" \"%s2\" réteg %s3 képkockájáról"],

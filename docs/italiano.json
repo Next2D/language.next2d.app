@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Modificato il volume del suono \"%s3\" nel %s2 fotogramma di \"%s1\" da %s4 a %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Eliminare il suono \"%s3\" nel riquadro %s2 di \"%s1\""],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Il suono \"%s3\" è stato aggiunto al fotogramma %s2 di \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Elimina i fotogrammi chiave nel fotogramma %s3 del layer \"%s2\" in \"%s1\""],
