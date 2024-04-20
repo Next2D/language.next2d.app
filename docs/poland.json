@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Zmieniono liczbę pętli dla dźwięku \"%s3\" w klatce %s2 filmu \"%s1\" ze %s4 na %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Zmieniono głośność dźwięku \"%s3\" w %s2 klatce \"%s1\" ze %s4 na %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Usunięcie dźwięku \"%s3\" w ramce %s2 pliku \"%s1\""],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Dźwięk \"%s3\" dodany do %s2 ramki \"%s1\""],

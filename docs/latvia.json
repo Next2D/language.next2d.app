@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Mainīts cilpas skaits skaņai \"%s3\" \"%s1\" %s2 kadrā no %s4 uz %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Izmainīts skaņas \"%s3\" skaļums \"%s1\" %s2 kadrā no %s4 uz %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Dzēst skaņu \"%s3\" \"%s1\" rāmī %s2"],
     ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Skaņa \"%s3\", kas pievienota \"%s1\" %s2 rāmim"],
