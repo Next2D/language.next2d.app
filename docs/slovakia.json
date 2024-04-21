@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Registrovať štítok \"%s3\" v rámci %s2 položky \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Zmena počtu slučiek pre zvuk \"%s3\" v %s2 snímke \"%s1\" zo %s4 na %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Zmena hlasitosti zvuku \"%s3\" v %s2 snímke \"%s1\" zo %s4 na %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Odstránenie zvuku \"%s3\" v rámci %s2 v položke \"%s1\""],

@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Daftarkan label \"%s3\" dalam bingkai %s2 dari \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Mengubah jumlah perulangan untuk suara \"%s3\" dalam bingkai %s2 dari \"%s1\" dari %s4 menjadi %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Mengubah volume suara \"%s3\" dalam %s2 frame \"%s1\" dari %s4 menjadi %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Menghapus suara \"%s3\" dalam bingkai %s2 dari \"%s1\""],
