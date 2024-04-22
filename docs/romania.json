@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "A fost schimbată eticheta \"%s3\" în \"%s4\" pentru cadrul %s2 din \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Înregistrarea etichetei \"%s3\" în cadrul %s2 din \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "S-a modificat numărul de bucle pentru sunetul \"%s3\" în cadrul %s2 din \"%s1\" de la %s4 la %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "A fost schimbat volumul sunetului \"%s3\" din cadrul %s2 din \"%s1\" de la %s4 la %s5"],

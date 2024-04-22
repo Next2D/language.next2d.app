@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Pakeista %s2 rėmelio \"%s1\" etiketė \"%s3\" į \"%s4\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Etiketės \"%s3\" registravimas \"%s1\" rėmelyje %s2"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Pakeistas garso \"%s3\" kilpų skaičius \"%s1\" %s2 kadre nuo %s4 iki %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Pakeistas garso \"%s3\" garsas \"%s1\" %s2 kadre nuo %s4 iki %s5"],

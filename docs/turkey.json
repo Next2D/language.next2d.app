@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "\"%s1\" içindeki %s2 çerçevesi için \"%s3\" etiketi \"%s4\" olarak değiştirildi"],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "\"%s3\" etiketini \"%s1\" öğesinin %s2 çerçevesine kaydedin"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "\"%s1\" nin %s2 karesindeki \"%s3\" sesi için döngü sayısı %s4'den %s5'ye değiştirildi"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "\"%s1\" nin %s2. karesindeki \"%s3\" sesinin ses seviyesini %s4'den %s5'e değiştirdi"],

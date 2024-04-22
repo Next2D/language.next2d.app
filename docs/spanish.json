@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Cambiada la etiqueta \"%s3\" por \"%s4\" para el marco %s2 en \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Registrar etiqueta \"%s3\"en marco %s2 de \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Se ha cambiado el número de bucles del sonido \"%s3\" en el fotograma %s2 de \"%s1\" de %s4 a %s5"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Cambiado el volumen del sonido \"%s3\" en el fotograma %s2 de \"%s1\" de %s4 a %s5"],
