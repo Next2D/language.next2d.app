@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベルを削除}}", "Usuń etykietę ramki \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Zmieniono etykietę \"%s3\" na \"%s4\" dla ramki %s2 w \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Zarejestruj etykietę \"%s3\" w ramce %s2 w \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Zmieniono liczbę pętli dla dźwięku \"%s3\" w klatce %s2 filmu \"%s1\" ze %s4 na %s5"],

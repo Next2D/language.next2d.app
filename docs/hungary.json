@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベルを削除}}", "\"%s1\" %s2 keretcímke törlése"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Az \"%s3\" címkét \"%s4\"-re változtattam a %s2 keretben a \"%s1\"-ban"],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Az \"%s3\" címke regisztrálása az \"%s1\" %s2 keretében"],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Az \"%s3\" hang ciklusszámát az \"%s1\" %s2 képkockájában %s4-ról %s5-re változtattam"],

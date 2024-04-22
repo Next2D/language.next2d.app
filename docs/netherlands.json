@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」の%s2フレームのラベルを削除}}", "Verwijder \"%s1\" %s2 frame label"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Het label \"%s3\" gewijzigd in \"%s4\" voor het %s2 frame in \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Registreer label \"%s3\" in frame %s2 van \"%s1\""],
     ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "De loop count voor het geluid \"%s3\" in het %s2 frame van \"%s1\" veranderd van %s4 naar %s5"],
