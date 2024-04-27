@@ -1,4 +1,5 @@
 [
+    ["{{ステージの幅を%s1から%s2に変更}}", "A schimbat lățimea scenei de la %s1 la %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Ștergeți eticheta cadrului \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "A fost schimbată eticheta \"%s3\" în \"%s4\" pentru cadrul %s2 din \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Înregistrarea etichetei \"%s3\" în cadrul %s2 din \"%s1\""],

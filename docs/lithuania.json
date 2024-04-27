@@ -1,4 +1,5 @@
 [
+    ["{{ステージの幅を%s1から%s2に変更}}", "Pakeistas scenos plotis iš %s1 į %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Ištrinkite \"%s1\" %s2 rėmelio etiketę"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Pakeista %s2 rėmelio \"%s1\" etiketė \"%s3\" į \"%s4\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Etiketės \"%s3\" registravimas \"%s1\" rėmelyje %s2"],

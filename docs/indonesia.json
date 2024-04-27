@@ -1,4 +1,5 @@
 [
+    ["{{ステージの幅を%s1から%s2に変更}}", "Mengubah lebar panggung dari %s1 ke %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Menghapus label bingkai \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Mengubah label \"%s3\" menjadi \"%s4\" untuk frame %s2 di \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Daftarkan label \"%s3\" dalam bingkai %s2 dari \"%s1\""],

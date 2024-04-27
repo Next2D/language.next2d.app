@@ -1,4 +1,5 @@
 [
+    ["{{ステージの幅を%s1から%s2に変更}}", "Muutettu lavan leveys %s1:stä %s2:aan"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Poistetaan kehysmerkintä \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Vaihdettiin \"%s3\"-merkintä \"%s4\"-merkinnäksi %s2-kehyksen \"%s1\"-kehyksessä"],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Rekisteröi etiketti \"%s3\" \"%s1\":n kehyksessä %s2"],

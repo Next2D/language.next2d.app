@@ -1,4 +1,5 @@
 [
+    ["{{ステージの幅を%s1から%s2に変更}}", "Zmena šírky fázy z %s1 na %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Odstráňte označenie rámu \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Zmena označenia \"%s3\" na \"%s4\" pre rám %s2 v \"%s1\""],
     ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Registrovať štítok \"%s3\" v rámci %s2 položky \"%s1\""],
