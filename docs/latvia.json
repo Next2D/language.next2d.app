@@ -1,4 +1,5 @@
 [
+    ["{{ステージのFPSを%s1から%s2に変更}}", "Mainīts skatuves FPS no %s1 uz %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Skatuves augstums mainīts no %s1 uz %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Mainīts skatuves platums no %s1 uz %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Dzēst \"%s1\" %s2 rāmja etiķeti"],

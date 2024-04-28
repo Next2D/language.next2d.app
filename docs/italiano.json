@@ -1,4 +1,5 @@
 [
+    ["{{ステージのFPSを%s1から%s2に変更}}", "Modificato l'FPS dello stage da %s1 a %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "L'altezza del palco è passata da %s1 a %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Modificata la larghezza del palco da %s1 a %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Eliminare l'etichetta della cornice \"%s1\" %s2"],

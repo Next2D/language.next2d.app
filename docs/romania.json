@@ -1,4 +1,5 @@
 [
+    ["{{ステージのFPSを%s1から%s2に変更}}", "Schimbat FPS-ul scenei de la %s1 la %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Înălțimea scenei a fost modificată de la %s1 la %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "A schimbat lățimea scenei de la %s1 la %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Ștergeți eticheta cadrului \"%s1\" %s2"],

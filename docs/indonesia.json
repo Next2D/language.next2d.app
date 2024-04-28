@@ -1,4 +1,5 @@
 [
+    ["{{ステージのFPSを%s1から%s2に変更}}", "Mengubah FPS panggung dari %s1 ke %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Ketinggian panggung berubah dari %s1 ke %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Mengubah lebar panggung dari %s1 ke %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Menghapus label bingkai \"%s1\" %s2"],

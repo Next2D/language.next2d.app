@@ -1,4 +1,5 @@
 [
+    ["{{ステージのFPSを%s1から%s2に変更}}", "Die FPS der Bühne wurden von %s1 auf %s2 geändert"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Die Bühnenhöhe wurde von %s1 auf %s2 geändert"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Bühnenbreite von %s1 auf %s2 geändert"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Rahmenbeschriftung \"%s1\" %s2 löschen"],
