@@ -1,4 +1,5 @@
 [
+    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Changement de la couleur de fond de la scène de \"%s1\" à \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Modification de la vitesse de défilement de la scène de %s1 à %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "La hauteur de scène est passée de %s1 à %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Modification de la largeur de la scène de %s1 à %s2"],

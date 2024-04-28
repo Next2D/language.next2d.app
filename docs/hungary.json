@@ -1,4 +1,5 @@
 [
+    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "A színpad háttérszínét \"%s1\"-ről \"%s2\"-re változtattuk"],
     ["{{ステージのFPSを%s1から%s2に変更}}", "A színpad FPS értéke %s1-ről %s2-ra változott"],
     ["{{ステージの高さを%s1から%s2に変更}}", "A színpad magassága %s1-ről %s2-ra változott"],
     ["{{ステージの幅を%s1から%s2に変更}}", "A színpad szélessége %s1-ről %s2-ra változott"],

@@ -1,4 +1,5 @@
 [
+    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Muutettu näyttämön taustaväri \"%s1\":stä \"%s2\":ksi"],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Muutettu näyttämön FPS arvosta %s1 arvoon %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Lavan korkeus muutettiin %s1:stä %s2:aan"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Muutettu lavan leveys %s1:stä %s2:aan"],

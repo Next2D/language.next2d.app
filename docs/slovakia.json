@@ -1,4 +1,5 @@
 [
+    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Zmena farby pozadia scény z \"%s1\" na \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Zmena FPS fázy z %s1 na %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Výška javiska sa zmenila z %s1 na %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Zmena šírky fázy z %s1 na %s2"],

@@ -1,4 +1,5 @@
 [
+    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Veranderde de achtergrondkleur van het podium van \"%s1\" in \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Veranderde FPS van %s1 naar %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Podiumhoogte veranderd van %s1 naar %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Breedte podium gewijzigd van %s1 in %s2"],
