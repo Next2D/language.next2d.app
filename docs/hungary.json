@@ -1,4 +1,5 @@
 [
+    ["{{ステージの高さを%s1から%s2に変更}}", "A színpad magassága %s1-ről %s2-ra változott"],
     ["{{ステージの幅を%s1から%s2に変更}}", "A színpad szélessége %s1-ről %s2-ra változott"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "\"%s1\" %s2 keretcímke törlése"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Az \"%s3\" címkét \"%s4\"-re változtattam a %s2 keretben a \"%s1\"-ban"],

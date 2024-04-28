@@ -1,4 +1,5 @@
 [
+    ["{{ステージの高さを%s1から%s2に変更}}", "Podiumhoogte veranderd van %s1 naar %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Breedte podium gewijzigd van %s1 in %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Verwijder \"%s1\" %s2 frame label"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Het label \"%s3\" gewijzigd in \"%s4\" voor het %s2 frame in \"%s1\""],

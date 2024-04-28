@@ -1,4 +1,5 @@
 [
+    ["{{ステージの高さを%s1から%s2に変更}}", "Sahne yüksekliği %s1 den %s2 e değiştirildi"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Sahne genişliği %s1 den %s2 e değiştirildi"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "\"%s1\" %s2 çerçeve etiketini silin"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "\"%s1\" içindeki %s2 çerçevesi için \"%s3\" etiketi \"%s4\" olarak değiştirildi"],

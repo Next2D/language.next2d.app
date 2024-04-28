@@ -1,4 +1,5 @@
 [
+    ["{{ステージの高さを%s1から%s2に変更}}", "Zmieniono wysokość sceny z %s1 na %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Zmieniono szerokość sceny z %s1 na %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Usuń etykietę ramki \"%s1\" %s2"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Zmieniono etykietę \"%s3\" na \"%s4\" dla ramki %s2 w \"%s1\""],

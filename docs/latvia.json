@@ -1,4 +1,5 @@
 [
+    ["{{ステージの高さを%s1から%s2に変更}}", "Skatuves augstums mainīts no %s1 uz %s2"],
     ["{{ステージの幅を%s1から%s2に変更}}", "Mainīts skatuves platums no %s1 uz %s2"],
     ["{{「%s1」の%s2フレームのラベルを削除}}", "Dzēst \"%s1\" %s2 rāmja etiķeti"],
     ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Mainīts marķējums \"%s3\" uz \"%s4\" rāmī %s2 rāmī \"%s1\""],
