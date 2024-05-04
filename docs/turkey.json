@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "\"%s1\" nin \"%s2\" katmanında %s3 çerçeve ve %s4 derinlik için y koordinatı %s5 ten %s6 e değiştirildi"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "\"%s1\" nin \"%s2\" katmanında %s3 çerçeve ve %s4 derinlik için x koordinatı %s5 ten %s6 e değiştirildi"],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Sahnenin arka plan rengi \"%s1\" den \"%s2\" ye değiştirildi"],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Sahne FPS'si %s1 dan %s2 a değiştirildi"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Sahne yüksekliği %s1 den %s2 e değiştirildi"],

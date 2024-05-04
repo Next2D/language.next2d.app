@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Zmena súradnice y z %s5 na %s6 pre rám %s3 a hĺbku %s4 vo vrstve \"%s2\" v \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Zmena súradnice x z %s5 na %s6 pre rám %s3 a hĺbku %s4 vo vrstve \"%s2\" v \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Zmena farby pozadia scény z \"%s1\" na \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Zmena FPS fázy z %s1 na %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Výška javiska sa zmenila z %s1 na %s2"],

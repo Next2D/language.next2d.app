@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Modificata la coordinata y da %s5 a %s6 per il frame %s3 e la profondità %s4 nel layer \"%s2\" di \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Modificata la coordinata x da %s5 a %s6 per il frame %s3 e la profondità %s4 nel layer \"%s2\" di \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Il colore di sfondo della scena è passato da \"%s1\" a \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Modificato l'FPS dello stage da %s1 a %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "L'altezza del palco è passata da %s1 a %s2"],

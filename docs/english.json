@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Changed y-coordinate from %s5 to %s6 for frame %s3 and depth %s4 in layer \"%s2\" of \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Changed x-coordinate from %s5 to %s6 for frame %s3 and depth %s4 in layer \"%s2\" of \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}}", "Changed the background color of the stage from \"%s1\" to \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}}", "Changed stage FPS from %s1 to %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}}", "Stage height changed from %s1 to %s2"],

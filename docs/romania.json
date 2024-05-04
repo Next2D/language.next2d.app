@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Coordonata y a fost schimbată de la %s5 la %s6 pentru cadrul %s3 și adâncimea %s4 în stratul \"%s2\" din \"%s1\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Coordonata x a fost schimbată de la %s5 la %s6 pentru cadrul %s3 și adâncimea %s4 în stratul \"%s2\" din \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "A fost schimbată culoarea de fundal a scenei de la \"%s1\" la \"%s2\""],
     ["{{ステージのFPSを%s1から%s2に変更}}", "Schimbat FPS-ul scenei de la %s1 la %s2"],
     ["{{ステージの高さを%s1から%s2に変更}}", "Înălțimea scenei a fost modificată de la %s1 la %s2"],
