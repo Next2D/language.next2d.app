@@ -1,4 +1,5 @@
 [
+    ["{{新規Shape「%s1」を追加}}", "Bentuk Baru \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Mengubah koordinat y dari %s5 ke %s6 untuk frame %s3 dan kedalaman %s4 di lapisan \"%s2\" dari \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Mengubah koordinat x dari %s5 ke %s6 untuk frame %s3 dan kedalaman %s4 di lapisan \"%s2\" dari \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Mengubah warna latar belakang panggung dari \"%s1\" ke \"%s2\""],

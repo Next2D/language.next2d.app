@@ -1,4 +1,5 @@
 [
+    ["{{新規Shape「%s1」を追加}}", "Nieuwe vorm \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Veranderde y-coördinaat van %s5 naar %s6 voor frame %s3 en diepte %s4 in laag \"%s2\" van \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Veranderde x-coördinaat van %s5 naar %s6 voor frame %s3 en diepte %s4 in laag \"%s2\" van \"%s1\""],
     ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Veranderde de achtergrondkleur van het podium van \"%s1\" in \"%s2\""],
