@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Change \"%s1\" graphic"],
     ["{{新規Shape「%s1」を追加}}", "Add new Shape \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Changed y-coordinate from %s5 to %s6 for frame %s3 and depth %s4 in layer \"%s2\" of \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Changed x-coordinate from %s5 to %s6 for frame %s3 and depth %s4 in layer \"%s2\" of \"%s1\""],

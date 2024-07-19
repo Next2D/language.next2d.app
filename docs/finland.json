@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Vaihda \"%s1\"-grafiikka"],
     ["{{新規Shape「%s1」を追加}}", "Uusi muoto \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Muutettu y-koordinaatti arvosta %s5 arvoon %s6 kehyksessä %s3 ja syvyydessä %s4 kerroksessa \"%s2\" kerroksessa \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Muutettu x-koordinaatti arvosta %s5 arvoon %s6 kehyksessä %s3 ja syvyydessä %s4 kerroksessa \"%s2\" kerroksessa \"%s1\""],

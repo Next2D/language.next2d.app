@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Zmień grafikę \"%s1\""],
     ["{{新規Shape「%s1」を追加}}", "Nowy kształt \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Zmieniono współrzędną y z %s5 na %s6 dla ramki %s3 i głębokości %s4 w warstwie \"%s2\" w \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Zmieniono współrzędną x z %s5 na %s6 dla ramki %s3 i głębokości %s4 w warstwie \"%s2\" w \"%s1\""],

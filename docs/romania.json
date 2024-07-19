@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Modificați graficul \"%s1\""],
     ["{{新規Shape「%s1」を追加}}", "Formă nouă \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Coordonata y a fost schimbată de la %s5 la %s6 pentru cadrul %s3 și adâncimea %s4 în stratul \"%s2\" din \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Coordonata x a fost schimbată de la %s5 la %s6 pentru cadrul %s3 și adâncimea %s4 în stratul \"%s2\" din \"%s1\""],

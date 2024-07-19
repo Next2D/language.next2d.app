@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Cambiar el gráfico \"%s1\""],
     ["{{新規Shape「%s1」を追加}}", "Nueva forma \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Se ha cambiado la coordenada y de %s5 a %s6 para el fotograma %s3 y la profundidad %s4 en la capa \"%s2\" de \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Se ha cambiado la coordenada x de %s5 a %s6 para el fotograma %s3 y la profundidad %s4 en la capa \"%s2\" de \"%s1\""],

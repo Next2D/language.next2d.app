@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のグラフィックを変更}}", "Pakeiskite \"%s1\" grafiką"],
     ["{{新規Shape「%s1」を追加}}", "Nauja forma \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Pakeista y koordinatė iš %s5 į %s6 rėmeliui %s3 ir gyliui %s4 sluoksnyje \"%s2\" iš \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Pakeista x koordinatė iš %s5 į %s6 rėmeliui %s3 ir gyliui %s4 sluoksnyje \"%s2\" iš \"%s1\""],
