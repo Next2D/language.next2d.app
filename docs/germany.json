@@ -1,4 +1,5 @@
 [
+    ["{{新規Text「%s1」を追加}}", "Neuer Text \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Grafik \"%s1\" ändern"],
     ["{{新規Shape「%s1」を追加}}", "Neue Form \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Geänderte y-Koordinate von %s5 auf %s6 für Rahmen %s3 und Tiefe %s4 in Ebene \"%s2\" von \"%s1\""],

@@ -1,4 +1,5 @@
 [
+    ["{{新規Text「%s1」を追加}}", "Teks Baru \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Mengubah grafik \"%s1\""],
     ["{{新規Shape「%s1」を追加}}", "Bentuk Baru \"%s1\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Mengubah koordinat y dari %s5 ke %s6 untuk frame %s3 dan kedalaman %s4 di lapisan \"%s2\" dari \"%s1\""],
