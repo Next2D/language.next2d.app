@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Redenumiți stratul \"%s1\" stratul \"%s2\" %s3 adâncimea cadrului %s4 în \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Text nou \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Modificați graficul \"%s1\""],
     ["{{新規Shape「%s1」を追加}}", "Formă nouă \"%s1\""],

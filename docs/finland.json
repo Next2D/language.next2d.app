@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Nimeä kerros \"%s1\" kerros \"%s2\" %s3 kehyksen syvyys %s4 muotoon \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Uusi teksti \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Vaihda \"%s1\"-grafiikka"],
     ["{{新規Shape「%s1」を追加}}", "Uusi muoto \"%s1\""],
