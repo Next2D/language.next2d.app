@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 Rahmentiefe %s4 x-Skala von %s5 bis %s6 in Ebene \"%s1\" in Ebene \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 Rahmentiefe %s4 x-Skala von %s5% bis %s6% in Ebene \"%s1\" in Ebene \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Ebene \"%s1\" Ebene \"%s2\" %s3 Rahmentiefe %s4 in \"%s5\" umbenennen"],
     ["{{新規Text「%s1」を追加}}", "Neuer Text \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Grafik \"%s1\" ändern"],

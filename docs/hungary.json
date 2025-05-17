@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 keretmélység %s4 x-skála %s5 és %s6 között a \"%s1\" rétegben a \"%s2\" rétegben"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 keretmélység %s4 x-skála %s5% és %s6% között a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Nevezze át az \"%s1\" réteg \"%s2\" rétegét %s3 képkocka mélység %s4-re \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Új szöveg \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Az \"%s1\" grafika módosítása"],

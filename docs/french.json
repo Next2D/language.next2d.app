@@ -1,5 +1,5 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 profondeur du cadre %s4 échelle x de %s5 à %s6 dans la couche \"%s1\" dans la couche \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 profondeur du cadre %s4 échelle x de %s5% à %s6% dans la couche \"%s1\" dans la couche \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Renommer la couche \"%s1\" couche \"%s2\" %s3 profondeur de cadre %s4 en \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Nouveau texte \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Modifier le graphique \"%s1\""],
