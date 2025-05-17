@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 hĺbka rámu %s4 mierka x od %s5 do %s6 vo vrstve \"%s1\" vo vrstve \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Premenujte vrstvu \"%s1\" vrstva \"%s2\" %s3 hĺbka snímky %s4 na \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Nový text \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Zmena grafiky \"%s1\""],

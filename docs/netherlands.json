@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 framediepte %s4 x-schaal van %s5 naar %s6 in laag \"%s1\" in laag \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Hernoem laag \"%s1\" laag \"%s2\" %s3 framediepte %s4 naar \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Nieuwe tekst \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Afbeelding \"%s1\" wijzigen"],
