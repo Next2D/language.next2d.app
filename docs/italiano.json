@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 profondità del fotogramma %s4 scala y da %s5% a %s6% nel livello \"%s1\" nel livello \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 profondità del fotogramma %s4 scala x da %s5% a %s6% nel livello \"%s1\" nel livello \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Rinominare il layer \"%s1\" il layer \"%s2\" %s3 profondità fotogramma %s4 in \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Nuovo testo \"%s1\""],
