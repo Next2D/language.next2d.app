@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 adâncimea cadrului %s4 rotatia de la %s5° la %s6° în stratul \"%s1\" în stratul \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 adâncimea cadrului %s4 scala y de la %s5% la %s6% în stratul \"%s1\" în stratul \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 adâncimea cadrului %s4 scala x de la %s5% la %s6% în stratul \"%s1\" în stratul \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Redenumiți stratul \"%s1\" stratul \"%s2\" %s3 adâncimea cadrului %s4 în \"%s5\""],

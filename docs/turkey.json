@@ -1,6 +1,7 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 y-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 x-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 çerçeve derinliği %s4 rotasyonu %s5°'den %s6°'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 y-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 x-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Katman \"%s1\" katman \"%s2\" %s3 çerçeve derinliği %s4 'u \"%s5\" olarak yeniden adlandırın."],
     ["{{新規Text「%s1」を追加}}", "Yeni Metin \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "\"%s1\" grafiğini değiştirin"],

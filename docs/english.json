@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 frame depth %s4 rotation from %s5° to %s6° in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 frame depth %s4 y-scale from %s5% to %s6% in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 frame depth %s4 x-scale from %s5% to %s6% in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Rename \"%s1\" layer \"%s2\" %s3 frames depth %s4 to \"%s5\""],
