@@ -1,7 +1,8 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 głębokość ramki %s4 rotacja z %s5° do %s6° w warstwie \"%s1\" w warstwie \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 głębokość ramki %s4 skala y od %s5% do %s6% w warstwie \"%s1\" w warstwie \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 głębokość ramki %s4 skala x od %s5% do %s6% w warstwie \"%s1\" w warstwie \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 głębokość ramki %s4 matričs no %s5° līdz %s6° slānī \"%s1\" slānī \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 głębokość ramki %s4 rotācija no %s5° līdz %s6° slānī \"%s1\" slānī \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 głębokość ramki %s4 y mērogs no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 głębokość ramki %s4 x mērogs no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Zmień nazwę warstwy \"%s1\" warstwy \"%s2\" %s3 głębokość klatki %s4 na \"%s5\""],
     ["{{新規Text「%s1」を追加}}", "Nowy tekst \"%s1\""],
     ["{{「%s1」のグラフィックを変更}}", "Zmień grafikę \"%s1\""],
