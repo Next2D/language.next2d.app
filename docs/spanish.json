@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 profundidad de cuadro %s4 centro de %s5 a %s6 en capa \"%s1\" en capa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 profundidad de cuadro %s4 matriz de %s5° a %s6° en capa \"%s1\" en capa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 profundidad de cuadro %s4 rotación de %s5° a %s6° en capa \"%s1\" en capa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 profundidad de cuadro %s4 escala y de %s5% a %s6% en capa \"%s1\" en capa \"%s2\""],
