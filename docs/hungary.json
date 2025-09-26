@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 keretmélység %s4 középpont x-koordináta %s5% és %s6% között a \"%s1\" rétegben a \"%s2\" rétegben"],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 keretmélység %s4 középpont y-koordináta %s5% és %s6% között a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 keretmélység %s4 középpont %s5-ről %s6-ra a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 keretmélység %s4 mátrix %s5°-ról %s6°-ra a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 keretmélység %s4 forgatás %s5°-ról %s6°-ra a \"%s1\" rétegben a \"%s2\" rétegben"],

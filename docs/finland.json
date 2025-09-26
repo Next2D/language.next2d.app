@@ -1,4 +1,6 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 frame depth %s4 center point x-coordinate from %s5 to %s6 in layer \"%s1\" in layer \"%s2\""],
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 frame depth %s4 center point y-coordinate from %s5 to %s6 in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 kehyksen syvyys %s4 keskipiste %s5 - %s6 kerroksessa \"%s1\" kerroksessa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 kehyksen syvyys %s4 matriisi %s5° - %s6° kerroksessa \"%s1\" kerroksessa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 kehyksen syvyys %s4 rotaatio %s5° - %s6° kerroksessa \"%s1\" kerroksessa \"%s2\""],
