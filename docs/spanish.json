@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 profundidad de cuadro %s4 componente rojo de %s5% a %s6% en capa \"%s1\" en capa \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 hĺbka rámu %s4 offset priehľadnosti od %s5 do %s6 vo vrstve \"%s1\" vo vrstve \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 hĺbka rámu %s4 priehľadnosť od %s5% do %s6% vo vrstve \"%s1\" vo vrstve \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 hĺbka rámu %s4 stredový bod x súradnica od %s5 do %s6 vo vrstve \"%s1\" vo vrstve \"%s2\""],

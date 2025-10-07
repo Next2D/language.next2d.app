@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 profondeur du cadre %s4 composant rouge de %s5% à %s6% dans la couche \"%s1\" dans la couche \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 profondeur du cadre %s4 décalage de la transparence de %s5 à %s6 dans la couche \"%s1\" dans la couche \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 profondeur du cadre %s4 transparence de %s5% à %s6% dans la couche \"%s1\" dans la couche \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 profondeur du cadre %s4 coordonnée x du point central de %s5 à %s6 dans la couche \"%s1\" dans la couche \"%s2\""],
