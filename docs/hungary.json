@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 keretmélység %s4 vörös komponens eltolás %s5 és %s6 között a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 keretmélység %s4 vörös komponens %s5% és %s6% között a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 keretmélység %s4 átlátszóság eltolás %s5 és %s6 között a \"%s1\" rétegben a \"%s2\" rétegben"],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 keretmélység %s4 átlátszóság %s5% és %s6% között a \"%s1\" rétegben a \"%s2\" rétegben"],
