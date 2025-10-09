@@ -1,382 +1,1522 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}", "%s3 дълбочина на кадъра %s4 син компонент от %s5% до %s6% в слой \"%s1\" в слой \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}", "%s3 дълбочина на кадъра %s4 офсет на зеления компонент от %s5 до %s6 в слой \"%s1\" в слой \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}", "%s3 kehyksen syvyys %s4 vihreä komponentti %s5% - %s6% kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 kehyksen syvyys %s4 punainen komponentti offset %s5 - %s6 kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 kehyksen syvyys %s4 punainen komponentti %s5% - %s6% kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 kehyksen syvyys %s4 läpinäkyvyyden offset %s5 - %s6 kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 kehyksen syvyys %s4 läpinäkyvyys %s5% - %s6% kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 frame depth %s4 center point x-coordinate from %s5 to %s6 in layer \"%s1\" in layer \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 frame depth %s4 center point y-coordinate from %s5 to %s6 in layer \"%s1\" in layer \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 kehyksen syvyys %s4 keskipiste %s5 - %s6 kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 kehyksen syvyys %s4 matriisi %s5° - %s6° kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 kehyksen syvyys %s4 rotaatio %s5° - %s6° kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 kehyksen syvyys %s4 y-asteikko %s5% - %s6% kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 kehyksen syvyys %s4 x-asteikko %s5% - %s6% kerroksessa \"%s1\" kerroksessa \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Nimeä kerros \"%s1\" kerros \"%s2\" %s3 kehyksen syvyys %s4 muotoon \"%s5\""],
-    ["{{新規Text「%s1」を追加}}", "Uusi teksti \"%s1\""],
-    ["{{「%s1」のグラフィックを変更}}", "Vaihda \"%s1\"-grafiikka"],
-    ["{{新規Shape「%s1」を追加}}", "Uusi muoto \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Muutettu y-koordinaatti arvosta %s5 arvoon %s6 kehyksessä %s3 ja syvyydessä %s4 kerroksessa \"%s2\" kerroksessa \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Muutettu x-koordinaatti arvosta %s5 arvoon %s6 kehyksessä %s3 ja syvyydessä %s4 kerroksessa \"%s2\" kerroksessa \"%s1\""],
-    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Muutettu näyttämön taustaväri \"%s1\":stä \"%s2\":ksi"],
-    ["{{ステージのFPSを%s1から%s2に変更}}", "Muutettu näyttämön FPS arvosta %s1 arvoon %s2"],
-    ["{{ステージの高さを%s1から%s2に変更}}", "Lavan korkeus muutettiin %s1:stä %s2:aan"],
-    ["{{ステージの幅を%s1から%s2に変更}}", "Muutettu lavan leveys %s1:stä %s2:aan"],
-    ["{{「%s1」の%s2フレームのラベルを削除}}", "Poistetaan kehysmerkintä \"%s1\" %s2"],
-    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Vaihdettiin \"%s3\"-merkintä \"%s4\"-merkinnäksi %s2-kehyksen \"%s1\"-kehyksessä"],
-    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Rekisteröi etiketti \"%s3\" \"%s1\":n kehyksessä %s2"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Äänen \"%s3\" silmukkamäärän muuttaminen \"%s1\"-elokuvan %s2-kehyksessä %s4:sta %s5:een"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Muutti äänen \"%s3\" äänenvoimakkuuden \"%s1\" %s2-kehyksessä %s4:sta %s5:een"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Poista ääni \"%s3\" \"%s1\":n kehyksestä %s2"],
-    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Ääni \"%s3\" lisätty \"%s1\":n kehykseen %s2"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Poista avainkehykset tason \"%s2\" tason \"%s1\" kehyksestä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Poista tyhjät avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksestä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Poista kaikki avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksestä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Poista kaikki tyhjät avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksestä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Poistetaan %s4 kehystä %s3 kehyksen avainkehyksestä kerroksen \"%s2\" kerroksesta \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 kehystä poistettu tyhjistä avainkehyksistä %s3 kehyksessä kerroksessa \"%s2\" kerroksessa \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Jaa avainkehykset kerroksen \"%s2\" kerroksen \"%s1\" kehyksessä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Lisätään %s4-kehys %s3-kehyksen avainkehykseen kerroksessa \"%s2\" kerroksessa \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Lisää \"%s4\" \"%s1\" :n kerroksen \"%s2\" kehykseen %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Lisää %s3 kehystä kerroksen \"%s2\" \"%s1\" %s4 kehykseen"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Jaa tyhjät avainkehykset tason \"%s2\" tason \"%s1\" kehyksessä %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "Lisätään %s4 kehystä tyhjiin avainkehyksiin %s3 kehyksessä kerroksen \"%s2\" kerroksessa \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Lisää tyhjä avainkehys \"%s1\":n kerroksen \"%s2\" %s3 kehykseen"],
-    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" kerros \"%s2\" muutettu muotoon \"%s3\""],
-    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Vaihda kerroksen \"%s2\" korostusväri kerroksessa \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」を移動}}", "Siirrä kerros \"%s2\" \"%s1\":ssä"],
-    ["{{「%s1」を画像に上書き}}", "Korvaa \"%s1\" kuvalla"],
-    ["{{「%s1」を動画に上書き}}", "Korvaa \"%s1\" videolla"],
-    ["{{「%s1」を音声に上書き}}", "Korvaa \"%s1\" äänellä"],
-    ["{{ライブラリから「%s1」を削除}}", "Remove \"%s1\" from the library"],
-    ["{{MoiveClip一覧}}", "MoiveClip-luettelo"],
-    ["{{新規フォルダー「%s1」を追加}}", "Lisää uusi kansio \"%s1\""],
-    ["{{新規MovieClip「%s1」を追加}}", "Lisää uusi MovieClip \"%s1\""],
-    ["{{音声「%s1」を取り込み}}", "Äänen \"%s1\" sieppaaminen"],
-    ["{{動画「%s1」を取り込み}}", "Videon \"%s1\" kuvaaminen"],
-    ["{{「%s1」のフォルダ移動}}", "Kansioiden \"%s1\" siirtäminen"],
-    ["{{画像「%s1」を取り込み}}", "Kuvan \"%s1\" tuominen"],
-    ["{{「%s1」のシンボル名を「%s2」に変更}}", "Nimeä symboli \"%s1\" uudelleen muotoon \"%s2\""],
-    ["{{「%s1」の名前を「%s2」に変更}}", "Nimeä \"%s1\" uudelleen muotoon \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Kerroksen nimi \"%s2\" nimelle \"%s1\" muutettu nimeksi \"%s3\""],
-    ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Poistettu %s2 kehystä käsikirjoitusta \"%s1\" varten"],
-    ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Muutettu skripti ruutua %s2 varten \"%s1\" varten"],
-    ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Skripti lisätty \"%s1\":n kehykseen %s2"],
-    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Projektin nimi \"%s1\" muutettu muotoon \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」を削除}}", "Poista kerros \"%s2\" alueelta \"%s1\""],
-    ["{{「%s1」にレイヤー「%s2」を追加}}", "Kerros \"%s2\" lisätty kohteeseen \"%s1\""],
-    ["{{同名のシンボルが存在します}}", "Samannimisiä symboleja on olemassa"],
-    ["{{広告枠の非表示}}", "Mainoskehysten piilottaminen"],
-    ["{{履歴}}", "historia"],
-    ["{{エリア位置の移動}}", "Alueen aseman siirtäminen"],
-    ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "Katsomalla videomainoksia voit hyötyä 7 päivän rajoittamattomasta toiminnallisuudesta."],
-    ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animation Tool on avoimen lähdekoodin työkalu, joka on saatavilla ilmaiseksi."],
-    ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Toivomme, että tuet meitä uuden version kehittämisessä katsomalla videomainoksen."],
-    ["{{機能制限を解除}}", "Toiminnallisten rajoitusten poistaminen"],
-    ["{{サポーターアプリをインストール}}", "Asenna tukisovellus"],
-    ["{{画面共有}}", "Näytön jakaminen"],
-    ["{{画面共有の機能を起動}}", "Aktivoi näytönjakotoiminto"],
-    ["{{前のキーフレームと座標を合わせる}}", "Kohdista koordinaatit edelliseen avainkuvaan"],
-    ["{{前のキーフレームと変形を合わせる}}", "Kohdista muodonmuutos edellisen avainkehyksen kanssa"],
-    ["{{次のキーフレームに移動}}", "Siirry seuraavaan avainkuvaan"],
-    ["{{前のキーフレームに移動}}", "Siirry edelliseen avainkuvaan"],
-    ["{{全てのスクリプトをコピー}}", "Kopioi kaikki skriptit"],
-    ["{{スクリプトをコピー}}", "Kopioi käsikirjoitus"],
-    ["{{スクリプトをペースト}}", "Liitä käsikirjoitus"],
-    ["{{全てのラベルをコピー}}", "Kopioi kaikki tarrat"],
-    ["{{ラベルをコピー}}", "Kopioi tarrat"],
-    ["{{ラベルをペースト}}", "Liitä tarrat"],
-    ["{{全てのサウンドをコピー}}", "Kopioi kaikki äänet"],
-    ["{{サウンドをコピー}}", "Kopioi ääni"],
-    ["{{サウンドをペースト}}", "Liitä ääni"],
-    ["{{書き出し先の選択}}", "Vientikohteen valitseminen"],
-    ["{{画質}}", "kuvanlaatu"],
-    ["{{座標}}", "koordinaatti"],
-    ["{{MovieClipを編集}}", "Muokkaa MovieClipiä"],
-    ["{{親の階層へ移動}}", "Siirry vanhemman hierarkiaan"],
-    ["{{ロックされたレイヤーです}}", "Lukittu kerros"],
-    ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Useita objekteja ei voi sijoittaa väliin"],
-    ["{{名前が重複しています}}", "Kaksinkertaiset nimet"],
-    ["{{名前は必須です}}", "Nimi vaaditaan"],
-    ["{{基準点}}", "vertailukohta"],
-    ["{{自由変形ツール}}", "Ilmainen Transform Tool -työkalu"],
-    ["{{キーフレームに変換}}", "Muunnettu avainkehyksiksi"],
-    ["{{空のキーフレームに変換}}", "Muunnetaan tyhjiksi avainkehyksiksi"],
-    ["{{最初のフレームに移動}}", "Siirry ensimmäiseen ruutuun"],
-    ["{{最後のフレームに移動}}", "Siirry viimeiseen ruutuun"],
-    ["{{SWFを解析中}}", "Analysoitava SWF"],
-    ["{{JSONを生成}}", "Luo JSON"],
-    ["{{ファイルを生成}}", "Luo tiedosto"],
-    ["{{N2Dファイルの読み込み}}", "N2D-tiedostojen lataaminen"],
-    ["{{JSONの読み込み}}", "JSONin lukeminen"],
-    ["{{データを解凍中}}", "Tietoja puretaan"],
-    ["{{データを圧縮中}}", "Tietojen pakkaaminen"],
-    ["{{エンコード}}", "koodaa"],
-    ["{{外部ファイルの読み込み}}", "Ulkoisten tiedostojen lataaminen"],
-    ["{{バイナリデータを生成}}", "Luo binääritietoja"],
-    ["{{データベースを起動}}", "Käynnistä tietokanta"],
-    ["{{データを保存中}}", "Tietojen tallentaminen"],
-    ["{{完了}}", "valmistuminen"],
-    ["{{ステージ左揃え}}", "vasemmanpuoleinen linjaus"],
-    ["{{ステージ中央揃え(水平方向)}}", "Vaihe keskitetty (vaakasuora)"],
-    ["{{ステージ右揃え}}", "Vaiheen oikea kohdistus"],
-    ["{{ステージ上揃え}}", "esiintyminen lavalla"],
-    ["{{ステージ中央揃え(垂直方向)}}", "Lava keskitetty (pystysuora)"],
-    ["{{ステージ下揃え}}", "perustelut"],
-    ["{{定規}}", "viivotin"],
-    ["{{表示}}", "näyttö"],
-    ["{{ショートカット}}", "pikakuvake"],
-    ["{{レイヤーを複製}}", "Kaksoiskerros"],
-    ["{{未使用のフォルダを削除}}", "Poista käyttämättömät kansiot"],
-    ["{{同名のアイテムが存在します}}", "Samannimisiä kohteita on olemassa"],
-    ["{{追加ファイル}}", "lisätiedosto"],
-    ["{{既存のコンテンツ}}", "Olemassa oleva sisältö"],
-    ["{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}", "Voit valita, haluatko korvata, nimetä uudelleen ja lisätä tiedostoja tai peruuttaa ne"],
-    ["{{全て上書き}}", "Korvaa kaikki"],
-    ["{{全てキャンセル}}", "Peruuta kaikki"],
-    ["{{追加・上書き}}", "Lisäykset ja ylikirjoitukset"],
-    ["{{キャンセル}}", "Peruuta"],
-    ["{{表示確認したいフレームを指定}}", "Määritä kehys, jonka näytön haluat tarkistaa"],
-    ["{{ファイル名を指定}}", "Määritä tiedoston nimi"],
-    ["{{ファイル名}}", "tiedostonimi"],
-    ["{{終了フレームを指定}}", "Määritä päätykehys"],
-    ["{{開始フレームを指定}}", "Määritä aloituskehys"],
-    ["{{フレーム設定}}", "runkoasetus"],
-    ["{{書き出し設定}}", "Vientiasetukset"],
-    ["{{ファイル形式の選択}}", "Tiedostomuodon valitseminen"],
-    ["{{ファイル形式}}", "tiedostomuoto"],
-    ["{{サイズ設定}}", "Mitoitus"],
-    ["{{左上}}", "vasen-ylös"],
-    ["{{中央上}}", "keski-yläosassa"],
-    ["{{右上}}", "oikeanpuoleinen yläosa"],
-    ["{{中央左}}", "keskusta-vasemmistolainen"],
-    ["{{中央}}", "keskus"],
-    ["{{中央右}}", "keskustaoikeisto"],
-    ["{{左下}}", "alhaalla vasemmalla"],
-    ["{{中央下}}", "alempi keskitaso"],
-    ["{{右下}}", "oikean alakulman"],
-    ["{{中心点のX座標}}", "Keskipisteen X-koordinaatti"],
-    ["{{中心点のY座標}}", "Keskipisteen Y-koordinaatti"],
-    ["{{MovieClipに変換}}", "Muunna MovieClipiksi"],
-    ["{{変換}}", "transformaatio"],
-    ["{{ループ回数}}", "Silmukoiden määrä"],
-    ["{{カーブポインターの削除}}", "Poista käyrän osoitin"],
-    ["{{ステージ基準}}", "Vaiheen kriteerit"],
-    ["{{閉じる}}", "lähellä"],
-    ["{{保存}}", "varastointi"],
-    ["{{リセット}}", "nollaa"],
-    ["{{スクリーン}}", "näyttö"],
-    ["{{ショートカット設定}}", "Pikavalinta-asetukset"],
-    ["{{レイヤーカラー}}", "kerroksellinen väri"],
-    ["{{Next2Dを支援する}}", "Tuki Next2D"],
-    ["{{サポート}}", "tuki"],
-    ["{{未使用のアイテムを削除}}", "Poista käyttämättömät tuotteet"],
-    ["{{レイヤーをペースト}}", "Liisterikerros"],
-    ["{{レイヤーをコピー}}", "Kopioi kerros"],
-    ["{{フレームをペースト}}", "Liitä kehys"],
-    ["{{フレームをコピー}}", "Kopioi kehys"],
-    ["{{キーフレームを削除}}", "Poista avainkehykset"],
-    ["{{キーフレームに空のキーフレームを追加できません}}", "Tyhjiä avainkehyksiä ei voi lisätä avainkehyksiin"],
-    ["{{ズームツール}}", "Zoom-työkalu"],
-    ["{{タイムライン幅の拡大・縮小}}", "Aikajanan leveyden laajentaminen ja pienentäminen"],
-    ["{{ガイドレイヤー}}", "ohjaava kerros"],
-    ["{{音量設定}}", "Äänenvoimakkuuden asetus"],
-    ["{{サウンドを削除}}", "Poista ääni"],
-    ["{{カスタムループ}}", "räätälöity silmukka"],
-    ["{{読込のみ}}", "Vain luku"],
-    ["{{書込を許可}}", "postituslupa"],
-    ["{{単一行}}", "yksinkertainen linja"],
-    ["{{複数行}}", "monirivinen"],
-    ["{{自動で折り返し}}", "Automaattinen kääntyminen"],
-    ["{{左寄せ}}", "vasemmalle tasattu"],
-    ["{{中央揃え}}", "keskitys"],
-    ["{{右寄せ}}", "oikealle tasattu"],
-    ["{{放射状グラデーション}}", "säteittäinen porrastus"],
-    ["{{線形グラデーション}}", "lineaarinen gradientti"],
-    ["{{画像}}", "Kuva"],
-    ["{{画像選択}}", "Kuvan valinta"],
-    ["{{種別}}", "luokitus"],
-    ["{{Shapeの色設定}}", "Muodon väriasetukset"],
-    ["{{変形}}", "muodonmuutos"],
-    ["{{カラー効果}}", "värivaikutus"],
-    ["{{フィルター}}", "suodatin"],
-    ["{{Shapeを複製}}", "Duplicate Shape"],
-    ["{{読み込み}}", "Lue sisään"],
-    ["{{新規フォルダー}}", "Uusi kansio"],
-    ["{{新規MovieClip}}", "Uusi MovieClip"],
-    ["{{枠に合わせてテキストをリサイズ}}", "Muuta tekstin kokoa kehykseen sopivaksi"],
-    ["{{テキストに合わせて枠をリサイズ}}", "Muuta kehyksen kokoa tekstin mukaan"],
-    ["{{リサイズしない}}", "Ei koon muuttamista"],
-    ["{{フォント}}", "fontti"],
-    ["{{テキスト}}", "Teksti"],
-    ["{{ループ}}", "silmukka"],
-    ["{{音量}}", "äänenvoimakkuus"],
-    ["{{ビデオ}}", "Video"],
-    ["{{イージング}}", "helpottaminen"],
-    ["{{サウンド}}", "ääni"],
-    ["{{シンボル}}", "symboli"],
-    ["{{名前}}", "Nimi"],
-    ["{{オブジェクト}}", "kohde"],
-    ["{{ステージ設定}}", "Lavastus"],
-    ["{{プレビュー}}", "esikatselu"],
-    ["{{削除}}", "poisto"],
-    ["{{ペースト}}", "liitä"],
-    ["{{コピー}}", "kopioi"],
-    ["{{プラグインメニュー}}", "Plug-in-valikko"],
-    ["{{トゥイーン}}", "tween"],
-    ["{{カーブポインターの追加}}", "Lisäkäyrän osoitin"],
-    ["{{パスの結合}}", "Polkujen yhdistäminen"],
-    ["{{シェイプ}}", "muoto"],
-    ["{{キーフレームに配分}}", "Allokointi avainkehyksille"],
-    ["{{レイヤーに配分}}", "Jakaminen kerroksille"],
-    ["{{タイムライン}}", "Aikajana"],
-    ["{{整列}}", "linjaus"],
-    ["{{最背面}}", "viimeisin"],
-    ["{{ひとつ背面へ}}", "Yksi takana"],
-    ["{{ひとつ前面へ}}", "Yksi eteen"],
-    ["{{最前面}}", "tärkein"],
-    ["{{重ね順}}", "superpositio"],
-    ["{{プラグイン}}", "plug-in"],
-    ["{{ライブラリ}}", "kirjasto"],
-    ["{{プロパティ}}", "omaisuus"],
-    ["{{マスクレイヤー}}", "naamiokerros"],
-    ["{{通常レイヤー}}", "Normaali kerros"],
-    ["{{モーショントゥイーンの削除}}", "Liikkeeseen liittyvien tweens-elementtien poistaminen"],
-    ["{{モーショントゥイーンの追加}}", "Lisäliike tweens"],
-    ["{{モーダル表示}}", "modaalinen merkintä"],
-    ["{{言語}}", "Kieli"],
-    ["{{フォーマット}}", "muoto"],
-    ["{{含める}}", "sisältää"],
-    ["{{含めない}}", "ei sisällä"],
-    ["{{使い方、リファレンス}}", "Käyttö, viite"],
-    ["{{非表示レイヤー}}", "piilokerros"],
-    ["{{設定}}", "asetus"],
-    ["{{デフォルトのループを利用する}}", "Käytä oletussilmukkaa"],
-    ["{{フレームピッカー}}", "kehyksen poiminta"],
-    ["{{左揃え}}", "vasen oikeutus"],
-    ["{{中央揃え(水平方向)}}", "Keskitetty (vaakasuora)"],
-    ["{{右揃え}}", "oikea perustelu"],
-    ["{{上揃え}}", "perustelut"],
-    ["{{中央揃え(垂直方向)}}", "Keskitetty (pystysuora)"],
-    ["{{下揃え}}", "perustelut"],
-    ["{{開始フレーム}}", "aloituskehys"],
-    ["{{終了フレーム}}", "päätykehys"],
-    ["{{ループで再生}}", "Toista silmukassa"],
-    ["{{1回再生}}", "1 toisto"],
-    ["{{指定したフレームで固定}}", "Kiinnitetty määritettyyn kehykseen"],
-    ["{{1回逆再生}}", "1 käänteinen toisto"],
-    ["{{逆ループで再生}}", "Toisto käänteisessä silmukassa"],
-    ["{{画面の拡大・縮小}}", "Näytön zoomaaminen sisään ja ulos"],
-    ["{{カスタムイージングデータを保存}}", "Tallenna mukautetut easing-tiedot"],
-    ["{{カスタムイージングデータの読込}}", "Mukautettujen helpotustietojen lukeminen"],
-    ["{{プレビューのON/OFF}}", "Esikatselu päälle/pois"],
-    ["{{フォント枠サイズ}}", "fontin runkokoko"],
-    ["{{フォント枠カラー}}", "Fontin kehyksen väri"],
-    ["{{オニオンスキン}}", "sipulikuori"],
-    ["{{バケツツール}}", "Kauhatyökalut"],
-    ["{{ペンツール}}", "kynätyökalu"],
-    ["{{ダブルクリックでカーブポイントが追加されます}}", "Lisää käyrän piste kaksoisnapsauttamalla"],
-    ["{{選択ツール}}", "valintatyökalu"],
-    ["{{Shape変形ツール}}", "Muodonmuodostustyökalut"],
-    ["{{テキストツール}}", "tekstityökalu"],
-    ["{{矩形ツール}}", "Suorakulmio-työkalu"],
-    ["{{楕円ツール}}", "Elliptiset työkalut"],
-    ["{{角丸矩形ツール}}", "Pyöristetty kulma suorakulmio työkalu"],
-    ["{{塗りのカラー}}", "Maalin väri"],
-    ["{{線のカラー}}", "Viivan väri"],
-    ["{{線の太さ}}", "viivan paksuus"],
-    ["{{プロジェクトデータの読込}}", "Projektin tietojen lukeminen"],
-    ["{{プロジェクトデータを保存}}", "Tallenna projektin tiedot"],
-    ["{{書き出し}}", "avauslause tai -kappale"],
-    ["{{Discordへ移動}}", "Siirry Discordiin"],
-    ["{{バグ報告}}", "vikailmoitus"],
-    ["{{設定}}", "asetus (tietokoneen tai tiedoston jne.)"],
-    ["{{タブを追加}}", "Lisää välilehti"],
-    ["{{タブの一覧を表示・移動}}", "Välilehtien luettelon näyttäminen ja siirtäminen"],
-    ["{{スクリプトを追加}}", "Lisää käsikirjoitus"],
-    ["{{キーフレームを追加}}", "Lisää avainkehyksiä"],
-    ["{{空のキーフレームを追加}}", "Lisää tyhjiä avainkehyksiä"],
-    ["{{フレームを追加}}", "Lisää kehys"],
-    ["{{フレームを削除}}", "Irrota kehys"],
-    ["{{再生}}", "uudistuminen"],
-    ["{{停止}}", "musiikin, tanssin jne. keskeyttäminen surun merkkinä"],
-    ["{{ループ設定}}", "Silmukka-asetukset"],
-    ["{{レイヤーを追加}}", "Lisää kerros"],
-    ["{{レイヤーを削除}}", "Poista kerros"],
-    ["{{全てのレイヤーをハイライト}}", "Korosta kaikki kerrokset"],
-    ["{{全てのレイヤーを非表示}}", "Piilota kaikki kerrokset"],
-    ["{{全てのレイヤーをロック}}", "Lukitse kaikki kerrokset"],
-    ["{{比率を固定}}", "Kiinteä suhde"],
-    ["{{ステージの幅}}", "Lavan leveys"],
-    ["{{背景色}}", "taustaväri"],
-    ["{{ステージの高さ}}", "Lavan korkeus"],
-    ["{{フレームレート}}", "kuvataajuus"],
-    ["{{シンボル名}}", "symbolin nimi"],
-    ["{{イージング設定}}", "Rauhoittamisasetus"],
-    ["{{ビデオの音量設定}}", "Videon äänenvoimakkuuden asetukset"],
-    ["{{自動再生}}", "automaattinen toisto"],
-    ["{{テキストエリアのボーダー設定}}", "Tekstialueiden reunusasetukset"],
-    ["{{テキスト入力設定}}", "tekstinsyöttöasetus"],
-    ["{{フォント選択}}", "Fontin valinta"],
-    ["{{自動サイズ調整}}", "Automaattinen koon muuttaminen"],
-    ["{{フォントスタイルタイプ}}", "fontin tyyli tyyppi"],
-    ["{{行揃え}}", "perustella"],
-    ["{{改行設定}}", "rivinvaihdon asetus"],
-    ["{{スクロール設定}}", "Vieritysasetukset"],
-    ["{{フォントサイズ}}", "fonttikoko"],
-    ["{{フォントカラー}}", "fontin väri"],
-    ["{{行間}}", "rivien välissä"],
-    ["{{文字幅}}", "merkin leveys"],
-    ["{{左マージン}}", "vasen marginaali"],
-    ["{{右マージン}}", "oikea marginaali"],
-    ["{{カラー種別の選択}}", "Valitse värityyppi"],
-    ["{{背景画像の選択}}", "Taustakuvan valitseminen"],
-    ["{{カラーポインターを追加}}", "Lisäväriosoitin"],
-    ["{{カラー値}}", "väriarvo"],
-    ["{{アルファ(0%-100%)}}", "Alpha (0%-100%)"],
-    ["{{アルファ値}}", "alfa-arvo"],
-    ["{{選択対象の幅}}", "Valintakohteen leveys"],
-    ["{{選択対象のX座標}}", "Valintakohteen X-koordinaatti"],
-    ["{{選択対象の高さ}}", "Valintakohteen korkeus"],
-    ["{{選択対象のY座標}}", "Valintakohteen Y-koordinaatti"],
-    ["{{選択対象の幅の伸縮}}", "Valintakohteen leveyden venyttäminen ja kutistaminen"],
-    ["{{選択対象を回転}}", "Kierrä valinta"],
-    ["{{選択対象の高さの伸縮}}", "Valintakohteen korkeuden laajentaminen ja supistaminen"],
-    ["{{アルファオフセット(-255〜255)}}", "Alpha offset (-255-255)"],
-    ["{{赤(0%-100%)}}", "Punainen (0%-100%)"],
-    ["{{赤オフセット(-255〜255)}}", "Punainen offset (-255-255)"],
-    ["{{緑(0%-100%)}}", "Vihreä (0%-100%)"],
-    ["{{緑オフセット(-255〜255)}}", "Vihreä offset (-255-255)"],
-    ["{{青(0%-100%)}}", "Sininen (0%-100%)"],
-    ["{{青オフセット(-255〜255)}}", "Sininen offset (-255-255)"],
-    ["{{ブレンドモード}}", "sekoitustila"],
-    ["{{フィルターを選択}}", "Valitse suodatin"],
-    ["{{フィルターを追加}}", "Lisää suodatin"],
-    ["{{サウンドを追加}}", "Lisää ääntä"],
-    ["{{フィルターを表示・非表示する}}", "Näytä/piilota suodattimet"],
-    ["{{フィルターを削除}}", "Poista suodattimet"],
-    ["{{水平方向にぼかす}}", "Sameus vaakasuunnassa"],
-    ["{{垂直方向にぼかす}}", "Pystysuora sumeus"],
-    ["{{フィルター強度}}", "Suodattimen vahvuus"],
-    ["{{フィルター角度}}", "Suodatinkulma"],
-    ["{{シャドウのアルファ}}", "Shadow's Alpha"],
-    ["{{シャドウのカラー}}", "Varjojen värit"],
-    ["{{フィルター距離}}", "Suodattimen etäisyys"],
-    ["{{ハイライトのカラー}}", "Värilliset korostukset"],
-    ["{{ハイライトのアルファ}}", "Korosta Alpha"],
-    ["{{グラデーションカラー}}", "Gradation väri"],
-    ["{{グラデーションのアルファ}}", "Gradientin alfa"],
-    ["{{タブの移動・名前を変更}}", "Välilehtien siirtäminen ja uudelleennimeäminen"],
-    ["{{プロジェクトを閉じる}}", "Sulje projekti"],
-    ["{{上下に移動}}", "Siirry ylös ja alas"],
-    ["{{レイヤー変更(ダブルクリック)}}", "Kerroksen vaihto (kaksoisnapsautus)"],
-    ["{{レイヤーをハイライト}}", "Korosta kerrokset"],
-    ["{{レイヤーを非表示}}", "Piilota kerrokset"],
-    ["{{レイヤーをロック}}", "Lukitse kerrokset"],
-    ["{{カーブポインター(ダブルクリックでON/OFF)}}", "Käyräosoitin (kaksoisnapsauttamalla voit kytkeä sen päälle/pois)"],
-    ["{{インスタンス名}}", "instanssin nimi"],
-    ["{{ライブラリ内の検索}}", "Haku kirjastossa"],
-    ["{{フレームラベル}}", "kehyksen etiketti"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Jos projektia ei tallenneta, tämän välilehden projektitietoja ei voida palauttaa. Haluatko poistaa välilehden?}}"]
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 sinisen komponentin siirtymä arvosta %s5 arvoon %s6 kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+        "%s3 kehys syvyys %s4 sininen komponentti arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 vihreän komponentin siirtymä arvosta %s5 arvoon %s6 kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+        "%s3 kehys syvyys %s4 vihreä komponentti arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 punaisen komponentin siirtymä arvosta %s5 arvoon %s6 kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+        "%s3 kehys syvyys %s4 punainen komponentti arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 läpinäkyvyyden siirtymä arvosta %s5 arvoon %s6 kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+        "%s3 kehys syvyys %s4 läpinäkyvyys arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 keskipiste y-koordinaatti arvosta %s5 arvoon %s6 kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}",
+        "%s3 kehys syvyys %s4 keskipiste arvosta \"%s5\" arvoon \"%s6\" kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+        "%s3 kehys syvyys %s4 matriisi arvosta %s5° arvoon %s6° kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+        "%s3 kehys syvyys %s4 kierto arvosta %s5° arvoon %s6° kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 y-skaalaus arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}",
+        "%s3 kehys syvyys %s4 x-skaalaus arvosta %s5% arvoon %s6% kerroksessa kerros \"%s1\" kerroksessa kerros \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}",
+        "Nimeä uudelleen \"%s1\" kerros \"%s2\" %s3 frames syvyys %s4 arvoon \"%s5\""
+    ],
+    [
+        "{{新規Text「%s1」を追加}}",
+        "Lisää uusi Teksti \"%s1\""
+    ],
+    [
+        "{{「%s1」のグラフィックを変更}}",
+        "Muuta \"%s1\" grafiikka"
+    ],
+    [
+        "{{新規Shape「%s1」を追加}}",
+        "Lisää uusi Muoto \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+        "Muutettu y-koordinaatti arvosta %s5 arvoon %s6 for kehys %s3 and syvyys %s4 kerroksessa kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+        "Muutettu x-koordinaatti arvosta %s5 arvoon %s6 for kehys %s3 and syvyys %s4 kerroksessa kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{ステージの背景色を「%s1」から「%s2」に変更}}}",
+        "Muutettu the background color  the stage arvosta \"%s1\" arvoon \"%s2\""
+    ],
+    [
+        "{{ステージのFPSを%s1から%s2に変更}}}",
+        "Muutettu stage FPS arvosta %s1 arvoon %s2"
+    ],
+    [
+        "{{ステージの高さを%s1から%s2に変更}}}",
+        "Stage height Muutettu arvosta %s1 arvoon %s2"
+    ],
+    [
+        "{{ステージの幅を%s1から%s2に変更}}}",
+        "Muutettu stage width arvosta %s1 arvoon %s2"
+    ],
+    [
+        "{{「%s1」の%s2フレームのラベルを削除}}}",
+        "Delete \"%s1\" %s2 kehys label"
+    ],
+    [
+        "{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}}",
+        "Muutettu the label \"%s3\" arvoon \"%s4\" for the %s2 kehys kerroksessa \"%s1\""
+    ],
+    [
+        "{{「%s1」の%s2フレームにラベル「%s3」を登録}}}",
+        "Register label \"%s3\" kerroksessa kehys %s2  \"%s1\""
+    ],
+    [
+        "{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}}",
+        "Muutettu the loop count for the sound \"%s3\" kerroksessa the %s2 kehys  \"%s1\" arvosta %s4 arvoon %s5"
+    ],
+    [
+        "{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}",
+        "Muutettu the volume  the sound \"%s3\" kerroksessa the %s2 kehys  \"%s1\" arvosta %s4 arvoon %s5"
+    ],
+    [
+        "{{「%s1」の%s2フレームのサウンド「%s3」を削除}}",
+        "Delete the sound \"%s3\" kerroksessa the %s2 kehys  \"%s1\""
+    ],
+    [
+        "{{「%s1」の%s2フレームにサウンド「%s3」を追加}}",
+        "Sound \"%s3\" added arvoon \"%s1\" %s2 kehys"
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}",
+        "Delete keyframe %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}",
+        "Delete empty keyframes kerroksessa kehys %s3  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}",
+        "Delete all keyframes kerroksessa the %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}",
+        "Delete all empty keyframes kerroksessa kehys %s3  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}",
+        "Deleted %s4 frames arvosta the %s3 kehys keyframe  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+        "Delete %s4 frames arvosta empty keyframes kerroksessa %s3 frames  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}",
+        "Split keyframes kerroksessa the %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}",
+        "Added %s4 kehys arvoon the keyframe  the %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}",
+        "Add \"%s4\" arvoon kehys %s3  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}",
+        "Add %s4 frames arvoon the %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}",
+        "Split empty keyframes kerroksessa kehys %s3  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+        "Add %s4 kehys arvoon the empty keyframe  %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}",
+        "Add an empty keyframe arvoon %s3 kehys  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」を「%s3」に変更}}",
+        "Muuta \"%s1\" kerros \"%s2\" arvoon \"%s3\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}",
+        "Muuta highlight color  kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」を移動}}",
+        "Move kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」を画像に上書き}}",
+        "Overwrite \"%s1\" with image"
+    ],
+    [
+        "{{「%s1」を動画に上書き}}",
+        "Overwrite \"%s1\" with video"
+    ],
+    [
+        "{{「%s1」を音声に上書き}}",
+        "Overwrite \"%s1\" with audio"
+    ],
+    [
+        "{{ライブラリから「%s1」を削除}}",
+        "Remove \"%s1\" arvosta the library"
+    ],
+    [
+        "{{MoiveClip一覧}}",
+        "MoiveClip List"
+    ],
+    [
+        "{{新規フォルダー「%s1」を追加}}",
+        "Lisää uusi folder \"%s1\""
+    ],
+    [
+        "{{新規MovieClip「%s1」を追加}}",
+        "Lisää uusi MovieClip \"%s1\""
+    ],
+    [
+        "{{音声「%s1」を取り込み}}",
+        "Capture voice \"%s1\""
+    ],
+    [
+        "{{動画「%s1」を取り込み}}",
+        "Captured video \"%s1\""
+    ],
+    [
+        "{{「%s1」のフォルダ移動}}",
+        "Move \"%s1\" folder"
+    ],
+    [
+        "{{画像「%s1」を取り込み}}",
+        "Import image \"%s1\""
+    ],
+    [
+        "{{「%s1」のシンボル名を「%s2」に変更}}",
+        "Symbol name \"%s1\" Muutettu arvoon \"%s2\""
+    ],
+    [
+        "{{「%s1」の名前を「%s2」に変更}}",
+        "Nimeä uudelleen \"%s1\" arvoon \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}",
+        "Muuta kerros name \"%s2\"  \"%s1\" arvoon \"%s3\""
+    ],
+    [
+        "{{「%s1」の%s2フレームのスクリプトを削除}}",
+        "Deleted %s2 frames  \"%s1\" script"
+    ],
+    [
+        "{{「%s1」の%s2フレームのスクリプトを変更}}",
+        "Modified script for kehys %s2  \"%s1\""
+    ],
+    [
+        "{{「%s1」の%s2フレームにスクリプトを追加}}",
+        "Added script for kehys %s2  \"%s1\""
+    ],
+    [
+        "{{プロジェクト名「%s1」を「%s2」に変更}}",
+        "Muuta project name \"%s1\" arvoon \"%s2\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」を削除}}",
+        "Delete kerros \"%s2\"  \"%s1\""
+    ],
+    [
+        "{{「%s1」のレイヤー「%s2」を追加}}",
+        "Add kerros \"%s2\" arvoon \"%s1\""
+    ],
+    [
+        "{{同名のシンボルが存在します}}",
+        "Symbol  the same name exists"
+    ],
+    [
+        "{{広告枠の非表示}}",
+        "Hiding ad spaces"
+    ],
+    [
+        "{{履歴}}",
+        "History"
+    ],
+    [
+        "{{エリア位置の移動}}",
+        "Move area position"
+    ],
+    [
+        "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+        "By watching the video ads, you will receive the privilege  having the functionality restrictions removed for 7 days."
+    ],
+    [
+        "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+        "Animation Tool is open source and available free  charge."
+    ],
+    [
+        "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+        "We would appreciate your support by watching the video ad arvoon help us develop a new version."
+    ],
+    [
+        "{{機能制限を解除}}",
+        "Remove Functional Restrictions"
+    ],
+    [
+        "{{サポーターアプリをインストール}}",
+        "Install Supporter App"
+    ],
+    [
+        "{{画面共有}}",
+        "Screen Sharing"
+    ],
+    [
+        "{{画面共有の機能を起動}}",
+        "Activate the function  screen sharing"
+    ],
+    [
+        "{{前のキーフレームと座標を合わせる}}",
+        "Align coordinates with previous keyframe"
+    ],
+    [
+        "{{前のキーフレームと変形を合わせる}}",
+        "Match deformation with previous keyframe"
+    ],
+    [
+        "{{次のキーフレームに移動}}",
+        "Next Key kehys"
+    ],
+    [
+        "{{前のキーフレームに移動}}",
+        "Prev Key kehys"
+    ],
+    [
+        "{{全てのスクリプトをコピー}}",
+        "Copy All Scripts"
+    ],
+    [
+        "{{スクリプトをコピー}}",
+        "Copy Script"
+    ],
+    [
+        "{{スクリプトをペースト}}",
+        "Paste Script"
+    ],
+    [
+        "{{全てのラベルをコピー}}",
+        "Copy All Labels"
+    ],
+    [
+        "{{ラベルをコピー}}",
+        "Copy Label"
+    ],
+    [
+        "{{ラベルをペースト}}",
+        "Paste Label"
+    ],
+    [
+        "{{全てのサウンドをコピー}}",
+        "Copy All Sounds"
+    ],
+    [
+        "{{サウンドをコピー}}",
+        "Copy Sound"
+    ],
+    [
+        "{{サウンドをペースト}}",
+        "Paste Sound"
+    ],
+    [
+        "{{書き出し先の選択}}",
+        "Export Location"
+    ],
+    [
+        "{{画質}}",
+        "Quality"
+    ],
+    [
+        "{{座標}}",
+        "Coordinates"
+    ],
+    [
+        "{{MovieClipを編集}}",
+        "Edit MovieClip"
+    ],
+    [
+        "{{親の階層へ移動}}",
+        "Move arvoon parent hierarchy"
+    ],
+    [
+        "{{ロックされたレイヤーです}}",
+        "Locked kerros"
+    ],
+    [
+        "{{トゥイーンには複数のオブジェクトを設置できません}}",
+        "Multiple objects cannot be placed on a tween"
+    ],
+    [
+        "{{名前が重複しています}}",
+        "Duplicate Name"
+    ],
+    [
+        "{{名前は必須です}}",
+        "Name is required"
+    ],
+    [
+        "{{基準点}}",
+        "Reference Point"
+    ],
+    [
+        "{{自由変形ツール}}",
+        "Free Transform Tool"
+    ],
+    [
+        "{{キーフレームに変換}}",
+        "Convert arvoon keyframes"
+    ],
+    [
+        "{{空のキーフレームに変換}}",
+        "Convert arvoon empty keyframes"
+    ],
+    [
+        "{{最初のフレームに移動}}",
+        "Go arvoon First kehys"
+    ],
+    [
+        "{{最後のフレームに移動}}",
+        "Go arvoon Last kehys"
+    ],
+    [
+        "{{SWFを解析中}}",
+        "SWF Being Parsed"
+    ],
+    [
+        "{{JSONを生成}}",
+        "Generate JSON"
+    ],
+    [
+        "{{ファイルを生成}}",
+        "Generate File"
+    ],
+    [
+        "{{N2Dファイルの読み込み}}",
+        "Loading N2D File"
+    ],
+    [
+        "{{JSONの読み込み}}",
+        "Loading JSON"
+    ],
+    [
+        "{{データを解凍中}}",
+        "Decompressing Data"
+    ],
+    [
+        "{{データを圧縮中}}",
+        "Compressing Data"
+    ],
+    [
+        "{{エンコード}}",
+        "Encoding"
+    ],
+    [
+        "{{外部ファイルの読み込み}}",
+        "Reading External Files"
+    ],
+    [
+        "{{バイナリデータを生成}}",
+        "Generating Binary Data"
+    ],
+    [
+        "{{データベースを起動}}",
+        "Starting the Database"
+    ],
+    [
+        "{{データを保存中}}",
+        "Storing Data"
+    ],
+    [
+        "{{完了}}",
+        "Completed"
+    ],
+    [
+        "{{ステージ左揃え}}",
+        "Align Stage Left"
+    ],
+    [
+        "{{ステージ中央揃え(水平方向)}}",
+        "Align Stage Center (Horizontal)"
+    ],
+    [
+        "{{ステージ右揃え}}",
+        "Align Stage Right"
+    ],
+    [
+        "{{ステージ上揃え}}",
+        "Align Stage Top"
+    ],
+    [
+        "{{ステージ中央揃え(垂直方向)}}",
+        "Center Stage (Vertical)"
+    ],
+    [
+        "{{ステージ下揃え}}",
+        "Align Bottom  Stage"
+    ],
+    [
+        "{{定規}}",
+        "Ruler"
+    ],
+    [
+        "{{表示}}",
+        "Display"
+    ],
+    [
+        "{{ショートカット}}",
+        "Shortcut"
+    ],
+    [
+        "{{レイヤーを複製}}",
+        "Duplicate kerros"
+    ],
+    [
+        "{{未使用のフォルダを削除}}",
+        "Delete unused folders"
+    ],
+    [
+        "{{同名のアイテムが存在します}}",
+        "An item  the same name exists"
+    ],
+    [
+        "{{追加ファイル}}",
+        "Additional File"
+    ],
+    [
+        "{{既存のコンテンツ}}",
+        "Existing Content"
+    ],
+    [
+        "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+        "You can choose arvoon overwrite, Nimeä uudelleen and add files, or cancel"
+    ],
+    [
+        "{{全て上書き}}",
+        "Overwrite All"
+    ],
+    [
+        "{{全てキャンセル}}",
+        "Cancel All"
+    ],
+    [
+        "{{追加・上書き}}",
+        "Add or Overwrite"
+    ],
+    [
+        "{{キャンセル}}",
+        "Cancel"
+    ],
+    [
+        "{{表示確認したいフレームを指定}}",
+        "Specify the kehys you want arvoon check the display"
+    ],
+    [
+        "{{ファイル名を指定}}",
+        "Specify File Name"
+    ],
+    [
+        "{{ファイル名}}",
+        "File Name"
+    ],
+    [
+        "{{終了フレームを指定}}",
+        "Specify End kehys"
+    ],
+    [
+        "{{開始フレームを指定}}",
+        "Specify Start kehys"
+    ],
+    [
+        "{{フレーム設定}}",
+        "kehys Setting"
+    ],
+    [
+        "{{書き出し設定}}",
+        "Export Settings"
+    ],
+    [
+        "{{ファイル形式の選択}}",
+        "Select File Format"
+    ],
+    [
+        "{{ファイル形式}}",
+        "File Formats"
+    ],
+    [
+        "{{サイズ設定}}",
+        "Size Setting"
+    ],
+    [
+        "{{左上}}",
+        "Top Left"
+    ],
+    [
+        "{{中央上}}",
+        "Top Center"
+    ],
+    [
+        "{{右上}}",
+        "Top Right"
+    ],
+    [
+        "{{中央左}}",
+        "Center Left"
+    ],
+    [
+        "{{中央}}",
+        "Center"
+    ],
+    [
+        "{{中央右}}",
+        "Center Right"
+    ],
+    [
+        "{{左下}}",
+        "Bottom Left"
+    ],
+    [
+        "{{中央下}}",
+        "Bottom Center"
+    ],
+    [
+        "{{右下}}",
+        "Bottom Right"
+    ],
+    [
+        "{{中心点のX座標}}",
+        "X coordinate  the keskipiste"
+    ],
+    [
+        "{{中心点のY座標}}",
+        "Y coordinate  the keskipiste"
+    ],
+    [
+        "{{MovieClipに変換}}",
+        "Convert arvoon MovieClip"
+    ],
+    [
+        "{{変換}}",
+        "Conversion"
+    ],
+    [
+        "{{ループ回数}}",
+        "Loop Count"
+    ],
+    [
+        "{{カーブポインターの削除}}",
+        "Delete curve pointer"
+    ],
+    [
+        "{{ステージ基準}}",
+        "Stage Criteria"
+    ],
+    [
+        "{{閉じる}}",
+        "Close"
+    ],
+    [
+        "{{保存}}",
+        "Save"
+    ],
+    [
+        "{{リセット}}",
+        "Reset"
+    ],
+    [
+        "{{スクリーン}}",
+        "Screen"
+    ],
+    [
+        "{{ショートカット設定}}",
+        "Shortcut Settings"
+    ],
+    [
+        "{{レイヤーカラー}}",
+        "kerros Color"
+    ],
+    [
+        "{{Next2Dを支援する}}",
+        "Support Next2D"
+    ],
+    [
+        "{{サポート}}",
+        "Support"
+    ],
+    [
+        "{{未使用のアイテムを削除}}",
+        "Delete unused items"
+    ],
+    [
+        "{{レイヤーをペースト}}",
+        "Paste kerros"
+    ],
+    [
+        "{{レイヤーをコピー}}",
+        "Copy kerros"
+    ],
+    [
+        "{{フレームをペースト}}",
+        "Paste kehys"
+    ],
+    [
+        "{{フレームをコピー}}",
+        "Copy kehys"
+    ],
+    [
+        "{{キーフレームを削除}}",
+        "Delete keyframe"
+    ],
+    [
+        "{{キーフレームに空のキーフレームを追加できません}}",
+        "Cannot add an empty keyframe arvoon a keyframe"
+    ],
+    [
+        "{{ズームツール}}",
+        "Zoom Tool"
+    ],
+    [
+        "{{タイムライン幅の拡大・縮小}}",
+        "Timeline Width Expand/Reduce"
+    ],
+    [
+        "{{ガイドレイヤー}}",
+        "Guide kerros"
+    ],
+    [
+        "{{音量設定}}",
+        "Volume Setting"
+    ],
+    [
+        "{{サウンドを削除}}",
+        "Remove Sound"
+    ],
+    [
+        "{{カスタムループ}}",
+        "Custom Loop"
+    ],
+    [
+        "{{読込のみ}}",
+        "ReadOnly"
+    ],
+    [
+        "{{書込を許可}}",
+        "Writeable"
+    ],
+    [
+        "{{単一行}}",
+        "Single line"
+    ],
+    [
+        "{{複数行}}",
+        "Multiline"
+    ],
+    [
+        "{{自動で折り返し}}",
+        "Auto Wrap"
+    ],
+    [
+        "{{左寄せ}}",
+        "Left"
+    ],
+    [
+        "{{中央揃え}}",
+        "Center"
+    ],
+    [
+        "{{右寄せ}}",
+        "Right"
+    ],
+    [
+        "{{放射状グラデーション}}",
+        "Radial Gradient"
+    ],
+    [
+        "{{線形グラデーション}}",
+        "Linear Gradient"
+    ],
+    [
+        "{{画像}}",
+        "Image"
+    ],
+    [
+        "{{画像選択}}",
+        "Image Selection"
+    ],
+    [
+        "{{種別}}",
+        "Type"
+    ],
+    [
+        "{{Shapeの色設定}}",
+        "Muoto color settings"
+    ],
+    [
+        "{{変形}}",
+        "Transform"
+    ],
+    [
+        "{{カラー効果}}",
+        "Color Transform"
+    ],
+    [
+        "{{フィルター}}",
+        "Filter"
+    ],
+    [
+        "{{Shapeを複製}}",
+        "Duplicate Muoto"
+    ],
+    [
+        "{{読み込み}}",
+        "Read kerroksessa"
+    ],
+    [
+        "{{新規フォルダー}}",
+        "Added Folder"
+    ],
+    [
+        "{{新規MovieClip}}",
+        "Added MovieClip"
+    ],
+    [
+        "{{枠に合わせてテキストをリサイズ}}",
+        "Resize Teksti arvoon fit the kehys"
+    ],
+    [
+        "{{テキストに合わせて枠をリサイズ}}",
+        "Resize the kehys arvoon fit the Teksti"
+    ],
+    [
+        "{{リサイズしない}}",
+        "No Resize"
+    ],
+    [
+        "{{フォント}}",
+        "Font"
+    ],
+    [
+        "{{テキスト}}",
+        "Teksti"
+    ],
+    [
+        "{{ループ}}",
+        "Loop"
+    ],
+    [
+        "{{音量}}",
+        "Volume"
+    ],
+    [
+        "{{ビデオ}}",
+        "Video"
+    ],
+    [
+        "{{イージング}}",
+        "Easing"
+    ],
+    [
+        "{{サウンド}}",
+        "Sound"
+    ],
+    [
+        "{{シンボル}}",
+        "Symbol"
+    ],
+    [
+        "{{名前}}",
+        "Name"
+    ],
+    [
+        "{{オブジェクト}}",
+        "Object"
+    ],
+    [
+        "{{ステージ設定}}",
+        "Stage Setting"
+    ],
+    [
+        "{{プレビュー}}",
+        "Preview"
+    ],
+    [
+        "{{削除}}",
+        "Delete"
+    ],
+    [
+        "{{ペースト}}",
+        "Paste"
+    ],
+    [
+        "{{コピー}}",
+        "Copy"
+    ],
+    [
+        "{{プラグインメニュー}}",
+        "Plugin Menu"
+    ],
+    [
+        "{{トゥイーン}}",
+        "Tween"
+    ],
+    [
+        "{{カーブポインターの追加}}",
+        "Added Curve Pointer"
+    ],
+    [
+        "{{パスの結合}}",
+        "Integrating paths"
+    ],
+    [
+        "{{シェイプ}}",
+        "Muoto"
+    ],
+    [
+        "{{キーフレームに配分}}",
+        "Distribute arvoon Keyframes"
+    ],
+    [
+        "{{レイヤーに配分}}",
+        "Distribute arvoon Layers"
+    ],
+    [
+        "{{タイムライン}}",
+        "Timeline"
+    ],
+    [
+        "{{整列}}",
+        "Align"
+    ],
+    [
+        "{{最背面}}",
+        "Send arvoon Back"
+    ],
+    [
+        "{{ひとつ背面へ}}",
+        "Send arvoon Backward"
+    ],
+    [
+        "{{ひとつ前面へ}}",
+        "Bring arvoon Forward"
+    ],
+    [
+        "{{最前面}}",
+        "Bring arvoon Front"
+    ],
+    [
+        "{{重ね順}}",
+        "Arrange"
+    ],
+    [
+        "{{プラグイン}}",
+        "Plugin"
+    ],
+    [
+        "{{ライブラリ}}",
+        "Library"
+    ],
+    [
+        "{{プロパティ}}",
+        "Property"
+    ],
+    [
+        "{{マスクレイヤー}}",
+        "Mask kerros"
+    ],
+    [
+        "{{通常レイヤー}}",
+        "Normal kerros"
+    ],
+    [
+        "{{モーショントゥイーンの削除}}",
+        "Deleted Motion Tweening"
+    ],
+    [
+        "{{モーショントゥイーンの追加}}",
+        "Added Motion Tweening"
+    ],
+    [
+        "{{モーダル表示}}",
+        "Modal Indication"
+    ],
+    [
+        "{{言語}}",
+        "Language"
+    ],
+    [
+        "{{フォーマット}}",
+        "Format"
+    ],
+    [
+        "{{含める}}",
+        "Include"
+    ],
+    [
+        "{{含めない}}",
+        "Not Including"
+    ],
+    [
+        "{{使い方、リファレンス}}",
+        "Usage, Reference"
+    ],
+    [
+        "{{非表示レイヤー}}",
+        "Hidden Layers"
+    ],
+    [
+        "{{設定}}",
+        "Setting"
+    ],
+    [
+        "{{デフォルトのループを利用する}}",
+        "Use the default loop"
+    ],
+    [
+        "{{フレームピッカー}}",
+        "kehys Picker"
+    ],
+    [
+        "{{左揃え}}",
+        "Left"
+    ],
+    [
+        "{{中央揃え(水平方向)}}",
+        "Center (Horizontal)"
+    ],
+    [
+        "{{右揃え}}",
+        "Right"
+    ],
+    [
+        "{{上揃え}}",
+        "Top"
+    ],
+    [
+        "{{中央揃え(垂直方向)}}",
+        "Center (Vertical)"
+    ],
+    [
+        "{{下揃え}}",
+        "Bottom"
+    ],
+    [
+        "{{開始フレーム}}",
+        "Start kehys"
+    ],
+    [
+        "{{終了フレーム}}",
+        "End kehys"
+    ],
+    [
+        "{{ループで再生}}",
+        "Play kerroksessa loop"
+    ],
+    [
+        "{{1回再生}}",
+        "1 playback"
+    ],
+    [
+        "{{指定したフレームで固定}}",
+        "Fixed at the specified kehys"
+    ],
+    [
+        "{{1回逆再生}}",
+        "1 reverse playback"
+    ],
+    [
+        "{{逆ループで再生}}",
+        "Playback kerroksessa reverse loop"
+    ],
+    [
+        "{{画面の拡大・縮小}}",
+        "Zoom kerroksessa/out  screen"
+    ],
+    [
+        "{{カスタムイージングデータを保存}}",
+        "Save custom easing data"
+    ],
+    [
+        "{{カスタムイージングデータの読込}}",
+        "Reading custom easing data"
+    ],
+    [
+        "{{プレビューのON/OFF}}",
+        "Preview on/off"
+    ],
+    [
+        "{{フォント枠サイズ}}",
+        "Font kehys Size"
+    ],
+    [
+        "{{フォント枠カラー}}",
+        "Font kehys Color"
+    ],
+    [
+        "{{オニオンスキン}}",
+        "Onion Skin"
+    ],
+    [
+        "{{バケツツール}}",
+        "Bucket Tools"
+    ],
+    [
+        "{{ペンツール}}",
+        "Pen Tool"
+    ],
+    [
+        "{{ダブルクリックでカーブポイントが追加されます}}",
+        "Double-click arvoon add a curve point"
+    ],
+    [
+        "{{選択ツール}}",
+        "Selection Tool"
+    ],
+    [
+        "{{Shape変形ツール}}",
+        "Muoto Transform Tool"
+    ],
+    [
+        "{{テキストツール}}",
+        "Teksti Tool"
+    ],
+    [
+        "{{矩形ツール}}",
+        "Rectangle Tool"
+    ],
+    [
+        "{{楕円ツール}}",
+        "Ellipse Tool"
+    ],
+    [
+        "{{角丸矩形ツール}}",
+        "Rounded Rectangle Tool"
+    ],
+    [
+        "{{塗りのカラー}}",
+        "Fill Color"
+    ],
+    [
+        "{{線のカラー}}",
+        "Stroke Color"
+    ],
+    [
+        "{{線の太さ}}",
+        "Stroke Width"
+    ],
+    [
+        "{{プロジェクトデータの読込}}",
+        "Loading project data"
+    ],
+    [
+        "{{プロジェクトデータを保存}}",
+        "Save project data"
+    ],
+    [
+        "{{書き出し}}",
+        "Export"
+    ],
+    [
+        "{{Discordへ移動}}",
+        "Go arvoon discord"
+    ],
+    [
+        "{{バグ報告}}",
+        "Bug reports"
+    ],
+    [
+        "{{設定}}",
+        "Setting"
+    ],
+    [
+        "{{タブを追加}}",
+        "Add a tab"
+    ],
+    [
+        "{{タブの一覧を表示・移動}}",
+        "View and move through the list  tabs"
+    ],
+    [
+        "{{スクリプトを追加}}",
+        "Add a script"
+    ],
+    [
+        "{{キーフレームを追加}}",
+        "Add a keyframe"
+    ],
+    [
+        "{{空のキーフレームを追加}}",
+        "Add an empty keyframe"
+    ],
+    [
+        "{{フレームを追加}}",
+        "Add a kehys"
+    ],
+    [
+        "{{フレームを削除}}",
+        "Delete kehys"
+    ],
+    [
+        "{{再生}}",
+        "Play"
+    ],
+    [
+        "{{停止}}",
+        "Stop"
+    ],
+    [
+        "{{ループ設定}}",
+        "Loop Setting"
+    ],
+    [
+        "{{レイヤーを追加}}",
+        "Add a kerros"
+    ],
+    [
+        "{{レイヤーを削除}}",
+        "Delete kerros"
+    ],
+    [
+        "{{全てのレイヤーをハイライト}}",
+        "Highlight all layers"
+    ],
+    [
+        "{{全てのレイヤーを非表示}}",
+        "Hide all layers"
+    ],
+    [
+        "{{全てのレイヤーをロック}}",
+        "Lock all layers"
+    ],
+    [
+        "{{比率を固定}}",
+        "Fixed ratio"
+    ],
+    [
+        "{{ステージの幅}}",
+        "Stage Width"
+    ],
+    [
+        "{{背景色}}",
+        "Background Color"
+    ],
+    [
+        "{{ステージの高さ}}",
+        "Stage Height"
+    ],
+    [
+        "{{フレームレート}}",
+        "kehys Rate"
+    ],
+    [
+        "{{シンボル名}}",
+        "Symbol Name"
+    ],
+    [
+        "{{イージング設定}}",
+        "Easing Setting"
+    ],
+    [
+        "{{ビデオの音量設定}}",
+        "Video Volume Setting"
+    ],
+    [
+        "{{自動再生}}",
+        "Auto Play"
+    ],
+    [
+        "{{テキストエリアのボーダー設定}}",
+        "Teksti Area Border Setting"
+    ],
+    [
+        "{{テキスト入力設定}}",
+        "Teksti Input Setting"
+    ],
+    [
+        "{{フォント選択}}",
+        "Font Select"
+    ],
+    [
+        "{{自動サイズ調整}}",
+        "Automatic size adjustment"
+    ],
+    [
+        "{{フォントスタイルタイプ}}",
+        "Font Style Type"
+    ],
+    [
+        "{{行揃え}}",
+        "Align"
+    ],
+    [
+        "{{改行設定}}",
+        "Newline Setting"
+    ],
+    [
+        "{{スクロール設定}}",
+        "Scroll Setting"
+    ],
+    [
+        "{{フォントサイズ}}",
+        "Font Size"
+    ],
+    [
+        "{{フォントカラー}}",
+        "Font Color"
+    ],
+    [
+        "{{行間}}",
+        "Line Space"
+    ],
+    [
+        "{{文字幅}}",
+        "Character Width"
+    ],
+    [
+        "{{左マージン}}",
+        "Left Margin"
+    ],
+    [
+        "{{右マージン}}",
+        "Right Margin"
+    ],
+    [
+        "{{カラー種別の選択}}",
+        "Select a color type"
+    ],
+    [
+        "{{背景画像の選択}}",
+        "Selecting a background image"
+    ],
+    [
+        "{{カラーポインターを追加}}",
+        "Add color pointers"
+    ],
+    [
+        "{{カラー値}}",
+        "Color"
+    ],
+    [
+        "{{アルファ(0%-100%)}}",
+        "Alpha(0%-100%)"
+    ],
+    [
+        "{{アルファ値}}",
+        "Alpha"
+    ],
+    [
+        "{{選択対象の幅}}",
+        "Width  the selection object"
+    ],
+    [
+        "{{選択対象のX座標}}",
+        "X coordinate  the selection object"
+    ],
+    [
+        "{{選択対象の高さ}}",
+        "Height   the selection object"
+    ],
+    [
+        "{{選択対象のY座標}}",
+        "Y coordinate  the selection object"
+    ],
+    [
+        "{{選択対象の幅の伸縮}}",
+        "scaleX  the selected object"
+    ],
+    [
+        "{{選択対象を回転}}",
+        "Rotate the object"
+    ],
+    [
+        "{{選択対象の高さの伸縮}}",
+        "scaleY  the selected object"
+    ],
+    [
+        "{{アルファオフセット(-255〜255)}}",
+        "Alpha Offset(-255〜255)"
+    ],
+    [
+        "{{赤(0%-100%)}}",
+        "Red(0%-100%)"
+    ],
+    [
+        "{{赤オフセット(-255〜255)}}",
+        "Red Offset(-255〜255)"
+    ],
+    [
+        "{{緑(0%-100%)}}",
+        "Green(0%-100%)"
+    ],
+    [
+        "{{緑オフセット(-255〜255)}}",
+        "Green Offset(-255〜255)"
+    ],
+    [
+        "{{青(0%-100%)}}",
+        "Blue(0%-100%)"
+    ],
+    [
+        "{{青オフセット(-255〜255)}}",
+        "Blue Offset(-255〜255)"
+    ],
+    [
+        "{{ブレンドモード}}",
+        "Blend Mode"
+    ],
+    [
+        "{{フィルターを選択}}",
+        "Select a filter"
+    ],
+    [
+        "{{フィルターを追加}}",
+        "Add a filter"
+    ],
+    [
+        "{{サウンドを追加}}",
+        "Add a sound"
+    ],
+    [
+        "{{フィルターを表示・非表示する}}",
+        "Show and Hide filters"
+    ],
+    [
+        "{{フィルターを削除}}",
+        "Delete Filter"
+    ],
+    [
+        "{{水平方向にぼかす}}",
+        "Blur Horizontally"
+    ],
+    [
+        "{{垂直方向にぼかす}}",
+        "Blur Vertically"
+    ],
+    [
+        "{{フィルター強度}}",
+        "Filter Strength"
+    ],
+    [
+        "{{フィルター角度}}",
+        "Filter Angle"
+    ],
+    [
+        "{{シャドウのアルファ}}",
+        "Shadow Alpha"
+    ],
+    [
+        "{{シャドウのカラー}}",
+        "Shadow Color"
+    ],
+    [
+        "{{フィルター距離}}",
+        "Filter Distance"
+    ],
+    [
+        "{{ハイライトのカラー}}",
+        "Highlight Color"
+    ],
+    [
+        "{{ハイライトのアルファ}}",
+        "Highlight Alpha"
+    ],
+    [
+        "{{グラデーションカラー}}",
+        "Gradient Color"
+    ],
+    [
+        "{{グラデーションのアルファ}}",
+        "Gradient Alpha"
+    ],
+    [
+        "{{タブの移動・名前を変更}}",
+        "Move/Nimeä uudelleen tabs"
+    ],
+    [
+        "{{プロジェクトを閉じる}}",
+        "Close the project"
+    ],
+    [
+        "{{上下に移動}}",
+        "Move up and down"
+    ],
+    [
+        "{{レイヤー変更(ダブルクリック)}}",
+        "kerros Muuta(double-click)"
+    ],
+    [
+        "{{レイヤーをハイライト}}",
+        "Highlight kerros"
+    ],
+    [
+        "{{レイヤーを非表示}}",
+        "Hide kerros"
+    ],
+    [
+        "{{レイヤーをロック}}",
+        "Lock the kerros"
+    ],
+    [
+        "{{カーブポインター(ダブルクリックでON/OFF)}}",
+        "Curve Pointer (double click arvoon turn on/off)"
+    ],
+    [
+        "{{インスタンス名}}",
+        "Instance Name"
+    ],
+    [
+        "{{ライブラリ内の検索}}",
+        "Search kerroksessa the library"
+    ],
+    [
+        "{{フレームラベル}}",
+        "kehys Label"
+    ],
+    [
+        "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+        "If the project is not saved, the project data kerroksessa this tab cannot be recovered. Do you want arvoon delete the tab?"
+    ]
 ]
