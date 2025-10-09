@@ -1,4 +1,5 @@
 [
+    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}", "%s3 дълбочина на кадъра %s4 офсет на зеления компонент от %s5 до %s6 в слой \"%s1\" в слой \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}", "%s3 frame depth %s4 green component from %s5% to %s6% in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 frame depth %s4 red component offset from %s5 to %s6 in layer \"%s1\" in layer \"%s2\""],
     ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 frame depth %s4 red component from %s5% to %s6% in layer \"%s1\" in layer \"%s2\""],
