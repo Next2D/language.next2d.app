@@ -1,383 +1,1522 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 mavi bileşen ofseti %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}", "%s3 çerçeve derinliği %s4 mavi bileşen ofseti %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 yeşil bileşen ofseti %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}", "%s3 çerçeve derinliği %s4 yeşil bileşeni %s5%ten %s6%ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 kırmızı bileşen ofseti %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 çerçeve derinliği %s4 kırmızı bileşeni %s5%ten %s6%ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 saydamlık ofseti %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 çerçeve derinliği %s4 saydamlık %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 merkez noktası x koordinatı %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 merkez noktası y koordinatı %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 çerçeve derinliği %s4 merkez noktası %s5'ten %s6'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 çerçeve derinliği %s4 matrisini %s5°'den %s6°'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 çerçeve derinliği %s4 rotasyonu %s5°'den %s6°'ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 y-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 çerçeve derinliği %s4 x-ölçeği %s5% ten %s6% ya \"%s1\" katmanında \"%s2\" katmanında değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Katman \"%s1\" katman \"%s2\" %s3 çerçeve derinliği %s4 'u \"%s5\" olarak yeniden adlandırın."],
-    ["{{新規Text「%s1」を追加}}", "Yeni Metin \"%s1\""],
-    ["{{「%s1」のグラフィックを変更}}", "\"%s1\" grafiğini değiştirin"],
-    ["{{新規Shape「%s1」を追加}}", "Yeni Şekil \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "\"%s1\" nin \"%s2\" katmanında %s3 çerçeve ve %s4 derinlik için y koordinatı %s5 ten %s6 e değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "\"%s1\" nin \"%s2\" katmanında %s3 çerçeve ve %s4 derinlik için x koordinatı %s5 ten %s6 e değiştirildi"],
-    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Sahnenin arka plan rengi \"%s1\" den \"%s2\" ye değiştirildi"],
-    ["{{ステージのFPSを%s1から%s2に変更}}", "Sahne FPS'si %s1 dan %s2 a değiştirildi"],
-    ["{{ステージの高さを%s1から%s2に変更}}", "Sahne yüksekliği %s1 den %s2 e değiştirildi"],
-    ["{{ステージの幅を%s1から%s2に変更}}", "Sahne genişliği %s1 den %s2 e değiştirildi"],
-    ["{{「%s1」の%s2フレームのラベルを削除}}", "\"%s1\" %s2 çerçeve etiketini silin"],
-    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "\"%s1\" içindeki %s2 çerçevesi için \"%s3\" etiketi \"%s4\" olarak değiştirildi"],
-    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "\"%s3\" etiketini \"%s1\" öğesinin %s2 çerçevesine kaydedin"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "\"%s1\" nin %s2 karesindeki \"%s3\" sesi için döngü sayısı %s4'den %s5'ye değiştirildi"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "\"%s1\" nin %s2. karesindeki \"%s3\" sesinin ses seviyesini %s4'den %s5'e değiştirdi"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "\"%s1\" nin %s2 karesindeki \"%s3\" sesini sil"],
-    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "\"%s3\" sesi \"%s1\" nin %s2 karesine eklendi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki boş anahtar kareleri silin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki boş anahtar kareleri silin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki tüm anahtar kareleri silin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki tüm boş ana kareleri silin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "\"%s1\" nin \"%s2\" katmanının %s3 kare anahtar karesinden %s4 karenin silinmesi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "\"%s1\" nin \"%s2\" katmanındaki %s3 karedeki boş ana karelerden %s4 kare kaldırıldı"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki ana kareleri bölün"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "\"%s1\" nin  \"%s2\" katmanının %s3 karesinin ana karesine bir %4 karesinin eklenmesi"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "\"%s1\" nin \"%s2\" katmanının  %s3 çerçevesine \"%s4\" ekleyin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "\"%s1\" deki \"%s2\" katmanının %s3 karesine %s4 kare ekleyin"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki boş ana kareleri ayırın"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesindeki boş ana karelere %s4 kare ekleme"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "\"%s1\" nin \"%s2\" katmanının %s3 karesine boş anahtar kareler eklendi"],
-    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" katmanı \"%s2\" \"%s3\" olarak değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "\"%s1\" nin \"%s2\" katmanının vurgu rengini değiştirin"],
-    ["{{「%s1」のレイヤー「%s2」を移動}}", "\"%s1\" nin \"%s2\" katmanını taşı"],
-    ["{{「%s1」を画像に上書き}}", "\"%s1\" nin üzerine resim yazın"],
-    ["{{「%s1」を動画に上書き}}", "Video ile \"%s1\" nin üzerine yaz"],
-    ["{{「%s1」を音声に上書き}}", "\"%s1\" nin üzerine ses yazın"],
-    ["{{ライブラリから「%s1」を削除}}", "Kütüphaneden \"%s1\" öğesini kaldırın"],
-    ["{{MoiveClip一覧}}", "MoiveClip listesi"],
-    ["{{新規フォルダー「%s1」を追加}}", "Yeni klasör \"%s1\" ekleyin"],
-    ["{{新規MovieClip「%s1」を追加}}", "Yeni MovieClip \"%s1\" ekleyin"],
-    ["{{音声「%s1」を取り込み}}", "\"%s1\" sesi yakalanıyor"],
-    ["{{動画「%s1」を取り込み}}", "\"%s1\" videosu yakalanıyor"],
-    ["{{「%s1」のフォルダ移動}}", "\"%s1\" klasörlerini taşıma"],
-    ["{{画像「%s1」を取り込み}}", "\"%s1\" görüntüsü içe aktarılıyor"],
-    ["{{「%s1」のシンボル名を「%s2」に変更}}", "\"%s1\" sembolünü \"%s2\" olarak yeniden adlandırın"],
-    ["{{「%s1」の名前を「%s2」に変更}}", "\"%s1\" yi \"%s2\" olarak yeniden adlandırın"],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "\"%s1\" için \"%s2\" katman adı \"%s3\" olarak değiştirildi"],
-    ["{{「%s1」の%s2フレームのスクリプトを削除}}", "\"%s1\" için %s2 kare senaryo silindi"],
-    ["{{「%s1」の%s2フレームのスクリプトを変更}}", "\"%s1\" nin %s2. karesi için değiştirilmiş komut dosyası"],
-    ["{{「%s1」の%s2フレームにスクリプトを追加}}", "\"%s1\" nin %s2. karesine eklenen komut dosyası"],
-    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Proje adı \"%s1\", \"%s2\" olarak değiştirildi"],
-    ["{{「%s1」のレイヤー「%s2」を削除}}", "\"%s1\" üzerindeki \"%s2\" katmanını sil"],
-    ["{{「%s1」にレイヤー「%s2」を追加}}", "\"%s2\" katmanı \"%s1\" ye eklendi"],
-    ["{{同名のシンボルが存在します}}", "Aynı isimde semboller mevcuttur"],
-    ["{{広告枠の非表示}}", "Reklam çerçevelerinin gizlenmesi"],
-    ["{{履歴}}", "TARİH"],
-    ["{{エリア位置の移動}}", "Alan konumunu taşıma"],
-    ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "Video reklamları izleyerek 7 günlük sınırsız işlevsellikten yararlanabilirsiniz."],
-    ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animasyon Aracı açık kaynak kodludur ve ücretsiz olarak kullanılabilir."],
-    ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Video reklamı izleyerek yeni sürümün geliştirilmesinde bize destek olacağınızı umuyoruz."],
-    ["{{機能制限を解除}}", "İşlevsel kısıtlamaları kaldırın"],
-    ["{{サポーターアプリをインストール}}", "Destekçi uygulamasını yükleyin"],
-    ["{{画面共有}}", "Ekran paylaşımı"],
-    ["{{画面共有の機能を起動}}", "Ekran paylaşımı işlevini etkinleştirin"],
-    ["{{前のキーフレームと座標を合わせる}}", "Koordinatları önceki ana kareyle hizala"],
-    ["{{前のキーフレームと変形を合わせる}}", "Deformasyonu önceki ana kareyle hizala"],
-    ["{{次のキーフレームに移動}}", "Sonraki anahtar kareye git"],
-    ["{{前のキーフレームに移動}}", "Önceki anahtar kareye git"],
-    ["{{全てのスクリプトをコピー}}", "Tüm komut dosyalarını kopyalayın"],
-    ["{{スクリプトをコピー}}", "Senaryoyu kopyala"],
-    ["{{スクリプトをペースト}}", "Komut dosyası yapıştır"],
-    ["{{全てのラベルをコピー}}", "Tüm etiketleri kopyala"],
-    ["{{ラベルをコピー}}", "Etiketleri kopyala"],
-    ["{{ラベルをペースト}}", "Etiketleri yapıştırın"],
-    ["{{全てのサウンドをコピー}}", "Tüm sesleri kopyala"],
-    ["{{サウンドをコピー}}", "Ses kopyalama"],
-    ["{{サウンドをペースト}}", "Ses yapıştır"],
-    ["{{書き出し先の選択}}", "Dışa aktarma hedefinin seçilmesi"],
-    ["{{画質}}", "görüntü kalitesi"],
-    ["{{座標}}", "Koordinat"],
-    ["{{MovieClipを編集}}", "MovieClip'i Düzenle"],
-    ["{{親の階層へ移動}}", "Üst hiyerarşiye geç"],
-    ["{{ロックされたレイヤーです}}", "Kilitli katman"],
-    ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Bir tween üzerine birden fazla nesne yerleştirilemez"],
-    ["{{名前が重複しています}}", "Mükerrer isimler"],
-    ["{{名前は必須です}}", "İsim gerekli"],
-    ["{{基準点}}", "referans noktası"],
-    ["{{自由変形ツール}}", "Ücretsiz Dönüştürme Aracı"],
-    ["{{キーフレームに変換}}", "Anahtar karelere dönüştürüldü"],
-    ["{{空のキーフレームに変換}}", "Boş anahtar karelere dönüştürülür"],
-    ["{{最初のフレームに移動}}", "İlk kareye git"],
-    ["{{最後のフレームに移動}}", "Son kareye git"],
-    ["{{SWFを解析中}}", "SWF analiz ediliyor"],
-    ["{{JSONを生成}}", "JSON Oluşturma"],
-    ["{{ファイルを生成}}", "Dosya oluştur"],
-    ["{{N2Dファイルの読み込み}}", "N2D dosyaları yükleniyor"],
-    ["{{JSONの読み込み}}", "JSON okuma"],
-    ["{{データを解凍中}}", "Veri paketinden çıkarılıyor"],
-    ["{{データを圧縮中}}", "Veri sıkıştırma"],
-    ["{{エンコード}}", "encode"],
-    ["{{外部ファイルの読み込み}}", "Harici dosyaları yükleme"],
-    ["{{バイナリデータを生成}}", "İkili veri oluşturun"],
-    ["{{データベースを起動}}", "Veritabanını başlat"],
-    ["{{データを保存中}}", "Veri depolama"],
-    ["{{完了}}", "tamamlanması"],
-    ["{{ステージ左揃え}}", "sahne sol hizalama"],
-    ["{{ステージ中央揃え(水平方向)}}", "Sahne merkezli (yatay)"],
-    ["{{ステージ右揃え}}", "Sahne sağ hizalama"],
-    ["{{ステージ上揃え}}", "sahnede performans"],
-    ["{{ステージ中央揃え(垂直方向)}}", "Sahne merkezli (dikey)"],
-    ["{{ステージ下揃え}}", "gerekçe"],
-    ["{{定規}}", "cetveli"],
-    ["{{表示}}", "ekran"],
-    ["{{ショートカット}}", "kısayol"],
-    ["{{レイヤーを複製}}", "Katmanı çoğalt"],
-    ["{{未使用のフォルダを削除}}", "Kullanılmayan klasörleri silin"],
-    ["{{同名のアイテムが存在します}}", "Aynı isimde öğe(ler) mevcuttur"],
-    ["{{追加ファイル}}", "ek dosya"],
-    ["{{既存のコンテンツ}}", "Mevcut içerik"],
-    ["{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}", "Dosyaların üzerine yazmayı, yeniden adlandırmayı ve eklemeyi seçebilir veya iptal edebilirsiniz"],
-    ["{{全て上書き}}", "Tümünün üzerine yaz"],
-    ["{{全てキャンセル}}", "Tümünü iptal et"],
-    ["{{追加・上書き}}", "Eklemeler ve üzerine yazmalar"],
-    ["{{キャンセル}}", "İptal et"],
-    ["{{表示確認したいフレームを指定}}", "Görüntüsünü kontrol etmek istediğiniz çerçeveyi belirtin"],
-    ["{{ファイル名を指定}}", "Dosya adını belirtin"],
-    ["{{ファイル名}}", "dosya-adı"],
-    ["{{終了フレームを指定}}", "Uç çerçevesini belirtin"],
-    ["{{開始フレームを指定}}", "Başlangıç çerçevesini belirtin"],
-    ["{{フレーム設定}}", "çerçeve kurulumu"],
-    ["{{書き出し設定}}", "Dışa aktarma ayarları"],
-    ["{{ファイル形式の選択}}", "Dosya formatının seçilmesi"],
-    ["{{ファイル形式}}", "dosya formatı"],
-    ["{{サイズ設定}}", "Boyutlandırma"],
-    ["{{左上}}", "sol-üst"],
-    ["{{中央上}}", "merkez-üst"],
-    ["{{右上}}", "sağ-üst"],
-    ["{{中央左}}", "merkez-sol"],
-    ["{{中央}}", "merkezi"],
-    ["{{中央右}}", "merkez sağ"],
-    ["{{左下}}", "sol alt"],
-    ["{{中央下}}", "alt-orta"],
-    ["{{右下}}", "sağ-alt"],
-    ["{{中心点のX座標}}", "Merkez noktasının X-koordinatı"],
-    ["{{中心点のY座標}}", "Merkez noktasının Y-koordinatı"],
-    ["{{MovieClipに変換}}", "MovieClip'e Dönüştür"],
-    ["{{変換}}", "dönüşüm"],
-    ["{{ループ回数}}", "Döngü sayısı"],
-    ["{{カーブポインターの削除}}", "Eğri işaretçisini silin"],
-    ["{{ステージ基準}}", "Aşama Kriterleri"],
-    ["{{閉じる}}", "yakın"],
-    ["{{保存}}", "depolama"],
-    ["{{リセット}}", "Sıfırla"],
-    ["{{スクリーン}}", "ekran"],
-    ["{{ショートカット設定}}", "Kısayol ayarları"],
-    ["{{レイヤーカラー}}", "katmanlı renk"],
-    ["{{Next2Dを支援する}}", "Next2D'yi destekleyin"],
-    ["{{サポート}}", "destek"],
-    ["{{未使用のアイテムを削除}}", "Kullanılmayan öğeleri kaldırın"],
-    ["{{レイヤーをペースト}}", "Yapıştır katmanı"],
-    ["{{レイヤーをコピー}}", "Katmanı kopyala"],
-    ["{{フレームをペースト}}", "Çerçeveyi yapıştır"],
-    ["{{フレームをコピー}}", "Çerçeveyi kopyala"],
-    ["{{キーフレームを削除}}", "Anahtar kareleri silin"],
-    ["{{キーフレームに空のキーフレームを追加できません}}", "Ana karelere boş ana kareler eklenemiyor"],
-    ["{{ズームツール}}", "Yakınlaştırma aracı"],
-    ["{{タイムライン幅の拡大・縮小}}", "Zaman çizelgesi genişliğini genişletme ve daraltma"],
-    ["{{ガイドレイヤー}}", "kılavuz katman"],
-    ["{{音量設定}}", "Ses ayarı"],
-    ["{{サウンドを削除}}", "Sesi kaldırın"],
-    ["{{カスタムループ}}", "özelleştirilmiş döngü"],
-    ["{{読込のみ}}", "Sadece okuyun"],
-    ["{{書込を許可}}", "izin gönder"],
-    ["{{単一行}}", "basit çizgi"],
-    ["{{複数行}}", "çok satırlı"],
-    ["{{自動で折り返し}}", "Otomatik geri dönüş"],
-    ["{{左寄せ}}", "sola hizalı"],
-    ["{{中央揃え}}", "merkezleme"],
-    ["{{右寄せ}}", "sağa hizalı"],
-    ["{{放射状グラデーション}}", "radyal derecelendirme"],
-    ["{{線形グラデーション}}", "doğrusal gradyan"],
-    ["{{画像}}", "Resim"],
-    ["{{画像選択}}", "Resim seçimi"],
-    ["{{種別}}", "sınıflandırma"],
-    ["{{Shapeの色設定}}", "Şekil renk ayarları"],
-    ["{{変形}}", "deformasyon"],
-    ["{{カラー効果}}", "renk efekti"],
-    ["{{フィルター}}", "filtre"],
-    ["{{Shapeを複製}}", "Şekli çoğaltın"],
-    ["{{読み込み}}", "okuyun"],
-    ["{{新規フォルダー}}", "Yeni Klasör"],
-    ["{{新規MovieClip}}", "Yeni MovieClip"],
-    ["{{枠に合わせてテキストをリサイズ}}", "Metni çerçeveye sığacak şekilde yeniden boyutlandırın"],
-    ["{{テキストに合わせて枠をリサイズ}}", "Çerçeveyi metne uyacak şekilde yeniden boyutlandırın"],
-    ["{{リサイズしない}}", "Yeniden boyutlandırma yok"],
-    ["{{フォント}}", "yazı tipi"],
-    ["{{テキスト}}", "Metin"],
-    ["{{ループ}}", "döngü"],
-    ["{{音量}}", "ses seviyesi"],
-    ["{{ビデオ}}", "Video"],
-    ["{{イージング}}", "KOLAYLAŞTIRMA"],
-    ["{{サウンド}}", "ses"],
-    ["{{シンボル}}", "sembolü"],
-    ["{{名前}}", "İsim"],
-    ["{{オブジェクト}}", "nesne"],
-    ["{{ステージ設定}}", "Sahne düzeni"],
-    ["{{プレビュー}}", "önizleme"],
-    ["{{削除}}", "silme"],
-    ["{{ペースト}}", "macun"],
-    ["{{コピー}}", "kopya"],
-    ["{{プラグインメニュー}}", "Eklenti menüsü"],
-    ["{{トゥイーン}}", "ARA"],
-    ["{{カーブポインターの追加}}", "Ek eğri işaretçisi"],
-    ["{{パスの結合}}", "Yol birleştirme"],
-    ["{{シェイプ}}", "şekil"],
-    ["{{キーフレームに配分}}", "Anahtar karelere atama"],
-    ["{{レイヤーに配分}}", "Katmanlara tahsis"],
-    ["{{タイムライン}}", "zaman çizelgesi"],
-    ["{{整列}}", "Hizalama"],
-    ["{{最背面}}", "en son"],
-    ["{{ひとつ背面へ}}", "Biri arkada"],
-    ["{{ひとつ前面へ}}", "Biri öne"],
-    ["{{最前面}}", "en başta"],
-    ["{{重ね順}}", "süperpozisyon"],
-    ["{{プラグイン}}", "eklenti"],
-    ["{{ライブラリ}}", "kütüphane"],
-    ["{{プロパティ}}", "mülkiyet"],
-    ["{{マスクレイヤー}}", "maske katmanı"],
-    ["{{通常レイヤー}}", "Normal Katman"],
-    ["{{モーショントゥイーンの削除}}", "Hareket aralarının silinmesi"],
-    ["{{モーショントゥイーンの追加}}", "Ek hareket araları"],
-    ["{{モーダル表示}}", "modal gösterge"],
-    ["{{言語}}", "Dil"],
-    ["{{フォーマット}}", "formatı"],
-    ["{{含める}}", "dahil etmek"],
-    ["{{含めない}}", "dahil etmemek"],
-    ["{{使い方、リファレンス}}", "Kullanım, referans"],
-    ["{{非表示レイヤー}}", "gizli katman"],
-    ["{{設定}}", "ayar"],
-    ["{{デフォルトのループを利用する}}", "Varsayılan döngüyü kullanın"],
-    ["{{フレームピッカー}}", "çerçeve toplayıcı"],
-    ["{{左揃え}}", "sol gerekçe"],
-    ["{{中央揃え(水平方向)}}", "Merkezlenmiş (yatay)"],
-    ["{{右揃え}}", "doğru gerekçe"],
-    ["{{上揃え}}", "gerekçe"],
-    ["{{中央揃え(垂直方向)}}", "Merkezlenmiş (dikey)"],
-    ["{{下揃え}}", "gerekçe"],
-    ["{{開始フレーム}}", "başlangıç çerçevesi"],
-    ["{{終了フレーム}}", "uç çerçeve"],
-    ["{{ループで再生}}", "Döngüde oynat"],
-    ["{{1回再生}}", "1 oynatma"],
-    ["{{指定したフレームで固定}}", "Belirtilen çerçevede sabitlendi"],
-    ["{{1回逆再生}}", "1 geri oynatma"],
-    ["{{逆ループで再生}}", "Ters döngüde oynatma"],
-    ["{{画面の拡大・縮小}}", "Ekranı yakınlaştırma ve uzaklaştırma"],
-    ["{{カスタムイージングデータを保存}}", "Özel hafifletme verilerini kaydedin"],
-    ["{{カスタムイージングデータの読込}}", "Özel gevşeme verilerini okuma"],
-    ["{{プレビューのON/OFF}}", "Önizleme açık/kapalı"],
-    ["{{フォント枠サイズ}}", "yazı tipi çerçeve boyutu"],
-    ["{{フォント枠カラー}}", "Yazı çerçevesi rengi"],
-    ["{{オニオンスキン}}", "soğan derisi"],
-    ["{{バケツツール}}", "Kova aletleri"],
-    ["{{ペンツール}}", "kalem aracı"],
-    ["{{ダブルクリックでカーブポイントが追加されます}}", "Eğri noktası eklemek için çift tıklayın"],
-    ["{{選択ツール}}", "seçim aracı"],
-    ["{{Shape変形ツール}}", "Şekil deformasyon araçları"],
-    ["{{テキストツール}}", "metin aracı"],
-    ["{{矩形ツール}}", "Dikdörtgen Aracı"],
-    ["{{楕円ツール}}", "Eliptik aletler"],
-    ["{{角丸矩形ツール}}", "Yuvarlatılmış köşe dikdörtgen aracı"],
-    ["{{塗りのカラー}}", "Boya rengi"],
-    ["{{線のカラー}}", "Çizgi rengi"],
-    ["{{線の太さ}}", "çizgi kalınlığı"],
-    ["{{プロジェクトデータの読込}}", "Proje verilerinin okunması"],
-    ["{{プロジェクトデータを保存}}", "Proje verilerini kaydedin"],
-    ["{{書き出し}}", "açılış cümlesi veya paragrafı"],
-    ["{{Discordへ移動}}", "Discord'a git"],
-    ["{{バグ報告}}", "hata raporu"],
-    ["{{設定}}", "ayar (bir bilgisayarın veya dosyanın vb.)"],
-    ["{{タブを追加}}", "Sekme ekle"],
-    ["{{タブの一覧を表示・移動}}", "Sekmeler listesini görüntüleme ve taşıma"],
-    ["{{スクリプトを追加}}", "Senaryo ekle"],
-    ["{{キーフレームを追加}}", "Anahtar kareler ekleyin"],
-    ["{{空のキーフレームを追加}}", "Boş anahtar kareler ekleyin"],
-    ["{{フレームを追加}}", "Çerçeve ekle"],
-    ["{{フレームを削除}}", "Çerçeveyi çıkarın"],
-    ["{{再生}}", "rejenerasyon"],
-    ["{{停止}}", "yas işareti olarak müziğin, dansın vb. askıya alınması"],
-    ["{{ループ設定}}", "Döngü ayarları"],
-    ["{{レイヤーを追加}}", "Katman ekle"],
-    ["{{レイヤーを削除}}", "Katmanı sil"],
-    ["{{全てのレイヤーをハイライト}}", "Tüm katmanları vurgulayın"],
-    ["{{全てのレイヤーを非表示}}", "Tüm katmanları gizle"],
-    ["{{全てのレイヤーをロック}}", "Tüm katmanları kilitleyin"],
-    ["{{比率を固定}}", "Sabit oran"],
-    ["{{ステージの幅}}", "Sahne genişliği"],
-    ["{{背景色}}", "arka plan rengi"],
-    ["{{ステージの高さ}}", "Sahne yüksekliği"],
-    ["{{フレームレート}}", "kare hızı"],
-    ["{{シンボル名}}", "sembol adı"],
-    ["{{イージング設定}}", "Hafifletme ayarı"],
-    ["{{ビデオの音量設定}}", "Video ses seviyesi ayarları"],
-    ["{{自動再生}}", "otomatik oynatma"],
-    ["{{テキストエリアのボーダー設定}}", "Metin alanları için kenarlık ayarları"],
-    ["{{テキスト入力設定}}", "metin giriş ayarı"],
-    ["{{フォント選択}}", "Yazı tipi seçimi"],
-    ["{{自動サイズ調整}}", "Otomatik yeniden boyutlandırma"],
-    ["{{フォントスタイルタイプ}}", "yazı tipi stili türü"],
-    ["{{行揃え}}", "haklı çıkar"],
-    ["{{改行設定}}", "satır sonu kurulumu"],
-    ["{{スクロール設定}}", "Kaydırma ayarları"],
-    ["{{フォントサイズ}}", "yazı tipi boyutu"],
-    ["{{フォントカラー}}", "yazı tipi rengi"],
-    ["{{行間}}", "satırlar arasında"],
-    ["{{文字幅}}", "karakter genişliği"],
-    ["{{左マージン}}", "sol kenar boşluğu"],
-    ["{{右マージン}}", "sağ kenar boşluğu"],
-    ["{{カラー種別の選択}}", "Renk türünü seçin"],
-    ["{{背景画像の選択}}", "Arka plan resmi seçme"],
-    ["{{カラーポインターを追加}}", "Ek renk işaretçisi"],
-    ["{{カラー値}}", "renk değeri"],
-    ["{{アルファ(0%-100%)}}", "Alfa (%0-%100)"],
-    ["{{アルファ値}}", "alfa değeri"],
-    ["{{選択対象の幅}}", "Seçim hedefinin genişliği"],
-    ["{{選択対象のX座標}}", "Seçim hedefinin X-koordinatı"],
-    ["{{選択対象の高さ}}", "Seçim hedefinin yüksekliği"],
-    ["{{選択対象のY座標}}", "Seçim hedefinin Y-koordinatı"],
-    ["{{選択対象の幅の伸縮}}", "Seçim hedefinin genişliğini uzatma ve daraltma"],
-    ["{{選択対象を回転}}", "Seçimi döndür"],
-    ["{{選択対象の高さの伸縮}}", "Seçim hedefinin yüksekliğinin uzatılması ve daraltılması"],
-    ["{{アルファオフセット(-255〜255)}}", "Alfa ofseti (-255 ila 255)"],
-    ["{{赤(0%-100%)}}", "Kırmızı (%0-%100)"],
-    ["{{赤オフセット(-255〜255)}}", "Kırmızı ofset (-255 ila 255)"],
-    ["{{緑(0%-100%)}}", "Yeşil (%0-%100)"],
-    ["{{緑オフセット(-255〜255)}}", "Yeşil ofset (-255 ila 255)"],
-    ["{{青(0%-100%)}}", "Mavi (%0-%100)"],
-    ["{{青オフセット(-255〜255)}}", "Mavi ofset (-255 ila 255)"],
-    ["{{ブレンドモード}}", "Karışım Modu"],
-    ["{{フィルターを選択}}", "Filtre seçin"],
-    ["{{フィルターを追加}}", "Filtre ekleyin"],
-    ["{{サウンドを追加}}", "Ses ekle"],
-    ["{{フィルターを表示・非表示する}}", "Filtreleri göster/gizle"],
-    ["{{フィルターを削除}}", "Filtreleri kaldırın"],
-    ["{{水平方向にぼかす}}", "Yatay olarak bulanıklaştırın"],
-    ["{{垂直方向にぼかす}}", "Dikey bulanıklık"],
-    ["{{フィルター強度}}", "Filtre gücü"],
-    ["{{フィルター角度}}", "Filtre açısı"],
-    ["{{シャドウのアルファ}}", "Shadow's Alpha"],
-    ["{{シャドウのカラー}}", "Gölge renkleri"],
-    ["{{フィルター距離}}", "Filtre mesafesi"],
-    ["{{ハイライトのカラー}}", "Renk vurguları"],
-    ["{{ハイライトのアルファ}}", "Alfa'yı vurgulayın"],
-    ["{{グラデーションカラー}}", "tonlama rengi"],
-    ["{{グラデーションのアルファ}}", "Gradyanın alfa değeri"],
-    ["{{タブの移動・名前を変更}}", "Sekmeleri taşıma ve yeniden adlandırma"],
-    ["{{プロジェクトを閉じる}}", "Projeyi kapatın"],
-    ["{{上下に移動}}", "Yukarı ve aşağı hareket et"],
-    ["{{レイヤー変更(ダブルクリック)}}", "Katman değiştirme (çift tıklama)"],
-    ["{{レイヤーをハイライト}}", "Katmanları vurgulayın"],
-    ["{{レイヤーを非表示}}", "Katmanları gizle"],
-    ["{{レイヤーをロック}}", "Katmanları kilitleyin"],
-    ["{{カーブポインター(ダブルクリックでON/OFF)}}", "Eğri işaretçisi (açmak/kapatmak için çift tıklayın)"],
-    ["{{インスタンス名}}", "örnek adı"],
-    ["{{ライブラリ内の検索}}", "Kütüphanede arama yapın"],
-    ["{{フレームラベル}}", "çerçeve etiketi"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Proje kaydedilmezse, bu sekme için proje verileri kurtarılamaz. Sekmeyi silmek istiyor musunuz?}}"]
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 mavi bileşenofset%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 mavi bileşen%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 yeşil bileşenofset%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 yeşil bileşen%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 kırmızı bileşenofset%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 kırmızı bileşen%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 şeffaflıkofset%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 şeffaflık%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 merkez nokta x koordinatı%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 merkez nokta y koordinatı%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 merkez nokta[%s5]den[%s6]ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 dönüş%s5°den%s6°ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 y ölçeği%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 x ölçeği%s5%den%s6%ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 isim%s5ye"
+    ],
+    [
+        "{{新規Text[%s1]を追加}}",
+        "Yeni metin[%s1]eklendi"
+    ],
+    [
+        "{{[%s1]のグラフィックを変更}}",
+        "[%s1] grafik変更"
+    ],
+    [
+        "{{新規Shape[%s1]を追加}}",
+        "Yeni şekil[%s1]eklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 y koordinatı%s5den%s6ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+        "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 x koordinatı%s5den%s6ye"
+    ],
+    [
+        "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+        "Sahne arka plan rengi[%s1]den[%s2]ye"
+    ],
+    [
+        "{{ステージのFPSを%s1から%s2に変更}}",
+        "Sahne FPS%s1den%s2ye"
+    ],
+    [
+        "{{ステージの高さを%s1から%s2に変更}}",
+        "Sahne yükseklik%s1den%s2ye"
+    ],
+    [
+        "{{ステージの幅を%s1から%s2に変更}}",
+        "Sahne genişlik%s1den%s2ye"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベルを削除}}",
+        "[%s1] %s2çerçeve etiketsilindi"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+        "[%s1] %s2çerçeve etiket[%s3][%s4]ye"
+    ],
+    [
+        "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+        "[%s1] %s2çerçeveにetiket[%s3]登録"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+        "[%s1] %s2çerçeve ses[%s3] döngü sayısı%s4den%s5ye"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+        "[%s1] %s2çerçeve ses[%s3] ses seviyesi%s4den%s5ye"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+        "[%s1] %s2çerçeve ses[%s3]silindi"
+    ],
+    [
+        "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+        "[%s1] %s2çerçeveにses[%s3]eklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçevesilindi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçeve全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçeve全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+        "[%s1] katman[%s2] %s3çerçeve 空 キーçerçeve全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçeveden%s4çerçeve削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+        "[%s1] katman[%s2] %s3çerçeve 空 キーçerçeveden%s4çerçeve削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçeve分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+        "[%s1] katman[%s2] %s3çerçeve キーçerçeveに%s4çerçeveeklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+        "[%s1] katman[%s2] %s3çerçeveに[%s4]eklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+        "[%s1] katman[%s2] %s3çerçeve目に%s4çerçeveeklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+        "[%s1] katman[%s2] %s3çerçeve 空 キーçerçeve分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+        "[%s1] katman[%s2] %s3çerçeve 空 キーçerçeveに%s4çerçeveeklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+        "[%s1] katman[%s2] %s3çerçeveに空 キーçerçeveeklendi"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+        "[%s1] katman[%s2][%s3]ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+        "[%s1] katman[%s2] ハイライトカラー変更"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を移動}}",
+        "[%s1] katman[%s2]移動"
+    ],
+    [
+        "{{[%s1]を画像に上書き}}",
+        "[%s1]画像に上書き"
+    ],
+    [
+        "{{[%s1]を動画に上書き}}",
+        "[%s1]動画に上書き"
+    ],
+    [
+        "{{[%s1]を音声に上書き}}",
+        "[%s1]音声に上書き"
+    ],
+    [
+        "{{ライブラリから[%s1]を削除}}",
+        "ライブラリden[%s1]silindi"
+    ],
+    [
+        "{{MoiveClip一覧}}",
+        "MoiveClip一覧"
+    ],
+    [
+        "{{新規フォルダー[%s1]を追加}}",
+        "新規フォルダー[%s1]eklendi"
+    ],
+    [
+        "{{新規MovieClip[%s1]を追加}}",
+        "新規MovieClip[%s1]eklendi"
+    ],
+    [
+        "{{音声[%s1]を取り込み}}",
+        "音声[%s1]取り込み"
+    ],
+    [
+        "{{動画[%s1]を取り込み}}",
+        "動画[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のフォルダ移動}}",
+        "[%s1] フォルダ移動"
+    ],
+    [
+        "{{画像[%s1]を取り込み}}",
+        "画像[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のシンボル名を[%s2]に変更}}",
+        "[%s1] シンボル名[%s2]ye"
+    ],
+    [
+        "{{[%s1]の名前を[%s2]に変更}}",
+        "[%s1] isim[%s2]ye"
+    ],
+    [
+        "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+        "[%s1] katman名[%s2][%s3]ye"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを削除}}",
+        "[%s1] %s2çerçeve スクリプトsilindi"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを変更}}",
+        "[%s1] %s2çerçeve スクリプト変更"
+    ],
+    [
+        "{{[%s1]の%s2フレームにスクリプトを追加}}",
+        "[%s1] %s2çerçeveにスクリプトeklendi"
+    ],
+    [
+        "{{プロジェクト名[%s1]を[%s2]に変更}}",
+        "プロジェクト名[%s1][%s2]ye"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を削除}}",
+        "[%s1] katman[%s2]silindi"
+    ],
+    [
+        "{{[%s1]にレイヤー[%s2]を追加}}",
+        "[%s1]にkatman[%s2]eklendi"
+    ],
+    [
+        "{{同名のシンボルが存在します}}",
+        "同名 シンボルが存在します"
+    ],
+    [
+        "{{広告枠の非表示}}",
+        "広告枠 非表示"
+    ],
+    [
+        "{{履歴}}",
+        "履歴"
+    ],
+    [
+        "{{エリア位置の移動}}",
+        "エリア位置 移動"
+    ],
+    [
+        "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+        "サポーターアプリで動画広告視聴すると、機能制限が7日間解除される特典があります。"
+    ],
+    [
+        "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+        "Animation Toolはオープンソースで提供されており、無料で利用できます。"
+    ],
+    [
+        "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+        "より良い機能や新しいバージョン 開発にご支援いただけると幸いです。"
+    ],
+    [
+        "{{機能制限を解除}}",
+        "機能制限解除"
+    ],
+    [
+        "{{サポーターアプリをインストール}}",
+        "サポーターアプリインストール"
+    ],
+    [
+        "{{画面共有}}",
+        "画面共有"
+    ],
+    [
+        "{{画面共有の機能を起動}}",
+        "画面共有 機能起動"
+    ],
+    [
+        "{{前のキーフレームと座標を合わせる}}",
+        "前 キーçerçeveと座標合わせる"
+    ],
+    [
+        "{{前のキーフレームと変形を合わせる}}",
+        "前 キーçerçeveと変形合わせる"
+    ],
+    [
+        "{{次のキーフレームに移動}}",
+        "次 キーçerçeveに移動"
+    ],
+    [
+        "{{前のキーフレームに移動}}",
+        "前 キーçerçeveに移動"
+    ],
+    [
+        "{{全てのスクリプトをコピー}}",
+        "全て スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをコピー}}",
+        "スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをペースト}}",
+        "スクリプトペースト"
+    ],
+    [
+        "{{全てのラベルをコピー}}",
+        "全て etiketコピー"
+    ],
+    [
+        "{{ラベルをコピー}}",
+        "etiketコピー"
+    ],
+    [
+        "{{ラベルをペースト}}",
+        "etiketペースト"
+    ],
+    [
+        "{{全てのサウンドをコピー}}",
+        "全て sesコピー"
+    ],
+    [
+        "{{サウンドをコピー}}",
+        "sesコピー"
+    ],
+    [
+        "{{サウンドをペースト}}",
+        "sesペースト"
+    ],
+    [
+        "{{書き出し先の選択}}",
+        "書き出し先 選択"
+    ],
+    [
+        "{{画質}}",
+        "画質"
+    ],
+    [
+        "{{座標}}",
+        "座標"
+    ],
+    [
+        "{{MovieClipを編集}}",
+        "MovieClip編集"
+    ],
+    [
+        "{{親の階層へ移動}}",
+        "親 階層へ移動"
+    ],
+    [
+        "{{ロックされたレイヤーです}}",
+        "ロックされたkatmanです"
+    ],
+    [
+        "{{トゥイーンには複数のオブジェクトを設置できません}}",
+        "トゥイーンには複数 オブジェクト設置できません"
+    ],
+    [
+        "{{名前が重複しています}}",
+        "isimが重複しています"
+    ],
+    [
+        "{{名前は必須です}}",
+        "isimは必須です"
+    ],
+    [
+        "{{基準点}}",
+        "基準点"
+    ],
+    [
+        "{{自由変形ツール}}",
+        "自由変形ツール"
+    ],
+    [
+        "{{キーフレームに変換}}",
+        "キーçerçeveに変換"
+    ],
+    [
+        "{{空のキーフレームに変換}}",
+        "空 キーçerçeveに変換"
+    ],
+    [
+        "{{最初のフレームに移動}}",
+        "最初 çerçeveに移動"
+    ],
+    [
+        "{{最後のフレームに移動}}",
+        "最後 çerçeveに移動"
+    ],
+    [
+        "{{SWFを解析中}}",
+        "SWF解析中"
+    ],
+    [
+        "{{JSONを生成}}",
+        "JSON生成"
+    ],
+    [
+        "{{ファイルを生成}}",
+        "ファイル生成"
+    ],
+    [
+        "{{N2Dファイルの読み込み}}",
+        "N2Dファイル 読み込み"
+    ],
+    [
+        "{{JSONの読み込み}}",
+        "JSON 読み込み"
+    ],
+    [
+        "{{データを解凍中}}",
+        "データ解凍中"
+    ],
+    [
+        "{{データを圧縮中}}",
+        "データ圧縮中"
+    ],
+    [
+        "{{エンコード}}",
+        "エンコード"
+    ],
+    [
+        "{{外部ファイルの読み込み}}",
+        "外部ファイル 読み込み"
+    ],
+    [
+        "{{バイナリデータを生成}}",
+        "バイナリデータ生成"
+    ],
+    [
+        "{{データベースを起動}}",
+        "データベース起動"
+    ],
+    [
+        "{{データを保存中}}",
+        "データ保存中"
+    ],
+    [
+        "{{完了}}",
+        "完了"
+    ],
+    [
+        "{{ステージ左揃え}}",
+        "Sahne左揃え"
+    ],
+    [
+        "{{ステージ中央揃え(水平方向)}}",
+        "Sahne中央揃え(水平方向)"
+    ],
+    [
+        "{{ステージ右揃え}}",
+        "Sahne右揃え"
+    ],
+    [
+        "{{ステージ上揃え}}",
+        "Sahne上揃え"
+    ],
+    [
+        "{{ステージ中央揃え(垂直方向)}}",
+        "Sahne中央揃え(垂直方向)"
+    ],
+    [
+        "{{ステージ下揃え}}",
+        "Sahne下揃え"
+    ],
+    [
+        "{{定規}}",
+        "定規"
+    ],
+    [
+        "{{表示}}",
+        "表示"
+    ],
+    [
+        "{{ショートカット}}",
+        "ショートカット"
+    ],
+    [
+        "{{レイヤーを複製}}",
+        "katman複製"
+    ],
+    [
+        "{{未使用のフォルダを削除}}",
+        "未使用 フォルダsilindi"
+    ],
+    [
+        "{{同名のアイテムが存在します}}",
+        "同名 アイテムが存在します"
+    ],
+    [
+        "{{追加ファイル}}",
+        "追加ファイル"
+    ],
+    [
+        "{{既存のコンテンツ}}",
+        "既存 コンテンツ"
+    ],
+    [
+        "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+        "上書きするか、ファイル名変更して追加するか、キャンセル選択する事ができます"
+    ],
+    [
+        "{{全て上書き}}",
+        "全て上書き"
+    ],
+    [
+        "{{全てキャンセル}}",
+        "全てキャンセル"
+    ],
+    [
+        "{{追加・上書き}}",
+        "追加・上書き"
+    ],
+    [
+        "{{キャンセル}}",
+        "キャンセル"
+    ],
+    [
+        "{{表示確認したいフレームを指定}}",
+        "表示確認したいçerçeve指定"
+    ],
+    [
+        "{{ファイル名を指定}}",
+        "ファイル名指定"
+    ],
+    [
+        "{{ファイル名}}",
+        "ファイル名"
+    ],
+    [
+        "{{終了フレームを指定}}",
+        "終了çerçeve指定"
+    ],
+    [
+        "{{開始フレームを指定}}",
+        "開始çerçeve指定"
+    ],
+    [
+        "{{フレーム設定}}",
+        "çerçeve設定"
+    ],
+    [
+        "{{書き出し設定}}",
+        "書き出し設定"
+    ],
+    [
+        "{{ファイル形式の選択}}",
+        "ファイル形式 選択"
+    ],
+    [
+        "{{ファイル形式}}",
+        "ファイル形式"
+    ],
+    [
+        "{{サイズ設定}}",
+        "サイズ設定"
+    ],
+    [
+        "{{左上}}",
+        "左上"
+    ],
+    [
+        "{{中央上}}",
+        "中央上"
+    ],
+    [
+        "{{右上}}",
+        "右上"
+    ],
+    [
+        "{{中央左}}",
+        "中央左"
+    ],
+    [
+        "{{中央}}",
+        "中央"
+    ],
+    [
+        "{{中央右}}",
+        "中央右"
+    ],
+    [
+        "{{左下}}",
+        "左下"
+    ],
+    [
+        "{{中央下}}",
+        "中央下"
+    ],
+    [
+        "{{右下}}",
+        "右下"
+    ],
+    [
+        "{{中心点のX座標}}",
+        "merkez nokta X座標"
+    ],
+    [
+        "{{中心点のY座標}}",
+        "merkez nokta Y座標"
+    ],
+    [
+        "{{MovieClipに変換}}",
+        "MovieClipに変換"
+    ],
+    [
+        "{{変換}}",
+        "変換"
+    ],
+    [
+        "{{ループ回数}}",
+        "döngü sayısı"
+    ],
+    [
+        "{{カーブポインターの削除}}",
+        "カーブポインター 削除"
+    ],
+    [
+        "{{ステージ基準}}",
+        "Sahne基準"
+    ],
+    [
+        "{{閉じる}}",
+        "閉じる"
+    ],
+    [
+        "{{保存}}",
+        "保存"
+    ],
+    [
+        "{{リセット}}",
+        "リセット"
+    ],
+    [
+        "{{スクリーン}}",
+        "スクリーン"
+    ],
+    [
+        "{{ショートカット設定}}",
+        "ショートカット設定"
+    ],
+    [
+        "{{レイヤーカラー}}",
+        "katmanカラー"
+    ],
+    [
+        "{{Next2Dを支援する}}",
+        "Next2D支援する"
+    ],
+    [
+        "{{サポート}}",
+        "サポート"
+    ],
+    [
+        "{{未使用のアイテムを削除}}",
+        "未使用 アイテムsilindi"
+    ],
+    [
+        "{{レイヤーをペースト}}",
+        "katmanペースト"
+    ],
+    [
+        "{{レイヤーをコピー}}",
+        "katmanコピー"
+    ],
+    [
+        "{{フレームをペースト}}",
+        "çerçeveペースト"
+    ],
+    [
+        "{{フレームをコピー}}",
+        "çerçeveコピー"
+    ],
+    [
+        "{{キーフレームを削除}}",
+        "キーçerçevesilindi"
+    ],
+    [
+        "{{キーフレームに空のキーフレームを追加できません}}",
+        "キーçerçeveに空 キーçerçeveeklendiできません"
+    ],
+    [
+        "{{ズームツール}}",
+        "ズームツール"
+    ],
+    [
+        "{{タイムライン幅の拡大・縮小}}",
+        "タイムラインgenişlik 拡大・縮小"
+    ],
+    [
+        "{{ガイドレイヤー}}",
+        "ガイドkatman"
+    ],
+    [
+        "{{音量設定}}",
+        "ses seviyesi設定"
+    ],
+    [
+        "{{サウンドを削除}}",
+        "sessilindi"
+    ],
+    [
+        "{{カスタムループ}}",
+        "カスタムループ"
+    ],
+    [
+        "{{読込のみ}}",
+        "読込 み"
+    ],
+    [
+        "{{書込を許可}}",
+        "書込許可"
+    ],
+    [
+        "{{単一行}}",
+        "単一行"
+    ],
+    [
+        "{{複数行}}",
+        "複数行"
+    ],
+    [
+        "{{自動で折り返し}}",
+        "自動で折り返し"
+    ],
+    [
+        "{{左寄せ}}",
+        "左寄せ"
+    ],
+    [
+        "{{中央揃え}}",
+        "中央揃え"
+    ],
+    [
+        "{{右寄せ}}",
+        "右寄せ"
+    ],
+    [
+        "{{放射状グラデーション}}",
+        "放射状グラデーション"
+    ],
+    [
+        "{{線形グラデーション}}",
+        "線形グラデーション"
+    ],
+    [
+        "{{画像}}",
+        "画像"
+    ],
+    [
+        "{{画像選択}}",
+        "画像選択"
+    ],
+    [
+        "{{種別}}",
+        "種別"
+    ],
+    [
+        "{{Shapeの色設定}}",
+        "Shape 色設定"
+    ],
+    [
+        "{{変形}}",
+        "変形"
+    ],
+    [
+        "{{カラー効果}}",
+        "カラー効果"
+    ],
+    [
+        "{{フィルター}}",
+        "フィルター"
+    ],
+    [
+        "{{Shapeを複製}}",
+        "Shape複製"
+    ],
+    [
+        "{{読み込み}}",
+        "読み込み"
+    ],
+    [
+        "{{新規フォルダー}}",
+        "新規フォルダー"
+    ],
+    [
+        "{{新規MovieClip}}",
+        "新規MovieClip"
+    ],
+    [
+        "{{枠に合わせてテキストをリサイズ}}",
+        "枠に合わせてテキストリサイズ"
+    ],
+    [
+        "{{テキストに合わせて枠をリサイズ}}",
+        "テキストに合わせて枠リサイズ"
+    ],
+    [
+        "{{リサイズしない}}",
+        "リサイズしない"
+    ],
+    [
+        "{{フォント}}",
+        "フォント"
+    ],
+    [
+        "{{テキスト}}",
+        "テキスト"
+    ],
+    [
+        "{{ループ}}",
+        "ループ"
+    ],
+    [
+        "{{音量}}",
+        "ses seviyesi"
+    ],
+    [
+        "{{ビデオ}}",
+        "ビデオ"
+    ],
+    [
+        "{{イージング}}",
+        "イージング"
+    ],
+    [
+        "{{サウンド}}",
+        "ses"
+    ],
+    [
+        "{{シンボル}}",
+        "シンボル"
+    ],
+    [
+        "{{名前}}",
+        "isim"
+    ],
+    [
+        "{{オブジェクト}}",
+        "オブジェクト"
+    ],
+    [
+        "{{ステージ設定}}",
+        "Sahne設定"
+    ],
+    [
+        "{{プレビュー}}",
+        "プレビュー"
+    ],
+    [
+        "{{削除}}",
+        "削除"
+    ],
+    [
+        "{{ペースト}}",
+        "ペースト"
+    ],
+    [
+        "{{コピー}}",
+        "コピー"
+    ],
+    [
+        "{{プラグインメニュー}}",
+        "プラグインメニュー"
+    ],
+    [
+        "{{トゥイーン}}",
+        "トゥイーン"
+    ],
+    [
+        "{{カーブポインターの追加}}",
+        "カーブポインター 追加"
+    ],
+    [
+        "{{パスの結合}}",
+        "パス 結合"
+    ],
+    [
+        "{{シェイプ}}",
+        "シェイプ"
+    ],
+    [
+        "{{キーフレームに配分}}",
+        "キーçerçeveに配分"
+    ],
+    [
+        "{{レイヤーに配分}}",
+        "katmanに配分"
+    ],
+    [
+        "{{タイムライン}}",
+        "タイムライン"
+    ],
+    [
+        "{{整列}}",
+        "整列"
+    ],
+    [
+        "{{最背面}}",
+        "最背面"
+    ],
+    [
+        "{{ひとつ背面へ}}",
+        "ひとつ背面へ"
+    ],
+    [
+        "{{ひとつ前面へ}}",
+        "ひとつ前面へ"
+    ],
+    [
+        "{{最前面}}",
+        "最前面"
+    ],
+    [
+        "{{重ね順}}",
+        "重ね順"
+    ],
+    [
+        "{{プラグイン}}",
+        "プラグイン"
+    ],
+    [
+        "{{ライブラリ}}",
+        "ライブラリ"
+    ],
+    [
+        "{{プロパティ}}",
+        "プロパティ"
+    ],
+    [
+        "{{マスクレイヤー}}",
+        "マスクkatman"
+    ],
+    [
+        "{{通常レイヤー}}",
+        "通常katman"
+    ],
+    [
+        "{{モーショントゥイーンの削除}}",
+        "モーショントゥイーン 削除"
+    ],
+    [
+        "{{モーショントゥイーンの追加}}",
+        "モーショントゥイーン 追加"
+    ],
+    [
+        "{{モーダル表示}}",
+        "モーダル表示"
+    ],
+    [
+        "{{言語}}",
+        "言語"
+    ],
+    [
+        "{{フォーマット}}",
+        "フォーマット"
+    ],
+    [
+        "{{含める}}",
+        "含める"
+    ],
+    [
+        "{{含めない}}",
+        "含めない"
+    ],
+    [
+        "{{使い方、リファレンス}}",
+        "使い方、リファレンス"
+    ],
+    [
+        "{{非表示レイヤー}}",
+        "非表示katman"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{デフォルトのループを利用する}}",
+        "デフォルト ループ利用する"
+    ],
+    [
+        "{{フレームピッカー}}",
+        "çerçeveピッカー"
+    ],
+    [
+        "{{左揃え}}",
+        "左揃え"
+    ],
+    [
+        "{{中央揃え(水平方向)}}",
+        "中央揃え(水平方向)"
+    ],
+    [
+        "{{右揃え}}",
+        "右揃え"
+    ],
+    [
+        "{{上揃え}}",
+        "上揃え"
+    ],
+    [
+        "{{中央揃え(垂直方向)}}",
+        "中央揃え(垂直方向)"
+    ],
+    [
+        "{{下揃え}}",
+        "下揃え"
+    ],
+    [
+        "{{開始フレーム}}",
+        "開始çerçeve"
+    ],
+    [
+        "{{終了フレーム}}",
+        "終了çerçeve"
+    ],
+    [
+        "{{ループで再生}}",
+        "ループで再生"
+    ],
+    [
+        "{{1回再生}}",
+        "1回再生"
+    ],
+    [
+        "{{指定したフレームで固定}}",
+        "指定したçerçeveで固定"
+    ],
+    [
+        "{{1回逆再生}}",
+        "1回逆再生"
+    ],
+    [
+        "{{逆ループで再生}}",
+        "逆ループで再生"
+    ],
+    [
+        "{{画面の拡大・縮小}}",
+        "画面 拡大・縮小"
+    ],
+    [
+        "{{カスタムイージングデータを保存}}",
+        "カスタムイージングデータ保存"
+    ],
+    [
+        "{{カスタムイージングデータの読込}}",
+        "カスタムイージングデータ 読込"
+    ],
+    [
+        "{{プレビューのON/OFF}}",
+        "プレビュー ON/OFF"
+    ],
+    [
+        "{{フォント枠サイズ}}",
+        "フォント枠サイズ"
+    ],
+    [
+        "{{フォント枠カラー}}",
+        "フォント枠カラー"
+    ],
+    [
+        "{{オニオンスキン}}",
+        "オニオンスキン"
+    ],
+    [
+        "{{バケツツール}}",
+        "バケツツール"
+    ],
+    [
+        "{{ペンツール}}",
+        "ペンツール"
+    ],
+    [
+        "{{ダブルクリックでカーブポイントが追加されます}}",
+        "ダブルクリックでカーブポイントが追加されます"
+    ],
+    [
+        "{{選択ツール}}",
+        "選択ツール"
+    ],
+    [
+        "{{Shape変形ツール}}",
+        "Shape変形ツール"
+    ],
+    [
+        "{{テキストツール}}",
+        "テキストツール"
+    ],
+    [
+        "{{矩形ツール}}",
+        "矩形ツール"
+    ],
+    [
+        "{{楕円ツール}}",
+        "楕円ツール"
+    ],
+    [
+        "{{角丸矩形ツール}}",
+        "角丸矩形ツール"
+    ],
+    [
+        "{{塗りのカラー}}",
+        "塗り カラー"
+    ],
+    [
+        "{{線のカラー}}",
+        "線 カラー"
+    ],
+    [
+        "{{線の太さ}}",
+        "線 太さ"
+    ],
+    [
+        "{{プロジェクトデータの読込}}",
+        "プロジェクトデータ 読込"
+    ],
+    [
+        "{{プロジェクトデータを保存}}",
+        "プロジェクトデータ保存"
+    ],
+    [
+        "{{書き出し}}",
+        "書き出し"
+    ],
+    [
+        "{{Discordへ移動}}",
+        "Discordへ移動"
+    ],
+    [
+        "{{バグ報告}}",
+        "バグ報告"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{タブを追加}}",
+        "タブeklendi"
+    ],
+    [
+        "{{タブの一覧を表示・移動}}",
+        "タブ 一覧表示・移動"
+    ],
+    [
+        "{{スクリプトを追加}}",
+        "スクリプトeklendi"
+    ],
+    [
+        "{{キーフレームを追加}}",
+        "キーçerçeveeklendi"
+    ],
+    [
+        "{{空のキーフレームを追加}}",
+        "空 キーçerçeveeklendi"
+    ],
+    [
+        "{{フレームを追加}}",
+        "çerçeveeklendi"
+    ],
+    [
+        "{{フレームを削除}}",
+        "çerçevesilindi"
+    ],
+    [
+        "{{再生}}",
+        "再生"
+    ],
+    [
+        "{{停止}}",
+        "停止"
+    ],
+    [
+        "{{ループ設定}}",
+        "ループ設定"
+    ],
+    [
+        "{{レイヤーを追加}}",
+        "katmaneklendi"
+    ],
+    [
+        "{{レイヤーを削除}}",
+        "katmansilindi"
+    ],
+    [
+        "{{全てのレイヤーをハイライト}}",
+        "全て katmanハイライト"
+    ],
+    [
+        "{{全てのレイヤーを非表示}}",
+        "全て katman非表示"
+    ],
+    [
+        "{{全てのレイヤーをロック}}",
+        "全て katmanロック"
+    ],
+    [
+        "{{比率を固定}}",
+        "比率固定"
+    ],
+    [
+        "{{ステージの幅}}",
+        "Sahne genişlik"
+    ],
+    [
+        "{{背景色}}",
+        "arka plan rengi"
+    ],
+    [
+        "{{ステージの高さ}}",
+        "Sahne yükseklik"
+    ],
+    [
+        "{{フレームレート}}",
+        "çerçeveレート"
+    ],
+    [
+        "{{シンボル名}}",
+        "シンボル名"
+    ],
+    [
+        "{{イージング設定}}",
+        "イージング設定"
+    ],
+    [
+        "{{ビデオの音量設定}}",
+        "ビデオ ses seviyesi設定"
+    ],
+    [
+        "{{自動再生}}",
+        "自動再生"
+    ],
+    [
+        "{{テキストエリアのボーダー設定}}",
+        "テキストエリア ボーダー設定"
+    ],
+    [
+        "{{テキスト入力設定}}",
+        "テキスト入力設定"
+    ],
+    [
+        "{{フォント選択}}",
+        "フォント選択"
+    ],
+    [
+        "{{自動サイズ調整}}",
+        "自動サイズ調整"
+    ],
+    [
+        "{{フォントスタイルタイプ}}",
+        "フォントスタイルタイプ"
+    ],
+    [
+        "{{行揃え}}",
+        "行揃え"
+    ],
+    [
+        "{{改行設定}}",
+        "改行設定"
+    ],
+    [
+        "{{スクロール設定}}",
+        "スクロール設定"
+    ],
+    [
+        "{{フォントサイズ}}",
+        "フォントサイズ"
+    ],
+    [
+        "{{フォントカラー}}",
+        "フォントカラー"
+    ],
+    [
+        "{{行間}}",
+        "行間"
+    ],
+    [
+        "{{文字幅}}",
+        "文字genişlik"
+    ],
+    [
+        "{{左マージン}}",
+        "左マージン"
+    ],
+    [
+        "{{右マージン}}",
+        "右マージン"
+    ],
+    [
+        "{{カラー種別の選択}}",
+        "カラー種別 選択"
+    ],
+    [
+        "{{背景画像の選択}}",
+        "背景画像 選択"
+    ],
+    [
+        "{{カラーポインターを追加}}",
+        "カラーポインターeklendi"
+    ],
+    [
+        "{{カラー値}}",
+        "カラー値"
+    ],
+    [
+        "{{アルファ(0%-100%)}}",
+        "アルファ(0%-100%)"
+    ],
+    [
+        "{{アルファ値}}",
+        "アルファ値"
+    ],
+    [
+        "{{選択対象の幅}}",
+        "選択対象 genişlik"
+    ],
+    [
+        "{{選択対象のX座標}}",
+        "選択対象 X座標"
+    ],
+    [
+        "{{選択対象の高さ}}",
+        "選択対象 yükseklik"
+    ],
+    [
+        "{{選択対象のY座標}}",
+        "選択対象 Y座標"
+    ],
+    [
+        "{{選択対象の幅の伸縮}}",
+        "選択対象 genişlik 伸縮"
+    ],
+    [
+        "{{選択対象を回転}}",
+        "選択対象dönüş"
+    ],
+    [
+        "{{選択対象の高さの伸縮}}",
+        "選択対象 yükseklik 伸縮"
+    ],
+    [
+        "{{アルファオフセット(-255〜255)}}",
+        "アルファofset(-255〜255)"
+    ],
+    [
+        "{{赤(0%-100%)}}",
+        "赤(0%-100%)"
+    ],
+    [
+        "{{赤オフセット(-255〜255)}}",
+        "赤ofset(-255〜255)"
+    ],
+    [
+        "{{緑(0%-100%)}}",
+        "緑(0%-100%)"
+    ],
+    [
+        "{{緑オフセット(-255〜255)}}",
+        "緑ofset(-255〜255)"
+    ],
+    [
+        "{{青(0%-100%)}}",
+        "青(0%-100%)"
+    ],
+    [
+        "{{青オフセット(-255〜255)}}",
+        "青ofset(-255〜255)"
+    ],
+    [
+        "{{ブレンドモード}}",
+        "ブレンドモード"
+    ],
+    [
+        "{{フィルターを選択}}",
+        "フィルター選択"
+    ],
+    [
+        "{{フィルターを追加}}",
+        "フィルターeklendi"
+    ],
+    [
+        "{{サウンドを追加}}",
+        "seseklendi"
+    ],
+    [
+        "{{フィルターを表示・非表示する}}",
+        "フィルター表示・非表示する"
+    ],
+    [
+        "{{フィルターを削除}}",
+        "フィルターsilindi"
+    ],
+    [
+        "{{水平方向にぼかす}}",
+        "水平方向にぼかす"
+    ],
+    [
+        "{{垂直方向にぼかす}}",
+        "垂直方向にぼかす"
+    ],
+    [
+        "{{フィルター強度}}",
+        "フィルター強度"
+    ],
+    [
+        "{{フィルター角度}}",
+        "フィルター角度"
+    ],
+    [
+        "{{シャドウのアルファ}}",
+        "シャドウ アルファ"
+    ],
+    [
+        "{{シャドウのカラー}}",
+        "シャドウ カラー"
+    ],
+    [
+        "{{フィルター距離}}",
+        "フィルター距離"
+    ],
+    [
+        "{{ハイライトのカラー}}",
+        "ハイライト カラー"
+    ],
+    [
+        "{{ハイライトのアルファ}}",
+        "ハイライト アルファ"
+    ],
+    [
+        "{{グラデーションカラー}}",
+        "グラデーションカラー"
+    ],
+    [
+        "{{グラデーションのアルファ}}",
+        "グラデーション アルファ"
+    ],
+    [
+        "{{タブの移動・名前を変更}}",
+        "タブ 移動・isim変更"
+    ],
+    [
+        "{{プロジェクトを閉じる}}",
+        "プロジェクト閉じる"
+    ],
+    [
+        "{{上下に移動}}",
+        "上下に移動"
+    ],
+    [
+        "{{レイヤー変更(ダブルクリック)}}",
+        "katman変更(ダブルクリック)"
+    ],
+    [
+        "{{レイヤーをハイライト}}",
+        "katmanハイライト"
+    ],
+    [
+        "{{レイヤーを非表示}}",
+        "katman非表示"
+    ],
+    [
+        "{{レイヤーをロック}}",
+        "katmanロック"
+    ],
+    [
+        "{{カーブポインター(ダブルクリックでON/OFF)}}",
+        "カーブポインター(ダブルクリックでON/OFF)"
+    ],
+    [
+        "{{インスタンス名}}",
+        "インスタンス名"
+    ],
+    [
+        "{{ライブラリ内の検索}}",
+        "ライブラリ内 検索"
+    ],
+    [
+        "{{フレームラベル}}",
+        "çerçeveetiket"
+    ],
+    [
+        "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+        "プロジェクトが保存されていない場合、こ タブ プロジェクトデータ復旧する事はできません。タブsilindiしますか？"
+    ]
 ]

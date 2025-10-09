@@ -1,383 +1,1522 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 komponen biru dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}", "%s3 kedalaman bingkai %s4 komponen biru dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 offset komponen hijau dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}", "%s3 kedalaman bingkai %s4 komponen hijau dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 offset komponen merah dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 kedalaman bingkai %s4 komponen merah dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 offset transparansi dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 kedalaman bingkai %s4 transparansi dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 titik tengah x dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 kedalaman bingkai %s4 titik tengah y dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 kedalaman bingkai %s4 titik tengah dari %s5 ke %s6 di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "Kedalaman bingkai %s3 kedalaman bingkai %s4 matriks dari %s5° ke %s6° di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "Kedalaman bingkai %s3 kedalaman bingkai %s4 rotasi dari %s5° ke %s6° di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "Kedalaman bingkai %s3 kedalaman bingkai %s4 skala y dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "Kedalaman bingkai %s3 kedalaman bingkai %s4 skala x dari %s5% ke %s6% di lapisan \"%s1\" di lapisan \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Ubah nama layer \"%s1\" layer \"%s2\" %s3 kedalaman bingkai %s4 menjadi \"%s5\""],
-    ["{{新規Text「%s1」を追加}}", "Teks Baru \"%s1\""],
-    ["{{「%s1」のグラフィックを変更}}", "Mengubah grafik \"%s1\""],
-    ["{{新規Shape「%s1」を追加}}", "Bentuk Baru \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Mengubah koordinat y dari %s5 ke %s6 untuk frame %s3 dan kedalaman %s4 di lapisan \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Mengubah koordinat x dari %s5 ke %s6 untuk frame %s3 dan kedalaman %s4 di lapisan \"%s2\" dari \"%s1\""],
-    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Mengubah warna latar belakang panggung dari \"%s1\" ke \"%s2\""],
-    ["{{ステージのFPSを%s1から%s2に変更}}", "Mengubah FPS panggung dari %s1 ke %s2"],
-    ["{{ステージの高さを%s1から%s2に変更}}", "Ketinggian panggung berubah dari %s1 ke %s2"],
-    ["{{ステージの幅を%s1から%s2に変更}}", "Mengubah lebar panggung dari %s1 ke %s2"],
-    ["{{「%s1」の%s2フレームのラベルを削除}}", "Menghapus label bingkai \"%s1\" %s2"],
-    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Mengubah label \"%s3\" menjadi \"%s4\" untuk frame %s2 di \"%s1\""],
-    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Daftarkan label \"%s3\" dalam bingkai %s2 dari \"%s1\""],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Mengubah jumlah perulangan untuk suara \"%s3\" dalam bingkai %s2 dari \"%s1\" dari %s4 menjadi %s5"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Mengubah volume suara \"%s3\" dalam %s2 frame \"%s1\" dari %s4 menjadi %s5"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Menghapus suara \"%s3\" dalam bingkai %s2 dari \"%s1\""],
-    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Suara \"%s3\" ditambahkan ke frame %s2 dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Hapus bingkai kunci di bingkai %s3 dari layer \"%s2\" di \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Menghapus bingkai kunci kosong di bingkai %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Menghapus semua bingkai kunci dalam bingkai %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Hapus semua bingkai kunci kosong dalam bingkai %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "Penghapusan frame %s4 dari frame keyframe %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "Frame %s4 dihapus dari keyframe kosong di frame %s3 di layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Pisahkan keyframe dalam bingkai %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "Menambahkan bingkai %s4 ke bingkai kunci bingkai %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Tambahkan \"%s4\" ke frame %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Tambahkan frame %s4 ke frame %s3 dari layer \"%s2\" di \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Pisahkan keyframe kosong di frame %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "Tambahkan frame %s4 ke keyframe kosong di frame %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Tambahkan keyframe kosong ke frame %s3 dari layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" lapisan \"%s2\" berubah menjadi \"%s3\""],
-    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Mengubah warna sorotan layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」を移動}}", "Memindahkan layer \"%s2\" dari \"%s1\""],
-    ["{{「%s1」を画像に上書き}}", "Menimpa \"%s1\" dengan gambar"],
-    ["{{「%s1」を動画に上書き}}", "Menimpa \"%s1\" dengan video"],
-    ["{{「%s1」を音声に上書き}}", "Menimpa \"%s1\" dengan audio"],
-    ["{{ライブラリから「%s1」を削除}}", "Menghapus \"%s1\" dari perpustakaan"],
-    ["{{MoiveClip一覧}}", "Daftar MoiveClip"],
-    ["{{新規フォルダー「%s1」を追加}}", "Tambahkan folder baru \"%s1\""],
-    ["{{新規MovieClip「%s1」を追加}}", "Menambahkan MovieClip baru \"%s1\""],
-    ["{{音声「%s1」を取り込み}}", "Menangkap suara \"%s1\""],
-    ["{{動画「%s1」を取り込み}}", "Menangkap video \"%s1\""],
-    ["{{「%s1」のフォルダ移動}}", "Memindahkan folder \"%s1\""],
-    ["{{画像「%s1」を取り込み}}", "Mengimpor gambar \"%s1\""],
-    ["{{「%s1」のシンボル名を「%s2」に変更}}", "Mengganti nama simbol \"%s1\" menjadi \"%s2\""],
-    ["{{「%s1」の名前を「%s2」に変更}}", "Mengganti nama \"%s1\" menjadi \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Nama layer \"%s2\" untuk \"%s1\" diubah menjadi \"%s3\""],
-    ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Menghapus %s2 frame skrip untuk \"%s1\""],
-    ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Skrip yang dimodifikasi untuk frame %s2 dari \"%s1\""],
-    ["{{「%s1」の%s2フレームにスクリプトを追加}}", "Naskah ditambahkan ke frame %s2 dari \"%s1\""],
-    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Nama proyek \"%s1\" diubah menjadi \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」を削除}}", "Menghapus layer \"%s2\" pada \"%s1\""],
-    ["{{「%s1」にレイヤー「%s2」を追加}}", "Layer \"%s2\" ditambahkan ke \"%s1\""],
-    ["{{同名のシンボルが存在します}}", "Ada simbol dengan nama yang sama"],
-    ["{{広告枠の非表示}}", "Menyembunyikan bingkai iklan"],
-    ["{{履歴}}", "sejarah"],
-    ["{{エリア位置の移動}}", "Memindahkan posisi area"],
-    ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "Dengan menonton iklan video, Anda bisa mendapatkan keuntungan dari fungsionalitas tak terbatas selama 7 hari."],
-    ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Alat Animasi adalah sumber terbuka dan tersedia secara gratis."],
-    ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Kami harap Anda akan mendukung kami dalam pengembangan versi baru dengan menonton iklan video."],
-    ["{{機能制限を解除}}", "Menghapus pembatasan fungsional"],
-    ["{{サポーターアプリをインストール}}", "Menginstal aplikasi pendukung"],
-    ["{{画面共有}}", "Berbagi layar"],
-    ["{{画面共有の機能を起動}}", "Mengaktifkan fungsi berbagi layar"],
-    ["{{前のキーフレームと座標を合わせる}}", "Sejajarkan koordinat dengan keyframe sebelumnya"],
-    ["{{前のキーフレームと変形を合わせる}}", "Menyelaraskan deformasi dengan keyframe sebelumnya"],
-    ["{{次のキーフレームに移動}}", "Pergi ke keyframe berikutnya"],
-    ["{{前のキーフレームに移動}}", "Pergi ke keyframe sebelumnya"],
-    ["{{全てのスクリプトをコピー}}", "Salin semua naskah"],
-    ["{{スクリプトをコピー}}", "Salin naskah"],
-    ["{{スクリプトをペースト}}", "Menempelkan skrip"],
-    ["{{全てのラベルをコピー}}", "Menyalin semua label"],
-    ["{{ラベルをコピー}}", "Menyalin label"],
-    ["{{ラベルをペースト}}", "Menempel label"],
-    ["{{全てのサウンドをコピー}}", "Menyalin semua suara"],
-    ["{{サウンドをコピー}}", "Menyalin suara"],
-    ["{{サウンドをペースト}}", "Menempelkan suara"],
-    ["{{書き出し先の選択}}", "Memilih tujuan ekspor"],
-    ["{{画質}}", "kualitas gambar"],
-    ["{{座標}}", "mengkoordinasikan"],
-    ["{{MovieClipを編集}}", "Edit MovieClip"],
-    ["{{親の階層へ移動}}", "Pindah ke hierarki induk"],
-    ["{{ロックされたレイヤーです}}", "Lapisan terkunci"],
-    ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Beberapa objek tidak dapat ditempatkan pada tween"],
-    ["{{名前が重複しています}}", "Nama duplikat"],
-    ["{{名前は必須です}}", "Nama harus diisi"],
-    ["{{基準点}}", "titik referensi"],
-    ["{{自由変形ツール}}", "Alat Transformasi Gratis"],
-    ["{{キーフレームに変換}}", "Dikonversi ke bingkai utama"],
-    ["{{空のキーフレームに変換}}", "Dikonversi ke keyframe kosong"],
-    ["{{最初のフレームに移動}}", "Pergi ke bingkai pertama"],
-    ["{{最後のフレームに移動}}", "Pergi ke bingkai terakhir"],
-    ["{{SWFを解析中}}", "SWF sedang dianalisis"],
-    ["{{JSONを生成}}", "Menghasilkan JSON"],
-    ["{{ファイルを生成}}", "Hasilkan file"],
-    ["{{N2Dファイルの読み込み}}", "Memuat file N2D"],
-    ["{{JSONの読み込み}}", "Membaca JSON"],
-    ["{{データを解凍中}}", "Data sedang dibongkar"],
-    ["{{データを圧縮中}}", "Mengompresi data"],
-    ["{{エンコード}}", "menyandikan"],
-    ["{{外部ファイルの読み込み}}", "Memuat file eksternal"],
-    ["{{バイナリデータを生成}}", "Menghasilkan data biner"],
-    ["{{データベースを起動}}", "Mulai basis data"],
-    ["{{データを保存中}}", "Menyimpan data"],
-    ["{{完了}}", "penyelesaian"],
-    ["{{ステージ左揃え}}", "perataan kiri panggung"],
-    ["{{ステージ中央揃え(水平方向)}}", "Panggung terpusat (horizontal)"],
-    ["{{ステージ右揃え}}", "Perataan kanan panggung"],
-    ["{{ステージ上揃え}}", "penampilan di atas panggung"],
-    ["{{ステージ中央揃え(垂直方向)}}", "Panggung terpusat (vertikal)"],
-    ["{{ステージ下揃え}}", "pembenaran"],
-    ["{{定規}}", "penggaris"],
-    ["{{表示}}", "tampilan"],
-    ["{{ショートカット}}", "jalan pintas"],
-    ["{{レイヤーを複製}}", "Lapisan duplikat"],
-    ["{{未使用のフォルダを削除}}", "Menghapus folder yang tidak digunakan"],
-    ["{{同名のアイテムが存在します}}", "Ada beberapa item dengan nama yang sama"],
-    ["{{追加ファイル}}", "file tambahan"],
-    ["{{既存のコンテンツ}}", "Konten yang ada"],
-    ["{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}", "Anda dapat memilih untuk menimpa, mengganti nama, dan menambahkan file atau membatalkan"],
-    ["{{全て上書き}}", "Menimpa semua"],
-    ["{{全てキャンセル}}", "Batalkan semua"],
-    ["{{追加・上書き}}", "Penambahan dan penimpaan"],
-    ["{{キャンセル}}", "Batal"],
-    ["{{表示確認したいフレームを指定}}", "Tentukan bingkai yang ingin Anda periksa tampilannya"],
-    ["{{ファイル名を指定}}", "Menentukan nama file"],
-    ["{{ファイル名}}", "nama-file"],
-    ["{{終了フレームを指定}}", "Tentukan bingkai akhir"],
-    ["{{開始フレームを指定}}", "Menentukan bingkai awal"],
-    ["{{フレーム設定}}", "pengaturan bingkai"],
-    ["{{書き出し設定}}", "Pengaturan ekspor"],
-    ["{{ファイル形式の選択}}", "Memilih format file"],
-    ["{{ファイル形式}}", "format file"],
-    ["{{サイズ設定}}", "Ukuran"],
-    ["{{左上}}", "kiri-atas"],
-    ["{{中央上}}", "tengah-atas"],
-    ["{{右上}}", "kanan-atas"],
-    ["{{中央左}}", "kiri tengah"],
-    ["{{中央}}", "pusat"],
-    ["{{中央右}}", "kanan tengah"],
-    ["{{左下}}", "kiri bawah"],
-    ["{{中央下}}", "menengah ke bawah"],
-    ["{{右下}}", "kanan-bawah"],
-    ["{{中心点のX座標}}", "Koordinat X dari titik tengah"],
-    ["{{中心点のY座標}}", "Koordinat Y dari titik tengah"],
-    ["{{MovieClipに変換}}", "Konversi ke MovieClip"],
-    ["{{変換}}", "transformasi"],
-    ["{{ループ回数}}", "Jumlah putaran"],
-    ["{{カーブポインターの削除}}", "Menghapus penunjuk kurva"],
-    ["{{ステージ基準}}", "Kriteria Tahap"],
-    ["{{閉じる}}", "dekat"],
-    ["{{保存}}", "penyimpanan"],
-    ["{{リセット}}", "mengatur ulang"],
-    ["{{スクリーン}}", "layar"],
-    ["{{ショートカット設定}}", "Pengaturan pintasan"],
-    ["{{レイヤーカラー}}", "warna berlapis"],
-    ["{{Next2Dを支援する}}", "Mendukung Next2D"],
-    ["{{サポート}}", "dukungan"],
-    ["{{未使用のアイテムを削除}}", "Menghapus item yang tidak digunakan"],
-    ["{{レイヤーをペースト}}", "Menempelkan lapisan"],
-    ["{{レイヤーをコピー}}", "Salin lapisan"],
-    ["{{フレームをペースト}}", "Rekatkan bingkai"],
-    ["{{フレームをコピー}}", "Salin bingkai"],
-    ["{{キーフレームを削除}}", "Menghapus bingkai kunci"],
-    ["{{キーフレームに空のキーフレームを追加できません}}", "Tidak dapat menambahkan bingkai utama kosong ke bingkai utama"],
-    ["{{ズームツール}}", "Alat zoom"],
-    ["{{タイムライン幅の拡大・縮小}}", "Memperluas dan mengurangi lebar garis waktu"],
-    ["{{ガイドレイヤー}}", "lapisan panduan"],
-    ["{{音量設定}}", "Pengaturan volume"],
-    ["{{サウンドを削除}}", "Menghilangkan suara"],
-    ["{{カスタムループ}}", "loop yang disesuaikan"],
-    ["{{読込のみ}}", "Hanya baca"],
-    ["{{書込を許可}}", "izin posting"],
-    ["{{単一行}}", "garis sederhana"],
-    ["{{複数行}}", "multiline"],
-    ["{{自動で折り返し}}", "Perputaran otomatis"],
-    ["{{左寄せ}}", "rata kiri"],
-    ["{{中央揃え}}", "pemusatan"],
-    ["{{右寄せ}}", "rata kanan"],
-    ["{{放射状グラデーション}}", "gradasi radial"],
-    ["{{線形グラデーション}}", "gradien linier"],
-    ["{{画像}}", "Gambar"],
-    ["{{画像選択}}", "Pemilihan gambar"],
-    ["{{種別}}", "klasifikasi"],
-    ["{{Shapeの色設定}}", "Pengaturan warna bentuk"],
-    ["{{変形}}", "deformasi"],
-    ["{{カラー効果}}", "efek warna"],
-    ["{{フィルター}}", "filter"],
-    ["{{Shapeを複製}}", "Bentuk duplikat"],
-    ["{{読み込み}}", "baca di"],
-    ["{{新規フォルダー}}", "Folder Baru"],
-    ["{{新規MovieClip}}", "MovieClip baru"],
-    ["{{枠に合わせてテキストをリサイズ}}", "Mengubah ukuran teks agar sesuai dengan bingkai"],
-    ["{{テキストに合わせて枠をリサイズ}}", "Mengubah ukuran bingkai agar sesuai dengan teks"],
-    ["{{リサイズしない}}", "Tidak ada pengubahan ukuran"],
-    ["{{フォント}}", "font"],
-    ["{{テキスト}}", "Teks"],
-    ["{{ループ}}", "lingkaran"],
-    ["{{音量}}", "volume"],
-    ["{{ビデオ}}", "Video"],
-    ["{{イージング}}", "pelonggaran"],
-    ["{{サウンド}}", "suara"],
-    ["{{シンボル}}", "simbol"],
-    ["{{名前}}", "Nama"],
-    ["{{オブジェクト}}", "objek"],
-    ["{{ステージ設定}}", "Pengaturan panggung"],
-    ["{{プレビュー}}", "pratinjau"],
-    ["{{削除}}", "penghapusan"],
-    ["{{ペースト}}", "tempel"],
-    ["{{コピー}}", "salin"],
-    ["{{プラグインメニュー}}", "Menu plug-in"],
-    ["{{トゥイーン}}", "tween"],
-    ["{{カーブポインターの追加}}", "Penunjuk kurva tambahan"],
-    ["{{パスの結合}}", "Penggabungan jalur"],
-    ["{{シェイプ}}", "bentuk"],
-    ["{{キーフレームに配分}}", "Alokasi ke bingkai utama"],
-    ["{{レイヤーに配分}}", "Alokasi ke lapisan"],
-    ["{{タイムライン}}", "garis waktu"],
-    ["{{整列}}", "penyelarasan"],
-    ["{{最背面}}", "terbaru"],
-    ["{{ひとつ背面へ}}", "Satu ke belakang"],
-    ["{{ひとつ前面へ}}", "Satu ke depan"],
-    ["{{最前面}}", "terpenting"],
-    ["{{重ね順}}", "superposisi"],
-    ["{{プラグイン}}", "plug-in"],
-    ["{{ライブラリ}}", "perpustakaan"],
-    ["{{プロパティ}}", "properti"],
-    ["{{マスクレイヤー}}", "lapisan topeng"],
-    ["{{通常レイヤー}}", "Lapisan Normal"],
-    ["{{モーショントゥイーンの削除}}", "Penghapusan tweens gerak"],
-    ["{{モーショントゥイーンの追加}}", "Tweens gerakan tambahan"],
-    ["{{モーダル表示}}", "indikasi modal"],
-    ["{{言語}}", "Bahasa"],
-    ["{{フォーマット}}", "format"],
-    ["{{含める}}", "termasuk"],
-    ["{{含めない}}", "tidak termasuk"],
-    ["{{使い方、リファレンス}}", "Penggunaan, referensi"],
-    ["{{非表示レイヤー}}", "lapisan tersembunyi"],
-    ["{{設定}}", "pengaturan"],
-    ["{{デフォルトのループを利用する}}", "Gunakan loop default"],
-    ["{{フレームピッカー}}", "pemetik bingkai"],
-    ["{{左揃え}}", "pembenaran kiri"],
-    ["{{中央揃え(水平方向)}}", "Terpusat (horizontal)"],
-    ["{{右揃え}}", "pembenaran yang tepat"],
-    ["{{上揃え}}", "pembenaran"],
-    ["{{中央揃え(垂直方向)}}", "Terpusat (vertikal)"],
-    ["{{下揃え}}", "pembenaran"],
-    ["{{開始フレーム}}", "bingkai awal"],
-    ["{{終了フレーム}}", "bingkai akhir"],
-    ["{{ループで再生}}", "Putar dalam lingkaran"],
-    ["{{1回再生}}", "1 pemutaran"],
-    ["{{指定したフレームで固定}}", "Diperbaiki dalam bingkai yang ditentukan"],
-    ["{{1回逆再生}}", "1 pemutaran mundur"],
-    ["{{逆ループで再生}}", "Pemutaran dalam putaran balik"],
-    ["{{画面の拡大・縮小}}", "Memperbesar dan memperkecil layar"],
-    ["{{カスタムイージングデータを保存}}", "Menyimpan data pelonggaran khusus"],
-    ["{{カスタムイージングデータの読込}}", "Membaca data pelonggaran khusus"],
-    ["{{プレビューのON/OFF}}", "Pratinjau aktif/nonaktif"],
-    ["{{フォント枠サイズ}}", "ukuran bingkai font"],
-    ["{{フォント枠カラー}}", "Warna bingkai font"],
-    ["{{オニオンスキン}}", "kulit bawang"],
-    ["{{バケツツール}}", "Alat ember"],
-    ["{{ペンツール}}", "alat pena"],
-    ["{{ダブルクリックでカーブポイントが追加されます}}", "Klik dua kali untuk menambahkan titik kurva"],
-    ["{{選択ツール}}", "alat seleksi"],
-    ["{{Shape変形ツール}}", "Alat deformasi bentuk"],
-    ["{{テキストツール}}", "alat teks"],
-    ["{{矩形ツール}}", "Alat Persegi Panjang"],
-    ["{{楕円ツール}}", "Alat elips"],
-    ["{{角丸矩形ツール}}", "Alat persegi panjang sudut membulat"],
-    ["{{塗りのカラー}}", "Warna cat"],
-    ["{{線のカラー}}", "Warna garis"],
-    ["{{線の太さ}}", "ketebalan garis"],
-    ["{{プロジェクトデータの読込}}", "Membaca data proyek"],
-    ["{{プロジェクトデータを保存}}", "Menyimpan data proyek"],
-    ["{{書き出し}}", "kalimat atau paragraf pembuka"],
-    ["{{Discordへ移動}}", "Pergi ke Discord"],
-    ["{{バグ報告}}", "laporan bug"],
-    ["{{設定}}", "pengaturan"],
-    ["{{タブを追加}}", "Tab Tambah"],
-    ["{{タブの一覧を表示・移動}}", "Menampilkan dan memindahkan daftar tab"],
-    ["{{スクリプトを追加}}", "Tambahkan skrip"],
-    ["{{キーフレームを追加}}", "Menambahkan bingkai kunci"],
-    ["{{空のキーフレームを追加}}", "Menambahkan keyframe kosong"],
-    ["{{フレームを追加}}", "Tambahkan bingkai"],
-    ["{{フレームを削除}}", "Lepaskan bingkai"],
-    ["{{再生}}", "regenerasi"],
-    ["{{停止}}", "penghentian musik, tarian, dll. sebagai tanda berkabung"],
-    ["{{ループ設定}}", "Pengaturan putaran"],
-    ["{{レイヤーを追加}}", "Tambahkan lapisan"],
-    ["{{レイヤーを削除}}", "Menghapus lapisan"],
-    ["{{全てのレイヤーをハイライト}}", "Sorot semua lapisan"],
-    ["{{全てのレイヤーを非表示}}", "Sembunyikan semua lapisan"],
-    ["{{全てのレイヤーをロック}}", "Kunci semua lapisan"],
-    ["{{比率を固定}}", "Rasio tetap"],
-    ["{{ステージの幅}}", "Lebar panggung"],
-    ["{{背景色}}", "warna latar belakang"],
-    ["{{ステージの高さ}}", "Ketinggian panggung"],
-    ["{{フレームレート}}", "kecepatan bingkai"],
-    ["{{シンボル名}}", "nama simbol"],
-    ["{{イージング設定}}", "Pengaturan pelonggaran"],
-    ["{{ビデオの音量設定}}", "Pengaturan volume video"],
-    ["{{自動再生}}", "putar otomatis"],
-    ["{{テキストエリアのボーダー設定}}", "Pengaturan batas untuk area teks"],
-    ["{{テキスト入力設定}}", "pengaturan entri teks"],
-    ["{{フォント選択}}", "Pemilihan font"],
-    ["{{自動サイズ調整}}", "Pengubahan ukuran otomatis"],
-    ["{{フォントスタイルタイプ}}", "jenis gaya font"],
-    ["{{行揃え}}", "membenarkan"],
-    ["{{改行設定}}", "pengaturan jeda baris"],
-    ["{{スクロール設定}}", "Pengaturan gulir"],
-    ["{{フォントサイズ}}", "ukuran font"],
-    ["{{フォントカラー}}", "warna font"],
-    ["{{行間}}", "yang tersirat"],
-    ["{{文字幅}}", "lebar karakter"],
-    ["{{左マージン}}", "margin kiri"],
-    ["{{右マージン}}", "margin kanan"],
-    ["{{カラー種別の選択}}", "Pilih jenis warna"],
-    ["{{背景画像の選択}}", "Memilih gambar latar belakang"],
-    ["{{カラーポインターを追加}}", "Penunjuk warna tambahan"],
-    ["{{カラー値}}", "nilai warna"],
-    ["{{アルファ(0%-100%)}}", "Alpha (0%-100%)"],
-    ["{{アルファ値}}", "nilai alfa"],
-    ["{{選択対象の幅}}", "Lebar target seleksi"],
-    ["{{選択対象のX座標}}", "Koordinat X dari target seleksi"],
-    ["{{選択対象の高さ}}", "Ketinggian target seleksi"],
-    ["{{選択対象のY座標}}", "Koordinat Y dari target seleksi"],
-    ["{{選択対象の幅の伸縮}}", "Meregangkan dan mengecilkan lebar target seleksi"],
-    ["{{選択対象を回転}}", "Putar pilihan"],
-    ["{{選択対象の高さの伸縮}}", "Perpanjangan dan kontraksi ketinggian target seleksi"],
-    ["{{アルファオフセット(-255〜255)}}", "Alfa offset (-255 hingga 255)"],
-    ["{{赤(0%-100%)}}", "Merah (0%-100%)"],
-    ["{{赤オフセット(-255〜255)}}", "Offset merah (-255 hingga 255)"],
-    ["{{緑(0%-100%)}}", "Hijau (0%-100%)"],
-    ["{{緑オフセット(-255〜255)}}", "Offset hijau (-255 hingga 255)"],
-    ["{{青(0%-100%)}}", "Biru (0%-100%)"],
-    ["{{青オフセット(-255〜255)}}", "Offset biru (-255 hingga 255)"],
-    ["{{ブレンドモード}}", "mode campuran"],
-    ["{{フィルターを選択}}", "Pilih filter"],
-    ["{{フィルターを追加}}", "Tambahkan filter"],
-    ["{{サウンドを追加}}", "Tambahkan suara"],
-    ["{{フィルターを表示・非表示する}}", "Menampilkan/menyembunyikan filter"],
-    ["{{フィルターを削除}}", "Menghapus filter"],
-    ["{{水平方向にぼかす}}", "Memburamkan secara horizontal"],
-    ["{{垂直方向にぼかす}}", "Keburaman vertikal"],
-    ["{{フィルター強度}}", "Kekuatan filter"],
-    ["{{フィルター角度}}", "Sudut filter"],
-    ["{{シャドウのアルファ}}", "Shadow's Alpha"],
-    ["{{シャドウのカラー}}", "Warna bayangan"],
-    ["{{フィルター距離}}", "Jarak filter"],
-    ["{{ハイライトのカラー}}", "Sorotan warna"],
-    ["{{ハイライトのアルファ}}", "Sorot Alpha"],
-    ["{{グラデーションカラー}}", "warna gradasi"],
-    ["{{グラデーションのアルファ}}", "Alfa dari gradien"],
-    ["{{タブの移動・名前を変更}}", "Memindahkan dan mengganti nama tab"],
-    ["{{プロジェクトを閉じる}}", "Tutup proyek"],
-    ["{{上下に移動}}", "Bergerak ke atas dan ke bawah"],
-    ["{{レイヤー変更(ダブルクリック)}}", "Perubahan lapisan (klik dua kali)"],
-    ["{{レイヤーをハイライト}}", "Menyorot lapisan"],
-    ["{{レイヤーを非表示}}", "Menyembunyikan lapisan"],
-    ["{{レイヤーをロック}}", "Mengunci lapisan"],
-    ["{{カーブポインター(ダブルクリックでON/OFF)}}", "Penunjuk kurva (klik dua kali untuk menghidupkan/mematikan)"],
-    ["{{インスタンス名}}", "nama contoh"],
-    ["{{ライブラリ内の検索}}", "Mencari di perpustakaan"],
-    ["{{フレームラベル}}", "label bingkai"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Jika proyek tidak disimpan, data proyek untuk tab ini tidak dapat dipulihkan. Apakah Anda ingin menghapus tab ini?}"]
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen biruoffset%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen biru%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen hijauoffset%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen hijau%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen merahoffset%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 komponen merah%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 transparansioffset%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 transparansi%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 titik pusat koordinat x%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 titik pusat koordinat y%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 titik pusat[%s5]dari[%s6]ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 rotasi%s5°dari%s6°ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 skala y%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 skala x%s5%dari%s6%ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 nama%s5ke"
+    ],
+    [
+        "{{新規Text[%s1]を追加}}",
+        "Teks baru[%s1]ditambahkan"
+    ],
+    [
+        "{{[%s1]のグラフィックを変更}}",
+        "[%s1] grafik変更"
+    ],
+    [
+        "{{新規Shape[%s1]を追加}}",
+        "Bentuk baru[%s1]ditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 koordinat y%s5dari%s6ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 koordinat x%s5dari%s6ke"
+    ],
+    [
+        "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+        "Panggung warna latar belakang[%s1]dari[%s2]ke"
+    ],
+    [
+        "{{ステージのFPSを%s1から%s2に変更}}",
+        "Panggung FPS%s1dari%s2ke"
+    ],
+    [
+        "{{ステージの高さを%s1から%s2に変更}}",
+        "Panggung tinggi%s1dari%s2ke"
+    ],
+    [
+        "{{ステージの幅を%s1から%s2に変更}}",
+        "Panggung lebar%s1dari%s2ke"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベルを削除}}",
+        "[%s1] %s2bingkai labeldihapus"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+        "[%s1] %s2bingkai label[%s3][%s4]ke"
+    ],
+    [
+        "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+        "[%s1] %s2bingkaiにlabel[%s3]登録"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+        "[%s1] %s2bingkai suara[%s3] jumlah loop%s4dari%s5ke"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+        "[%s1] %s2bingkai suara[%s3] volume%s4dari%s5ke"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+        "[%s1] %s2bingkai suara[%s3]dihapus"
+    ],
+    [
+        "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+        "[%s1] %s2bingkaiにsuara[%s3]ditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkaidihapus"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkai全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkai全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai 空 キーbingkai全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkaidari%s4bingkai削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+        "[%s1] lapisan[%s2] %s3bingkai 空 キーbingkaidari%s4bingkai削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkai分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+        "[%s1] lapisan[%s2] %s3bingkai キーbingkaiに%s4bingkaiditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+        "[%s1] lapisan[%s2] %s3bingkaiに[%s4]ditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+        "[%s1] lapisan[%s2] %s3bingkai目に%s4bingkaiditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+        "[%s1] lapisan[%s2] %s3bingkai 空 キーbingkai分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+        "[%s1] lapisan[%s2] %s3bingkai 空 キーbingkaiに%s4bingkaiditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+        "[%s1] lapisan[%s2] %s3bingkaiに空 キーbingkaiditambahkan"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+        "[%s1] lapisan[%s2][%s3]ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+        "[%s1] lapisan[%s2] ハイライトカラー変更"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を移動}}",
+        "[%s1] lapisan[%s2]移動"
+    ],
+    [
+        "{{[%s1]を画像に上書き}}",
+        "[%s1]画像に上書き"
+    ],
+    [
+        "{{[%s1]を動画に上書き}}",
+        "[%s1]動画に上書き"
+    ],
+    [
+        "{{[%s1]を音声に上書き}}",
+        "[%s1]音声に上書き"
+    ],
+    [
+        "{{ライブラリから[%s1]を削除}}",
+        "ライブラリdari[%s1]dihapus"
+    ],
+    [
+        "{{MoiveClip一覧}}",
+        "MoiveClip一覧"
+    ],
+    [
+        "{{新規フォルダー[%s1]を追加}}",
+        "新規フォルダー[%s1]ditambahkan"
+    ],
+    [
+        "{{新規MovieClip[%s1]を追加}}",
+        "新規MovieClip[%s1]ditambahkan"
+    ],
+    [
+        "{{音声[%s1]を取り込み}}",
+        "音声[%s1]取り込み"
+    ],
+    [
+        "{{動画[%s1]を取り込み}}",
+        "動画[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のフォルダ移動}}",
+        "[%s1] フォルダ移動"
+    ],
+    [
+        "{{画像[%s1]を取り込み}}",
+        "画像[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のシンボル名を[%s2]に変更}}",
+        "[%s1] シンボル名[%s2]ke"
+    ],
+    [
+        "{{[%s1]の名前を[%s2]に変更}}",
+        "[%s1] nama[%s2]ke"
+    ],
+    [
+        "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+        "[%s1] lapisan名[%s2][%s3]ke"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを削除}}",
+        "[%s1] %s2bingkai スクリプトdihapus"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを変更}}",
+        "[%s1] %s2bingkai スクリプト変更"
+    ],
+    [
+        "{{[%s1]の%s2フレームにスクリプトを追加}}",
+        "[%s1] %s2bingkaiにスクリプトditambahkan"
+    ],
+    [
+        "{{プロジェクト名[%s1]を[%s2]に変更}}",
+        "プロジェクト名[%s1][%s2]ke"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を削除}}",
+        "[%s1] lapisan[%s2]dihapus"
+    ],
+    [
+        "{{[%s1]にレイヤー[%s2]を追加}}",
+        "[%s1]にlapisan[%s2]ditambahkan"
+    ],
+    [
+        "{{同名のシンボルが存在します}}",
+        "同名 シンボルが存在します"
+    ],
+    [
+        "{{広告枠の非表示}}",
+        "広告枠 非表示"
+    ],
+    [
+        "{{履歴}}",
+        "履歴"
+    ],
+    [
+        "{{エリア位置の移動}}",
+        "エリア位置 移動"
+    ],
+    [
+        "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+        "サポーターアプリで動画広告視聴すると、機能制限が7日間解除される特典があります。"
+    ],
+    [
+        "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+        "Animation Toolはオープンソースで提供されており、無料で利用できます。"
+    ],
+    [
+        "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+        "より良い機能や新しいバージョン 開発にご支援いただけると幸いです。"
+    ],
+    [
+        "{{機能制限を解除}}",
+        "機能制限解除"
+    ],
+    [
+        "{{サポーターアプリをインストール}}",
+        "サポーターアプリインストール"
+    ],
+    [
+        "{{画面共有}}",
+        "画面共有"
+    ],
+    [
+        "{{画面共有の機能を起動}}",
+        "画面共有 機能起動"
+    ],
+    [
+        "{{前のキーフレームと座標を合わせる}}",
+        "前 キーbingkaiと座標合わせる"
+    ],
+    [
+        "{{前のキーフレームと変形を合わせる}}",
+        "前 キーbingkaiと変形合わせる"
+    ],
+    [
+        "{{次のキーフレームに移動}}",
+        "次 キーbingkaiに移動"
+    ],
+    [
+        "{{前のキーフレームに移動}}",
+        "前 キーbingkaiに移動"
+    ],
+    [
+        "{{全てのスクリプトをコピー}}",
+        "全て スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをコピー}}",
+        "スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをペースト}}",
+        "スクリプトペースト"
+    ],
+    [
+        "{{全てのラベルをコピー}}",
+        "全て labelコピー"
+    ],
+    [
+        "{{ラベルをコピー}}",
+        "labelコピー"
+    ],
+    [
+        "{{ラベルをペースト}}",
+        "labelペースト"
+    ],
+    [
+        "{{全てのサウンドをコピー}}",
+        "全て suaraコピー"
+    ],
+    [
+        "{{サウンドをコピー}}",
+        "suaraコピー"
+    ],
+    [
+        "{{サウンドをペースト}}",
+        "suaraペースト"
+    ],
+    [
+        "{{書き出し先の選択}}",
+        "書き出し先 選択"
+    ],
+    [
+        "{{画質}}",
+        "画質"
+    ],
+    [
+        "{{座標}}",
+        "座標"
+    ],
+    [
+        "{{MovieClipを編集}}",
+        "MovieClip編集"
+    ],
+    [
+        "{{親の階層へ移動}}",
+        "親 階層へ移動"
+    ],
+    [
+        "{{ロックされたレイヤーです}}",
+        "ロックされたlapisanです"
+    ],
+    [
+        "{{トゥイーンには複数のオブジェクトを設置できません}}",
+        "トゥイーンには複数 オブジェクト設置できません"
+    ],
+    [
+        "{{名前が重複しています}}",
+        "namaが重複しています"
+    ],
+    [
+        "{{名前は必須です}}",
+        "namaは必須です"
+    ],
+    [
+        "{{基準点}}",
+        "基準点"
+    ],
+    [
+        "{{自由変形ツール}}",
+        "自由変形ツール"
+    ],
+    [
+        "{{キーフレームに変換}}",
+        "キーbingkaiに変換"
+    ],
+    [
+        "{{空のキーフレームに変換}}",
+        "空 キーbingkaiに変換"
+    ],
+    [
+        "{{最初のフレームに移動}}",
+        "最初 bingkaiに移動"
+    ],
+    [
+        "{{最後のフレームに移動}}",
+        "最後 bingkaiに移動"
+    ],
+    [
+        "{{SWFを解析中}}",
+        "SWF解析中"
+    ],
+    [
+        "{{JSONを生成}}",
+        "JSON生成"
+    ],
+    [
+        "{{ファイルを生成}}",
+        "ファイル生成"
+    ],
+    [
+        "{{N2Dファイルの読み込み}}",
+        "N2Dファイル 読み込み"
+    ],
+    [
+        "{{JSONの読み込み}}",
+        "JSON 読み込み"
+    ],
+    [
+        "{{データを解凍中}}",
+        "データ解凍中"
+    ],
+    [
+        "{{データを圧縮中}}",
+        "データ圧縮中"
+    ],
+    [
+        "{{エンコード}}",
+        "エンコード"
+    ],
+    [
+        "{{外部ファイルの読み込み}}",
+        "外部ファイル 読み込み"
+    ],
+    [
+        "{{バイナリデータを生成}}",
+        "バイナリデータ生成"
+    ],
+    [
+        "{{データベースを起動}}",
+        "データベース起動"
+    ],
+    [
+        "{{データを保存中}}",
+        "データ保存中"
+    ],
+    [
+        "{{完了}}",
+        "完了"
+    ],
+    [
+        "{{ステージ左揃え}}",
+        "Panggung左揃え"
+    ],
+    [
+        "{{ステージ中央揃え(水平方向)}}",
+        "Panggung中央揃え(水平方向)"
+    ],
+    [
+        "{{ステージ右揃え}}",
+        "Panggung右揃え"
+    ],
+    [
+        "{{ステージ上揃え}}",
+        "Panggung上揃え"
+    ],
+    [
+        "{{ステージ中央揃え(垂直方向)}}",
+        "Panggung中央揃え(垂直方向)"
+    ],
+    [
+        "{{ステージ下揃え}}",
+        "Panggung下揃え"
+    ],
+    [
+        "{{定規}}",
+        "定規"
+    ],
+    [
+        "{{表示}}",
+        "表示"
+    ],
+    [
+        "{{ショートカット}}",
+        "ショートカット"
+    ],
+    [
+        "{{レイヤーを複製}}",
+        "lapisan複製"
+    ],
+    [
+        "{{未使用のフォルダを削除}}",
+        "未使用 フォルダdihapus"
+    ],
+    [
+        "{{同名のアイテムが存在します}}",
+        "同名 アイテムが存在します"
+    ],
+    [
+        "{{追加ファイル}}",
+        "追加ファイル"
+    ],
+    [
+        "{{既存のコンテンツ}}",
+        "既存 コンテンツ"
+    ],
+    [
+        "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+        "上書きするか、ファイル名変更して追加するか、キャンセル選択する事ができます"
+    ],
+    [
+        "{{全て上書き}}",
+        "全て上書き"
+    ],
+    [
+        "{{全てキャンセル}}",
+        "全てキャンセル"
+    ],
+    [
+        "{{追加・上書き}}",
+        "追加・上書き"
+    ],
+    [
+        "{{キャンセル}}",
+        "キャンセル"
+    ],
+    [
+        "{{表示確認したいフレームを指定}}",
+        "表示確認したいbingkai指定"
+    ],
+    [
+        "{{ファイル名を指定}}",
+        "ファイル名指定"
+    ],
+    [
+        "{{ファイル名}}",
+        "ファイル名"
+    ],
+    [
+        "{{終了フレームを指定}}",
+        "終了bingkai指定"
+    ],
+    [
+        "{{開始フレームを指定}}",
+        "開始bingkai指定"
+    ],
+    [
+        "{{フレーム設定}}",
+        "bingkai設定"
+    ],
+    [
+        "{{書き出し設定}}",
+        "書き出し設定"
+    ],
+    [
+        "{{ファイル形式の選択}}",
+        "ファイル形式 選択"
+    ],
+    [
+        "{{ファイル形式}}",
+        "ファイル形式"
+    ],
+    [
+        "{{サイズ設定}}",
+        "サイズ設定"
+    ],
+    [
+        "{{左上}}",
+        "左上"
+    ],
+    [
+        "{{中央上}}",
+        "中央上"
+    ],
+    [
+        "{{右上}}",
+        "右上"
+    ],
+    [
+        "{{中央左}}",
+        "中央左"
+    ],
+    [
+        "{{中央}}",
+        "中央"
+    ],
+    [
+        "{{中央右}}",
+        "中央右"
+    ],
+    [
+        "{{左下}}",
+        "左下"
+    ],
+    [
+        "{{中央下}}",
+        "中央下"
+    ],
+    [
+        "{{右下}}",
+        "右下"
+    ],
+    [
+        "{{中心点のX座標}}",
+        "titik pusat X座標"
+    ],
+    [
+        "{{中心点のY座標}}",
+        "titik pusat Y座標"
+    ],
+    [
+        "{{MovieClipに変換}}",
+        "MovieClipに変換"
+    ],
+    [
+        "{{変換}}",
+        "変換"
+    ],
+    [
+        "{{ループ回数}}",
+        "jumlah loop"
+    ],
+    [
+        "{{カーブポインターの削除}}",
+        "カーブポインター 削除"
+    ],
+    [
+        "{{ステージ基準}}",
+        "Panggung基準"
+    ],
+    [
+        "{{閉じる}}",
+        "閉じる"
+    ],
+    [
+        "{{保存}}",
+        "保存"
+    ],
+    [
+        "{{リセット}}",
+        "リセット"
+    ],
+    [
+        "{{スクリーン}}",
+        "スクリーン"
+    ],
+    [
+        "{{ショートカット設定}}",
+        "ショートカット設定"
+    ],
+    [
+        "{{レイヤーカラー}}",
+        "lapisanカラー"
+    ],
+    [
+        "{{Next2Dを支援する}}",
+        "Next2D支援する"
+    ],
+    [
+        "{{サポート}}",
+        "サポート"
+    ],
+    [
+        "{{未使用のアイテムを削除}}",
+        "未使用 アイテムdihapus"
+    ],
+    [
+        "{{レイヤーをペースト}}",
+        "lapisanペースト"
+    ],
+    [
+        "{{レイヤーをコピー}}",
+        "lapisanコピー"
+    ],
+    [
+        "{{フレームをペースト}}",
+        "bingkaiペースト"
+    ],
+    [
+        "{{フレームをコピー}}",
+        "bingkaiコピー"
+    ],
+    [
+        "{{キーフレームを削除}}",
+        "キーbingkaidihapus"
+    ],
+    [
+        "{{キーフレームに空のキーフレームを追加できません}}",
+        "キーbingkaiに空 キーbingkaiditambahkanできません"
+    ],
+    [
+        "{{ズームツール}}",
+        "ズームツール"
+    ],
+    [
+        "{{タイムライン幅の拡大・縮小}}",
+        "タイムラインlebar 拡大・縮小"
+    ],
+    [
+        "{{ガイドレイヤー}}",
+        "ガイドlapisan"
+    ],
+    [
+        "{{音量設定}}",
+        "volume設定"
+    ],
+    [
+        "{{サウンドを削除}}",
+        "suaradihapus"
+    ],
+    [
+        "{{カスタムループ}}",
+        "カスタムループ"
+    ],
+    [
+        "{{読込のみ}}",
+        "読込 み"
+    ],
+    [
+        "{{書込を許可}}",
+        "書込許可"
+    ],
+    [
+        "{{単一行}}",
+        "単一行"
+    ],
+    [
+        "{{複数行}}",
+        "複数行"
+    ],
+    [
+        "{{自動で折り返し}}",
+        "自動で折り返し"
+    ],
+    [
+        "{{左寄せ}}",
+        "左寄せ"
+    ],
+    [
+        "{{中央揃え}}",
+        "中央揃え"
+    ],
+    [
+        "{{右寄せ}}",
+        "右寄せ"
+    ],
+    [
+        "{{放射状グラデーション}}",
+        "放射状グラデーション"
+    ],
+    [
+        "{{線形グラデーション}}",
+        "線形グラデーション"
+    ],
+    [
+        "{{画像}}",
+        "画像"
+    ],
+    [
+        "{{画像選択}}",
+        "画像選択"
+    ],
+    [
+        "{{種別}}",
+        "種別"
+    ],
+    [
+        "{{Shapeの色設定}}",
+        "Shape 色設定"
+    ],
+    [
+        "{{変形}}",
+        "変形"
+    ],
+    [
+        "{{カラー効果}}",
+        "カラー効果"
+    ],
+    [
+        "{{フィルター}}",
+        "フィルター"
+    ],
+    [
+        "{{Shapeを複製}}",
+        "Shape複製"
+    ],
+    [
+        "{{読み込み}}",
+        "読み込み"
+    ],
+    [
+        "{{新規フォルダー}}",
+        "新規フォルダー"
+    ],
+    [
+        "{{新規MovieClip}}",
+        "新規MovieClip"
+    ],
+    [
+        "{{枠に合わせてテキストをリサイズ}}",
+        "枠に合わせてテキストリサイズ"
+    ],
+    [
+        "{{テキストに合わせて枠をリサイズ}}",
+        "テキストに合わせて枠リサイズ"
+    ],
+    [
+        "{{リサイズしない}}",
+        "リサイズしない"
+    ],
+    [
+        "{{フォント}}",
+        "フォント"
+    ],
+    [
+        "{{テキスト}}",
+        "テキスト"
+    ],
+    [
+        "{{ループ}}",
+        "ループ"
+    ],
+    [
+        "{{音量}}",
+        "volume"
+    ],
+    [
+        "{{ビデオ}}",
+        "ビデオ"
+    ],
+    [
+        "{{イージング}}",
+        "イージング"
+    ],
+    [
+        "{{サウンド}}",
+        "suara"
+    ],
+    [
+        "{{シンボル}}",
+        "シンボル"
+    ],
+    [
+        "{{名前}}",
+        "nama"
+    ],
+    [
+        "{{オブジェクト}}",
+        "オブジェクト"
+    ],
+    [
+        "{{ステージ設定}}",
+        "Panggung設定"
+    ],
+    [
+        "{{プレビュー}}",
+        "プレビュー"
+    ],
+    [
+        "{{削除}}",
+        "削除"
+    ],
+    [
+        "{{ペースト}}",
+        "ペースト"
+    ],
+    [
+        "{{コピー}}",
+        "コピー"
+    ],
+    [
+        "{{プラグインメニュー}}",
+        "プラグインメニュー"
+    ],
+    [
+        "{{トゥイーン}}",
+        "トゥイーン"
+    ],
+    [
+        "{{カーブポインターの追加}}",
+        "カーブポインター 追加"
+    ],
+    [
+        "{{パスの結合}}",
+        "パス 結合"
+    ],
+    [
+        "{{シェイプ}}",
+        "シェイプ"
+    ],
+    [
+        "{{キーフレームに配分}}",
+        "キーbingkaiに配分"
+    ],
+    [
+        "{{レイヤーに配分}}",
+        "lapisanに配分"
+    ],
+    [
+        "{{タイムライン}}",
+        "タイムライン"
+    ],
+    [
+        "{{整列}}",
+        "整列"
+    ],
+    [
+        "{{最背面}}",
+        "最背面"
+    ],
+    [
+        "{{ひとつ背面へ}}",
+        "ひとつ背面へ"
+    ],
+    [
+        "{{ひとつ前面へ}}",
+        "ひとつ前面へ"
+    ],
+    [
+        "{{最前面}}",
+        "最前面"
+    ],
+    [
+        "{{重ね順}}",
+        "重ね順"
+    ],
+    [
+        "{{プラグイン}}",
+        "プラグイン"
+    ],
+    [
+        "{{ライブラリ}}",
+        "ライブラリ"
+    ],
+    [
+        "{{プロパティ}}",
+        "プロパティ"
+    ],
+    [
+        "{{マスクレイヤー}}",
+        "マスクlapisan"
+    ],
+    [
+        "{{通常レイヤー}}",
+        "通常lapisan"
+    ],
+    [
+        "{{モーショントゥイーンの削除}}",
+        "モーショントゥイーン 削除"
+    ],
+    [
+        "{{モーショントゥイーンの追加}}",
+        "モーショントゥイーン 追加"
+    ],
+    [
+        "{{モーダル表示}}",
+        "モーダル表示"
+    ],
+    [
+        "{{言語}}",
+        "言語"
+    ],
+    [
+        "{{フォーマット}}",
+        "フォーマット"
+    ],
+    [
+        "{{含める}}",
+        "含める"
+    ],
+    [
+        "{{含めない}}",
+        "含めない"
+    ],
+    [
+        "{{使い方、リファレンス}}",
+        "使い方、リファレンス"
+    ],
+    [
+        "{{非表示レイヤー}}",
+        "非表示lapisan"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{デフォルトのループを利用する}}",
+        "デフォルト ループ利用する"
+    ],
+    [
+        "{{フレームピッカー}}",
+        "bingkaiピッカー"
+    ],
+    [
+        "{{左揃え}}",
+        "左揃え"
+    ],
+    [
+        "{{中央揃え(水平方向)}}",
+        "中央揃え(水平方向)"
+    ],
+    [
+        "{{右揃え}}",
+        "右揃え"
+    ],
+    [
+        "{{上揃え}}",
+        "上揃え"
+    ],
+    [
+        "{{中央揃え(垂直方向)}}",
+        "中央揃え(垂直方向)"
+    ],
+    [
+        "{{下揃え}}",
+        "下揃え"
+    ],
+    [
+        "{{開始フレーム}}",
+        "開始bingkai"
+    ],
+    [
+        "{{終了フレーム}}",
+        "終了bingkai"
+    ],
+    [
+        "{{ループで再生}}",
+        "ループで再生"
+    ],
+    [
+        "{{1回再生}}",
+        "1回再生"
+    ],
+    [
+        "{{指定したフレームで固定}}",
+        "指定したbingkaiで固定"
+    ],
+    [
+        "{{1回逆再生}}",
+        "1回逆再生"
+    ],
+    [
+        "{{逆ループで再生}}",
+        "逆ループで再生"
+    ],
+    [
+        "{{画面の拡大・縮小}}",
+        "画面 拡大・縮小"
+    ],
+    [
+        "{{カスタムイージングデータを保存}}",
+        "カスタムイージングデータ保存"
+    ],
+    [
+        "{{カスタムイージングデータの読込}}",
+        "カスタムイージングデータ 読込"
+    ],
+    [
+        "{{プレビューのON/OFF}}",
+        "プレビュー ON/OFF"
+    ],
+    [
+        "{{フォント枠サイズ}}",
+        "フォント枠サイズ"
+    ],
+    [
+        "{{フォント枠カラー}}",
+        "フォント枠カラー"
+    ],
+    [
+        "{{オニオンスキン}}",
+        "オニオンスキン"
+    ],
+    [
+        "{{バケツツール}}",
+        "バケツツール"
+    ],
+    [
+        "{{ペンツール}}",
+        "ペンツール"
+    ],
+    [
+        "{{ダブルクリックでカーブポイントが追加されます}}",
+        "ダブルクリックでカーブポイントが追加されます"
+    ],
+    [
+        "{{選択ツール}}",
+        "選択ツール"
+    ],
+    [
+        "{{Shape変形ツール}}",
+        "Shape変形ツール"
+    ],
+    [
+        "{{テキストツール}}",
+        "テキストツール"
+    ],
+    [
+        "{{矩形ツール}}",
+        "矩形ツール"
+    ],
+    [
+        "{{楕円ツール}}",
+        "楕円ツール"
+    ],
+    [
+        "{{角丸矩形ツール}}",
+        "角丸矩形ツール"
+    ],
+    [
+        "{{塗りのカラー}}",
+        "塗り カラー"
+    ],
+    [
+        "{{線のカラー}}",
+        "線 カラー"
+    ],
+    [
+        "{{線の太さ}}",
+        "線 太さ"
+    ],
+    [
+        "{{プロジェクトデータの読込}}",
+        "プロジェクトデータ 読込"
+    ],
+    [
+        "{{プロジェクトデータを保存}}",
+        "プロジェクトデータ保存"
+    ],
+    [
+        "{{書き出し}}",
+        "書き出し"
+    ],
+    [
+        "{{Discordへ移動}}",
+        "Discordへ移動"
+    ],
+    [
+        "{{バグ報告}}",
+        "バグ報告"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{タブを追加}}",
+        "タブditambahkan"
+    ],
+    [
+        "{{タブの一覧を表示・移動}}",
+        "タブ 一覧表示・移動"
+    ],
+    [
+        "{{スクリプトを追加}}",
+        "スクリプトditambahkan"
+    ],
+    [
+        "{{キーフレームを追加}}",
+        "キーbingkaiditambahkan"
+    ],
+    [
+        "{{空のキーフレームを追加}}",
+        "空 キーbingkaiditambahkan"
+    ],
+    [
+        "{{フレームを追加}}",
+        "bingkaiditambahkan"
+    ],
+    [
+        "{{フレームを削除}}",
+        "bingkaidihapus"
+    ],
+    [
+        "{{再生}}",
+        "再生"
+    ],
+    [
+        "{{停止}}",
+        "停止"
+    ],
+    [
+        "{{ループ設定}}",
+        "ループ設定"
+    ],
+    [
+        "{{レイヤーを追加}}",
+        "lapisanditambahkan"
+    ],
+    [
+        "{{レイヤーを削除}}",
+        "lapisandihapus"
+    ],
+    [
+        "{{全てのレイヤーをハイライト}}",
+        "全て lapisanハイライト"
+    ],
+    [
+        "{{全てのレイヤーを非表示}}",
+        "全て lapisan非表示"
+    ],
+    [
+        "{{全てのレイヤーをロック}}",
+        "全て lapisanロック"
+    ],
+    [
+        "{{比率を固定}}",
+        "比率固定"
+    ],
+    [
+        "{{ステージの幅}}",
+        "Panggung lebar"
+    ],
+    [
+        "{{背景色}}",
+        "warna latar belakang"
+    ],
+    [
+        "{{ステージの高さ}}",
+        "Panggung tinggi"
+    ],
+    [
+        "{{フレームレート}}",
+        "bingkaiレート"
+    ],
+    [
+        "{{シンボル名}}",
+        "シンボル名"
+    ],
+    [
+        "{{イージング設定}}",
+        "イージング設定"
+    ],
+    [
+        "{{ビデオの音量設定}}",
+        "ビデオ volume設定"
+    ],
+    [
+        "{{自動再生}}",
+        "自動再生"
+    ],
+    [
+        "{{テキストエリアのボーダー設定}}",
+        "テキストエリア ボーダー設定"
+    ],
+    [
+        "{{テキスト入力設定}}",
+        "テキスト入力設定"
+    ],
+    [
+        "{{フォント選択}}",
+        "フォント選択"
+    ],
+    [
+        "{{自動サイズ調整}}",
+        "自動サイズ調整"
+    ],
+    [
+        "{{フォントスタイルタイプ}}",
+        "フォントスタイルタイプ"
+    ],
+    [
+        "{{行揃え}}",
+        "行揃え"
+    ],
+    [
+        "{{改行設定}}",
+        "改行設定"
+    ],
+    [
+        "{{スクロール設定}}",
+        "スクロール設定"
+    ],
+    [
+        "{{フォントサイズ}}",
+        "フォントサイズ"
+    ],
+    [
+        "{{フォントカラー}}",
+        "フォントカラー"
+    ],
+    [
+        "{{行間}}",
+        "行間"
+    ],
+    [
+        "{{文字幅}}",
+        "文字lebar"
+    ],
+    [
+        "{{左マージン}}",
+        "左マージン"
+    ],
+    [
+        "{{右マージン}}",
+        "右マージン"
+    ],
+    [
+        "{{カラー種別の選択}}",
+        "カラー種別 選択"
+    ],
+    [
+        "{{背景画像の選択}}",
+        "背景画像 選択"
+    ],
+    [
+        "{{カラーポインターを追加}}",
+        "カラーポインターditambahkan"
+    ],
+    [
+        "{{カラー値}}",
+        "カラー値"
+    ],
+    [
+        "{{アルファ(0%-100%)}}",
+        "アルファ(0%-100%)"
+    ],
+    [
+        "{{アルファ値}}",
+        "アルファ値"
+    ],
+    [
+        "{{選択対象の幅}}",
+        "選択対象 lebar"
+    ],
+    [
+        "{{選択対象のX座標}}",
+        "選択対象 X座標"
+    ],
+    [
+        "{{選択対象の高さ}}",
+        "選択対象 tinggi"
+    ],
+    [
+        "{{選択対象のY座標}}",
+        "選択対象 Y座標"
+    ],
+    [
+        "{{選択対象の幅の伸縮}}",
+        "選択対象 lebar 伸縮"
+    ],
+    [
+        "{{選択対象を回転}}",
+        "選択対象rotasi"
+    ],
+    [
+        "{{選択対象の高さの伸縮}}",
+        "選択対象 tinggi 伸縮"
+    ],
+    [
+        "{{アルファオフセット(-255〜255)}}",
+        "アルファoffset(-255〜255)"
+    ],
+    [
+        "{{赤(0%-100%)}}",
+        "赤(0%-100%)"
+    ],
+    [
+        "{{赤オフセット(-255〜255)}}",
+        "赤offset(-255〜255)"
+    ],
+    [
+        "{{緑(0%-100%)}}",
+        "緑(0%-100%)"
+    ],
+    [
+        "{{緑オフセット(-255〜255)}}",
+        "緑offset(-255〜255)"
+    ],
+    [
+        "{{青(0%-100%)}}",
+        "青(0%-100%)"
+    ],
+    [
+        "{{青オフセット(-255〜255)}}",
+        "青offset(-255〜255)"
+    ],
+    [
+        "{{ブレンドモード}}",
+        "ブレンドモード"
+    ],
+    [
+        "{{フィルターを選択}}",
+        "フィルター選択"
+    ],
+    [
+        "{{フィルターを追加}}",
+        "フィルターditambahkan"
+    ],
+    [
+        "{{サウンドを追加}}",
+        "suaraditambahkan"
+    ],
+    [
+        "{{フィルターを表示・非表示する}}",
+        "フィルター表示・非表示する"
+    ],
+    [
+        "{{フィルターを削除}}",
+        "フィルターdihapus"
+    ],
+    [
+        "{{水平方向にぼかす}}",
+        "水平方向にぼかす"
+    ],
+    [
+        "{{垂直方向にぼかす}}",
+        "垂直方向にぼかす"
+    ],
+    [
+        "{{フィルター強度}}",
+        "フィルター強度"
+    ],
+    [
+        "{{フィルター角度}}",
+        "フィルター角度"
+    ],
+    [
+        "{{シャドウのアルファ}}",
+        "シャドウ アルファ"
+    ],
+    [
+        "{{シャドウのカラー}}",
+        "シャドウ カラー"
+    ],
+    [
+        "{{フィルター距離}}",
+        "フィルター距離"
+    ],
+    [
+        "{{ハイライトのカラー}}",
+        "ハイライト カラー"
+    ],
+    [
+        "{{ハイライトのアルファ}}",
+        "ハイライト アルファ"
+    ],
+    [
+        "{{グラデーションカラー}}",
+        "グラデーションカラー"
+    ],
+    [
+        "{{グラデーションのアルファ}}",
+        "グラデーション アルファ"
+    ],
+    [
+        "{{タブの移動・名前を変更}}",
+        "タブ 移動・nama変更"
+    ],
+    [
+        "{{プロジェクトを閉じる}}",
+        "プロジェクト閉じる"
+    ],
+    [
+        "{{上下に移動}}",
+        "上下に移動"
+    ],
+    [
+        "{{レイヤー変更(ダブルクリック)}}",
+        "lapisan変更(ダブルクリック)"
+    ],
+    [
+        "{{レイヤーをハイライト}}",
+        "lapisanハイライト"
+    ],
+    [
+        "{{レイヤーを非表示}}",
+        "lapisan非表示"
+    ],
+    [
+        "{{レイヤーをロック}}",
+        "lapisanロック"
+    ],
+    [
+        "{{カーブポインター(ダブルクリックでON/OFF)}}",
+        "カーブポインター(ダブルクリックでON/OFF)"
+    ],
+    [
+        "{{インスタンス名}}",
+        "インスタンス名"
+    ],
+    [
+        "{{ライブラリ内の検索}}",
+        "ライブラリ内 検索"
+    ],
+    [
+        "{{フレームラベル}}",
+        "bingkailabel"
+    ],
+    [
+        "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+        "プロジェクトが保存されていない場合、こ タブ プロジェクトデータ復旧する事はできません。タブdihapusしますか？"
+    ]
 ]

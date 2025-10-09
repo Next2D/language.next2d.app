@@ -1,383 +1,1522 @@
 [
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 zils komponents no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}", "%s3 kadences dziļums %s4 zils komponents no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 zaļais komponents no %s5 līdz %s6 slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}", "%s3 kadences dziļums %s4 zaļais komponents no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 sarkanais komponents no %s5 līdz %s6 slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}", "%s3 kadences dziļums %s4 sarkanais komponents no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 caurspīdīguma nobīde no %s5 līdz %s6 slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}", "%s3 kadences dziļums %s4 caurspīdīgums no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}", "%s3 kadences dziļums %s4 centrālā punkta x koordināta no %s5 līdz %s6 slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}", "%s3 kadences dziļums %s4 centrālā punkta y koordināta no %s5 līdz %s6 slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の中心点を「%s5」から「%s6」に変更}}", "%s3 kadences dziļums %s4 centrālā punkta maiņa no \"%s5\" uz \"%s6\" slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}", "%s3 kadences dziļums %s4 matričs no %s5° līdz %s6° slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}", "%s3 kadences dziļums %s4 rotācija no %s5° līdz %s6° slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のyスケールを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 y mērogs no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のxスケールを%s5から%s6に変更}}", "%s3 kadences dziļums %s4 x mērogs no %s5% līdz %s6% slānī \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4の名前を%s5に変更}}", "Pārdēvēt slāni \"%s1\" slānis \"%s2\" %s3 kadences dziļums %s4 uz \"%s5\""],
-    ["{{新規Text「%s1」を追加}}", "Jauns teksts \"%s1\""],
-    ["{{「%s1」のグラフィックを変更}}", "Mainīt \"%s1\" grafiku"],
-    ["{{新規Shape「%s1」を追加}}", "Jauna forma \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}", "Mainīta y koordināta no %s5 uz %s6 rāmim %s3 un dziļumam %s4 \"%s1\" slānī \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}", "Mainīta x koordināta no %s5 uz %s6 rāmim %s3 un dziļumam %s4 \"%s1\" slānī \"%s2\""],
-    ["{{ステージの背景色を「%s1」から「%s2」に変更}}", "Mainīta skatuves fona krāsa no \"%s1\" uz \"%s2\""],
-    ["{{ステージのFPSを%s1から%s2に変更}}", "Mainīts skatuves FPS no %s1 uz %s2"],
-    ["{{ステージの高さを%s1から%s2に変更}}", "Skatuves augstums mainīts no %s1 uz %s2"],
-    ["{{ステージの幅を%s1から%s2に変更}}", "Mainīts skatuves platums no %s1 uz %s2"],
-    ["{{「%s1」の%s2フレームのラベルを削除}}", "Dzēst \"%s1\" %s2 rāmja etiķeti"],
-    ["{{「%s1」の%s2フレームのラベル「%s3」を「%s4」に変更}}", "Mainīts marķējums \"%s3\" uz \"%s4\" rāmī %s2 rāmī \"%s1\""],
-    ["{{「%s1」の%s2フレームにラベル「%s3」を登録}}", "Reģistrēt etiķeti \"%s3\" rāmī %s2 no \"%s1\""],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」のループ回数を%s4から%s5に変更}}", "Mainīts cilpas skaits skaņai \"%s3\" \"%s1\" %s2 kadrā no %s4 uz %s5"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」の音量を%s4から%s5に変更}}", "Izmainīts skaņas \"%s3\" skaļums \"%s1\" %s2 kadrā no %s4 uz %s5"],
-    ["{{「%s1」の%s2フレームのサウンド「%s3」を削除}}", "Dzēst skaņu \"%s3\" \"%s1\" rāmī %s2"],
-    ["{{「%s1」の%s2フレームにサウンド「%s3」を追加}}", "Skaņa \"%s3\", kas pievienota \"%s1\" %s2 rāmim"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを削除}}", "Dzēst tukšos atslēgas kadrus \"%s1\" slāņa \"%s2\" %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを削除}}", "Tukšo atslēgas kadru dzēšana \"%s1\" slāņa \"%s2\" %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを全て削除}}", "Dzēst visus atslēgas kadrus \"%s1\" slāņa \"%s2\" kadrā %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを全て削除}}", "Dzēst visus tukšos atslēgas kadrus \"%s1\" slāņa \"%s2\" slāņa %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームから%s4フレーム削除}}", "%s4 kadru dzēšana no \"%s1\" slāņa \"%s2\" slāņa %s3 kadra atslēgkadra"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームから%s4フレーム削除}}", "%s4 kadri noņemti no tukšiem atslēgas kadriem %s3 kadros \"%s2\" slānī \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームを分割}}", "Sadaliet atslēgas kadrus \"%s1\" slāņa \"%s2\" %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームのキーフレームに%s4フレームを追加}}", "%s4 kadra pievienošana \"%s1\" slāņa \"%s2\" %s3 kadra atslēgas kadram"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに「%s4」を追加}}", "Pievienojiet \"%s4\" \"%s1\" slāņa \"%s2\" rāmim %s3"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレーム目に%s4フレームを追加}}", "Pievienot %s4 kadrus slāņa \"%s2\" %s3 kadram \"%s1\""],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームを分割}}", "Sadaliet tukšos atslēgas kadrus \"%s1\" slāņa \"%s2\" %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームの空のキーフレームに%s4フレームを追加}}", "%s4 kadru pievienošana tukšajiem atslēgas kadriem \"%s1\" slāņa \"%s2\" %s3 kadrā"],
-    ["{{「%s1」のレイヤー「%s2」の%s3フレームに空のキーフレームを追加}}", "Tukši atslēgas kadri, kas pievienoti \"%s1\" slāņa \"%s2\" slāņa %s3 kadram"],
-    ["{{「%s1」のレイヤー「%s2」を「%s3」に変更}}", "\"%s1\" slānis \"%s2\" mainīts uz \"%s3\""],
-    ["{{「%s1」のレイヤー「%s2」のハイライトカラーを変更}}", "Mainīt \"%s1\" slāņa \"%s2\" izgaismojuma krāsu"],
-    ["{{「%s1」のレイヤー「%s2」を移動}}", "Pārvietot \"%s1\" slāni \"%s2\""],
-    ["{{「%s1」を画像に上書き}}", "Pārrakstīt \"%s1\" ar attēlu"],
-    ["{{「%s1」を動画に上書き}}", "Pārrakstīt \"%s1\" ar video"],
-    ["{{「%s1」を音声に上書き}}", "Pārrakstīt \"%s1\" ar audio"],
-    ["{{ライブラリから「%s1」を削除}}", "Noņemt \"%s1\" no bibliotēkas"],
-    ["{{MoiveClip一覧}}", "MoiveClip saraksts"],
-    ["{{新規フォルダー「%s1」を追加}}", "Pievienot jaunu mapi \"%s1\""],
-    ["{{新規MovieClip「%s1」を追加}}", "Pievienot jaunu MovieClip \"%s1\""],
-    ["{{音声「%s1」を取り込み}}", "Balss \"%s1\" ierakstīšana"],
-    ["{{動画「%s1」を取り込み}}", "Videoklipa \"%s1\" uzņemšana"],
-    ["{{「%s1」のフォルダ移動}}", "Pārvietot mapes \"%s1\""],
-    ["{{画像「%s1」を取り込み}}", "Attēla \"%s1\" importēšana"],
-    ["{{「%s1」のシンボル名を「%s2」に変更}}", "Pārdēvēt simbolu \"%s1\" uz \"%s2\""],
-    ["{{「%s1」の名前を「%s2」に変更}}", "Pārdēvēt simbolu \"%s1\" uz \"%s2\""],
-    ["{{「%s1」のレイヤー名「%s2」を「%s3」に変更}}", "Slāņa nosaukums \"%s2\" produktam \"%s1\" mainīts uz \"%s3\""],
-    ["{{「%s1」の%s2フレームのスクリプトを削除}}", "Izdzēsti %s2 \"%s1\" skripta kadri"],
-    ["{{「%s1」の%s2フレームのスクリプトを変更}}", "Modificēts \"%s1\" %s2. kadra skripts"],
-    ["{{「%s1」の%s2フレームにスクリプトを追加}}", "\"%s1\" %s2. kadram pievienots skripts"],
-    ["{{プロジェクト名「%s1」を「%s2」に変更}}", "Projekta nosaukums \"%s1\" mainīts uz \"%s2\""],
-    ["{{「%s1」のレイヤー「%s2」を削除}}", "Slāņa \"%s2\" uz \"%s1\" dzēšana"],
-    ["{{「%s1」にレイヤー「%s2」を追加}}", "Uz \"%s1\" pievienots slānis \"%s2\""],
-    ["{{同名のシンボルが存在します}}", "Pastāv tāda paša nosaukuma simboli"],
-    ["{{広告枠の非表示}}", "Reklāmas rāmīšu slēpšana"],
-    ["{{履歴}}", "vēsture"],
-    ["{{エリア位置の移動}}", "Pārvietojot apgabala pozīciju"],
-    ["{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}", "Skatoties video reklāmas, varat izmantot 7 dienu neierobežotu funkcionalitāti."],
-    ["{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}", "Animācijas rīks ir atvērtā koda rīks, kas pieejams bez maksas."],
-    ["{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}", "Mēs ceram, ka jūs atbalstīsiet mūs jaunās versijas izstrādē, noskatoties video reklāmu."],
-    ["{{機能制限を解除}}", "Funkcionālo ierobežojumu atcelšana"],
-    ["{{サポーターアプリをインストール}}", "Uzstādīt atbalstītāja lietotni"],
-    ["{{画面共有}}", "Ekrāna koplietošana"],
-    ["{{画面共有の機能を起動}}", "Aktivizējiet ekrāna koplietošanas funkciju"],
-    ["{{前のキーフレームと座標を合わせる}}", "Saskaņot koordinātas ar iepriekšējo atslēgkadru"],
-    ["{{前のキーフレームと変形を合わせる}}", "Izlīdzināt deformāciju ar iepriekšējo atslēgkadru"],
-    ["{{次のキーフレームに移動}}", "Pāreja uz nākamo atslēgas kadru"],
-    ["{{前のキーフレームに移動}}", "Pāreja uz iepriekšējo atslēgas kadru"],
-    ["{{全てのスクリプトをコピー}}", "Kopēt visus skriptus"],
-    ["{{スクリプトをコピー}}", "Kopēt skriptu"],
-    ["{{スクリプトをペースト}}", "Ielīmēt skriptu"],
-    ["{{全てのラベルをコピー}}", "Kopēt visas etiķetes"],
-    ["{{ラベルをコピー}}", "Kopēt etiķetes"],
-    ["{{ラベルをペースト}}", "Ielīmēt etiķetes"],
-    ["{{全てのサウンドをコピー}}", "Kopēt visas skaņas"],
-    ["{{サウンドをコピー}}", "Kopēt skaņu"],
-    ["{{サウンドをペースト}}", "Ielīmēt skaņu"],
-    ["{{書き出し先の選択}}", "Eksporta galamērķa izvēle"],
-    ["{{画質}}", "attēla kvalitāte"],
-    ["{{座標}}", "koordinātes"],
-    ["{{MovieClipを編集}}", "Edit MovieClip"],
-    ["{{親の階層へ移動}}", "Pārcelšanās uz hierarhiju"],
-    ["{{ロックされたレイヤーです}}", "Bloķēts slānis"],
-    ["{{トゥイーンには複数のオブジェクトを設置できません}}", "Vienā tween nav iespējams novietot vairākus objektus"],
-    ["{{名前が重複しています}}", "Nosaukumu dublēšanās"],
-    ["{{名前は必須です}}", "Nepieciešamais nosaukums"],
-    ["{{基準点}}", "atskaites punkts"],
-    ["{{自由変形ツール}}", "Bezmaksas transformēšanas rīks"],
-    ["{{キーフレームに変換}}", "Konvertēt uz atslēgas kadriem"],
-    ["{{空のキーフレームに変換}}", "Pārvērsts uz tukšiem atslēgas kadriem"],
-    ["{{最初のフレームに移動}}", "Pāreja uz pirmo kadru"],
-    ["{{最後のフレームに移動}}", "Pāreja uz pēdējo kadru"],
-    ["{{SWFを解析中}}", "Analizējamie SWF"],
-    ["{{JSONを生成}}", "JSON ģenerēšana"],
-    ["{{ファイルを生成}}", "Izveidot failu"],
-    ["{{N2Dファイルの読み込み}}", "N2D failu ielādēšana"],
-    ["{{JSONの読み込み}}", "JSON lasīšana"],
-    ["{{データを解凍中}}", "Izpakoti dati"],
-    ["{{データを圧縮中}}", "Datu saspiešana"],
-    ["{{エンコード}}", "kodēt"],
-    ["{{外部ファイルの読み込み}}", "Ārējo failu ielādēšana"],
-    ["{{バイナリデータを生成}}", "Ģenerēt bināros datus"],
-    ["{{データベースを起動}}", "Sākuma datubāze"],
-    ["{{データを保存中}}", "Datu glabāšana"],
-    ["{{完了}}", "pabeigšana"],
-    ["{{ステージ左揃え}}", "izlīdzināšana pa kreisi"],
-    ["{{ステージ中央揃え(水平方向)}}", "Posms centrēts (horizontāli)"],
-    ["{{ステージ右揃え}}", "Saskaņošana pa labi uz skatuves"],
-    ["{{ステージ上揃え}}", "uzstāšanās uz skatuves"],
-    ["{{ステージ中央揃え(垂直方向)}}", "Posms centrēts (vertikāli)"],
-    ["{{ステージ下揃え}}", "pamatojums"],
-    ["{{定規}}", "lineāls"],
-    ["{{表示}}", "displejs"],
-    ["{{ショートカット}}", "saīsnes"],
-    ["{{レイヤーを複製}}", "Slāņa dublēšana"],
-    ["{{未使用のフォルダを削除}}", "Izdzēsiet neizmantotās mapes"],
-    ["{{同名のアイテムが存在します}}", "Pastāv tāda paša nosaukuma vienība"],
-    ["{{追加ファイル}}", "papildu fails"],
-    ["{{既存のコンテンツ}}", "Esošais saturs"],
-    ["{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}", "Varat izvēlēties pārrakstīt, pārdēvēt un pievienot failus vai atcelt"],
-    ["{{全て上書き}}", "Pārrakstīt visus"],
-    ["{{全てキャンセル}}", "Atcelt visu"],
-    ["{{追加・上書き}}", "Papildinājumi un pārrakstīšana"],
-    ["{{キャンセル}}", "Atcelt"],
-    ["{{表示確認したいフレームを指定}}", "Norādiet rāmi, kura rādījumu vēlaties pārbaudīt"],
-    ["{{ファイル名を指定}}", "Norādiet faila nosaukumu"],
-    ["{{ファイル名}}", "faila nosaukums"],
-    ["{{終了フレームを指定}}", "Norādiet gala rāmi"],
-    ["{{開始フレームを指定}}", "Norādiet sākuma rāmi"],
-    ["{{フレーム設定}}", "rāmja iestatīšana"],
-    ["{{書き出し設定}}", "Eksporta iestatījumi"],
-    ["{{ファイル形式の選択}}", "Faila formāta izvēle"],
-    ["{{ファイル形式}}", "faila formāts"],
-    ["{{サイズ設定}}", "Sizing"],
-    ["{{左上}}", "kreisais augšējais"],
-    ["{{中央上}}", "centrs-augšējais"],
-    ["{{右上}}", "labajā augšējā pusē"],
-    ["{{中央左}}", "kreisi centriskais"],
-    ["{{中央}}", "centrālais"],
-    ["{{中央右}}", "centriski labējie"],
-    ["{{左下}}", "apakšējā kreisajā pusē"],
-    ["{{中央下}}", "zemākā vidējā"],
-    ["{{右下}}", "labajā apakšējā pusē"],
-    ["{{中心点のX座標}}", "Centra punkta X koordināta"],
-    ["{{中心点のY座標}}", "centra punkta Y koordināta"],
-    ["{{MovieClipに変換}}", "Konvertēt uz MovieClip"],
-    ["{{変換}}", "transformācija"],
-    ["{{ループ回数}}", "Cilpu skaits"],
-    ["{{カーブポインターの削除}}", "Dzēst līknes rādītāju"],
-    ["{{ステージ基準}}", "Posma kritēriji"],
-    ["{{閉じる}}", "tuvu"],
-    ["{{保存}}", "uzglabāšana"],
-    ["{{リセット}}", "atiestatīt"],
-    ["{{スクリーン}}", "ekrāns"],
-    ["{{ショートカット設定}}", "Īsceļu iestatījumi"],
-    ["{{レイヤーカラー}}", "daudzslāņaina krāsa"],
-    ["{{Next2Dを支援する}}", "Atbalsts Next2D"],
-    ["{{サポート}}", "atbalsts"],
-    ["{{未使用のアイテムを削除}}", "Neizmantoto elementu noņemšana"],
-    ["{{レイヤーをペースト}}", "Paste slānis"],
-    ["{{レイヤーをコピー}}", "Kopēt slāni"],
-    ["{{フレームをペースト}}", "Ielīmējiet rāmi"],
-    ["{{フレームをコピー}}", "Kopēšanas rāmis"],
-    ["{{キーフレームを削除}}", "Dzēst atslēgas kadrus"],
-    ["{{キーフレームに空のキーフレームを追加できません}}", "Nevar pievienot tukšus atslēgas kadrus atslēgas kadriem"],
-    ["{{ズームツール}}", "Palielināšanas rīks"],
-    ["{{タイムライン幅の拡大・縮小}}", "Laika joslas platuma paplašināšana un samazināšana"],
-    ["{{ガイドレイヤー}}", "vadošais slānis"],
-    ["{{音量設定}}", "Skaļuma iestatījums"],
-    ["{{サウンドを削除}}", "Noņemt skaņu"],
-    ["{{カスタムループ}}", "pielāgota cilpa"],
-    ["{{読込のみ}}", "Tikai lasīt"],
-    ["{{書込を許可}}", "publicēt atļauju"],
-    ["{{単一行}}", "vienkārša līnija"],
-    ["{{複数行}}", "daudzrindu"],
-    ["{{自動で折り返し}}", "Automātiska apgriešanās"],
-    ["{{左寄せ}}", "izlīdzināts pa kreisi"],
-    ["{{中央揃え}}", "centrēšana"],
-    ["{{右寄せ}}", "labajā pusē izlīdzināts"],
-    ["{{放射状グラデーション}}", "radiālā gradācija"],
-    ["{{線形グラデーション}}", "lineārais gradients"],
-    ["{{画像}}", "Attēls"],
-    ["{{画像選択}}", "Attēlu atlase"],
-    ["{{種別}}", "klasifikācija"],
-    ["{{Shapeの色設定}}", "Formas krāsu iestatījumi"],
-    ["{{変形}}", "deformācija"],
-    ["{{カラー効果}}", "krāsu efekts"],
-    ["{{フィルター}}", "filtrs"],
-    ["{{Shapeを複製}}", "Dublikāta forma"],
-    ["{{読み込み}}", "lasīt"],
-    ["{{新規フォルダー}}", "Jauna mape"],
-    ["{{新規MovieClip}}", "Jauns videoklips"],
-    ["{{枠に合わせてテキストをリサイズ}}", "Mainiet teksta izmēru, lai tas atbilstu rāmim"],
-    ["{{テキストに合わせて枠をリサイズ}}", "Mainiet rāmja lielumu, lai tas atbilstu tekstam"],
-    ["{{リサイズしない}}", "Izmēru maiņa nav iespējama"],
-    ["{{フォント}}", "fontu"],
-    ["{{テキスト}}", "Teksts"],
-    ["{{ループ}}", "cilpa"],
-    ["{{音量}}", "skaļums"],
-    ["{{ビデオ}}", "Video"],
-    ["{{イージング}}", "atvieglojot"],
-    ["{{サウンド}}", "skaņa"],
-    ["{{シンボル}}", "simbols"],
-    ["{{名前}}", "Nosaukums"],
-    ["{{オブジェクト}}", "objekts"],
-    ["{{ステージ設定}}", "Skatuves uzstādīšana"],
-    ["{{プレビュー}}", "priekšskatījums"],
-    ["{{削除}}", "dzēšana"],
-    ["{{ペースト}}", "ielīmēt"],
-    ["{{コピー}}", "kopēt"],
-    ["{{プラグインメニュー}}", "Plug-in izvēlne"],
-    ["{{トゥイーン}}", "starp"],
-    ["{{カーブポインターの追加}}", "Papildu līknes rādītājs"],
-    ["{{パスの結合}}", "Ceļu apvienošana"],
-    ["{{シェイプ}}", "forma"],
-    ["{{キーフレームに配分}}", "Piešķiršana atslēgas kadriem"],
-    ["{{レイヤーに配分}}", "Piešķiršana slāņiem"],
-    ["{{タイムライン}}", "laika grafiks"],
-    ["{{整列}}", "izlīdzināšana"],
-    ["{{最背面}}", "jaunākais"],
-    ["{{ひとつ背面へ}}", "Viens aizmugurē"],
-    ["{{ひとつ前面へ}}", "Viens uz priekšu"],
-    ["{{最前面}}", "galvenais"],
-    ["{{重ね順}}", "superpozīcijas"],
-    ["{{プラグイン}}", "spraudnis"],
-    ["{{ライブラリ}}", "bibliotēka"],
-    ["{{プロパティ}}", "īpašums"],
-    ["{{マスクレイヤー}}", "maskas slānis"],
-    ["{{通常レイヤー}}", "Parasts slānis"],
-    ["{{モーショントゥイーンの削除}}", "Kustību tweens dzēšana"],
-    ["{{モーショントゥイーンの追加}}", "Papildu kustību tweens"],
-    ["{{モーダル表示}}", "modāla norāde"],
-    ["{{言語}}", "Valoda"],
-    ["{{フォーマット}}", "formāts"],
-    ["{{含める}}", "iekļaut"],
-    ["{{含めない}}", "neiekļaut"],
-    ["{{使い方、リファレンス}}", "Lietošana, atsauce"],
-    ["{{非表示レイヤー}}", "slēptais slānis"],
-    ["{{設定}}", "iestatījumi"],
-    ["{{デフォルトのループを利用する}}", "Izmantojiet noklusējuma cilpu"],
-    ["{{フレームピッカー}}", "rāmju atlasītājs"],
-    ["{{左揃え}}", "kreisais pamatojums"],
-    ["{{中央揃え(水平方向)}}", "Centrēts (horizontāli)"],
-    ["{{右揃え}}", "pareizais pamatojums"],
-    ["{{上揃え}}", "pamatojums"],
-    ["{{中央揃え(垂直方向)}}", "Centrēts (vertikāli)"],
-    ["{{下揃え}}", "pamatojums"],
-    ["{{開始フレーム}}", "sākuma rāmis"],
-    ["{{終了フレーム}}", "gala rāmis"],
-    ["{{ループで再生}}", "Atskaņošana cilpā"],
-    ["{{1回再生}}", "1 atskaņošana"],
-    ["{{指定したフレームで固定}}", "Fiksēts norādītajā rāmī"],
-    ["{{1回逆再生}}", "1 reversā atskaņošana"],
-    ["{{逆ループで再生}}", "Atskaņošana reversajā cilpā"],
-    ["{{画面の拡大・縮小}}", "Ekrāna pietuvināšana un attālināšana"],
-    ["{{カスタムイージングデータを保存}}", "Saglabāt pielāgotus atvieglojumu datus"],
-    ["{{カスタムイージングデータの読込}}", "Pielāgotu atvieglojumu datu lasīšana"],
-    ["{{プレビューのON/OFF}}", "Priekšskatījuma ieslēgšana/izslēgšana"],
-    ["{{フォント枠サイズ}}", "fonta rāmja izmērs"],
-    ["{{フォント枠カラー}}", "Fonta rāmja krāsa"],
-    ["{{オニオンスキン}}", "sīpolu mizas"],
-    ["{{バケツツール}}", "Kausveida darbarīki"],
-    ["{{ペンツール}}", "pildspalvas rīks"],
-    ["{{ダブルクリックでカーブポイントが追加されます}}", "Divreiz noklikšķiniet, lai pievienotu līknes punktu"],
-    ["{{選択ツール}}", "atlases rīks"],
-    ["{{Shape変形ツール}}", "Formas deformācijas rīki"],
-    ["{{テキストツール}}", "teksta rīks"],
-    ["{{矩形ツール}}", "Taisnstūra rīks"],
-    ["{{楕円ツール}}", "Elipsveida instrumenti"],
-    ["{{角丸矩形ツール}}", "Noapaļota stūra taisnstūra rīks"],
-    ["{{塗りのカラー}}", "Krāsas krāsa"],
-    ["{{線のカラー}}", "Līniju krāsa"],
-    ["{{線の太さ}}", "līnijas biezums"],
-    ["{{プロジェクトデータの読込}}", "Projekta datu lasīšana"],
-    ["{{プロジェクトデータを保存}}", "Saglabājiet projekta datus"],
-    ["{{書き出し}}", "ievadteikums vai rindkopa"],
-    ["{{Discordへ移動}}", "Dodieties uz Discord"],
-    ["{{バグ報告}}", "ziņojums par kļūdu"],
-    ["{{設定}}", "iestatījumi"],
-    ["{{タブを追加}}", "Pievienot cilni"],
-    ["{{タブの一覧を表示・移動}}", "Rādīt un pārvietot cilņu sarakstu"],
-    ["{{スクリプトを追加}}", "Pievienot skriptu"],
-    ["{{キーフレームを追加}}", "Pievienojiet atslēgas kadrus"],
-    ["{{空のキーフレームを追加}}", "Pievienojiet tukšus atslēgas kadrus"],
-    ["{{フレームを追加}}", "Pievienot rāmi"],
-    ["{{フレームを削除}}", "Noņemiet rāmi"],
-    ["{{再生}}", "reģenerācija"],
-    ["{{停止}}", "mūzikas, deju u. c. pasākumu pārtraukšana kā sēru zīme"],
-    ["{{ループ設定}}", "Cilpas iestatījumi"],
-    ["{{レイヤーを追加}}", "Pievienot slāni"],
-    ["{{レイヤーを削除}}", "Slāņa dzēšana"],
-    ["{{全てのレイヤーをハイライト}}", "Izcelt visus slāņus"],
-    ["{{全てのレイヤーを非表示}}", "Paslēpt visus slāņus"],
-    ["{{全てのレイヤーをロック}}", "Bloķējiet visus slāņus"],
-    ["{{比率を固定}}", "Fiksētā attiecība"],
-    ["{{ステージの幅}}", "Skatuves platums"],
-    ["{{背景色}}", "fona krāsa"],
-    ["{{ステージの高さ}}", "Skatuves augstums"],
-    ["{{フレームレート}}", "kadru nomaiņas ātrums"],
-    ["{{シンボル名}}", "simbola nosaukums"],
-    ["{{イージング設定}}", "Atvieglošanas iestatījums"],
-    ["{{ビデオの音量設定}}", "Video skaļuma iestatījumi"],
-    ["{{自動再生}}", "automātiskā atskaņošana"],
-    ["{{テキストエリアのボーダー設定}}", "Robežu iestatījumi teksta apgabaliem"],
-    ["{{テキスト入力設定}}", "teksta ievades iestatījumi"],
-    ["{{フォント選択}}", "Fontu izvēle"],
-    ["{{自動サイズ調整}}", "Automātiska lieluma maiņa"],
-    ["{{フォントスタイルタイプ}}", "fonta stila veids"],
-    ["{{行揃え}}", "attaisnot"],
-    ["{{改行設定}}", "rindas pārtraukuma iestatīšana"],
-    ["{{スクロール設定}}", "Ritināšanas iestatījumi"],
-    ["{{フォントサイズ}}", "fonta lielums"],
-    ["{{フォントカラー}}", "fonta krāsa"],
-    ["{{行間}}", "starp rindiņām"],
-    ["{{文字幅}}", "rakstzīmju platums"],
-    ["{{左マージン}}", "kreisā mala"],
-    ["{{右マージン}}", "labās malas"],
-    ["{{カラー種別の選択}}", "Izvēlieties krāsas tipu"],
-    ["{{背景画像の選択}}", "Fona attēla atlase"],
-    ["{{カラーポインターを追加}}", "Papildu krāsu rādītājs"],
-    ["{{カラー値}}", "krāsas vērtība"],
-    ["{{アルファ(0%-100%)}}", "Alfa (0%-100%)"],
-    ["{{アルファ値}}", "alfa vērtība"],
-    ["{{選択対象の幅}}", "Atlases mērķa platums"],
-    ["{{選択対象のX座標}}", "Atlases mērķa X koordināta"],
-    ["{{選択対象の高さ}}", "Atlases mērķa augstums"],
-    ["{{選択対象のY座標}}", "Atlases mērķa Y koordināta"],
-    ["{{選択対象の幅の伸縮}}", "Atlases mērķa platuma izstiepšana un samazināšana"],
-    ["{{選択対象を回転}}", "Izvēles pagriešana"],
-    ["{{選択対象の高さの伸縮}}", "Atlases mērķa augstuma pagarināšana un samazināšana"],
-    ["{{アルファオフセット(-255〜255)}}", "Alpha nobīde (-255 līdz 255)"],
-    ["{{赤(0%-100%)}}", "Sarkans (0%-100%)"],
-    ["{{赤オフセット(-255〜255)}}", "Sarkanais nobīde (-255 līdz 255)"],
-    ["{{緑(0%-100%)}}", "Zaļš (0%-100%)"],
-    ["{{緑オフセット(-255〜255)}}", "Zaļās krāsas nobīde (-255 līdz 255)"],
-    ["{{青(0%-100%)}}", "Zils (0%-100%)"],
-    ["{{青オフセット(-255〜255)}}", "Zilais nobīde (-255 līdz 255)"],
-    ["{{ブレンドモード}}", "blendēšanas režīms"],
-    ["{{フィルターを選択}}", "Atlasiet filtru"],
-    ["{{フィルターを追加}}", "Pievienot filtru"],
-    ["{{サウンドを追加}}", "Pievienojiet skaņu"],
-    ["{{フィルターを表示・非表示する}}", "Rādīt/noslēpt filtrus"],
-    ["{{フィルターを削除}}", "Noņemt filtrus"],
-    ["{{水平方向にぼかす}}", "Izplūšana horizontāli"],
-    ["{{垂直方向にぼかす}}", "Vertikālais izplūdums"],
-    ["{{フィルター強度}}", "Filtra stiprums"],
-    ["{{フィルター角度}}", "Filtra leņķis"],
-    ["{{シャドウのアルファ}}", "Ēnu alfa"],
-    ["{{シャドウのカラー}}", "Ēnu krāsas"],
-    ["{{フィルター距離}}", "Filtrēšanas attālums"],
-    ["{{ハイライトのカラー}}", "Krāsu izcēlumi"],
-    ["{{ハイライトのアルファ}}", "Izcelt Alpha"],
-    ["{{グラデーションカラー}}", "gradācijas krāsa"],
-    ["{{グラデーションのアルファ}}", "Gradienta alfa"],
-    ["{{タブの移動・名前を変更}}", "Cilnes cilņu pārvietošana un pārdēvēšana"],
-    ["{{プロジェクトを閉じる}}", "Aizvērt projektu"],
-    ["{{上下に移動}}", "Pārvietojiet uz augšu un uz leju"],
-    ["{{レイヤー変更(ダブルクリック)}}", "Slāņa maiņa (dubultklikšķis)"],
-    ["{{レイヤーをハイライト}}", "Izcelt slāņus"],
-    ["{{レイヤーを非表示}}", "Slēpt slāņus"],
-    ["{{レイヤーをロック}}", "Bloķēšanas slāņi"],
-    ["{{カーブポインター(ダブルクリックでON/OFF)}}", "Līknes rādītājs (divreiz noklikšķiniet, lai ieslēgtu/izslēgtu)"],
-    ["{{インスタンス名}}", "instances nosaukums"],
-    ["{{ライブラリ内の検索}}", "Meklēšana bibliotēkā"],
-    ["{{フレームラベル}}", "rāmja etiķete"],
-    ["{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}", "Ja projekts nav saglabāts, šīs cilnes projekta datus nav iespējams atjaunot. Vai vēlaties dzēst šo cilni?}}"]
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 zilā komponentenobīde%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 zilā komponente%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 zaļā komponentenobīde%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 zaļā komponente%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 sarkanā komponentenobīde%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 sarkanā komponente%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 caurspīdīgumsnobīde%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 caurspīdīgums%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 centra punkts x koordināte%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 centra punkts y koordināte%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 centra punkts[%s5]no[%s6]uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 rotācija%s5°no%s6°uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 y mērogs%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 x mērogs%s5%no%s6%uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 nosaukums%s5uz"
+    ],
+    [
+        "{{新規Text[%s1]を追加}}",
+        "Jauns teksts[%s1]pievienots"
+    ],
+    [
+        "{{[%s1]のグラフィックを変更}}",
+        "[%s1] grafika変更"
+    ],
+    [
+        "{{新規Shape[%s1]を追加}}",
+        "Jauna forma[%s1]pievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 y koordināte%s5no%s6uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 x koordināte%s5no%s6uz"
+    ],
+    [
+        "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+        "Skatuve fona krāsa[%s1]no[%s2]uz"
+    ],
+    [
+        "{{ステージのFPSを%s1から%s2に変更}}",
+        "Skatuve FPS%s1no%s2uz"
+    ],
+    [
+        "{{ステージの高さを%s1から%s2に変更}}",
+        "Skatuve augstums%s1no%s2uz"
+    ],
+    [
+        "{{ステージの幅を%s1から%s2に変更}}",
+        "Skatuve platums%s1no%s2uz"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベルを削除}}",
+        "[%s1] %s2kadrs etiķetedzēsts"
+    ],
+    [
+        "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+        "[%s1] %s2kadrs etiķete[%s3][%s4]uz"
+    ],
+    [
+        "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+        "[%s1] %s2kadrsにetiķete[%s3]登録"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+        "[%s1] %s2kadrs skaņa[%s3] ciklu skaits%s4no%s5uz"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+        "[%s1] %s2kadrs skaņa[%s3] skaļums%s4no%s5uz"
+    ],
+    [
+        "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+        "[%s1] %s2kadrs skaņa[%s3]dzēsts"
+    ],
+    [
+        "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+        "[%s1] %s2kadrsにskaņa[%s3]pievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrsdzēsts"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrs全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrs全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+        "[%s1] slānis[%s2] %s3kadrs 空 キーkadrs全て削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrsno%s4kadrs削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+        "[%s1] slānis[%s2] %s3kadrs 空 キーkadrsno%s4kadrs削除"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrs分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+        "[%s1] slānis[%s2] %s3kadrs キーkadrsに%s4kadrspievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+        "[%s1] slānis[%s2] %s3kadrsに[%s4]pievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+        "[%s1] slānis[%s2] %s3kadrs目に%s4kadrspievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+        "[%s1] slānis[%s2] %s3kadrs 空 キーkadrs分割"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+        "[%s1] slānis[%s2] %s3kadrs 空 キーkadrsに%s4kadrspievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+        "[%s1] slānis[%s2] %s3kadrsに空 キーkadrspievienots"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+        "[%s1] slānis[%s2][%s3]uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+        "[%s1] slānis[%s2] ハイライトカラー変更"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を移動}}",
+        "[%s1] slānis[%s2]移動"
+    ],
+    [
+        "{{[%s1]を画像に上書き}}",
+        "[%s1]画像に上書き"
+    ],
+    [
+        "{{[%s1]を動画に上書き}}",
+        "[%s1]動画に上書き"
+    ],
+    [
+        "{{[%s1]を音声に上書き}}",
+        "[%s1]音声に上書き"
+    ],
+    [
+        "{{ライブラリから[%s1]を削除}}",
+        "ライブラリno[%s1]dzēsts"
+    ],
+    [
+        "{{MoiveClip一覧}}",
+        "MoiveClip一覧"
+    ],
+    [
+        "{{新規フォルダー[%s1]を追加}}",
+        "新規フォルダー[%s1]pievienots"
+    ],
+    [
+        "{{新規MovieClip[%s1]を追加}}",
+        "新規MovieClip[%s1]pievienots"
+    ],
+    [
+        "{{音声[%s1]を取り込み}}",
+        "音声[%s1]取り込み"
+    ],
+    [
+        "{{動画[%s1]を取り込み}}",
+        "動画[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のフォルダ移動}}",
+        "[%s1] フォルダ移動"
+    ],
+    [
+        "{{画像[%s1]を取り込み}}",
+        "画像[%s1]取り込み"
+    ],
+    [
+        "{{[%s1]のシンボル名を[%s2]に変更}}",
+        "[%s1] シンボル名[%s2]uz"
+    ],
+    [
+        "{{[%s1]の名前を[%s2]に変更}}",
+        "[%s1] nosaukums[%s2]uz"
+    ],
+    [
+        "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+        "[%s1] slānis名[%s2][%s3]uz"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを削除}}",
+        "[%s1] %s2kadrs スクリプトdzēsts"
+    ],
+    [
+        "{{[%s1]の%s2フレームのスクリプトを変更}}",
+        "[%s1] %s2kadrs スクリプト変更"
+    ],
+    [
+        "{{[%s1]の%s2フレームにスクリプトを追加}}",
+        "[%s1] %s2kadrsにスクリプトpievienots"
+    ],
+    [
+        "{{プロジェクト名[%s1]を[%s2]に変更}}",
+        "プロジェクト名[%s1][%s2]uz"
+    ],
+    [
+        "{{[%s1]のレイヤー[%s2]を削除}}",
+        "[%s1] slānis[%s2]dzēsts"
+    ],
+    [
+        "{{[%s1]にレイヤー[%s2]を追加}}",
+        "[%s1]にslānis[%s2]pievienots"
+    ],
+    [
+        "{{同名のシンボルが存在します}}",
+        "同名 シンボルが存在します"
+    ],
+    [
+        "{{広告枠の非表示}}",
+        "広告枠 非表示"
+    ],
+    [
+        "{{履歴}}",
+        "履歴"
+    ],
+    [
+        "{{エリア位置の移動}}",
+        "エリア位置 移動"
+    ],
+    [
+        "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+        "サポーターアプリで動画広告視聴すると、機能制限が7日間解除される特典があります。"
+    ],
+    [
+        "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+        "Animation Toolはオープンソースで提供されており、無料で利用できます。"
+    ],
+    [
+        "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+        "より良い機能や新しいバージョン 開発にご支援いただけると幸いです。"
+    ],
+    [
+        "{{機能制限を解除}}",
+        "機能制限解除"
+    ],
+    [
+        "{{サポーターアプリをインストール}}",
+        "サポーターアプリインストール"
+    ],
+    [
+        "{{画面共有}}",
+        "画面共有"
+    ],
+    [
+        "{{画面共有の機能を起動}}",
+        "画面共有 機能起動"
+    ],
+    [
+        "{{前のキーフレームと座標を合わせる}}",
+        "前 キーkadrsと座標合わせる"
+    ],
+    [
+        "{{前のキーフレームと変形を合わせる}}",
+        "前 キーkadrsと変形合わせる"
+    ],
+    [
+        "{{次のキーフレームに移動}}",
+        "次 キーkadrsに移動"
+    ],
+    [
+        "{{前のキーフレームに移動}}",
+        "前 キーkadrsに移動"
+    ],
+    [
+        "{{全てのスクリプトをコピー}}",
+        "全て スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをコピー}}",
+        "スクリプトコピー"
+    ],
+    [
+        "{{スクリプトをペースト}}",
+        "スクリプトペースト"
+    ],
+    [
+        "{{全てのラベルをコピー}}",
+        "全て etiķeteコピー"
+    ],
+    [
+        "{{ラベルをコピー}}",
+        "etiķeteコピー"
+    ],
+    [
+        "{{ラベルをペースト}}",
+        "etiķeteペースト"
+    ],
+    [
+        "{{全てのサウンドをコピー}}",
+        "全て skaņaコピー"
+    ],
+    [
+        "{{サウンドをコピー}}",
+        "skaņaコピー"
+    ],
+    [
+        "{{サウンドをペースト}}",
+        "skaņaペースト"
+    ],
+    [
+        "{{書き出し先の選択}}",
+        "書き出し先 選択"
+    ],
+    [
+        "{{画質}}",
+        "画質"
+    ],
+    [
+        "{{座標}}",
+        "座標"
+    ],
+    [
+        "{{MovieClipを編集}}",
+        "MovieClip編集"
+    ],
+    [
+        "{{親の階層へ移動}}",
+        "親 階層へ移動"
+    ],
+    [
+        "{{ロックされたレイヤーです}}",
+        "ロックされたslānisです"
+    ],
+    [
+        "{{トゥイーンには複数のオブジェクトを設置できません}}",
+        "トゥイーンには複数 オブジェクト設置できません"
+    ],
+    [
+        "{{名前が重複しています}}",
+        "nosaukumsが重複しています"
+    ],
+    [
+        "{{名前は必須です}}",
+        "nosaukumsは必須です"
+    ],
+    [
+        "{{基準点}}",
+        "基準点"
+    ],
+    [
+        "{{自由変形ツール}}",
+        "自由変形ツール"
+    ],
+    [
+        "{{キーフレームに変換}}",
+        "キーkadrsに変換"
+    ],
+    [
+        "{{空のキーフレームに変換}}",
+        "空 キーkadrsに変換"
+    ],
+    [
+        "{{最初のフレームに移動}}",
+        "最初 kadrsに移動"
+    ],
+    [
+        "{{最後のフレームに移動}}",
+        "最後 kadrsに移動"
+    ],
+    [
+        "{{SWFを解析中}}",
+        "SWF解析中"
+    ],
+    [
+        "{{JSONを生成}}",
+        "JSON生成"
+    ],
+    [
+        "{{ファイルを生成}}",
+        "ファイル生成"
+    ],
+    [
+        "{{N2Dファイルの読み込み}}",
+        "N2Dファイル 読み込み"
+    ],
+    [
+        "{{JSONの読み込み}}",
+        "JSON 読み込み"
+    ],
+    [
+        "{{データを解凍中}}",
+        "データ解凍中"
+    ],
+    [
+        "{{データを圧縮中}}",
+        "データ圧縮中"
+    ],
+    [
+        "{{エンコード}}",
+        "エンコード"
+    ],
+    [
+        "{{外部ファイルの読み込み}}",
+        "外部ファイル 読み込み"
+    ],
+    [
+        "{{バイナリデータを生成}}",
+        "バイナリデータ生成"
+    ],
+    [
+        "{{データベースを起動}}",
+        "データベース起動"
+    ],
+    [
+        "{{データを保存中}}",
+        "データ保存中"
+    ],
+    [
+        "{{完了}}",
+        "完了"
+    ],
+    [
+        "{{ステージ左揃え}}",
+        "Skatuve左揃え"
+    ],
+    [
+        "{{ステージ中央揃え(水平方向)}}",
+        "Skatuve中央揃え(水平方向)"
+    ],
+    [
+        "{{ステージ右揃え}}",
+        "Skatuve右揃え"
+    ],
+    [
+        "{{ステージ上揃え}}",
+        "Skatuve上揃え"
+    ],
+    [
+        "{{ステージ中央揃え(垂直方向)}}",
+        "Skatuve中央揃え(垂直方向)"
+    ],
+    [
+        "{{ステージ下揃え}}",
+        "Skatuve下揃え"
+    ],
+    [
+        "{{定規}}",
+        "定規"
+    ],
+    [
+        "{{表示}}",
+        "表示"
+    ],
+    [
+        "{{ショートカット}}",
+        "ショートカット"
+    ],
+    [
+        "{{レイヤーを複製}}",
+        "slānis複製"
+    ],
+    [
+        "{{未使用のフォルダを削除}}",
+        "未使用 フォルダdzēsts"
+    ],
+    [
+        "{{同名のアイテムが存在します}}",
+        "同名 アイテムが存在します"
+    ],
+    [
+        "{{追加ファイル}}",
+        "追加ファイル"
+    ],
+    [
+        "{{既存のコンテンツ}}",
+        "既存 コンテンツ"
+    ],
+    [
+        "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+        "上書きするか、ファイル名変更して追加するか、キャンセル選択する事ができます"
+    ],
+    [
+        "{{全て上書き}}",
+        "全て上書き"
+    ],
+    [
+        "{{全てキャンセル}}",
+        "全てキャンセル"
+    ],
+    [
+        "{{追加・上書き}}",
+        "追加・上書き"
+    ],
+    [
+        "{{キャンセル}}",
+        "キャンセル"
+    ],
+    [
+        "{{表示確認したいフレームを指定}}",
+        "表示確認したいkadrs指定"
+    ],
+    [
+        "{{ファイル名を指定}}",
+        "ファイル名指定"
+    ],
+    [
+        "{{ファイル名}}",
+        "ファイル名"
+    ],
+    [
+        "{{終了フレームを指定}}",
+        "終了kadrs指定"
+    ],
+    [
+        "{{開始フレームを指定}}",
+        "開始kadrs指定"
+    ],
+    [
+        "{{フレーム設定}}",
+        "kadrs設定"
+    ],
+    [
+        "{{書き出し設定}}",
+        "書き出し設定"
+    ],
+    [
+        "{{ファイル形式の選択}}",
+        "ファイル形式 選択"
+    ],
+    [
+        "{{ファイル形式}}",
+        "ファイル形式"
+    ],
+    [
+        "{{サイズ設定}}",
+        "サイズ設定"
+    ],
+    [
+        "{{左上}}",
+        "左上"
+    ],
+    [
+        "{{中央上}}",
+        "中央上"
+    ],
+    [
+        "{{右上}}",
+        "右上"
+    ],
+    [
+        "{{中央左}}",
+        "中央左"
+    ],
+    [
+        "{{中央}}",
+        "中央"
+    ],
+    [
+        "{{中央右}}",
+        "中央右"
+    ],
+    [
+        "{{左下}}",
+        "左下"
+    ],
+    [
+        "{{中央下}}",
+        "中央下"
+    ],
+    [
+        "{{右下}}",
+        "右下"
+    ],
+    [
+        "{{中心点のX座標}}",
+        "centra punkts X座標"
+    ],
+    [
+        "{{中心点のY座標}}",
+        "centra punkts Y座標"
+    ],
+    [
+        "{{MovieClipに変換}}",
+        "MovieClipに変換"
+    ],
+    [
+        "{{変換}}",
+        "変換"
+    ],
+    [
+        "{{ループ回数}}",
+        "ciklu skaits"
+    ],
+    [
+        "{{カーブポインターの削除}}",
+        "カーブポインター 削除"
+    ],
+    [
+        "{{ステージ基準}}",
+        "Skatuve基準"
+    ],
+    [
+        "{{閉じる}}",
+        "閉じる"
+    ],
+    [
+        "{{保存}}",
+        "保存"
+    ],
+    [
+        "{{リセット}}",
+        "リセット"
+    ],
+    [
+        "{{スクリーン}}",
+        "スクリーン"
+    ],
+    [
+        "{{ショートカット設定}}",
+        "ショートカット設定"
+    ],
+    [
+        "{{レイヤーカラー}}",
+        "slānisカラー"
+    ],
+    [
+        "{{Next2Dを支援する}}",
+        "Next2D支援する"
+    ],
+    [
+        "{{サポート}}",
+        "サポート"
+    ],
+    [
+        "{{未使用のアイテムを削除}}",
+        "未使用 アイテムdzēsts"
+    ],
+    [
+        "{{レイヤーをペースト}}",
+        "slānisペースト"
+    ],
+    [
+        "{{レイヤーをコピー}}",
+        "slānisコピー"
+    ],
+    [
+        "{{フレームをペースト}}",
+        "kadrsペースト"
+    ],
+    [
+        "{{フレームをコピー}}",
+        "kadrsコピー"
+    ],
+    [
+        "{{キーフレームを削除}}",
+        "キーkadrsdzēsts"
+    ],
+    [
+        "{{キーフレームに空のキーフレームを追加できません}}",
+        "キーkadrsに空 キーkadrspievienotsできません"
+    ],
+    [
+        "{{ズームツール}}",
+        "ズームツール"
+    ],
+    [
+        "{{タイムライン幅の拡大・縮小}}",
+        "タイムラインplatums 拡大・縮小"
+    ],
+    [
+        "{{ガイドレイヤー}}",
+        "ガイドslānis"
+    ],
+    [
+        "{{音量設定}}",
+        "skaļums設定"
+    ],
+    [
+        "{{サウンドを削除}}",
+        "skaņadzēsts"
+    ],
+    [
+        "{{カスタムループ}}",
+        "カスタムループ"
+    ],
+    [
+        "{{読込のみ}}",
+        "読込 み"
+    ],
+    [
+        "{{書込を許可}}",
+        "書込許可"
+    ],
+    [
+        "{{単一行}}",
+        "単一行"
+    ],
+    [
+        "{{複数行}}",
+        "複数行"
+    ],
+    [
+        "{{自動で折り返し}}",
+        "自動で折り返し"
+    ],
+    [
+        "{{左寄せ}}",
+        "左寄せ"
+    ],
+    [
+        "{{中央揃え}}",
+        "中央揃え"
+    ],
+    [
+        "{{右寄せ}}",
+        "右寄せ"
+    ],
+    [
+        "{{放射状グラデーション}}",
+        "放射状グラデーション"
+    ],
+    [
+        "{{線形グラデーション}}",
+        "線形グラデーション"
+    ],
+    [
+        "{{画像}}",
+        "画像"
+    ],
+    [
+        "{{画像選択}}",
+        "画像選択"
+    ],
+    [
+        "{{種別}}",
+        "種別"
+    ],
+    [
+        "{{Shapeの色設定}}",
+        "Shape 色設定"
+    ],
+    [
+        "{{変形}}",
+        "変形"
+    ],
+    [
+        "{{カラー効果}}",
+        "カラー効果"
+    ],
+    [
+        "{{フィルター}}",
+        "フィルター"
+    ],
+    [
+        "{{Shapeを複製}}",
+        "Shape複製"
+    ],
+    [
+        "{{読み込み}}",
+        "読み込み"
+    ],
+    [
+        "{{新規フォルダー}}",
+        "新規フォルダー"
+    ],
+    [
+        "{{新規MovieClip}}",
+        "新規MovieClip"
+    ],
+    [
+        "{{枠に合わせてテキストをリサイズ}}",
+        "枠に合わせてテキストリサイズ"
+    ],
+    [
+        "{{テキストに合わせて枠をリサイズ}}",
+        "テキストに合わせて枠リサイズ"
+    ],
+    [
+        "{{リサイズしない}}",
+        "リサイズしない"
+    ],
+    [
+        "{{フォント}}",
+        "フォント"
+    ],
+    [
+        "{{テキスト}}",
+        "テキスト"
+    ],
+    [
+        "{{ループ}}",
+        "ループ"
+    ],
+    [
+        "{{音量}}",
+        "skaļums"
+    ],
+    [
+        "{{ビデオ}}",
+        "ビデオ"
+    ],
+    [
+        "{{イージング}}",
+        "イージング"
+    ],
+    [
+        "{{サウンド}}",
+        "skaņa"
+    ],
+    [
+        "{{シンボル}}",
+        "シンボル"
+    ],
+    [
+        "{{名前}}",
+        "nosaukums"
+    ],
+    [
+        "{{オブジェクト}}",
+        "オブジェクト"
+    ],
+    [
+        "{{ステージ設定}}",
+        "Skatuve設定"
+    ],
+    [
+        "{{プレビュー}}",
+        "プレビュー"
+    ],
+    [
+        "{{削除}}",
+        "削除"
+    ],
+    [
+        "{{ペースト}}",
+        "ペースト"
+    ],
+    [
+        "{{コピー}}",
+        "コピー"
+    ],
+    [
+        "{{プラグインメニュー}}",
+        "プラグインメニュー"
+    ],
+    [
+        "{{トゥイーン}}",
+        "トゥイーン"
+    ],
+    [
+        "{{カーブポインターの追加}}",
+        "カーブポインター 追加"
+    ],
+    [
+        "{{パスの結合}}",
+        "パス 結合"
+    ],
+    [
+        "{{シェイプ}}",
+        "シェイプ"
+    ],
+    [
+        "{{キーフレームに配分}}",
+        "キーkadrsに配分"
+    ],
+    [
+        "{{レイヤーに配分}}",
+        "slānisに配分"
+    ],
+    [
+        "{{タイムライン}}",
+        "タイムライン"
+    ],
+    [
+        "{{整列}}",
+        "整列"
+    ],
+    [
+        "{{最背面}}",
+        "最背面"
+    ],
+    [
+        "{{ひとつ背面へ}}",
+        "ひとつ背面へ"
+    ],
+    [
+        "{{ひとつ前面へ}}",
+        "ひとつ前面へ"
+    ],
+    [
+        "{{最前面}}",
+        "最前面"
+    ],
+    [
+        "{{重ね順}}",
+        "重ね順"
+    ],
+    [
+        "{{プラグイン}}",
+        "プラグイン"
+    ],
+    [
+        "{{ライブラリ}}",
+        "ライブラリ"
+    ],
+    [
+        "{{プロパティ}}",
+        "プロパティ"
+    ],
+    [
+        "{{マスクレイヤー}}",
+        "マスクslānis"
+    ],
+    [
+        "{{通常レイヤー}}",
+        "通常slānis"
+    ],
+    [
+        "{{モーショントゥイーンの削除}}",
+        "モーショントゥイーン 削除"
+    ],
+    [
+        "{{モーショントゥイーンの追加}}",
+        "モーショントゥイーン 追加"
+    ],
+    [
+        "{{モーダル表示}}",
+        "モーダル表示"
+    ],
+    [
+        "{{言語}}",
+        "言語"
+    ],
+    [
+        "{{フォーマット}}",
+        "フォーマット"
+    ],
+    [
+        "{{含める}}",
+        "含める"
+    ],
+    [
+        "{{含めない}}",
+        "含めない"
+    ],
+    [
+        "{{使い方、リファレンス}}",
+        "使い方、リファレンス"
+    ],
+    [
+        "{{非表示レイヤー}}",
+        "非表示slānis"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{デフォルトのループを利用する}}",
+        "デフォルト ループ利用する"
+    ],
+    [
+        "{{フレームピッカー}}",
+        "kadrsピッカー"
+    ],
+    [
+        "{{左揃え}}",
+        "左揃え"
+    ],
+    [
+        "{{中央揃え(水平方向)}}",
+        "中央揃え(水平方向)"
+    ],
+    [
+        "{{右揃え}}",
+        "右揃え"
+    ],
+    [
+        "{{上揃え}}",
+        "上揃え"
+    ],
+    [
+        "{{中央揃え(垂直方向)}}",
+        "中央揃え(垂直方向)"
+    ],
+    [
+        "{{下揃え}}",
+        "下揃え"
+    ],
+    [
+        "{{開始フレーム}}",
+        "開始kadrs"
+    ],
+    [
+        "{{終了フレーム}}",
+        "終了kadrs"
+    ],
+    [
+        "{{ループで再生}}",
+        "ループで再生"
+    ],
+    [
+        "{{1回再生}}",
+        "1回再生"
+    ],
+    [
+        "{{指定したフレームで固定}}",
+        "指定したkadrsで固定"
+    ],
+    [
+        "{{1回逆再生}}",
+        "1回逆再生"
+    ],
+    [
+        "{{逆ループで再生}}",
+        "逆ループで再生"
+    ],
+    [
+        "{{画面の拡大・縮小}}",
+        "画面 拡大・縮小"
+    ],
+    [
+        "{{カスタムイージングデータを保存}}",
+        "カスタムイージングデータ保存"
+    ],
+    [
+        "{{カスタムイージングデータの読込}}",
+        "カスタムイージングデータ 読込"
+    ],
+    [
+        "{{プレビューのON/OFF}}",
+        "プレビュー ON/OFF"
+    ],
+    [
+        "{{フォント枠サイズ}}",
+        "フォント枠サイズ"
+    ],
+    [
+        "{{フォント枠カラー}}",
+        "フォント枠カラー"
+    ],
+    [
+        "{{オニオンスキン}}",
+        "オニオンスキン"
+    ],
+    [
+        "{{バケツツール}}",
+        "バケツツール"
+    ],
+    [
+        "{{ペンツール}}",
+        "ペンツール"
+    ],
+    [
+        "{{ダブルクリックでカーブポイントが追加されます}}",
+        "ダブルクリックでカーブポイントが追加されます"
+    ],
+    [
+        "{{選択ツール}}",
+        "選択ツール"
+    ],
+    [
+        "{{Shape変形ツール}}",
+        "Shape変形ツール"
+    ],
+    [
+        "{{テキストツール}}",
+        "テキストツール"
+    ],
+    [
+        "{{矩形ツール}}",
+        "矩形ツール"
+    ],
+    [
+        "{{楕円ツール}}",
+        "楕円ツール"
+    ],
+    [
+        "{{角丸矩形ツール}}",
+        "角丸矩形ツール"
+    ],
+    [
+        "{{塗りのカラー}}",
+        "塗り カラー"
+    ],
+    [
+        "{{線のカラー}}",
+        "線 カラー"
+    ],
+    [
+        "{{線の太さ}}",
+        "線 太さ"
+    ],
+    [
+        "{{プロジェクトデータの読込}}",
+        "プロジェクトデータ 読込"
+    ],
+    [
+        "{{プロジェクトデータを保存}}",
+        "プロジェクトデータ保存"
+    ],
+    [
+        "{{書き出し}}",
+        "書き出し"
+    ],
+    [
+        "{{Discordへ移動}}",
+        "Discordへ移動"
+    ],
+    [
+        "{{バグ報告}}",
+        "バグ報告"
+    ],
+    [
+        "{{設定}}",
+        "設定"
+    ],
+    [
+        "{{タブを追加}}",
+        "タブpievienots"
+    ],
+    [
+        "{{タブの一覧を表示・移動}}",
+        "タブ 一覧表示・移動"
+    ],
+    [
+        "{{スクリプトを追加}}",
+        "スクリプトpievienots"
+    ],
+    [
+        "{{キーフレームを追加}}",
+        "キーkadrspievienots"
+    ],
+    [
+        "{{空のキーフレームを追加}}",
+        "空 キーkadrspievienots"
+    ],
+    [
+        "{{フレームを追加}}",
+        "kadrspievienots"
+    ],
+    [
+        "{{フレームを削除}}",
+        "kadrsdzēsts"
+    ],
+    [
+        "{{再生}}",
+        "再生"
+    ],
+    [
+        "{{停止}}",
+        "停止"
+    ],
+    [
+        "{{ループ設定}}",
+        "ループ設定"
+    ],
+    [
+        "{{レイヤーを追加}}",
+        "slānispievienots"
+    ],
+    [
+        "{{レイヤーを削除}}",
+        "slānisdzēsts"
+    ],
+    [
+        "{{全てのレイヤーをハイライト}}",
+        "全て slānisハイライト"
+    ],
+    [
+        "{{全てのレイヤーを非表示}}",
+        "全て slānis非表示"
+    ],
+    [
+        "{{全てのレイヤーをロック}}",
+        "全て slānisロック"
+    ],
+    [
+        "{{比率を固定}}",
+        "比率固定"
+    ],
+    [
+        "{{ステージの幅}}",
+        "Skatuve platums"
+    ],
+    [
+        "{{背景色}}",
+        "fona krāsa"
+    ],
+    [
+        "{{ステージの高さ}}",
+        "Skatuve augstums"
+    ],
+    [
+        "{{フレームレート}}",
+        "kadrsレート"
+    ],
+    [
+        "{{シンボル名}}",
+        "シンボル名"
+    ],
+    [
+        "{{イージング設定}}",
+        "イージング設定"
+    ],
+    [
+        "{{ビデオの音量設定}}",
+        "ビデオ skaļums設定"
+    ],
+    [
+        "{{自動再生}}",
+        "自動再生"
+    ],
+    [
+        "{{テキストエリアのボーダー設定}}",
+        "テキストエリア ボーダー設定"
+    ],
+    [
+        "{{テキスト入力設定}}",
+        "テキスト入力設定"
+    ],
+    [
+        "{{フォント選択}}",
+        "フォント選択"
+    ],
+    [
+        "{{自動サイズ調整}}",
+        "自動サイズ調整"
+    ],
+    [
+        "{{フォントスタイルタイプ}}",
+        "フォントスタイルタイプ"
+    ],
+    [
+        "{{行揃え}}",
+        "行揃え"
+    ],
+    [
+        "{{改行設定}}",
+        "改行設定"
+    ],
+    [
+        "{{スクロール設定}}",
+        "スクロール設定"
+    ],
+    [
+        "{{フォントサイズ}}",
+        "フォントサイズ"
+    ],
+    [
+        "{{フォントカラー}}",
+        "フォントカラー"
+    ],
+    [
+        "{{行間}}",
+        "行間"
+    ],
+    [
+        "{{文字幅}}",
+        "文字platums"
+    ],
+    [
+        "{{左マージン}}",
+        "左マージン"
+    ],
+    [
+        "{{右マージン}}",
+        "右マージン"
+    ],
+    [
+        "{{カラー種別の選択}}",
+        "カラー種別 選択"
+    ],
+    [
+        "{{背景画像の選択}}",
+        "背景画像 選択"
+    ],
+    [
+        "{{カラーポインターを追加}}",
+        "カラーポインターpievienots"
+    ],
+    [
+        "{{カラー値}}",
+        "カラー値"
+    ],
+    [
+        "{{アルファ(0%-100%)}}",
+        "アルファ(0%-100%)"
+    ],
+    [
+        "{{アルファ値}}",
+        "アルファ値"
+    ],
+    [
+        "{{選択対象の幅}}",
+        "選択対象 platums"
+    ],
+    [
+        "{{選択対象のX座標}}",
+        "選択対象 X座標"
+    ],
+    [
+        "{{選択対象の高さ}}",
+        "選択対象 augstums"
+    ],
+    [
+        "{{選択対象のY座標}}",
+        "選択対象 Y座標"
+    ],
+    [
+        "{{選択対象の幅の伸縮}}",
+        "選択対象 platums 伸縮"
+    ],
+    [
+        "{{選択対象を回転}}",
+        "選択対象rotācija"
+    ],
+    [
+        "{{選択対象の高さの伸縮}}",
+        "選択対象 augstums 伸縮"
+    ],
+    [
+        "{{アルファオフセット(-255〜255)}}",
+        "アルファnobīde(-255〜255)"
+    ],
+    [
+        "{{赤(0%-100%)}}",
+        "赤(0%-100%)"
+    ],
+    [
+        "{{赤オフセット(-255〜255)}}",
+        "赤nobīde(-255〜255)"
+    ],
+    [
+        "{{緑(0%-100%)}}",
+        "緑(0%-100%)"
+    ],
+    [
+        "{{緑オフセット(-255〜255)}}",
+        "緑nobīde(-255〜255)"
+    ],
+    [
+        "{{青(0%-100%)}}",
+        "青(0%-100%)"
+    ],
+    [
+        "{{青オフセット(-255〜255)}}",
+        "青nobīde(-255〜255)"
+    ],
+    [
+        "{{ブレンドモード}}",
+        "ブレンドモード"
+    ],
+    [
+        "{{フィルターを選択}}",
+        "フィルター選択"
+    ],
+    [
+        "{{フィルターを追加}}",
+        "フィルターpievienots"
+    ],
+    [
+        "{{サウンドを追加}}",
+        "skaņapievienots"
+    ],
+    [
+        "{{フィルターを表示・非表示する}}",
+        "フィルター表示・非表示する"
+    ],
+    [
+        "{{フィルターを削除}}",
+        "フィルターdzēsts"
+    ],
+    [
+        "{{水平方向にぼかす}}",
+        "水平方向にぼかす"
+    ],
+    [
+        "{{垂直方向にぼかす}}",
+        "垂直方向にぼかす"
+    ],
+    [
+        "{{フィルター強度}}",
+        "フィルター強度"
+    ],
+    [
+        "{{フィルター角度}}",
+        "フィルター角度"
+    ],
+    [
+        "{{シャドウのアルファ}}",
+        "シャドウ アルファ"
+    ],
+    [
+        "{{シャドウのカラー}}",
+        "シャドウ カラー"
+    ],
+    [
+        "{{フィルター距離}}",
+        "フィルター距離"
+    ],
+    [
+        "{{ハイライトのカラー}}",
+        "ハイライト カラー"
+    ],
+    [
+        "{{ハイライトのアルファ}}",
+        "ハイライト アルファ"
+    ],
+    [
+        "{{グラデーションカラー}}",
+        "グラデーションカラー"
+    ],
+    [
+        "{{グラデーションのアルファ}}",
+        "グラデーション アルファ"
+    ],
+    [
+        "{{タブの移動・名前を変更}}",
+        "タブ 移動・nosaukums変更"
+    ],
+    [
+        "{{プロジェクトを閉じる}}",
+        "プロジェクト閉じる"
+    ],
+    [
+        "{{上下に移動}}",
+        "上下に移動"
+    ],
+    [
+        "{{レイヤー変更(ダブルクリック)}}",
+        "slānis変更(ダブルクリック)"
+    ],
+    [
+        "{{レイヤーをハイライト}}",
+        "slānisハイライト"
+    ],
+    [
+        "{{レイヤーを非表示}}",
+        "slānis非表示"
+    ],
+    [
+        "{{レイヤーをロック}}",
+        "slānisロック"
+    ],
+    [
+        "{{カーブポインター(ダブルクリックでON/OFF)}}",
+        "カーブポインター(ダブルクリックでON/OFF)"
+    ],
+    [
+        "{{インスタンス名}}",
+        "インスタンス名"
+    ],
+    [
+        "{{ライブラリ内の検索}}",
+        "ライブラリ内 検索"
+    ],
+    [
+        "{{フレームラベル}}",
+        "kadrsetiķete"
+    ],
+    [
+        "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+        "プロジェクトが保存されていない場合、こ タブ プロジェクトデータ復旧する事はできません。タブdzēstsしますか？"
+    ]
 ]
