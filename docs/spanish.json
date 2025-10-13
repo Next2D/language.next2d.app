@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "Cambiar el modo de fusión de la capa [%s2] de [%s1] en el fotograma %s3 y la profundidad %s4 de [%s5] a [%s6]"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] capa[%s2] %s3fotograma・profundidad%s4 componente azuldesplazamiento%s5de%s6a"
     ],

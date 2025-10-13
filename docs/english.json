@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "[%s1] layer[%s2] %s3frame・depth%s4 blend mode[%s5]from[%s6]to"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] layer[%s2] %s3frame・depth%s4 blue componentoffset%s5from%s6to"
     ],

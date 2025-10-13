@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "[%s1] réteg[%s2] %s3keret・mélység%s4 keverési mód[%s5]-ról/-ről[%s6]-ra/-re"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] réteg[%s2] %s3keret・mélység%s4 kék komponenseltolás%s5-ról/-ről%s6-ra/-re"
     ],

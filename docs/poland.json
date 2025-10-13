@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "Zmień tryb mieszania dla warstwy [%s2] z [%s1] w klatce %s3 i głębokości %s4 z [%s5] na [%s6]"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 niebieski komponentprzesunięcie%s5z%s6na"
     ],

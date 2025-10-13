@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "%s3 karesinde ve %s4 derinliğinde [%s1] katmanının [%s2] katmanının karışım modunu [%s5]'ten [%s6]'ya değiştirin"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] katman[%s2] %s3çerçeve・derinlik%s4 mavi bileşenofset%s5den%s6ye"
     ],
