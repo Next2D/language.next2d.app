@@ -1,67 +1,71 @@
 [
     [
-        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 blend mode[%s5]from[%s6]to"
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+        "Change the matrix for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5° to %s6°"
     ],    
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+        "Change the blend mode for frame %s3 at depth %s4 in layer [%s2] of [%s1] from [%s5] to [%s6]"
+    ],
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 blue componentoffset%s5from%s6to"
+        "Change the blue component offset for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 blue component%s5%from%s6%to"
+        "Change the blue component for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 green componentoffset%s5from%s6to"
+        "Change the green component offset for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 green component%s5%from%s6%to"
+        "Change the green component for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 red componentoffset%s5from%s6to"
+        "Change the red component offset for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 red component%s5%from%s6%to"
+        "Change the red component for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 transparencyoffset%s5from%s6to"
+        "Change the transparency offset for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 transparency%s5%from%s6%to"
+        "Change the transparency for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 center point x-coordinate%s5from%s6to"
+        "Change the x-coordinate of the center point for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 center point y-coordinate%s5from%s6to"
+        "Change the y-coordinate of the center point for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 center point[%s5]from[%s6]to"
+        "Change the center point for frame %s3 at depth %s4 in layer [%s2] of [%s1] from [%s5] to [%s6]"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 rotation%s5°from%s6°to"
+        "Change the rotation for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5° to %s6°"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 y-scale%s5%from%s6%to"
+        "Change the y-scale for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 x-scale%s5%from%s6%to"
+        "Change the x-scale for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5% to %s6%"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 name%s5to"
+        "Change the name for frame %s3 at depth %s4 in layer [%s2] of [%s1] to %s5"
     ],
     [
         "{{新規Text[%s1]を追加}}",
@@ -77,59 +81,59 @@
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 y-coordinate%s5from%s6to"
+        "Change the y-coordinate for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
-        "[%s1] layer[%s2] %s3frame・depth%s4 x-coordinate%s5from%s6to"
+        "Change the x-coordinate for frame %s3 at depth %s4 in layer [%s2] of [%s1] from %s5 to %s6"
     ],
     [
         "{{ステージの背景色を[%s1]から[%s2]に変更}}",
-        "Stage background color[%s1]from[%s2]to"
+        "Change the stage background color from [%s1] to [%s2]"
     ],
     [
         "{{ステージのFPSを%s1から%s2に変更}}",
-        "Stage FPS%s1from%s2to"
+        "Change the stage FPS from %s1 to %s2"
     ],
     [
         "{{ステージの高さを%s1から%s2に変更}}",
-        "Stage height%s1from%s2to"
+        "Change the stage height from %s1 to %s2"
     ],
     [
         "{{ステージの幅を%s1から%s2に変更}}",
-        "Stage width%s1from%s2to"
+        "Change the stage width from %s1 to %s2"
     ],
     [
         "{{[%s1]の%s2フレームのラベルを削除}}",
-        "[%s1] %s2frame labeldeleted"
+        "Remove the label from frame %s2 of [%s1]"
     ],
     [
         "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
-        "[%s1] %s2frame label[%s3][%s4]to"
+        "Change the label [%s3] of frame %s2 in [%s1] to [%s4]"
     ],
     [
         "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
-        "[%s1] %s2frameにlabel[%s3]登録"
+        "Register label [%s3] on frame [%s2] of [%s1]"
     ],
     [
         "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
-        "[%s1] %s2frame sound[%s3] loop count%s4from%s5to"
+        "Change the loop count of sound [%s3] on frame [%s2] of [%s1] from %s4 to %s5"
     ],
     [
         "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
-        "[%s1] %s2frame sound[%s3] volume%s4from%s5to"
+        "Change the volume of sound [%s3] on frame [%s2] of [%s1] from %s4 to %s5"
     ],
     [
         "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
-        "[%s1] %s2frame sound[%s3]deleted"
+        "Remove sound [%s3] from frame [%s2] of [%s1]"
     ],
     [
         "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
-        "[%s1] %s2frameにsound[%s3]added"
+        "Add sound [%s3] to frame [%s2] of [%s1]"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
-        "[%s1] layer[%s2] %s3frame キーframedeleted"
+        "Remove keyframe from frame [%s2] in layer [%s2] of [%s1]"
     ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",

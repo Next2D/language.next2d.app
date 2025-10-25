@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+        "[%s1] livello[%s2] %s3fotogramma・profondità%s4 matrice%s5°da%s6°a"
+    ],
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
         "[%s1] livello[%s2] %s3fotogramma・profondità%s4 keverési mód[%s5]da[%s6]a"
     ],    

@@ -1,8 +1,12 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+        "[%s1] calque[%s2] %s3image・profondeur%s4 matrice%s5°de%s6°à"
+    ],
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
         "[%s1] calque[%s2] %s3image・profondeur%s4 mode de fusion[%s5]de[%s6]à"
-    ],    
+    ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] calque[%s2] %s3image・profondeur%s4 composante bleuedécalage%s5de%s6à"

@@ -1,8 +1,12 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+        "[%s1] Ebene[%s2] %s3Frame・Tiefe%s4 Matrix%s5°von%s6°zu"
+    ],
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
         "[%s1] Ebene[%s2] %s3Frame・Tiefe%s4 Mischmodus[%s5]von[%s6]zu"
-    ],    
+    ],
     [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
         "[%s1] Ebene[%s2] %s3Frame・Tiefe%s4 BlaukomponenteVersatz%s5von%s6zu"
