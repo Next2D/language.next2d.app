@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+        "Odstráňte [%s5] z vrstvy [%s2] z [%s1] v snímke %s3 a hĺbke %s4."
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
         "Zmeňte maticu pre vrstvu [%s2] z [%s1] v snímke %s3 a hĺbke %s4 z %s5° na %s6°."
     ],

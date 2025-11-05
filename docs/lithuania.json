@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+        "[%s1] sluoksnis[%s2] %s3kadras・gylis%s4 [%s5] noņemta"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
         "[%s1] sluoksnis[%s2] %s3kadras・gylis%s4 matrica%s5°iš%s6°į"
     ],

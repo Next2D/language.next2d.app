@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+        "Verwijder [%s5] van laag [%s2] van [%s1] bij frame %s3 en diepte %s4"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
         "Wijzig de matrix voor laag [%s2] van [%s1] bij frame %s3 en diepte %s4 van %s5° naar %s6°"
     ],

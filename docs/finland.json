@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+        "Remove [%s5] from frame %s3 at depth %s4 in layer [%s2] of [%s1]"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
         "[%s1] kerros[%s2] %s3kehys・syvyys%s4 matriisi%s5°arvosta%s6°arvoon"
     ],
