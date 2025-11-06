@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "Move depth %s4 to depth %s5 in frame %s3 of layer [%s2] of [%s1]"
+    ],      
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "Remove [%s5] from frame %s3 at depth %s4 in layer [%s2] of [%s1]"
     ],    

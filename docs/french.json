@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "[%s1] calque[%s2] %s3image・profondeur%s4 déplacée vers profondeur%s5"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "[%s1] calque[%s2] %s3image・profondeur%s4 matrice[%s5] supprimée"
     ],

@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "[%s1] réteg[%s2] %s3keret・mélység%s4 mélység%s5-hoz/-hez/-höz mozgatva"
+    ],    
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "[%s1] réteg[%s2] %s3keret・mélység%s4 mátrix[%s5] eltávolítva"
     ],

@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "[%s1] Ebene[%s2] %s3Frame・Tiefe%s4 nach Tiefe%s5 verschieben"
+    ],
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "[%s1] Ebene[%s2] %s3Frame・Tiefe%s4 [%s5] entfernt"
     ],

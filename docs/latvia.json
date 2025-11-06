@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 pārvietots uz dziļumu%s5"
+    ],      
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "[%s1] slānis[%s2] %s3kadrs・dziļums%s4 matrica[%s5] noņemta"
     ],    

@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 dipindahkan ke kedalaman%s5"
+    ],      
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "[%s1] lapisan[%s2] %s3bingkai・kedalaman%s4 matriks[%s5] dihapus"
     ],    

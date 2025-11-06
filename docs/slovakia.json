@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "Presuňte vrstvu [%s2] z [%s1] v snímke %s3 a hĺbke %s4 do hĺbky %s5."
+    ],      
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "Odstráňte [%s5] z vrstvy [%s2] z [%s1] v snímke %s3 a hĺbke %s4."
     ],    

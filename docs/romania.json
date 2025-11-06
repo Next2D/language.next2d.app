@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "Mutare stratul [%s2] din [%s1] la cadrul %s3 și adâncimea %s4 la adâncimea %s5"
+    ],       
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "Ștergeți [%s5] din stratul [%s2] din [%s1] la cadrul %s3 și adâncimea %s4"
     ],    

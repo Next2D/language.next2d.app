@@ -1,5 +1,9 @@
 [
     [
+        "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+        "Verplaats laag [%s2] van [%s1] bij frame %s3 en diepte %s4 naar diepte %s5"
+    ],     
+    [
         "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
         "Verwijder [%s5] van laag [%s2] van [%s1] bij frame %s3 en diepte %s4"
     ],    
