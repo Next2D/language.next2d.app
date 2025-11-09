@@ -1,223 +1,223 @@
 [
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
-    "Przeniesienie ramki %s3 i głębokości %s4 warstwy [%s2] z [%s1] do głębokości %s5"
+    "Przesuń %s3 ramkę/głębokość %s4 warstwy [%s2] z [%s1] na głębokość %s5"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
-    "Usuń [%s5] z warstwy [%s2] z [%s1] w klatce %s3 i głębokości %s4"
+    "Usuń ramkę %s3 i głębokość warstwy [%s2] z [%s1] i [%s5] z %s4"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
-    "Zmień macierz dla warstwy [%s2] z [%s1] w klatce %s3 i głębokości %s4 z %s5° na %s6°"
+    "Zmień macierz ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5° na %s6°"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
-    "Zmień tryb mieszania dla warstwy [%s2] z [%s1] w klatce %s3 i głębokości %s4 z [%s5] na [%s6]"
+    "Zmień tryb mieszania klatki/głębokości %s3 %s4 warstwy [%s2] z [%s1] z [%s5] na [%s6]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 niebieski komponentprzesunięcie%s5z%s6na"
+    "Zmieniono przesunięcie niebieskiego komponentu ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 niebieski komponent%s5%z%s6%na"
+    "Zmieniono niebieski komponent ramki %s3 i głębokość %s4 warstwy [%s2] [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 zielony komponentprzesunięcie%s5z%s6na"
+    "Zmieniono przesunięcie zielonego komponentu ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 zielony komponent%s5%z%s6%na"
+    "Zmieniono zielony komponent ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 czerwony komponentprzesunięcie%s5z%s6na"
+    "Zmieniono przesunięcie czerwonego komponentu ramki %s3 i głębokość %s4 warstwy [%s2] [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 czerwony komponent%s5%z%s6%na"
+    "Zmieniono czerwony komponent ramki %s3 i głębokość %s4 warstwy [%s2] [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 przezroczystośćprzesunięcie%s5z%s6na"
+    "Zmień przesunięcie przezroczystości ramki %s3/głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 przezroczystość%s5%z%s6%na"
+    "Zmień przezroczystość ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 punkt środkowy współrzędna x%s5z%s6na"
+    "Zmień współrzędną x środka ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 punkt środkowy współrzędna y%s5z%s6na"
+    "Zmień współrzędną y środka ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 punkt środkowy[%s5]z[%s6]na"
+    "Zmień punkt środkowy ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z [%s5] na [%s6]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 obrót%s5°z%s6°na"
+    "Zmieniono obrót ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5° na %s6°"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 skala y%s5%z%s6%na"
+    "Zmieniono skalę y ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 skala x%s5%z%s6%na"
+    "Zmieniono skalę x ramki %s3 i głębokość %s4 warstwy [%s2] z [%s1] z %s5% na %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 nazwa%s5na"
+    "Zmień nazwę %s3 ramki/głębokości %s4 warstwy [%s2] z [%s1] na %s5"
   ],
   [
     "{{新規Text[%s1]を追加}}",
-    "Nowy tekst[%s1]dodany"
+    "Dodaj nowy tekst[%s1]"
   ],
   [
     "{{[%s1]のグラフィックを変更}}",
-    "[%s1] grafikazmienić"
+    "Zmieniono grafikę [%s1]"
   ],
   [
     "{{新規Shape[%s1]を追加}}",
-    "Nowy kształt[%s1]dodany"
+    "Dodaj nowy kształt[%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 współrzędna y%s5z%s6na"
+    "Zmień współrzędną y ramki %s3/głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
-    "[%s1] warstwa[%s2] %s3klatka・głębokość%s4 współrzędna x%s5z%s6na"
+    "Zmień współrzędną x ramki %s3/głębokość %s4 warstwy [%s2] z [%s1] z %s5 na %s6"
   ],
   [
     "{{ステージの背景色を[%s1]から[%s2]に変更}}",
-    "Scena kolor tła[%s1]z[%s2]na"
+    "Zmień kolor tła sceny z [%s1] na [%s2]"
   ],
   [
     "{{ステージのFPSを%s1から%s2に変更}}",
-    "Scena FPS%s1z%s2na"
+    "Zmień liczbę klatek na sekundę na scenie z %s1 na %s2"
   ],
   [
     "{{ステージの高さを%s1から%s2に変更}}",
-    "Scena wysokość%s1z%s2na"
+    "Zmień wysokość sceny z %s1 na %s2"
   ],
   [
     "{{ステージの幅を%s1から%s2に変更}}",
-    "Scena szerokość%s1z%s2na"
+    "Zmień szerokość sceny z %s1 na %s2"
   ],
   [
     "{{[%s1]の%s2フレームのラベルを削除}}",
-    "[%s1] %s2klatka etykietausunięty"
+    "Usuń etykietę ramki %s2 z [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
-    "[%s1] %s2klatka etykieta[%s3][%s4]na"
+    "Zmień etykietę [%s3] ramki %s2 z [%s1] na [%s4]"
   ],
   [
     "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
-    "[%s1] %s2klatkadoetykieta[%s3]zarejestrować"
+    "Zarejestruj etykietę [%s3] w ramce %s2 z [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
-    "[%s1] %s2klatka dźwięk[%s3] liczba pętli%s4z%s5na"
+    "Zmieniono numer pętli dźwięku [%s3] ramki %s2 ramki [%s1] z %s4 na %s5"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
-    "[%s1] %s2klatka dźwięk[%s3] głośność%s4z%s5na"
+    "Zmieniono głośność dźwięku [%s3] ramki %s2 z [%s1] z %s4 na %s5"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
-    "[%s1] %s2klatka dźwięk[%s3]usunięty"
+    "Usuń dźwięk [%s3] z klatki %s2 z [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
-    "[%s1] %s2klatkadodźwięk[%s3]dodany"
+    "Dodaj dźwięk [%s3] do klatki %s2 w [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkausunięty"
+    "Usuń klatkę kluczową klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkawszystkodelete"
+    "Usuń wszystkie klatki kluczowe klatki %s3 warstwy [%s2] z klatki [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkawszystkodelete"
+    "Usuń wszystkie klatki kluczowe klatki %s3 warstwy [%s2] z klatki [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
-    "[%s1] warstwa[%s2] %s3klatka pusty kluczklatkawszystkodelete"
+    "Usuń wszystkie puste klatki kluczowe klatki %s3 warstwy [%s2] z klatki [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkaz%s4klatkausunąć"
+    "Usuń klatkę %s4 z klatki kluczowej klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
-    "[%s1] warstwa[%s2] %s3klatka pusty kluczklatkaz%s4klatkausunąć"
+    "Usuń klatkę %s4 z pustej klatki kluczowej klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkapodzielić"
+    "Podziel klatkę kluczową klatki %s3 warstwy [%s2] z klatki [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
-    "[%s1] warstwa[%s2] %s3klatka kluczklatkado%s4klatkadodany"
+    "Dodaj klatkę %s4 do klatki kluczowej klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
-    "[%s1] warstwa[%s2] %s3klatkado[%s4]dodany"
+    "Dodaj [%s4] do klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "[%s1] warstwa[%s2] %s3klatkado%s4klatkadodany"
+    "Dodaj ramkę %s4 do drugiej klatki PLACEHOLDER warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
-    "[%s1] warstwa[%s2] %s3klatka pusty kluczklatkapodzielić"
+    "Podziel pustą klatkę kluczową %s3 klatki warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
-    "[%s1] warstwa[%s2] %s3klatka pusty kluczklatkado%s4klatkadodany"
+    "Dodaj klatkę %s4 do pustej klatki kluczowej %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
-    "[%s1] warstwa[%s2] %s3klatkadopusty kluczklatkadodany"
+    "Dodaj pustą klatkę kluczową do klatki %s3 warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
-    "[%s1] warstwa[%s2][%s3]na"
+    "Zmień warstwę [%s2] z [%s1] na [%s3]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
-    "[%s1] warstwa[%s2] deserkolor zmień"
+    "Zmień kolor podświetlenia warstwy [%s2] z [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を移動}}",
-    "[%s1] warstwa[%s2]przenieść"
+    "Przesuń warstwę [%s2] z [%s1]"
   ],
   [
     "{{[%s1]を画像に上書き}}",
-    "[%s1]obrazdonadpisać"
+    "Zastąp [%s1] obrazem"
   ],
   [
     "{{[%s1]を動画に上書き}}",
-    "[%s1]wideodonadpisać"
+    "Zastąp [%s1] wideo"
   ],
   [
     "{{[%s1]を音声に上書き}}",
-    "[%s1]audiodonadpisać"
+    "Zastąp [%s1] dźwiękiem"
   ],
   [
     "{{ライブラリから[%s1]を削除}}",
-    "bibliotekaz[%s1]usunięty"
+    "Usuń [%s1] z biblioteki"
   ],
   [
     "{{MoiveClip一覧}}",
@@ -225,71 +225,71 @@
   ],
   [
     "{{新規フォルダー[%s1]を追加}}",
-    "nowy folder[%s1]dodany"
+    "Dodaj nowy folder [%s1]"
   ],
   [
     "{{新規MovieClip[%s1]を追加}}",
-    "nowyMovieClip[%s1]dodany"
+    "Dodaj nowy klip filmowy[%s1]"
   ],
   [
     "{{音声[%s1]を取り込み}}",
-    "audio[%s1]importować"
+    "Importuj dźwięk [%s1]"
   ],
   [
     "{{動画[%s1]を取り込み}}",
-    "wideo[%s1]importować"
+    "Importuj wideo [%s1]"
   ],
   [
     "{{[%s1]のフォルダ移動}}",
-    "[%s1] Przenieś folder"
+    "Przenieś folder [%s1]."
   ],
   [
     "{{画像[%s1]を取り込み}}",
-    "obraz[%s1]importować"
+    "Importuj obraz [%s1]"
   ],
   [
     "{{[%s1]のシンボル名を[%s2]に変更}}",
-    "[%s1] nazwa symbolu[%s2]na"
+    "Zmień nazwę symbolu [%s1] na [%s2]"
   ],
   [
     "{{[%s1]の名前を[%s2]に変更}}",
-    "[%s1] nazwa[%s2]na"
+    "Zmień nazwę [%s1] na [%s2]"
   ],
   [
     "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
-    "[%s1] nazwa warstwy [%s2] [%s3]na"
+    "Zmień nazwę warstwy [%s2] z [%s1] na [%s3]"
   ],
   [
     "{{[%s1]の%s2フレームのスクリプトを削除}}",
-    "[%s1] %s2klatka skryptusunięty"
+    "Usuń skrypt ramki %s2 z [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのスクリプトを変更}}",
-    "[%s1]%s2klatka zmiana skryptu"
+    "Zmień skrypt ramki %s2 z [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームにスクリプトを追加}}",
-    "[%s1] %s2klatkadoskryptdodany"
+    "Dodaj skrypt do ramki %s2 w [%s1]"
   ],
   [
     "{{プロジェクト名[%s1]を[%s2]に変更}}",
-    "Nazwa projektu[%s1][%s2]na"
+    "Zmień nazwę projektu [%s1] na [%s2]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を削除}}",
-    "[%s1] warstwa[%s2]usunięty"
+    "Usuń warstwę [%s2] z [%s1]"
   ],
   [
     "{{[%s1]にレイヤー[%s2]を追加}}",
-    "[%s1]dowarstwa[%s2]dodany"
+    "Dodaj warstwę [%s2] do [%s1]"
   ],
   [
     "{{同名のシンボルが存在します}}",
-    "istnieje symbol ta sama nazwa"
+    "Istnieje symbol o tej samej nazwie"
   ],
   [
     "{{広告枠の非表示}}",
-    "Powierzchnia reklamowa ukryta"
+    "Ukrywanie powierzchni reklamowej"
   ],
   [
     "{{履歴}}",
@@ -297,11 +297,11 @@
   ],
   [
     "{{エリア位置の移動}}",
-    "Lokalizacja obszaru przeznaczona"
+    "Przesuń pozycję obszaru"
   ],
   [
     "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
-    "Jeśli będziesz oglądać reklamy wideo w aplikacji wspierającej, będziesz mieć możliwość zniesienia ograniczeń funkcjonalnych na 7 dni."
+    "Jeśli obejrzysz reklamę wideo w aplikacji wsparcia, będziesz mieć możliwość zniesienia ograniczeń funkcjonalnych na 7 dni."
   ],
   [
     "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
@@ -309,15 +309,15 @@
   ],
   [
     "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
-    "Bylibyśmy wdzięczni, gdybyś pomógł nam opracować lepsze funkcje i nowe wersje."
+    "Będziemy wdzięczni za wsparcie w opracowywaniu lepszych funkcji i nowych wersji."
   ],
   [
     "{{機能制限を解除}}",
-    "Zwolnienie ograniczenia funkcji"
+    "Usuń ograniczenia funkcjonalne"
   ],
   [
     "{{サポーターアプリをインストール}}",
-    "Instalacja aplikacji wspierającej"
+    "Zainstaluj aplikację wspierającą"
   ],
   [
     "{{画面共有}}",
@@ -325,39 +325,39 @@
   ],
   [
     "{{画面共有の機能を起動}}",
-    "aktywacja funkcji udostępnienia ekranu"
+    "Aktywuj funkcję udostępniania ekranu"
   ],
   [
     "{{前のキーフレームと座標を合わせる}}",
-    "poprzedni kluczklatka i współrzędna dopasowanie"
+    "Wyrównaj współrzędne z poprzednią klatką kluczową"
   ],
   [
     "{{前のキーフレームと変形を合わせる}}",
-    "Poprzedni kluczklatka i mecz transformacji"
+    "Dopasuj transformację do poprzedniej klatki kluczowej"
   ],
   [
     "{{次のキーフレームと座標を合わせる}}",
-    "이름을 사람의 이름과 일치시키세요."
+    "Wyrównaj współrzędne z następną klatką kluczową"
   ],
   [
     "{{次のキーフレームと変形を合わせる}}",
-    "이전의 변신과 매칭"
+    "Dopasuj transformację do następnej klatki kluczowej"
   ],
   [
     "{{次のキーフレームに移動}}",
-    "Następny kluczklatkado ruch"
+    "Przejdź do następnej klatki kluczowej"
   ],
   [
     "{{前のキーフレームに移動}}",
-    "poprzedni kluczklatkado ruchu"
+    "Przejdź do poprzedniej klatki kluczowej"
   ],
   [
     "{{全てのスクリプトをコピー}}",
-    "wszystko skryptcopy"
+    "skopiuj wszystkie skrypty"
   ],
   [
     "{{スクリプトをコピー}}",
-    "kopia skryptu"
+    "skopiuj skrypt"
   ],
   [
     "{{スクリプトをペースト}}",
@@ -365,31 +365,31 @@
   ],
   [
     "{{全てのラベルをコピー}}",
-    "wszystko etykietakopiować"
+    "Skopiuj wszystkie etykiety"
   ],
   [
     "{{ラベルをコピー}}",
-    "etykietakopiować"
+    "skopiuj etykietę"
   ],
   [
     "{{ラベルをペースト}}",
-    "etykietawkleić"
+    "wklej etykietę"
   ],
   [
     "{{全てのサウンドをコピー}}",
-    "wszystko dźwiękkopiować"
+    "skopiuj wszystkie dźwięki"
   ],
   [
     "{{サウンドをコピー}}",
-    "dźwiękkopiować"
+    "skopiuj dźwięk"
   ],
   [
     "{{サウンドをペースト}}",
-    "dźwiękwkleić"
+    "wklej dźwięk"
   ],
   [
     "{{書き出し先の選択}}",
-    "Wybierz miejsce docelowe"
+    "Wybierz miejsce docelowe eksportu"
   ],
   [
     "{{画質}}",
@@ -397,11 +397,11 @@
   ],
   [
     "{{座標}}",
-    "współrzędna"
+    "koordynować"
   ],
   [
     "{{MovieClipを編集}}",
-    "MovieClipedytować"
+    "Edytuj klip filmowy"
   ],
   [
     "{{親の階層へ移動}}",
@@ -409,19 +409,19 @@
   ],
   [
     "{{ロックされたレイヤーです}}",
-    "zamknięta warstwa"
+    "To jest warstwa zamknięta"
   ],
   [
     "{{トゥイーンには複数のオブジェクトを設置できません}}",
-    "Animacja nie może ustawić wielu obiektów"
+    "Nie można umieścić wielu obiektów w animacji"
   ],
   [
     "{{名前が重複しています}}",
-    "nazwa jest duplikatem"
+    "Zduplikowana nazwa"
   ],
   [
     "{{名前は必須です}}",
-    "nazwa jest wymagana"
+    "imię i nazwisko jest wymagane"
   ],
   [
     "{{基準点}}",
@@ -433,47 +433,47 @@
   ],
   [
     "{{キーフレームに変換}}",
-    "kluczklatkadokonwertować"
+    "Konwertuj na klatkę kluczową"
   ],
   [
     "{{空のキーフレームに変換}}",
-    "pusty kluczklatkadokonwertować"
+    "Konwertuj na pustą klatkę kluczową"
   ],
   [
     "{{最初のフレームに移動}}",
-    "pierwszy klatkado ruchu"
+    "przejdź do pierwszej klatki"
   ],
   [
     "{{最後のフレームに移動}}",
-    "Ostatni klatkado ruch"
+    "przejdź do ostatniej klatki"
   ],
   [
     "{{SWFを解析中}}",
-    "Trwa analiza SWF"
+    "Analizowanie pliku SWF"
   ],
   [
     "{{JSONを生成}}",
-    "Generacja JSON"
+    "Wygeneruj JSON"
   ],
   [
     "{{ファイルを生成}}",
-    "Generowanie plików"
+    "wygeneruj plik"
   ],
   [
     "{{N2Dファイルの読み込み}}",
-    "Plik N2D jest zastrzeżony"
+    "Ładowanie plików N2D"
   ],
   [
     "{{JSONの読み込み}}",
-    "JSON załadować"
+    "Ładowanie JSON-a"
   ],
   [
     "{{データを解凍中}}",
-    "Dekompresja danych"
+    "Rozpakowywanie danych"
   ],
   [
     "{{データを圧縮中}}",
-    "Trwa kompresja danych"
+    "Kompresja danych"
   ],
   [
     "{{エンコード}}",
@@ -481,15 +481,15 @@
   ],
   [
     "{{外部ファイルの読み込み}}",
-    "plik zewnętrzny zastrzeżony"
+    "Ładowanie plików zewnętrznych"
   ],
   [
     "{{バイナリデータを生成}}",
-    "Generowanie danych binarnych"
+    "wygenerować dane binarne"
   ],
   [
     "{{データベースを起動}}",
-    "Uruchomienie bazy danych"
+    "uruchomić bazę danych"
   ],
   [
     "{{データを保存中}}",
@@ -501,23 +501,23 @@
   ],
   [
     "{{ステージ左揃え}}",
-    "Wyrównanie sceny do lewej"
+    "Wyrównaj scenę do lewej"
   ],
   [
     "{{ステージ中央揃え(水平方向)}}",
-    "Scenawyrównaj do środka(poziomy)"
+    "Wyrównanie środka sceny (kierunek poziomy)"
   ],
   [
     "{{ステージ右揃え}}",
-    "Prawe wyrównanie sceny"
+    "Wyrównaj scenę w prawo"
   ],
   [
     "{{ステージ上揃え}}",
-    "Wyrównanie góry sceny"
+    "Wyrównaj na scenie"
   ],
   [
     "{{ステージ中央揃え(垂直方向)}}",
-    "Scenawyrównaj do środka(pionowy)"
+    "Wyrównaj środek sceny (pionowo)"
   ],
   [
     "{{ステージ下揃え}}",
@@ -537,15 +537,15 @@
   ],
   [
     "{{レイヤーを複製}}",
-    "warstwaduplikować"
+    "Zduplikowana warstwa"
   ],
   [
     "{{未使用のフォルダを削除}}",
-    "Niewykorzystany folder usunięty"
+    "Usuń nieużywane foldery"
   ],
   [
     "{{同名のアイテムが存在します}}",
-    "ta sama nazwa elementu istnieje"
+    "Istnieje element o tej samej nazwie"
   ],
   [
     "{{追加ファイル}}",
@@ -553,23 +553,23 @@
   ],
   [
     "{{既存のコンテンツ}}",
-    "Istniejąca treść"
+    "istniejąca treść"
   ],
   [
     "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
-    "Możesz nadpisać, zmienić nazwę pliku i go dodać, lub anulować wybrać"
+    "Możesz zastąpić, zmienić nazwę i dodać lub anulować."
   ],
   [
     "{{全て上書き}}",
-    "wszystkonadpisać"
+    "Nadpisz wszystko"
   ],
   [
     "{{全てキャンセル}}",
-    "wszystkoanuluj"
+    "Anuluj wszystko"
   ],
   [
     "{{追加・上書き}}",
-    "dodać・nadpisać"
+    "Dodaj/zastąp"
   ],
   [
     "{{キャンセル}}",
@@ -577,11 +577,11 @@
   ],
   [
     "{{表示確認したいフレームを指定}}",
-    "klatkaokreślić chcesz sprawdzić wyświetlacz"
+    "Określ ramkę, którą chcesz sprawdzić"
   ],
   [
     "{{ファイル名を指定}}",
-    "Nazwa plikuokreślić"
+    "Określ nazwę pliku"
   ],
   [
     "{{ファイル名}}",
@@ -589,15 +589,15 @@
   ],
   [
     "{{終了フレームを指定}}",
-    "koniec klatkaokreślić"
+    "Określ ramę końcową"
   ],
   [
     "{{開始フレームを指定}}",
-    "Zacznij klatkaokreślić"
+    "Określ klatkę początkową"
   ],
   [
     "{{フレーム設定}}",
-    "klatkaustawienia"
+    "Ustawienia ramki"
   ],
   [
     "{{書き出し設定}}",
@@ -653,31 +653,31 @@
   ],
   [
     "{{中心点のX座標}}",
-    "punkt środkowy Xwspółrzędna"
+    "Współrzędna X punktu środkowego"
   ],
   [
     "{{中心点のY座標}}",
-    "punkt środkowy Ywspółrzędna"
+    "Współrzędna Y punktu środkowego"
   ],
   [
     "{{MovieClipに変換}}",
-    "MovieClipdokonwertować"
+    "Konwertuj na film"
   ],
   [
     "{{変換}}",
-    "konwertować"
+    "konwersja"
   ],
   [
     "{{ループ回数}}",
-    "liczba pętli"
+    "Liczba pętli"
   ],
   [
     "{{カーブポインターの削除}}",
-    "wskaźnik krzywej usunąć"
+    "Usuń wskaźnik krzywej"
   ],
   [
     "{{ステージ基準}}",
-    "Standardy sceniczne"
+    "standardy sceniczne"
   ],
   [
     "{{閉じる}}",
@@ -685,7 +685,7 @@
   ],
   [
     "{{保存}}",
-    "zapisać"
+    "trzymać"
   ],
   [
     "{{リセット}}",
@@ -701,11 +701,11 @@
   ],
   [
     "{{レイヤーカラー}}",
-    "warstwakolor"
+    "kolor warstwy"
   ],
   [
     "{{Next2Dを支援する}}",
-    "Next2DWsparcie"
+    "Wsparcie Next2D"
   ],
   [
     "{{サポート}}",
@@ -713,31 +713,31 @@
   ],
   [
     "{{未使用のアイテムを削除}}",
-    "Przedmiot nieużywany, usunięty"
+    "Usuń nieużywane elementy"
   ],
   [
     "{{レイヤーをペースト}}",
-    "warstwawkleić"
+    "warstwę pasty"
   ],
   [
     "{{レイヤーをコピー}}",
-    "warstwakopiować"
+    "skopiuj warstwę"
   ],
   [
     "{{フレームをペースト}}",
-    "klatkawkleić"
+    "wklej ramkę"
   ],
   [
     "{{フレームをコピー}}",
-    "klatkakopiować"
+    "skopiuj ramkę"
   ],
   [
     "{{キーフレームを削除}}",
-    "kluczklatkausunięty"
+    "usuń klatkę kluczową"
   ],
   [
     "{{キーフレームに空のキーフレームを追加できません}}",
-    "kluczklatkadopusty kluczklatkadodany nie można"
+    "Nie można dodać pustej klatki kluczowej do klatki kluczowej"
   ],
   [
     "{{ズームツール}}",
@@ -745,7 +745,7 @@
   ],
   [
     "{{タイムライン幅の拡大・縮小}}",
-    "Szerokość osi czasu Powiększ/oddal"
+    "Zwiększanie/zmniejszanie szerokości osi czasu"
   ],
   [
     "{{ガイドレイヤー}}",
@@ -753,11 +753,11 @@
   ],
   [
     "{{音量設定}}",
-    "głośnośćustawienia"
+    "Ustawienia głośności"
   ],
   [
     "{{サウンドを削除}}",
-    "dźwiękusunięty"
+    "usuń dźwięk"
   ],
   [
     "{{カスタムループ}}",
@@ -765,11 +765,11 @@
   ],
   [
     "{{読込のみ}}",
-    "za świadome mi"
+    "tylko czytać"
   ],
   [
     "{{書込を許可}}",
-    "pozwolenie na pisanie"
+    "Zezwalaj na pisanie"
   ],
   [
     "{{単一行}}",
@@ -789,7 +789,7 @@
   ],
   [
     "{{中央揃え}}",
-    "wyrównaj do środka"
+    "wyrównanie do środka"
   ],
   [
     "{{右寄せ}}",
@@ -809,7 +809,7 @@
   ],
   [
     "{{画像選択}}",
-    "obrazwybrać"
+    "Wybór obrazu"
   ],
   [
     "{{種別}}",
@@ -825,7 +825,7 @@
   ],
   [
     "{{カラー効果}}",
-    "efekt koloru"
+    "efekt kolorystyczny"
   ],
   [
     "{{フィルター}}",
@@ -833,11 +833,11 @@
   ],
   [
     "{{Shapeを複製}}",
-    "Shapeduplikować"
+    "Duplikat kształtu"
   ],
   [
     "{{読み込み}}",
-    "załadować"
+    "załadunek"
   ],
   [
     "{{新規フォルダー}}",
@@ -845,7 +845,7 @@
   ],
   [
     "{{新規MovieClip}}",
-    "nowyMovieClip"
+    "Nowy klip filmowy"
   ],
   [
     "{{枠に合わせてテキストをリサイズ}}",
@@ -873,7 +873,7 @@
   ],
   [
     "{{音量}}",
-    "głośność"
+    "tom"
   ],
   [
     "{{ビデオ}}",
@@ -901,7 +901,7 @@
   ],
   [
     "{{ステージ設定}}",
-    "Scenaustawienia"
+    "oprawa sceniczna"
   ],
   [
     "{{プレビュー}}",
@@ -909,15 +909,15 @@
   ],
   [
     "{{削除}}",
-    "usunąć"
+    "usuwać"
   ],
   [
     "{{ペースト}}",
-    "wkleić"
+    "pasta"
   ],
   [
     "{{コピー}}",
-    "kopiować"
+    "kopia"
   ],
   [
     "{{プラグインメニュー}}",
@@ -929,11 +929,11 @@
   ],
   [
     "{{カーブポインターの追加}}",
-    "wskaźnik krzywej dodać"
+    "Dodaj wskaźnik krzywej"
   ],
   [
     "{{パスの結合}}",
-    "Przełęcz połączyć"
+    "Łączenie ścieżek"
   ],
   [
     "{{シェイプ}}",
@@ -941,11 +941,11 @@
   ],
   [
     "{{キーフレームに配分}}",
-    "kluczklatkadorozdzielić"
+    "Rozpowszechniaj w klatkach kluczowych"
   ],
   [
     "{{レイヤーに配分}}",
-    "warstwadorozdzielić"
+    "Rozłóż na warstwach"
   ],
   [
     "{{タイムライン}}",
@@ -965,11 +965,11 @@
   ],
   [
     "{{ひとつ前面へ}}",
-    "Jedna poprzednia twarz"
+    "Jeden krok do przodu"
   ],
   [
     "{{最前面}}",
-    "większość poprzednich twarzy"
+    "najbardziej z przodu"
   ],
   [
     "{{重ね順}}",
@@ -993,15 +993,15 @@
   ],
   [
     "{{通常レイヤー}}",
-    "zwykle warstwa"
+    "normalna warstwa"
   ],
   [
     "{{モーショントゥイーンの削除}}",
-    "animacja ruchu usuwania"
+    "Usuń animację ruchu"
   ],
   [
     "{{モーショントゥイーンの追加}}",
-    "animacja ruchu proszę"
+    "Dodawanie animacji ruchu"
   ],
   [
     "{{モーダル表示}}",
@@ -1029,11 +1029,11 @@
   ],
   [
     "{{非表示レイヤー}}",
-    "ukrytywarstwa"
+    "ukryta warstwa"
   ],
   [
     "{{設定}}",
-    "ustawienia"
+    "ustawienie"
   ],
   [
     "{{デフォルトのループを利用する}}",
@@ -1041,7 +1041,7 @@
   ],
   [
     "{{フレームピッカー}}",
-    "selekcjoner klatki"
+    "selektor ramek"
   ],
   [
     "{{左揃え}}",
@@ -1049,7 +1049,7 @@
   ],
   [
     "{{中央揃え(水平方向)}}",
-    "wyrównaj do środka(poziomy)"
+    "Wyrównanie do środka (w poziomie)"
   ],
   [
     "{{右揃え}}",
@@ -1057,11 +1057,11 @@
   ],
   [
     "{{上揃え}}",
-    "Górne wyrównanie"
+    "górne wyrównanie"
   ],
   [
     "{{中央揃え(垂直方向)}}",
-    "wyrównaj do środka(pionowy)"
+    "Środek (pionowo)"
   ],
   [
     "{{下揃え}}",
@@ -1069,11 +1069,11 @@
   ],
   [
     "{{開始フレーム}}",
-    "zacznij klatkę"
+    "rama startowa"
   ],
   [
     "{{終了フレーム}}",
-    "koniec klatki"
+    "ramka końcowa"
   ],
   [
     "{{ループで再生}}",
@@ -1085,7 +1085,7 @@
   ],
   [
     "{{指定したフレームで固定}}",
-    "Naprawiono w niewielkiej klatce"
+    "Naprawiono w określonej ramce"
   ],
   [
     "{{1回逆再生}}",
@@ -1101,11 +1101,11 @@
   ],
   [
     "{{カスタムイージングデータを保存}}",
-    "Niestandardowe, ułatwiające przechowywanie danych"
+    "Zapisz niestandardowe dane wygładzania"
   ],
   [
     "{{カスタムイージングデータの読込}}",
-    "Niestandardowe ułatwienie danych za obywatelstwo"
+    "Ładowanie niestandardowych danych wygładzania"
   ],
   [
     "{{プレビューのON/OFF}}",
@@ -1117,7 +1117,7 @@
   ],
   [
     "{{フォント枠カラー}}",
-    "kolor ramki czcionki"
+    "kolor obramowania czcionki"
   ],
   [
     "{{オニオンスキン}}",
@@ -1137,7 +1137,7 @@
   ],
   [
     "{{選択ツール}}",
-    "wybierz narzędzia"
+    "narzędzie selekcji"
   ],
   [
     "{{Shape変形ツール}}",
@@ -1161,7 +1161,7 @@
   ],
   [
     "{{塗りのカラー}}",
-    "Kolor malowania"
+    "kolor farby"
   ],
   [
     "{{線のカラー}}",
@@ -1173,7 +1173,7 @@
   ],
   [
     "{{プロジェクトデータの読込}}",
-    "Dane projektu za odpowiedzialność"
+    "Załaduj dane projektu"
   ],
   [
     "{{プロジェクトデータを保存}}",
@@ -1181,7 +1181,7 @@
   ],
   [
     "{{書き出し}}",
-    "eksportować"
+    "Zacznij pisać"
   ],
   [
     "{{Discordへ移動}}",
@@ -1193,35 +1193,35 @@
   ],
   [
     "{{設定}}",
-    "ustawienia"
+    "ustawienie"
   ],
   [
     "{{タブを追加}}",
-    "kartadodany"
+    "dodaj zakładkę"
   ],
   [
     "{{タブの一覧を表示・移動}}",
-    "wyświetlanie/przenoszenie listy kart"
+    "Wyświetl/przenieś listę kart"
   ],
   [
     "{{スクリプトを追加}}",
-    "skryptdodany"
+    "dodaj skrypt"
   ],
   [
     "{{キーフレームを追加}}",
-    "kluczklatkadodany"
+    "Dodaj klatkę kluczową"
   ],
   [
     "{{空のキーフレームを追加}}",
-    "pusty kluczklatkadodany"
+    "Dodaj pustą klatkę kluczową"
   ],
   [
     "{{フレームを追加}}",
-    "klatkadodany"
+    "dodaj ramkę"
   ],
   [
     "{{フレームを削除}}",
-    "klatkausunięty"
+    "usuń ramkę"
   ],
   [
     "{{再生}}",
@@ -1237,31 +1237,31 @@
   ],
   [
     "{{レイヤーを追加}}",
-    "warstwadodany"
+    "dodaj warstwę"
   ],
   [
     "{{レイヤーを削除}}",
-    "warstwausunięty"
+    "usuń warstwę"
   ],
   [
     "{{全てのレイヤーをハイライト}}",
-    "wszystko warstwapodkreślić"
+    "Zaznacz wszystkie warstwy"
   ],
   [
     "{{全てのレイヤーを非表示}}",
-    "wszystko warstwaukryty"
+    "Ukryj wszystkie warstwy"
   ],
   [
     "{{全てのレイヤーをロック}}",
-    "wszystko, zamek warstwowy"
+    "zablokuj wszystkie warstwy"
   ],
   [
     "{{比率を固定}}",
-    "stały współczynnik"
+    "Stały współczynnik"
   ],
   [
     "{{ステージの幅}}",
-    "Scena szerokość"
+    "szerokość sceny"
   ],
   [
     "{{背景色}}",
@@ -1269,11 +1269,11 @@
   ],
   [
     "{{ステージの高さ}}",
-    "Scena wysokość"
+    "wysokość sceny"
   ],
   [
     "{{フレームレート}}",
-    "klatka stawki"
+    "liczba klatek na sekundę"
   ],
   [
     "{{シンボル名}}",
@@ -1285,7 +1285,7 @@
   ],
   [
     "{{ビデオの音量設定}}",
-    "Wideo głośność publikacji"
+    "Ustawienia głośności wideo"
   ],
   [
     "{{自動再生}}",
@@ -1301,7 +1301,7 @@
   ],
   [
     "{{フォント選択}}",
-    "wybierz czcionkę"
+    "Wybór czcionki"
   ],
   [
     "{{自動サイズ調整}}",
@@ -1349,15 +1349,15 @@
   ],
   [
     "{{カラー種別の選択}}",
-    "kolor typu wybierz"
+    "Wybierz rodzaj koloru"
   ],
   [
     "{{背景画像の選択}}",
-    "Tło można wybrać"
+    "Wybór obrazu tła"
   ],
   [
     "{{カラーポインターを追加}}",
-    "kolor wskaźnika dodany"
+    "Dodaj wskaźnik koloru"
   ],
   [
     "{{カラー値}}",
@@ -1365,7 +1365,7 @@
   ],
   [
     "{{アルファ(0%-100%)}}",
-    "alfa(0%-100%)"
+    "Alfa (0% -100%)"
   ],
   [
     "{{アルファ値}}",
@@ -1373,35 +1373,35 @@
   ],
   [
     "{{選択対象の幅}}",
-    "wybrany element szerokość"
+    "Szerokość wyboru"
   ],
   [
     "{{選択対象のX座標}}",
-    "wybrany element Xwspółrzędna"
+    "Współrzędna X wyboru"
   ],
   [
     "{{選択対象の高さ}}",
-    "wybrany element wysokość"
+    "Wysokość wyboru"
   ],
   [
     "{{選択対象のY座標}}",
-    "wybrany element Ywspółrzędna"
+    "Współrzędna Y wyboru"
   ],
   [
     "{{選択対象の幅の伸縮}}",
-    "wybór szerokości elementu rozszerzanie i kurczenie się"
+    "Rozciąganie szerokości zaznaczenia"
   ],
   [
     "{{選択対象を回転}}",
-    "wybrany elementobrót"
+    "Obróć zaznaczenie"
   ],
   [
     "{{選択対象の高さの伸縮}}",
-    "Dowolna wysokość elementu rozszerzanie i kurczenie się"
+    "Rozciągnij lub zmniejsz wysokość zaznaczenia"
   ],
   [
     "{{アルファオフセット(-255〜255)}}",
-    "alfaprzesunięcie(-255〜255)"
+    "Przesunięcie alfa (-255 do 255)"
   ],
   [
     "{{赤(0%-100%)}}",
@@ -1409,7 +1409,7 @@
   ],
   [
     "{{赤オフセット(-255〜255)}}",
-    "Czerwony przesunięcie(-255～255)"
+    "Przesunięcie koloru czerwonego (-255 do 255)"
   ],
   [
     "{{緑(0%-100%)}}",
@@ -1417,7 +1417,7 @@
   ],
   [
     "{{緑オフセット(-255〜255)}}",
-    "Zielony przesunięcie(-255~255)"
+    "Przesunięcie zielonego (-255 do 255)"
   ],
   [
     "{{青(0%-100%)}}",
@@ -1425,7 +1425,7 @@
   ],
   [
     "{{青オフセット(-255〜255)}}",
-    "Niebieskie przesunięcie(-255〜255)"
+    "Przesunięcie niebieskiego (-255 do 255)"
   ],
   [
     "{{ブレンドモード}}",
@@ -1433,35 +1433,35 @@
   ],
   [
     "{{フィルターを選択}}",
-    "filtrwybrać"
+    "Wybierz filtr"
   ],
   [
     "{{フィルターを追加}}",
-    "filtrdodany"
+    "dodaj filtr"
   ],
   [
     "{{サウンドを追加}}",
-    "dźwiękdodany"
+    "dodaj dźwięk"
   ],
   [
     "{{フィルターを表示・非表示する}}",
-    "filtr display/ukryty"
+    "Pokaż/ukryj filtry"
   ],
   [
     "{{フィルターを削除}}",
-    "filtrusunięty"
+    "usuń filtr"
   ],
   [
     "{{水平方向にぼかす}}",
-    "rozmycie poziome"
+    "rozmycie w poziomie"
   ],
   [
     "{{垂直方向にぼかす}}",
-    "pionowedorozmycie"
+    "rozmycie w pionie"
   ],
   [
     "{{フィルター強度}}",
-    "siła filtra"
+    "wytrzymałość filtra"
   ],
   [
     "{{フィルター角度}}",
@@ -1481,15 +1481,15 @@
   ],
   [
     "{{ハイライトのカラー}}",
-    "podkreślić kolor"
+    "kolor podświetlenia"
   ],
   [
     "{{ハイライトのアルファ}}",
-    "podkreślić alfa"
+    "Zaznacz alfa"
   ],
   [
     "{{グラデーションカラー}}",
-    "kolor gradientu"
+    "kolor gradacyjny"
   ],
   [
     "{{グラデーションのアルファ}}",
@@ -1497,7 +1497,7 @@
   ],
   [
     "{{タブの移動・名前を変更}}",
-    "karta przenieść・nazwazmienić"
+    "Przenieś/zmień nazwy zakładek"
   ],
   [
     "{{プロジェクトを閉じる}}",
@@ -1505,27 +1505,27 @@
   ],
   [
     "{{上下に移動}}",
-    "Poruszaj się w górę i w dół"
+    "poruszać się w górę i w dół"
   ],
   [
     "{{レイヤー変更(ダブルクリック)}}",
-    "przekładać (podwójne kliknięcie)"
+    "Zmień warstwę (podwójne kliknięcie)"
   ],
   [
     "{{レイヤーをハイライト}}",
-    "warstwapodkreślić"
+    "warstwę podświetlenia"
   ],
   [
     "{{レイヤーを非表示}}",
-    "warstwaukryty"
+    "ukryj warstwę"
   ],
   [
     "{{レイヤーをロック}}",
-    "zamek warstwowy"
+    "warstwa blokady"
   ],
   [
     "{{カーブポインター(ダブルクリックでON/OFF)}}",
-    "wskaźnik krzywej (włączanie/wyłączanie podwójnym kliknięciem)"
+    "Wskaźnik krzywej (kliknij dwukrotnie, aby włączyć/wyłączyć)"
   ],
   [
     "{{インスタンス名}}",
@@ -1537,10 +1537,10 @@
   ],
   [
     "{{フレームラベル}}",
-    "klatkaetykieta"
+    "etykieta ramki"
   ],
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
-    "Jeśli projekt nie zostanie zapisany, danych projektu karty nie będzie można odzyskać.Chcesz kartausunięty?"
+    "Jeśli projekt nie zostanie zapisany, danych projektu znajdujących się na tej zakładce nie będzie można odzyskać.Czy chcesz usunąć zakładkę?"
   ]
 ]

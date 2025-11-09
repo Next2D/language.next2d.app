@@ -1,223 +1,223 @@
 [
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
-    "Mutați cadrul %s3 și adâncimea %s4 din stratul [%s2] din [%s1] la adâncimea %s5"
+    "Mutați %s3 cadrul/adâncimea %s4 din stratul [%s2] din [%s1] la adâncimea %s5"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
-    "Ștergeți [%s5] din stratul [%s2] din [%s1] la cadrul %s3 și adâncimea %s4"
+    "Ștergeți cadrul %s3 și adâncimea stratului [%s2] din [%s1] și [%s5] din %s4"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
-    "Modificați matricea pentru stratul [%s2] din [%s1] la cadrul %s3 și adâncimea %s4 de la %s5° la %s6°"
+    "Schimbați matricea cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5° în %s6°"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
-    "Modificați modul de amestecare pentru stratul [%s2] din [%s1] la cadrul %s3 și adâncimea %s4 de la [%s5] la [%s6]"
+    "Schimbați modul de îmbinare al %s3 cadrul/adâncimea %s4 al stratului [%s2] din [%s1] din [%s5] în [%s6]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta albastrădeplasare%s5de la%s6la"
+    "S-au modificat decalajul componentei albastre a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta albastră%s5%de la%s6%la"
+    "S-au schimbat componenta albastră a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta verdedeplasare%s5de la%s6la"
+    "S-a modificat decalajul componentei verzi a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta verde%s5%de la%s6%la"
+    "S-au schimbat componenta verde a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta roșiedeplasare%s5de la%s6la"
+    "S-au modificat decalajul componentei roșii a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 componenta roșie%s5%de la%s6%la"
+    "S-au schimbat componenta roșie a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 transparențădeplasare%s5de la%s6la"
+    "Modificați decalajul de transparență al cadrului %s3/adâncimea %s4 din stratul [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 transparență%s5%de la%s6%la"
+    "Schimbați transparența cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 punct central coordonata x%s5de la%s6la"
+    "Modificați coordonata x a punctului central al cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 punct central coordonata y%s5de la%s6la"
+    "Modificați coordonata y a punctului central al cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 punct central[%s5]de la[%s6]la"
+    "Schimbați punctul central al cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din [%s5] în [%s6]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 rotație%s5°de la%s6°la"
+    "S-au schimbat rotația cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5° în %s6°"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 scalare y%s5%de la%s6%la"
+    "S-a schimbat scara y a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 scalare x%s5%de la%s6%la"
+    "S-a schimbat scara x a cadrului %s3 și adâncimea %s4 a stratului [%s2] din [%s1] din %s5% în %s6%"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 nume%s5la"
+    "Redenumiți %s3 cadrul/adâncimea %s4 din stratul [%s2] din [%s1] în %s5"
   ],
   [
     "{{新規Text[%s1]を追加}}",
-    "Text nou[%s1]adăugat"
+    "Adăugați text nou[%s1]"
   ],
   [
     "{{[%s1]のグラフィックを変更}}",
-    "[%s1] graficăschimbare"
+    "S-a schimbat grafica pentru [%s1]"
   ],
   [
     "{{新規Shape[%s1]を追加}}",
-    "Formă nouă[%s1]adăugat"
+    "Adăugați o formă nouă[%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 coordonata y%s5de la%s6la"
+    "Modificați coordonata y a cadrului %s3/adâncimea %s4 din stratul [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
-    "[%s1] strat[%s2] %s3cadru・adâncime%s4 coordonata x%s5de la%s6la"
+    "Modificați coordonatele x a cadrului %s3/adâncimea %s4 din stratul [%s2] din [%s1] din %s5 în %s6"
   ],
   [
     "{{ステージの背景色を[%s1]から[%s2]に変更}}",
-    "Scenă culoare de fundal[%s1]de la[%s2]la"
+    "Schimbați culoarea de fundal a scenei din [%s1] în [%s2]"
   ],
   [
     "{{ステージのFPSを%s1から%s2に変更}}",
-    "Scenă FPS%s1de la%s2la"
+    "Schimbați etapa FPS din %s1 în %s2"
   ],
   [
     "{{ステージの高さを%s1から%s2に変更}}",
-    "Scenă înălțime%s1de la%s2la"
+    "Schimbați înălțimea scenei de la %s1 la %s2"
   ],
   [
     "{{ステージの幅を%s1から%s2に変更}}",
-    "Scenă lățime%s1de la%s2la"
+    "Schimbați lățimea scenei de la %s1 la %s2"
   ],
   [
     "{{[%s1]の%s2フレームのラベルを削除}}",
-    "[%s1] %s2cadru etichetășters"
+    "Ștergeți eticheta cadrului %s2 din [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
-    "[%s1] %s2cadru etichetă[%s3][%s4]la"
+    "Schimbați eticheta [%s3] din cadrul %s2 din [%s1] în [%s4]"
   ],
   [
     "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
-    "[%s1] %s2cadrulaetichetă[%s3]înregistrare"
+    "Înregistrați eticheta [%s3] în cadrul %s2 din [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
-    "[%s1] %s2cadru sunet[%s3] număr de bucle%s4de la%s5la"
+    "S-a schimbat numărul buclei sunetului [%s3] din cadrul %s2 din [%s1] din %s4 în %s5"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
-    "[%s1] %s2cadru sunet[%s3] volum%s4de la%s5la"
+    "S-a schimbat volumul sunetului [%s3] din cadrul %s2 al [%s1] din %s4 în %s5"
   ],
   [
     "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
-    "[%s1] %s2cadru sunet[%s3]șters"
+    "Ștergeți sunetul [%s3] din cadrul %s2 din [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
-    "[%s1] %s2cadrulasunet[%s3]adăugat"
+    "Adăugați sunetul [%s3] în cadrul %s2 din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadrușters"
+    "Ștergeți cadrul cheie din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadrutotdelete"
+    "Ștergeți toate cadrele cheie din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadrutotdelete"
+    "Ștergeți toate cadrele cheie din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
-    "[%s1] strat[%s2] %s3cadru gol cheiecadrutotdelete"
+    "Ștergeți toate cadrele cheie goale din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadrude la%s4cadruștergere"
+    "Ștergeți cadrul %s4 din cadrul cheie al cadrului %s3 al stratului [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
-    "[%s1] strat[%s2] %s3cadru gol cheiecadrude la%s4cadruștergere"
+    "Ștergeți cadrul %s4 din cadrul cheie gol din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadruîmpărțire"
+    "Împărțiți cadrul cheie din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
-    "[%s1] strat[%s2] %s3cadru cheiecadrula%s4cadruadăugat"
+    "Adăugați cadru %s4 la cadrul cheie din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
-    "[%s1] strat[%s2] %s3cadrula[%s4]adăugat"
+    "Adăugați [%s4] în cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "[%s1] strat[%s2] %s3cadrula%s4cadruadăugat"
+    "Adăugați cadru %s4 la PLACEHOLDER Al doilea cadru al stratului [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
-    "[%s1] strat[%s2] %s3cadru gol cheiecadruîmpărțire"
+    "Împărțiți cadru cheie gol din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
-    "[%s1] strat[%s2] %s3cadru gol cheiecadrula%s4cadruadăugat"
+    "Adăugați cadru %s4 la cadrul cheie gol din cadrul %s3 din stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
-    "[%s1] strat[%s2] %s3cadrulagol cheiecadruadăugat"
+    "Adăugați un cadru cheie gol la cadrul %s3 al stratului [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
-    "[%s1] strat[%s2][%s3]la"
+    "Schimbați stratul [%s2] din [%s1] în [%s3]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
-    "[%s1] strat[%s2] evidențiereculoare schimbare"
+    "Schimbați culoarea de evidențiere a stratului [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を移動}}",
-    "[%s1] strat[%s2]mutare"
+    "Mutați stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]を画像に上書き}}",
-    "[%s1]imaginelasuprascriere"
+    "Suprascrie [%s1] la imagine"
   ],
   [
     "{{[%s1]を動画に上書き}}",
-    "[%s1]videolasuprascriere"
+    "Suprascrie [%s1] în videoclip"
   ],
   [
     "{{[%s1]を音声に上書き}}",
-    "[%s1]audiolasuprascriere"
+    "Suprascrieți [%s1] în sunet"
   ],
   [
     "{{ライブラリから[%s1]を削除}}",
-    "bibliotecăde la[%s1]șters"
+    "Ștergeți [%s1] din bibliotecă"
   ],
   [
     "{{MoiveClip一覧}}",
@@ -225,71 +225,71 @@
   ],
   [
     "{{新規フォルダー[%s1]を追加}}",
-    "folder nou[%s1]adăugat"
+    "Adăugați un dosar nou [%s1]"
   ],
   [
     "{{新規MovieClip[%s1]を追加}}",
-    "nouMovieClip[%s1]adăugat"
+    "Adăugați un nou MovieClip[%s1]"
   ],
   [
     "{{音声[%s1]を取り込み}}",
-    "audio[%s1]import"
+    "Import audio [%s1]"
   ],
   [
     "{{動画[%s1]を取り込み}}",
-    "video[%s1]import"
+    "Importați videoclipul [%s1]"
   ],
   [
     "{{[%s1]のフォルダ移動}}",
-    "[%s1] Mută ​​folderul"
+    "Mutați folderul [%s1]."
   ],
   [
     "{{画像[%s1]を取り込み}}",
-    "imagine[%s1]import"
+    "Importați imaginea [%s1]"
   ],
   [
     "{{[%s1]のシンボル名を[%s2]に変更}}",
-    "[%s1] nume simbol[%s2]la"
+    "Schimbați numele simbolului [%s1] în [%s2]"
   ],
   [
     "{{[%s1]の名前を[%s2]に変更}}",
-    "[%s1] nume[%s2]la"
+    "Redenumiți [%s1] în [%s2]"
   ],
   [
     "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
-    "[%s1] nume strat[%s2][%s3]la"
+    "Schimbați numele stratului [%s2] din [%s1] în [%s3]"
   ],
   [
     "{{[%s1]の%s2フレームのスクリプトを削除}}",
-    "[%s1] %s2cadru scriptșters"
+    "Ștergeți scriptul pentru cadrul %s2 din [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームのスクリプトを変更}}",
-    "[%s1] Scriptul %s2cadru a fost modificat"
+    "Schimbați scriptul pentru cadrul %s2 din [%s1]"
   ],
   [
     "{{[%s1]の%s2フレームにスクリプトを追加}}",
-    "[%s1] %s2cadrulascriptadăugat"
+    "Adăugați script în cadrul %s2 din [%s1]"
   ],
   [
     "{{プロジェクト名[%s1]を[%s2]に変更}}",
-    "Numele proiectului[%s1][%s2]la"
+    "Schimbați numele proiectului [%s1] în [%s2]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]を削除}}",
-    "[%s1] strat[%s2]șters"
+    "Ștergeți stratul [%s2] din [%s1]"
   ],
   [
     "{{[%s1]にレイヤー[%s2]を追加}}",
-    "[%s1]lastrat[%s2]adăugat"
+    "Adăugați stratul [%s2] la [%s1]"
   ],
   [
     "{{同名のシンボルが存在します}}",
-    "simbolul același nume există"
+    "Există un simbol cu ​​același nume"
   ],
   [
     "{{広告枠の非表示}}",
-    "Spatiu publicitar ascuns"
+    "Ascunderea spațiului publicitar"
   ],
   [
     "{{履歴}}",
@@ -297,7 +297,7 @@
   ],
   [
     "{{エリア位置の移動}}",
-    "poziţia zonei mutare"
+    "Mutați poziția zonei"
   ],
   [
     "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
@@ -309,59 +309,51 @@
   ],
   [
     "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
-    "Am aprecia dacă ne-ați ajuta să dezvoltăm funcții mai bune și versiuni noi."
+    "Am aprecia sprijinul dumneavoastră în dezvoltarea de funcții mai bune și versiuni noi."
   ],
   [
     "{{機能制限を解除}}",
-    "Eliberarea restricției de funcție"
+    "Eliminați restricțiile funcționale"
   ],
   [
     "{{サポーターアプリをインストール}}",
-    "Instalarea aplicației de suport"
+    "Instalați aplicația de suport"
   ],
   [
     "{{画面共有}}",
-    "partajare ecran"
+    "partajarea ecranului"
   ],
   [
     "{{画面共有の機能を起動}}",
-    "partajare ecran function start"
+    "Activați funcția de partajare a ecranului"
   ],
   [
     "{{前のキーフレームと座標を合わせる}}",
-    "Combin cheiecadru anterior și coordonată"
+    "Aliniați coordonatele cu cadrul cheie anterior"
   ],
   [
     "{{前のキーフレームと変形を合わせる}}",
-    "Se potrivesc cu cheiecadru anterior"
+    "Aliniați transformarea cu cadrul cheie anterior"
   ],
   [
     "{{次のキーフレームと座標を合わせる}}",
-    "이름을 사람의 이름과 일치시키세요."
+    "Aliniați coordonatele cu următorul cadru cheie"
   ],
   [
     "{{次のキーフレームと変形を合わせる}}",
-    "이전의 변신과 매칭"
-  ],
-  [
-    "{{次のキーフレームと座標を合わせる}}",
-    "이름을 사람의 이름과 일치시키세요."
-  ],
-  [
-    "{{次のキーフレームと変形を合わせる}}",
-    "이전의 변신과 매칭"
+    "Aliniați transformarea cu următorul cadru cheie"
   ],
   [
     "{{次のキーフレームに移動}}",
-    "Următoarea mutare cheiecadrula"
+    "Accesați următorul cadru cheie"
   ],
   [
     "{{前のキーフレームに移動}}",
-    "miscarea cheiecadrula anterioara"
+    "Accesați cadrul cheie anterior"
   ],
   [
     "{{全てのスクリプトをコピー}}",
-    "tot copie script"
+    "copiați toate scripturile"
   ],
   [
     "{{スクリプトをコピー}}",
@@ -369,35 +361,35 @@
   ],
   [
     "{{スクリプトをペースト}}",
-    "pastă de script"
+    "lipiți scriptul"
   ],
   [
     "{{全てのラベルをコピー}}",
-    "tot etichetăcopiere"
+    "Copiați toate etichetele"
   ],
   [
     "{{ラベルをコピー}}",
-    "etichetăcopiere"
+    "copiați eticheta"
   ],
   [
     "{{ラベルをペースト}}",
-    "etichetălipire"
+    "lipiți eticheta"
   ],
   [
     "{{全てのサウンドをコピー}}",
-    "tot sunetcopiere"
+    "copiați toate sunetele"
   ],
   [
     "{{サウンドをコピー}}",
-    "sunetcopiere"
+    "copiați sunetul"
   ],
   [
     "{{サウンドをペースト}}",
-    "sunetlipire"
+    "lipiți sunetul"
   ],
   [
     "{{書き出し先の選択}}",
-    "Destinația selectată"
+    "Selectați destinația de export"
   ],
   [
     "{{画質}}",
@@ -405,11 +397,11 @@
   ],
   [
     "{{座標}}",
-    "coordonată"
+    "coordona"
   ],
   [
     "{{MovieClipを編集}}",
-    "MovieClipeditare"
+    "Editați MovieClip"
   ],
   [
     "{{親の階層へ移動}}",
@@ -417,19 +409,19 @@
   ],
   [
     "{{ロックされたレイヤーです}}",
-    "Este un strat blocat"
+    "Acesta este un strat blocat"
   ],
   [
     "{{トゥイーンには複数のオブジェクトを設置できません}}",
-    "Tween LA nu poate seta mai multe obiecte."
+    "Nu se pot plasa mai multe obiecte pe interpolare"
   ],
   [
     "{{名前が重複しています}}",
-    "număr duplicat"
+    "Nume duplicat"
   ],
   [
     "{{名前は必須です}}",
-    "este necesar un număr"
+    "numele este necesar"
   ],
   [
     "{{基準点}}",
@@ -441,47 +433,47 @@
   ],
   [
     "{{キーフレームに変換}}",
-    "cheiecadrulaconversie"
+    "Convertiți în cadru cheie"
   ],
   [
     "{{空のキーフレームに変換}}",
-    "gol cheiecadrulaconversie"
+    "Convertiți în cadru cheie gol"
   ],
   [
     "{{最初のフレームに移動}}",
-    "prima mutare a cadrului"
+    "treceți la primul cadru"
   ],
   [
     "{{最後のフレームに移動}}",
-    "ultima mutare a cadrului"
+    "mergi la ultimul cadru"
   ],
   [
     "{{SWFを解析中}}",
-    "Analiza SWF în curs"
+    "Analizând SWF"
   ],
   [
     "{{JSONを生成}}",
-    "Generație JSON"
+    "Generați JSON"
   ],
   [
     "{{ファイルを生成}}",
-    "Generarea fișierelor"
+    "genera fisier"
   ],
   [
     "{{N2Dファイルの読み込み}}",
-    "Fișierul N2D încărcare"
+    "Se încarcă fișiere N2D"
   ],
   [
     "{{JSONの読み込み}}",
-    "JSON încărcare"
+    "Se încarcă JSON"
   ],
   [
     "{{データを解凍中}}",
-    "Decomprimarea datelor"
+    "Dezarhivarea datelor"
   ],
   [
     "{{データを圧縮中}}",
-    "Comprimarea datelor în curs"
+    "Comprimarea datelor"
   ],
   [
     "{{エンコード}}",
@@ -489,15 +481,15 @@
   ],
   [
     "{{外部ファイルの読み込み}}",
-    "Fișier extern încărcare"
+    "Se încarcă fișiere externe"
   ],
   [
     "{{バイナリデータを生成}}",
-    "Generarea datelor binare"
+    "generează date binare"
   ],
   [
     "{{データベースを起動}}",
-    "Pornirea bazei de date"
+    "porniți baza de date"
   ],
   [
     "{{データを保存中}}",
@@ -509,27 +501,27 @@
   ],
   [
     "{{ステージ左揃え}}",
-    "ScenăLeft alignment"
+    "Aliniați etapa la stânga"
   ],
   [
     "{{ステージ中央揃え(水平方向)}}",
-    "Scenăaliniere centrală(orizontal)"
+    "Alinierea centrului scenei (direcție orizontală)"
   ],
   [
     "{{ステージ右揃え}}",
-    "Scenă Alinierea la dreapta"
+    "Aliniați scena la dreapta"
   ],
   [
     "{{ステージ上揃え}}",
-    "Scenă alinierea de sus"
+    "Aliniați-vă pe scenă"
   ],
   [
     "{{ステージ中央揃え(垂直方向)}}",
-    "Scenăaliniere centrală(vertical)"
+    "Aliniați centrul scenei (vertical)"
   ],
   [
     "{{ステージ下揃え}}",
-    "Scenă alinierea de jos"
+    "Alinierea de jos a scenei"
   ],
   [
     "{{定規}}",
@@ -545,15 +537,15 @@
   ],
   [
     "{{レイヤーを複製}}",
-    "stratduplicare"
+    "Strat duplicat"
   ],
   [
     "{{未使用のフォルダを削除}}",
-    "Dosare neutilizate"
+    "Ștergeți folderele neutilizate"
   ],
   [
     "{{同名のアイテムが存在します}}",
-    "există același număr de articole"
+    "Există un articol cu ​​același nume"
   ],
   [
     "{{追加ファイル}}",
@@ -561,23 +553,23 @@
   ],
   [
     "{{既存のコンテンツ}}",
-    "Conținut existent"
+    "continutul existent"
   ],
   [
     "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
-    "Puteți suprascriere, redenumi fișierul și adăugați-l, sau anulați și selectați"
+    "Puteți alege să suprascrieți, să redenumiți și să adăugați sau să anulați."
   ],
   [
     "{{全て上書き}}",
-    "totsuprascriere"
+    "Suprascrie totul"
   ],
   [
     "{{全てキャンセル}}",
-    "totcancel"
+    "Anulați totul"
   ],
   [
     "{{追加・上書き}}",
-    "adăugare・suprascriere"
+    "Adăugați/suprascrieți"
   ],
   [
     "{{キャンセル}}",
@@ -585,11 +577,11 @@
   ],
   [
     "{{表示確認したいフレームを指定}}",
-    "cadruspecificare pe care doriți să verificați afișajul"
+    "Specificați cadrul pe care doriți să-l verificați pe afișaj"
   ],
   [
     "{{ファイル名を指定}}",
-    "Specificare nume de fișier"
+    "Specificați numele fișierului"
   ],
   [
     "{{ファイル名}}",
@@ -597,15 +589,15 @@
   ],
   [
     "{{終了フレームを指定}}",
-    "end cadruspecificare"
+    "Specificați cadrul final"
   ],
   [
     "{{開始フレームを指定}}",
-    "start cadruspecificare"
+    "Specificați cadrul de pornire"
   ],
   [
     "{{フレーム設定}}",
-    "cadrusetări"
+    "Setări de cadru"
   ],
   [
     "{{書き出し設定}}",
@@ -613,7 +605,7 @@
   ],
   [
     "{{ファイル形式の選択}}",
-    "Se selectează formatul fișierului"
+    "Selectați formatul fișierului"
   ],
   [
     "{{ファイル形式}}",
@@ -661,15 +653,15 @@
   ],
   [
     "{{中心点のX座標}}",
-    "punct central Xcoordonată"
+    "Coordonata X a punctului central"
   ],
   [
     "{{中心点のY座標}}",
-    "punct central Ycoordonată"
+    "Coordonata Y a punctului central"
   ],
   [
     "{{MovieClipに変換}}",
-    "MovieCliplaconversie"
+    "Convertiți în MovieClip"
   ],
   [
     "{{変換}}",
@@ -677,15 +669,15 @@
   ],
   [
     "{{ループ回数}}",
-    "număr de bucle"
+    "Număr de bucle"
   ],
   [
     "{{カーブポインターの削除}}",
-    "pointer curbă ștergere"
+    "Ștergeți indicatorul curbei"
   ],
   [
     "{{ステージ基準}}",
-    "Scenă standarde"
+    "standarde de etapă"
   ],
   [
     "{{閉じる}}",
@@ -693,7 +685,7 @@
   ],
   [
     "{{保存}}",
-    "salvare"
+    "păstrează"
   ],
   [
     "{{リセット}}",
@@ -709,11 +701,11 @@
   ],
   [
     "{{レイヤーカラー}}",
-    "stratculoare"
+    "culoarea stratului"
   ],
   [
     "{{Next2Dを支援する}}",
-    "Next2DSupport"
+    "Suport Next2D"
   ],
   [
     "{{サポート}}",
@@ -721,31 +713,31 @@
   ],
   [
     "{{未使用のアイテムを削除}}",
-    "Articole nefolosite"
+    "Ștergeți articolele neutilizate"
   ],
   [
     "{{レイヤーをペースト}}",
-    "stratlipire"
+    "strat de pastă"
   ],
   [
     "{{レイヤーをコピー}}",
-    "stratcopiere"
+    "copie layer"
   ],
   [
     "{{フレームをペースト}}",
-    "cadrulipire"
+    "lipiți cadru"
   ],
   [
     "{{フレームをコピー}}",
-    "cadrucopiere"
+    "cadru de copiere"
   ],
   [
     "{{キーフレームを削除}}",
-    "cheiecadrușters"
+    "ștergeți cadrul cheie"
   ],
   [
     "{{キーフレームに空のキーフレームを追加できません}}",
-    "cheiecadrulagol cheiecadruadăugat nu poate"
+    "Nu se poate adăuga un cadru cheie gol la cadrul cheie"
   ],
   [
     "{{ズームツール}}",
@@ -753,19 +745,19 @@
   ],
   [
     "{{タイムライン幅の拡大・縮小}}",
-    "Cronologie mărire/micșorare"
+    "Extinderea/reducerea lățimii cronologiei"
   ],
   [
     "{{ガイドレイヤー}}",
-    "ghid strat"
+    "strat de ghidare"
   ],
   [
     "{{音量設定}}",
-    "volumsetări"
+    "Setări de volum"
   ],
   [
     "{{サウンドを削除}}",
-    "sunetșters"
+    "elimina sunetul"
   ],
   [
     "{{カスタムループ}}",
@@ -773,11 +765,11 @@
   ],
   [
     "{{読込のみ}}",
-    "încărcare numai"
+    "numai citit"
   ],
   [
     "{{書込を許可}}",
-    "permisiunea de scriere"
+    "Permite scrierea"
   ],
   [
     "{{単一行}}",
@@ -797,7 +789,7 @@
   ],
   [
     "{{中央揃え}}",
-    "aliniere centrală"
+    "alinierea la centru"
   ],
   [
     "{{右寄せ}}",
@@ -817,7 +809,7 @@
   ],
   [
     "{{画像選択}}",
-    "imagineselectare"
+    "Selectarea imaginii"
   ],
   [
     "{{種別}}",
@@ -837,11 +829,11 @@
   ],
   [
     "{{フィルター}}",
-    "filtru"
+    "filtra"
   ],
   [
     "{{Shapeを複製}}",
-    "Shapeduplicare"
+    "Forma duplicată"
   ],
   [
     "{{読み込み}}",
@@ -853,15 +845,15 @@
   ],
   [
     "{{新規MovieClip}}",
-    "nouMovieClip"
+    "MovieClip nou"
   ],
   [
     "{{枠に合わせてテキストをリサイズ}}",
-    "Redimensionați textul pentru a se potrivi cu cadrul la"
+    "Redimensionați textul pentru a se potrivi cu cadrul"
   ],
   [
     "{{テキストに合わせて枠をリサイズ}}",
-    "Redimensionați cadrul pentru a se potrivi cu textul la"
+    "Redimensionați cadrul pentru a se potrivi cu textul"
   ],
   [
     "{{リサイズしない}}",
@@ -909,7 +901,7 @@
   ],
   [
     "{{ステージ設定}}",
-    "Scenăsetări"
+    "montarea scenei"
   ],
   [
     "{{プレビュー}}",
@@ -917,15 +909,15 @@
   ],
   [
     "{{削除}}",
-    "ștergere"
+    "şterge"
   ],
   [
     "{{ペースト}}",
-    "lipire"
+    "pastă"
   ],
   [
     "{{コピー}}",
-    "copiere"
+    "copie"
   ],
   [
     "{{プラグインメニュー}}",
@@ -937,11 +929,11 @@
   ],
   [
     "{{カーブポインターの追加}}",
-    "pointer curbă adăugare"
+    "Adăugați indicator de curbă"
   ],
   [
     "{{パスの結合}}",
-    "combinare de cale"
+    "Îmbinarea căilor"
   ],
   [
     "{{シェイプ}}",
@@ -949,11 +941,11 @@
   ],
   [
     "{{キーフレームに配分}}",
-    "cheiecadruladistribuire"
+    "Distribuiți la cadrele cheie"
   ],
   [
     "{{レイヤーに配分}}",
-    "stratladistribuire"
+    "Distribuiți pe straturi"
   ],
   [
     "{{タイムライン}}",
@@ -973,11 +965,11 @@
   ],
   [
     "{{ひとつ前面へ}}",
-    "Unul spre interior"
+    "Un pas înainte"
   ],
   [
     "{{最前面}}",
-    "Cea mai mare suprafață anterioară"
+    "Prim plan"
   ],
   [
     "{{重ね順}}",
@@ -997,7 +989,7 @@
   ],
   [
     "{{マスクレイヤー}}",
-    "masca strat"
+    "strat de masca"
   ],
   [
     "{{通常レイヤー}}",
@@ -1005,11 +997,11 @@
   ],
   [
     "{{モーショントゥイーンの削除}}",
-    "interpolare de mișcare"
+    "Ștergeți interpolarea de mișcare"
   ],
   [
     "{{モーショントゥイーンの追加}}",
-    "motion tween adăugare"
+    "Adăugarea de interpolari de mișcare"
   ],
   [
     "{{モーダル表示}}",
@@ -1037,11 +1029,11 @@
   ],
   [
     "{{非表示レイヤー}}",
-    "ascunsstrat"
+    "strat ascuns"
   ],
   [
     "{{設定}}",
-    "setări"
+    "setare"
   ],
   [
     "{{デフォルトのループを利用する}}",
@@ -1049,7 +1041,7 @@
   ],
   [
     "{{フレームピッカー}}",
-    "cadru picker"
+    "selector de cadre"
   ],
   [
     "{{左揃え}}",
@@ -1057,7 +1049,7 @@
   ],
   [
     "{{中央揃え(水平方向)}}",
-    "aliniere centrală(orizontal)"
+    "Alinierea la centru (orizontală)"
   ],
   [
     "{{右揃え}}",
@@ -1065,11 +1057,11 @@
   ],
   [
     "{{上揃え}}",
-    "Alinierea de sus"
+    "alinierea de sus"
   ],
   [
     "{{中央揃え(垂直方向)}}",
-    "aliniere centrală(vertical)"
+    "Centru (vertical)"
   ],
   [
     "{{下揃え}}",
@@ -1077,11 +1069,11 @@
   ],
   [
     "{{開始フレーム}}",
-    "start cadru"
+    "cadru de pornire"
   ],
   [
     "{{終了フレーム}}",
-    "end cadru"
+    "cadru de capăt"
   ],
   [
     "{{ループで再生}}",
@@ -1093,7 +1085,7 @@
   ],
   [
     "{{指定したフレームで固定}}",
-    "fixed cu specificare cadru"
+    "Fixat la cadrul specificat"
   ],
   [
     "{{1回逆再生}}",
@@ -1109,11 +1101,11 @@
   ],
   [
     "{{カスタムイージングデータを保存}}",
-    "Personalizat ușurând stocarea datelor"
+    "Salvați datele personalizate de relaxare"
   ],
   [
     "{{カスタムイージングデータの読込}}",
-    "Încărcarea datelor personalizate"
+    "Se încarcă date personalizate de relaxare"
   ],
   [
     "{{プレビューのON/OFF}}",
@@ -1125,7 +1117,7 @@
   ],
   [
     "{{フォント枠カラー}}",
-    "font frame culoare"
+    "culoarea marginii fontului"
   ],
   [
     "{{オニオンスキン}}",
@@ -1145,7 +1137,7 @@
   ],
   [
     "{{選択ツール}}",
-    "selectați instrumente"
+    "instrument de selecție"
   ],
   [
     "{{Shape変形ツール}}",
@@ -1169,11 +1161,11 @@
   ],
   [
     "{{塗りのカラー}}",
-    "Painting culoare"
+    "culoarea vopselei"
   ],
   [
     "{{線のカラー}}",
-    "line culoare"
+    "culoarea liniei"
   ],
   [
     "{{線の太さ}}",
@@ -1181,7 +1173,7 @@
   ],
   [
     "{{プロジェクトデータの読込}}",
-    "Datele proiectului încărcare"
+    "Încărcați datele proiectului"
   ],
   [
     "{{プロジェクトデータを保存}}",
@@ -1189,7 +1181,7 @@
   ],
   [
     "{{書き出し}}",
-    "export"
+    "Începeți să scrieți"
   ],
   [
     "{{Discordへ移動}}",
@@ -1201,35 +1193,35 @@
   ],
   [
     "{{設定}}",
-    "setări"
+    "setare"
   ],
   [
     "{{タブを追加}}",
-    "filăadăugat"
+    "adăugați fila"
   ],
   [
     "{{タブの一覧を表示・移動}}",
-    "filă list display/mutare"
+    "Afișează/mută lista de file"
   ],
   [
     "{{スクリプトを追加}}",
-    "scriptadăugat"
+    "adăugați script"
   ],
   [
     "{{キーフレームを追加}}",
-    "cheiecadruadăugat"
+    "Adăugați cadru cheie"
   ],
   [
     "{{空のキーフレームを追加}}",
-    "gol cheiecadruadăugat"
+    "Adăugați un cadru cheie gol"
   ],
   [
     "{{フレームを追加}}",
-    "cadruadăugat"
+    "adăugați cadru"
   ],
   [
     "{{フレームを削除}}",
-    "cadrușters"
+    "scoateți cadrul"
   ],
   [
     "{{再生}}",
@@ -1245,43 +1237,43 @@
   ],
   [
     "{{レイヤーを追加}}",
-    "stratadăugat"
+    "adăugați strat"
   ],
   [
     "{{レイヤーを削除}}",
-    "stratșters"
+    "îndepărtați stratul"
   ],
   [
     "{{全てのレイヤーをハイライト}}",
-    "tot stratevidențiere"
+    "Evidențiați toate straturile"
   ],
   [
     "{{全てのレイヤーを非表示}}",
-    "tot stratascuns"
+    "Ascunde toate straturile"
   ],
   [
     "{{全てのレイヤーをロック}}",
-    "tot strat lock"
+    "blocați toate straturile"
   ],
   [
     "{{比率を固定}}",
-    "raport fix"
+    "Raport fix"
   ],
   [
     "{{ステージの幅}}",
-    "Scenă lățime"
+    "lățimea scenei"
   ],
   [
     "{{背景色}}",
-    "culoare de fundal"
+    "culoarea de fundal"
   ],
   [
     "{{ステージの高さ}}",
-    "Scenă înălțime"
+    "înălțimea scenei"
   ],
   [
     "{{フレームレート}}",
-    "cadru rate"
+    "rata de cadre"
   ],
   [
     "{{シンボル名}}",
@@ -1293,7 +1285,7 @@
   ],
   [
     "{{ビデオの音量設定}}",
-    "Video volumesetări"
+    "Setări pentru volumul video"
   ],
   [
     "{{自動再生}}",
@@ -1309,7 +1301,7 @@
   ],
   [
     "{{フォント選択}}",
-    "font selectare"
+    "Selectarea fontului"
   ],
   [
     "{{自動サイズ調整}}",
@@ -1337,7 +1329,7 @@
   ],
   [
     "{{フォントカラー}}",
-    "font culoare"
+    "culoarea fontului"
   ],
   [
     "{{行間}}",
@@ -1345,7 +1337,7 @@
   ],
   [
     "{{文字幅}}",
-    "caracter latime"
+    "lățimea caracterelor"
   ],
   [
     "{{左マージン}}",
@@ -1357,59 +1349,59 @@
   ],
   [
     "{{カラー種別の選択}}",
-    "culoare tip selectare"
+    "Selectați tipul de culoare"
   ],
   [
     "{{背景画像の選択}}",
-    "backgroundimagine selectare"
+    "Selectarea imaginii de fundal"
   ],
   [
     "{{カラーポインターを追加}}",
-    "culoare pointer adăugat"
+    "Adăugați indicator de culoare"
   ],
   [
     "{{カラー値}}",
-    "culoare value"
+    "valoarea culorii"
   ],
   [
     "{{アルファ(0%-100%)}}",
-    "alfa(0%-100%)"
+    "Alfa (0%-100%)"
   ],
   [
     "{{アルファ値}}",
-    "valoarea alfa"
+    "valoare alfa"
   ],
   [
     "{{選択対象の幅}}",
-    "element selectat lățime"
+    "Lățimea selecției"
   ],
   [
     "{{選択対象のX座標}}",
-    "element selectat Xcoordonată"
+    "Coordonata X de selecție"
   ],
   [
     "{{選択対象の高さ}}",
-    "element selectat înălțime"
+    "Înălțimea selecției"
   ],
   [
     "{{選択対象のY座標}}",
-    "element selectat Ycoordonată"
+    "Coordonata Y de selecție"
   ],
   [
     "{{選択対象の幅の伸縮}}",
-    "element selectat latime expansiune și contracție"
+    "Întinderea lățimii selecției"
   ],
   [
     "{{選択対象を回転}}",
-    "element selectatrotație"
+    "Rotiți selecția"
   ],
   [
     "{{選択対象の高さの伸縮}}",
-    "element selectat înălțime expansiune și contracție"
+    "Întindeți sau micșorați înălțimea selecției"
   ],
   [
     "{{アルファオフセット(-255〜255)}}",
-    "alfadeplasare(-255〜255)"
+    "Decalaj alfa (-255 până la 255)"
   ],
   [
     "{{赤(0%-100%)}}",
@@ -1417,7 +1409,7 @@
   ],
   [
     "{{赤オフセット(-255〜255)}}",
-    "Deplasare rosie(-255~255)"
+    "Offset roșu (-255 până la 255)"
   ],
   [
     "{{緑(0%-100%)}}",
@@ -1425,7 +1417,7 @@
   ],
   [
     "{{緑オフセット(-255〜255)}}",
-    "Deplasare verde(-255~255)"
+    "Offset verde (-255 la 255)"
   ],
   [
     "{{青(0%-100%)}}",
@@ -1433,7 +1425,7 @@
   ],
   [
     "{{青オフセット(-255〜255)}}",
-    "Deplasare albastru(-255~255)"
+    "Offset albastru (-255 până la 255)"
   ],
   [
     "{{ブレンドモード}}",
@@ -1441,31 +1433,31 @@
   ],
   [
     "{{フィルターを選択}}",
-    "filtruselectare"
+    "Selectați filtrul"
   ],
   [
     "{{フィルターを追加}}",
-    "filtruadăugat"
+    "adauga filtru"
   ],
   [
     "{{サウンドを追加}}",
-    "sunetadăugat"
+    "adăugați sunet"
   ],
   [
     "{{フィルターを表示・非表示する}}",
-    "filtru display/askuns"
+    "Afișați/ascundeți filtrele"
   ],
   [
     "{{フィルターを削除}}",
-    "filtrușters"
+    "scoateți filtrul"
   ],
   [
     "{{水平方向にぼかす}}",
-    "orizontalla blur"
+    "estompați pe orizontală"
   ],
   [
     "{{垂直方向にぼかす}}",
-    "verticalla blur"
+    "estompează pe verticală"
   ],
   [
     "{{フィルター強度}}",
@@ -1473,7 +1465,7 @@
   ],
   [
     "{{フィルター角度}}",
-    "filtru angle"
+    "unghiul de filtrare"
   ],
   [
     "{{シャドウのアルファ}}",
@@ -1481,23 +1473,23 @@
   ],
   [
     "{{シャドウのカラー}}",
-    "shadow culoare"
+    "culoarea umbrei"
   ],
   [
     "{{フィルター距離}}",
-    "filtru distanta"
+    "distanța de filtrare"
   ],
   [
     "{{ハイライトのカラー}}",
-    "evidențiere culoare"
+    "evidențiați culoarea"
   ],
   [
     "{{ハイライトのアルファ}}",
-    "evidențiere alfa"
+    "Evidențiați alfa"
   ],
   [
     "{{グラデーションカラー}}",
-    "gradient culoare"
+    "culoare de gradație"
   ],
   [
     "{{グラデーションのアルファ}}",
@@ -1505,7 +1497,7 @@
   ],
   [
     "{{タブの移動・名前を変更}}",
-    "filă mutare・numeschimbare"
+    "Mutați/redenumiți filele"
   ],
   [
     "{{プロジェクトを閉じる}}",
@@ -1513,27 +1505,27 @@
   ],
   [
     "{{上下に移動}}",
-    "În sus și în jos la mișcare"
+    "misca in sus si in jos"
   ],
   [
     "{{レイヤー変更(ダブルクリック)}}",
-    "stratschimbare(dublu clic)"
+    "Schimbați stratul (dublu clic)"
   ],
   [
     "{{レイヤーをハイライト}}",
-    "stratevidențiere"
+    "stratul de evidențiere"
   ],
   [
     "{{レイヤーを非表示}}",
-    "stratascuns"
+    "ascunde stratul"
   ],
   [
     "{{レイヤーをロック}}",
-    "blocare strat"
+    "strat de blocare"
   ],
   [
     "{{カーブポインター(ダブルクリックでON/OFF)}}",
-    "pointer curbă (dublu clic pentru a porni/dezactiva)"
+    "Indicator curbă (dublu clic pentru a porni/dezactiva)"
   ],
   [
     "{{インスタンス名}}",
@@ -1545,10 +1537,10 @@
   ],
   [
     "{{フレームラベル}}",
-    "cadruetichetă"
+    "eticheta cadrului"
   ],
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
-    "Dacă proiectul nu este salvat, nu este posibilă recuperarea datelor proiectului.Vrei filășteri?"
+    "Dacă proiectul nu este salvat, datele proiectului din această filă nu pot fi recuperate.Doriți să eliminați fila?"
   ]
 ]
